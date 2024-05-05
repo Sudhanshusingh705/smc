@@ -1,0 +1,28 @@
+/*Top colleges */
+.tab-content.activeLink {
+    display: block;
+  }
+  .courseCategoryCard {
+    background: var(--color-white);
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: var(--border-line);
+  }
+  .courseCategoryCard .row:first-child {
+    border-bottom: var(--border-line);
+    padding-bottom: 19px;
+    margin-bottom: 10px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .courseCategoryCard h3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    flex-basis: calc(100% - 115px);
+  }
+  
+  

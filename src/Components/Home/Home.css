@@ -1,0 +1,427 @@
+ /* SELECT YOUR STUDY GOAL START */
+ 
+ .circle-image-container {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .circle-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .circle-image-container {
+    display: none; /* Hide circular image */
+  }
+  .card:nth-child(even) {
+    background-color: #fff; /* Background color for even-numbered cards */
+  }
+  .card-title {
+    margin-bottom: 0; /* Remove bottom margin to center align */
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Add this line to center align the text */
+  }
+
+  .custom-background-color1{
+    background-color: #1c1678;
+  }
+
+
+  /* SELECT YOUR STUDY GOAL END  */
+
+/* TOP COLLECTION END */
+
+
+/* EXPLORE PROGRAM OPEN */
+.container {
+  padding: 0 15px;
+}
+
+.text {
+  font-size: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.me-2 {
+  margin-right: 0.5rem;
+}
+
+.tab-item {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 767px) {
+  .text {
+    font-size: 1.5rem;
+  }
+}
+
+/* EXPLORE PROGRAM CLOSE */
+
+
+/* LATEST NOTIFICATION OPEN */
+.card-avatar {
+  position: absolute;
+  top: 14px;
+  left: -2px;
+  width: 45px;
+  height: 60px;
+  border-radius: 45%;
+  margin: 8px;
+}
+
+.card {
+  position: relative;
+}
+
+/* LATEST NOTIFICATION CLOSE */
+
+
+/* TOP 10 COLLEGES OPEN */
+.scroll-container {
+  height: auto;
+  max-height: 100px;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.cards006 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.card006 {
+  flex: 0 0 auto;
+}
+
+.card006-link-wrapper {
+  text-align: center;
+}
+
+.card006-link {
+  display: inline-block;
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  margin: 0.5rem; /* Adjust margin as needed */
+  background-color: #007BFF;
+  border-radius: 5px;
+  color: rgb(235, 230, 230);
+  text-decoration: none;
+}
+
+/* Add any other styles you need */
+.scroll-container {
+  overflow-x: scroll;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 13px;
+  width: 2px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: var(--black);
+  border-radius: 2px;
+} 
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .scroll-container {
+    max-height: 150px; /* Adjust max-height as needed */
+  }
+  .card006-link {
+    padding: 0.3rem 0.8rem; /* Adjust padding for smaller screens */
+    margin: 0.3rem; /* Adjust margin for smaller screens */
+  }
+}
+
+/* TOP 10 COLLEGES CLOSE */
+
+/* TOP UNIVERSITIES / COLLEGES OPEN */
+
+/* TOP UNIVERSITIES / CLLEGES CLOSE */
+
+
+/* AD BANNER 1 KNOW YOUR CHANCE OPEN*/
+.ad-banner-container {
+  max-width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.ad-banner-image {
+  max-width: 100%;
+  width: 80%;
+  height: 40%;
+}
+/* AD BANNER 1 CLOSE */
+
+/* TOP STUDY PLACES OPEN*/
+.cards4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.card4 {
+  width: 300px; /* Adjust card width */
+  margin: 10px; /* Adjust margin between cards */
+  padding: 20px; /* Adjust card padding */
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+}
+
+.card4 .card4-image-wrapper {
+  text-align: center;
+}
+
+.card4-image {
+  max-width: 80%; /* Adjust image size */
+  height: auto;
+}
+
+.card4 p {
+  margin-top: 10px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  .card4 {
+    width: 250px; /* Adjust card width for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .card4 {
+    width: 200px; /* Adjust card width for mobile devices */
+  }
+}
+
+
+/* TOP STUDY PLACES CLOSE */
+
+
+/* EXPLORE COURSES OPEN*/
+
+/* EXPLORE COUSES CLOSE */
+
+
+/* STUDY ABROAD OPEN */
+:root {
+  --orange: #fd9940;
+  --darkorange: #dd7d25;
+  --platinum: #e5e5e5;
+  --black: #2b2d42;
+  --white: #fff;
+  --thumb: #edf2f4;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 16px / 24px "Rubik", sans-serif;
+  color: var(--black);
+  background: var(--platinum);
+  margin: 50px 0;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 1em;
+}
+
+.card4 {
+  /* width: 150px; Adjust the width to your desired value */
+  height: auto; /* Let the height adjust automatically based on content */
+}
+.cards4 {
+  display: grid;
+  grid-auto-columns: 100%;
+  grid-column-gap: 10px;
+  grid-auto-flow: column;
+  padding: 0px 0px;
+  list-style: none;
+  overflow-x: scroll;
+  -ms-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
+}
+
+.card4 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: var(--white);
+  border-radius: 7px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+  scroll-snap-align: start;
+  transition: all 0.2s;
+}
+
+.card4 .card4-title {
+  font-size: 20px;
+}
+
+.card4 .card4-content {
+  margin: 20px 0;
+  max-width: 85%;
+}
+
+.card4 .card4-link-wrapper {
+  margin-top: auto;
+}
+
+.card4 .card4-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  /* background: var(--orange); */
+  padding: 6px 12px;
+  border-radius: 8px;
+  /* transition: background 0.2s; */
+}
+
+@media (min-width: 500px) {
+  .cards4 {
+    grid-auto-columns: calc(50% - 10px);
+    grid-column-gap: 20px;
+  }
+}
+
+@media (min-width: 700px) {
+  .cards4 {
+    grid-auto-columns: calc(calc(100% / 3) - 20px);
+    grid-column-gap: 30px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .cards4 {
+    grid-auto-columns: calc(22% - 41px);
+    grid-column-gap: 9px;
+  }
+}
+
+/* Added media queries for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+  .card4 {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 24px;
+  }
+  .cards4 {
+    grid-auto-columns: calc(100% - 20px);
+    grid-column-gap: 15px;
+  }
+  .card4 {
+    padding: 10px;
+  }
+}
+/* STUDY ABROAD CLOSE */
+
+/* TOP COURSES OPEN*/
+.top-course-title {
+  font-size: 32px;
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #333;
+  text-align: left;
+  background-color: #fff;
+  overflow-x: hidden; /* Remove horizontal scrollbar */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 767px) {
+  .button-container {
+    width: 100%; /* Full width on smaller screens */
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  /* Other responsive adjustments for smaller screens */
+  .input-style {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .select-style {
+    width: 100%;
+    max-width: none;
+    padding-right: 40px;
+  }
+
+  .submit-btn.jsx-2704726530 {
+    width: 100%;
+  }
+
+  .footer-form {
+    margin: 3rem 0; /* Reduce margin on smaller screens */
+  }
+
+  .submit-btn-container {
+    margin-top: 2rem; /* Reduce margin-top on smaller screens */
+  }
+}
+/* TOP COURSES CLOSE */
+
+/* TESTIMONIALS OPEN */
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+/* TESTIMONIALS CLOSE */
