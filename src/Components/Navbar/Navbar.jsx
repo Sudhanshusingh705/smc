@@ -37,7 +37,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black text-uppercase font-weight-bold" href="/exam">
+              <a className="nav-link text-black text-uppercase font-weight-bold" href="/exams">
                 Exam
               </a>
             </li>
@@ -52,7 +52,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black text-uppercase font-weight-bold" href="#">
+              <a className="nav-link text-black text-uppercase font-weight-bold" href="https://ieltsmaterial.com">
                 IELTS
               </a>
             </li>

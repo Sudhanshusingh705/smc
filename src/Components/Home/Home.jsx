@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 import Banner1 from "../../assets/banner/BANNER1.jpg";
-import Banner2 from "../../assets/banner/BANNER2.jpg";
-import Banner3 from "../../assets/banner/BANNER3.jpg";
+import Banner4 from "../../assets/banner/Banner4.jpg";
+import Banner5 from "../../assets/banner/Banner5.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -201,25 +201,25 @@ const cardsData = [
           <div className="carousel-item active">
             <img src={Banner1} className="d-block w-100" alt="Slide 1" />
             <div className="carousel-caption d-none d-md-block">
-              <h3>Searchmycollege - Where Education Choice Made Easy</h3>
+              {/*<h3>Searchmycollege - Where Education Choice Made Easy</h3>*/}
               {/*<p>
                 Some representative placeholder content for the first slide.
               </p>*/}
             </div>
           </div>
           <div className="carousel-item">
-            <img src={Banner2} className="d-block w-100" alt="Slide 2" />
+            <img src={Banner4} className="d-block w-100" alt="Slide 2" />
             <div className="carousel-caption d-none d-md-block">
-              <h3>Searchmycollege - Where Education Choice Made Easy</h3>
+              {/*<h3>Searchmycollege - Where Education Choice Made Easy</h3>*/}
               {/*<p>
                 Some representative placeholder content for the second slide.
               </p>*/}
             </div>
           </div>
           <div className="carousel-item">
-            <img src={Banner3} className="d-block w-100" alt="Slide 3" />
+            <img src={Banner5} className="d-block w-100" alt="Slide 3" />
             <div className="carousel-caption d-none d-md-block">
-              <h3>Searchmycollege - Where Education Choice Made Easy</h3>
+              {/*<h3>Searchmycollege - Where Education Choice Made Easy</h3>*/}
               {/*<p>
                 Some representative placeholder content for the third slide.
               </p>*/}

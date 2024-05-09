@@ -16,61 +16,62 @@ function Footer() {
         <div className='col-lg-2 col-md-4 col-sm-6'>
           <h4 style={{ color: 'black' }}>Top Colleges</h4>
           <ul className='list-unstyled' style={{ color: 'black' }}>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>MBA</Link></li>
-            <li><Link to="/colleges/btech" style={{ color: 'black' }}>B.Tech</Link></li>
-            <li><Link to="/colleges/mca" style={{ color: 'black' }}>MCA</Link></li>
-            <li><Link to="/colleges/bca" style={{ color: 'black' }}>BCA</Link></li>
-            <li><Link to="/colleges/mtech" style={{ color: 'black' }}>M.Tech</Link></li>
-            <li><Link to="/colleges/ma" style={{ color: 'black' }}>MA</Link></li>
-            <li><Link to="/colleges/ba" style={{ color: 'black' }}>BA</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>MBA</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>B.Tech</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>MCA</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>BCA</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>M.Tech</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>MA</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>BA</Link></li>
           </ul>
         </div>
         <div className='col-lg-2 col-md-4 col-sm-6'>
           <h4 style={{ color: 'black' }}>Top Universities</h4>
           <ul className='list-unstyled'>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>Engineering</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>Management</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>Medical</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>Commerce</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>Engineering</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>Management</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>Medical</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>Commerce</Link></li>
             <li>Arts</li>
           </ul>
         </div>
         <div className='col-lg-2 col-md-4 col-sm-6'>
           <h4 style={{ color: 'black' }}>Top Exams</h4>
           <ul className='list-unstyled'>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>CAR</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>GATE</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>JEE-MAIN</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>NEET</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>XAT</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>CLAT</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>MAT</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>CAT</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>GATE</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>JEE-MAIN</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>NEET</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>XAT</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>CLAT</Link></li>
+            <li><Link to="#" style={{ color: 'black' }}>MAT</Link></li>
           </ul>
         </div>
         <div className='col-lg-2 col-md-4 col-sm-6'>
           <h4 style={{ color: 'black' }}>Study Abroad</h4>
           <ul className='list-unstyled'>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>UK</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>USA</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>CANADA</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>AUSTRALIA</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>GERMANY</Link></li>
+            <li><Link to="https://studyabroad.searchmycollege.com/index.php/study-in-uk/" style={{ color: 'black' }}>UK</Link></li>
+            <li><Link to="https://studyabroad.searchmycollege.com/index.php/study-in-usa/" style={{ color: 'black' }}>USA</Link></li>
+            <li><Link to="https://studyabroad.searchmycollege.com/index.php/study-in-canada/" style={{ color: 'black' }}>CANADA</Link></li>
+            <li><Link to="https://studyabroad.searchmycollege.com/index.php/study-in-australia/" style={{ color: 'black' }}>AUSTRALIA</Link></li>
+            <li><Link to="https://studyabroad.searchmycollege.com/index.php/study-in-germany/" style={{ color: 'black' }}>GERMANY</Link></li>
           </ul>
         </div>
         <div className='col-lg-2 col-md-4 col-sm-6'>
           <h4 style={{ color: 'black' }}>Other Links</h4>
           <ul className='list-unstyled'>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>About us</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>Contact us</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>Term & Conditions</Link></li>
-            <li><Link to="/colleges/mba" style={{ color: 'black' }}>Privacy & Policy</Link></li>
+            <li><Link to="/aboutus" style={{ color: 'black' }}>About us</Link></li>
+            <li><Link to="/ourteam" style={{ color: 'black' }}>Our Team</Link></li>
+            <li><Link to="https://topcolleges.searchmycollege.com/index.php/contact-us/" style={{ color: 'black' }}>Contact us</Link></li>
+            <li><Link to="/termsandconditions" style={{ color: 'black' }}>Term & Conditions</Link></li>
+            <li><Link to="/privacyandpolicy" style={{ color: 'black' }}>Privacy & Policy</Link></li>
           </ul>
           <div className='social-icons mt-4'>
-            <a href='#' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faFacebookF} size='lg' style={{ color: 'black' }} /></a>
-            <a href='#' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faInstagram} size='lg' style={{ color: 'black' }} /></a>
-            <a href='#' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faLinkedinIn} size='lg' style={{ color: 'black' }} /></a>
-            <a href='#' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faYoutube} size='lg' style={{ color: 'black' }} /></a>
-            <a href='#'><FontAwesomeIcon icon={faTwitter} size='lg' style={{ color: 'black' }} /></a>
+            <a href='https://www.facebook.com/profile.php?id=61558773852316' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faFacebookF} size='lg' style={{ color: 'black' }} /></a>
+            <a href='https://www.instagram.com/searchmycollege/?hl=en' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faInstagram} size='lg' style={{ color: 'black' }} /></a>
+            <a href='https://www.linkedin.com/in/search-my-college-500a88281/' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faLinkedinIn} size='lg' style={{ color: 'black' }} /></a>
+            <a href='https://www.youtube.com/@SearchMycollege' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faYoutube} size='lg' style={{ color: 'black' }} /></a>
+            <a href='https://twitter.com/smc__global'><FontAwesomeIcon icon={faTwitter} size='lg' style={{ color: 'black' }} /></a>
           </div>
         </div>
       </div>

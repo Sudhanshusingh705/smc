@@ -1,28 +1,26 @@
-/*Top colleges */
-.tab-content.activeLink {
-    display: block;
+.section {
+  padding: 20px;
+}
+
+.section-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.pageDescription {
+  margin-top: 20px;
+}
+
+.readMoreButton {
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Media Query for smaller devices */
+@media screen and (max-width: 768px) {
+  .col-md-9 {
+    max-width: 100%;
   }
-  .courseCategoryCard {
-    background: var(--color-white);
-    border-radius: 4px;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: var(--border-line);
-  }
-  .courseCategoryCard .row:first-child {
-    border-bottom: var(--border-line);
-    padding-bottom: 19px;
-    margin-bottom: 10px;
-  }
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .courseCategoryCard h3 {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
-    flex-basis: calc(100% - 115px);
-  }
-  
-  
+}
