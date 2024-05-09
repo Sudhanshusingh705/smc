@@ -56,6 +56,11 @@ import {
 import { MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 import { MDBCardLink, MDBListGroup, MDBListGroupItem,MDBTypography } from "mdb-react-ui-kit";
 // LATEST NOTIFICATION
+import comedklogo from "../../assets/notification/comedklogo.webp";
+import gatelogo from "../../assets/notification/gatellogo.webp";
+import IPULogo from "../../assets/notification/IPULogo.webp";
+import logo from "../../assets/notification/logo.webp";
+import ntalogo from "../../assets/notification/ntalogo.webp";
 import ap from "../../assets/latestnotificaton/ap.jpg";
 import uttar from "../../assets/latestnotificaton/Uttar.jpg";
 import tamil from "../../assets/latestnotificaton/tamil.jpg";
@@ -2968,21 +2973,22 @@ const cardsData = [
               <Card>
                 <Card.Body>
                   <Card.Title>
-                    MCC NEET PG 2023 Counselling registration begins
+                  CUET UG 2024 Admit Card Soon, Check link here.
                   </Card.Title>
                   <img
-                    src={ap}
+                    src={ntalogo}
                     alt="Avatar"
                     className="card-avatar"
                     style={{ width: "30px", height: "30px" }}
                   />
                   <Card.Subtitle className="mb-2 text-muted">
-                    Exam ⏰ july 28, 2023
+                    Exam ⏰ May 09, 2024
                   </Card.Subtitle>
                   <Card.Text style={{ fontSize: "15px" }}>
-                    NEET PG 2023 Counselling Registration has been started at
-                    mcc.nic.in. Candidates can apply for the counselling process
-                    till August 1 admission to the academic year 2023-24.
+                  NTA CUET UG 2024 admit card is expected 
+                  soon at the official website 
+                  exams.nta.ac.in/CUET-UG/.  Check CUET 2024 
+                  city intimation slip link here.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -2992,21 +2998,22 @@ const cardsData = [
               <Card>
                 <Card.Body>
                   <Card.Title>
-                    Madras University BEd Distance Education Admission 2023
+                  IPU CET 2024 Result Released, Download Here!
                   </Card.Title>
                   <img
-                    src={uttar}
+                    src={IPULogo}
                     alt="Avatar"
                     className="card-avatar"
                     style={{ width: "30px", height: "30px" }}
                   />
                   <Card.Subtitle className="mb-2 text-muted">
-                    Admission ⏰ Aug 5, 2023
+                   Exam ⏰ May 09, 2024
                   </Card.Subtitle>
                   <Card.Text style={{ fontSize: "15px" }}>
-                    Madras University is inviting applications for admission to
-                    the BEd program through distance mode for the academic year
-                    2023-24.
+                  IPU CET 2024 result has been released 
+                  on the official website. To download 
+                  the result you need registration number 
+                  and date of birth to login to your portal.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -3016,22 +3023,22 @@ const cardsData = [
               <Card>
                 <Card.Body>
                   <Card.Title>
-                    MHT CET 2023 Round 2 Seat Allotment Out, Accept Seat by
-                    August 6
+                  JEE Advanced Expected and Previous Years’ 
+                  Cut off.
                   </Card.Title>
                   <img
-                    src={tamil}
+                    src={gatelogo}
                     alt="Avatar"
                     className="card-avatar"
                     style={{ width: "30px", height: "30px" }}
                   />
                   <Card.Subtitle className="mb-2 text-muted">
-                    Exam ⏰ Aug 4, 2023
+                    Exam ⏰ May 09, 2024
                   </Card.Subtitle>
                   <Card.Text style={{ fontSize: "15px" }}>
-                    MHT CET 2023 Round 2 Seat Allotment result has been released
-                    at fe2023.mahacet.org. Candidates can check the allotment
-                    result.
+                  JEE Advanced Cutoff 2024 by the candidates 
+                  to qualify for the rank list.JEE Advanced 2024 is 35% for CRL, 
+                  31.5% for OBC-NCL/ EWS and 17.5% for SC/ ST/ PwD.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -3041,22 +3048,23 @@ const cardsData = [
               <Card>
                 <Card.Body>
                   <Card.Title>
-                    GATE 2024 Registrations likely from Aug 24, Application Fee
-                    Revised
+                  GGSIPU has Released IPUCET 2024 Results; Check Here
                   </Card.Title>
                   <img
-                    src={iimlko}
+                    src={logo}
                     alt="Avatar"
                     className="card-avatar"
                     style={{ width: "30px", height: "30px" }}
                   />
                   <Card.Subtitle className="mb-2 text-muted">
-                    Exam ⏰ Aug 5, 2023
+                    Exam ⏰ May 09, 2024
                   </Card.Subtitle>
                   <Card.Text style={{ fontSize: "15px" }}>
-                    IISc Bangalore expected to start GATE 2024 registrations
-                    from August 24. Eligible candidates will be able to apply
-                    for GATE.
+                  Guru Gobind Singh Indraprastha University
+                   (GGSIPU) has released the IPU CET 2024 
+                   result on May 8, for some courses on the 
+                   official website. Candidates can check the 
+                   result of IPU CET 2024.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -3066,21 +3074,22 @@ const cardsData = [
               <Card>
                 <Card.Body>
                   <Card.Title>
-                    MAHE Bengaluru LLM Admission 2023 Open Apply is August 31
+                  COMEDK UGET 2024 Admit Card Released, Link here.
                   </Card.Title>
                   <img
-                    src={mhtlogo}
+                    src={comedklogo}
                     alt="Avatar"
                     className="card-avatar"
                     style={{ width: "30px", height: "30px" }}
                   />
                   <Card.Subtitle className="mb-2 text-muted">
-                    Admission ⏰ Aug 4, 2023
+                    Admission ⏰ May 07, 2024
                   </Card.Subtitle>
                   <Card.Text style={{ fontSize: "15px" }}>
-                    MAHE Bengaluru is inviting applications for admission to the
-                    LLM program for the academic year 2023-24; The Last Date to
-                    Apply is August 31.
+                  COMEDK UGET 2024 admit card is now available
+                   online. Candidates can download from the 
+                   official website- comedk.org.This significant milestone 
+                   marks the next step in your journey towards.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -3090,22 +3099,23 @@ const cardsData = [
               <Card>
                 <Card.Body>
                   <Card.Title>
-                    University of Hyderabad PG Admission 2023 CUET Apply is
-                    August 12
+                  CUET UG 2024 city intimation out, Check city slip.
                   </Card.Title>
                   <img
-                    src={clster}
+                    src={ntalogo}
                     alt="Avatar"
                     className="card-avatar"
                     style={{ width: "30px", height: "30px" }}
                   />
                   <Card.Subtitle className="mb-2 text-muted">
-                    Admission ⏰ Aug 4, 2023
+                    Admission ⏰ May 06, 2024
                   </Card.Subtitle>
                   <Card.Text style={{ fontSize: "15px" }}>
-                    University of Hyderabad is inviting applications for
-                    admission to PG courses for the academic year 2023-24
-                    through CUET.
+                  NTA has released CUET UG City Slip 2024 
+                  for exams scheduled on May 15, 16, 17 and 18.
+                   The city intimation slip for CBT mode exams 
+                   will be released soon. Check CUET 2024 city 
+                   intimation slip link here.
                   </Card.Text>
                 </Card.Body>
               </Card>
