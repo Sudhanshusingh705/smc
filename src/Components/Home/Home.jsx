@@ -11878,7 +11878,7 @@ const cardsData = [
                   href="https://studyabroad.searchmycollege.com/study-in-ireland/"
                   style={{ textDecoration: "none" }}
                 >
-                  Why Study in Ireland?
+                  Why Study in Nepal?
                   <svg
                     fill="#666"
                     xmlns="http://www.w3.org/2000/svg"
@@ -11903,7 +11903,7 @@ const cardsData = [
                   href="https://studyabroad.searchmycollege.com/study-in-ireland/"
                   style={{ textDecoration: "none" }}
                 >
-                  Top Universities in Ireland
+                  Top Universities in Nepal
                   <svg
                     fill="#666"
                     xmlns="http://www.w3.org/2000/svg"
@@ -11928,7 +11928,7 @@ const cardsData = [
                   href="https://studyabroad.searchmycollege.com/study-in-ireland/"
                   style={{ textDecoration: "none" }}
                 >
-                  SOP for Germany
+                  SOP for Nepal
                   <svg
                     fill="#666"
                     xmlns="http://www.w3.org/2000/svg"
@@ -11953,7 +11953,7 @@ const cardsData = [
                   href="https://studyabroad.searchmycollege.com/study-in-ireland/"
                   style={{ textDecoration: "none" }}
                 >
-                  Scholarships in Ireland
+                  Scholarships in Nepal
                   <svg
                     fill="#666"
                     xmlns="http://www.w3.org/2000/svg"
