@@ -18,6 +18,24 @@ const Exams = () => {
     setShowContent(!showContent);
   };
 
+  const cardStyles = {
+    background: "linear-gradient(to bottom right, #98E2FF, #66D9E8)",
+    borderRadius: "10px",
+    padding: "20px",
+    width: "auto", // Adjusting width to auto to make it responsive
+    maxWidth: "100%", // Limiting max width to 100% for responsiveness
+  };
+
+  const cardContainerStyle = {
+    marginBottom: "20px", // Adjust margin as needed
+  };
+
+  const cardStyle = {
+    width: "100%", // Ensure full width of the container
+  };
+
+
+
   // Sample data for exams
   const exams = [
     { id: 1, name: "JEE Main", courses: "B.Tech/B.E" },
@@ -132,73 +150,343 @@ const Exams = () => {
         </MDBRow>
         {/* Additional Columns */}
         <MDBRow>
+        <MDBContainer>
+        <MDBRow className="gx-3">
           <MDBCol>
-          <MDBCard>
-          <MDBCardImage position='top' alt='...' src='https://mdbootstrap.com/img/new/standard/city/062.webp' />
+            <MDBCard style={cardStyles}>
+              <MDBCardBody>
+                <MDBCardTitle>ENGINEERING</MDBCardTitle>
+                {/*<MDBCardText>
+                Participating Colleges
+                </MDBCardText>*/}
+              </MDBCardBody>
+              <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Application Process"
+                data-ga-href="exams/neet/application-process"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="/exams/neet/application-process"
+                style={{ textDecoration: "none" }}
+              >
+                Application Process
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                data-ga-href="exams/neet"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="/exams/neet"
+                style={{ textDecoration: "none" }}
+              >
+                Exam Info
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            </MDBCard>
+          </MDBCol>
+          <MDBCol>
+          <MDBCard style={cardStyles}>
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>JEE Main</MDBCardTitle>
             <MDBCardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+            Participating Colleges
             </MDBCardText>
           </MDBCardBody>
-          <MDBListGroup flush>
-            <a href="#" style={{ color: 'black' }}>
-              <MDBListGroupItem>Cras justo odio</MDBListGroupItem>
-            </a>
-            <a href="#" style={{ color: 'black' }}>
-              <MDBListGroupItem>Dapibus ac facilisis in</MDBListGroupItem>
-            </a>
-            <a href="#" style={{ color: 'black' }}>
-              <MDBListGroupItem>Vestibulum at eros</MDBListGroupItem>
-            </a>
-          </MDBListGroup>
+          <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Application Process"
+            data-ga-href="exams/neet/application-process"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="/exams/neet/application-process"
+            style={{ textDecoration: "none" }}
+          >
+            Application Process
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            data-ga-href="exams/neet"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="/exams/neet"
+            style={{ textDecoration: "none" }}
+          >
+            Exam Info
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
         </MDBCard>
           </MDBCol>
           <MDBCol>
-          <MDBCard>
-          <MDBCardImage position='top' alt='...' src='https://mdbootstrap.com/img/new/standard/city/062.webp' />
+          <MDBCard style={cardStyles}>
           <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>CAT</MDBCardTitle>
             <MDBCardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+            Participating Colleges
             </MDBCardText>
           </MDBCardBody>
-          <MDBListGroup flush>
-            <a href="#" style={{ color: 'black' }}>
-              <MDBListGroupItem>Cras justo odio</MDBListGroupItem>
-            </a>
-            <a href="#" style={{ color: 'black' }}>
-              <MDBListGroupItem>Dapibus ac facilisis in</MDBListGroupItem>
-            </a>
-            <a href="#" style={{ color: 'black' }}>
-              <MDBListGroupItem>Vestibulum at eros</MDBListGroupItem>
-            </a>
-          </MDBListGroup>
+          <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Application Process"
+            data-ga-href="exams/neet/application-process"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="/exams/neet/application-process"
+            style={{ textDecoration: "none" }}
+          >
+            Application Process
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            data-ga-href="exams/neet"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="/exams/neet"
+            style={{ textDecoration: "none" }}
+          >
+            Exam Info
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
         </MDBCard>
-          
+          </MDBCol>
+        </MDBRow>
+        <br />
+        <MDBRow className="gx-3">
+          <MDBCol>
+            <MDBCard style={cardStyles}>
+              <MDBCardBody>
+                <MDBCardTitle>JEE-Ad</MDBCardTitle>
+                <MDBCardText>Participating Colleges</MDBCardText>
+              </MDBCardBody>
+              <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Application Process"
+                data-ga-href="exams/jee-advanced/application-process"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="/exams/jee-advanced/application-process"
+                style={{ textDecoration: "none" }}
+              >
+                Application Process
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                data-ga-href="exams/jee-advanced"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="/exams/jee-advanced"
+                style={{ textDecoration: "none" }}
+              >
+                Exam Info
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            </MDBCard>
           </MDBCol>
           <MDBCol>
-          <MDBCard>
-          <MDBCardImage position='top' alt='...' src='https://mdbootstrap.com/img/new/standard/city/062.webp' />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </MDBCardText>
-          </MDBCardBody>
-          <MDBListGroup flush>
-            <a href="#" style={{ color: 'black' }}>
-              <MDBListGroupItem>Cras justo odio</MDBListGroupItem>
-            </a>
-            <a href="#" style={{ color: 'black' }}>
-              <MDBListGroupItem>Dapibus ac facilisis in</MDBListGroupItem>
-            </a>
-            <a href="#" style={{ color: 'black' }}>
-              <MDBListGroupItem>Vestibulum at eros</MDBListGroupItem>
-            </a>
-          </MDBListGroup>
-        </MDBCard>
+            <MDBCard style={cardStyles}>
+              <MDBCardBody>
+                <MDBCardTitle>GATE</MDBCardTitle>
+                <MDBCardText>Participating Colleges</MDBCardText>
+              </MDBCardBody>
+              <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Application Process"
+                data-ga-href="exams/gate/application-process"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="/exams/gate/application-process"
+                style={{ textDecoration: "none" }}
+              >
+                Application Process
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                data-ga-href="exams/gate"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="/exams/gate"
+                style={{ textDecoration: "none" }}
+              >
+                Exam Info
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            </MDBCard>
           </MDBCol>
+          <MDBCol>
+            <MDBCard style={cardStyles}>
+              <MDBCardBody>
+                <MDBCardTitle>NMAT</MDBCardTitle>
+                <MDBCardText>Participating Colleges</MDBCardText>
+              </MDBCardBody>
+              <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Application Process"
+                data-ga-href="exams/nmat/application-process"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="/exams/nmat/application-process"
+                style={{ textDecoration: "none" }}
+              >
+                Application Process
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                data-ga-href="exams/nmat"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="/exams/nmat"
+                style={{ textDecoration: "none" }}
+              >
+                Exam Info
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            </MDBCard>
+          </MDBCol>
+        </MDBRow>
+        </MDBContainer>
         </MDBRow>
       </MDBContainer>
     </div>

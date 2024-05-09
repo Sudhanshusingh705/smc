@@ -61,12 +61,12 @@ import gatelogo from "../../assets/notification/gatellogo.webp";
 import IPULogo from "../../assets/notification/IPULogo.webp";
 import logo from "../../assets/notification/logo.webp";
 import ntalogo from "../../assets/notification/ntalogo.webp";
-import ap from "../../assets/latestnotificaton/ap.jpg";
-import uttar from "../../assets/latestnotificaton/Uttar.jpg";
-import tamil from "../../assets/latestnotificaton/tamil.jpg";
-import iimlko from "../../assets/latestnotificaton/iimlko.jpg";
-import mhtlogo from "../../assets/latestnotificaton/mhtlogo.jpg";
-import clster from "../../assets/latestnotificaton/clsterlogo.jpg";
+// import ap from "../../assets/latestnotificaton/ap.jpg";
+// import uttar from "../../assets/latestnotificaton/Uttar.jpg";
+// import tamil from "../../assets/latestnotificaton/tamil.jpg";
+// import iimlko from "../../assets/latestnotificaton/iimlko.jpg";
+// import mhtlogo from "../../assets/latestnotificaton/mhtlogo.jpg";
+// import clster from "../../assets/latestnotificaton/clsterlogo.jpg";
 import { Container, Row, Col, Card } from "react-bootstrap";
 // TOP UNIVERSITIES & COLLEGES
 import asbm from "../../assets/top10college/asbm.jpg";
