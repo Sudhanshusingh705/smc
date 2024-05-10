@@ -163,13 +163,11 @@ const Exams = () => {
               <div className="jsx-600450678">
               <hr className="jsx-600450678 mt-2 mb-2" />
               <a
-                data-ga-title="Application Process"
-                data-ga-href="exams/neet/application-process"
                 className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-                href="/exams/neet/application-process"
+                href="#"
                 style={{ textDecoration: "none" }}
               >
-                Application Process
+                JEE-Main
                 <svg
                   fill="#666"
                   xmlns="http://www.w3.org/2000/svg"
@@ -189,10 +187,79 @@ const Exams = () => {
                 data-ga-title="Exam Info"
                 data-ga-href="exams/neet"
                 className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-                href="/exams/neet"
+                href="#"
                 style={{ textDecoration: "none" }}
               >
-                Exam Info
+                UPESEAT
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                data-ga-href="exams/neet"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="#"
+                style={{ textDecoration: "none" }}
+              >
+                TS-EAMCET
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                data-ga-href="exams/neet"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="#"
+                style={{ textDecoration: "none" }}
+              >
+                JEE-Advance
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                data-ga-href="exams/neet"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="#"
+                style={{ textDecoration: "none" }}
+              >
+                AP-EAMCET
                 <svg
                   fill="#666"
                   xmlns="http://www.w3.org/2000/svg"
@@ -211,21 +278,20 @@ const Exams = () => {
           <MDBCol>
           <MDBCard style={cardStyles}>
           <MDBCardBody>
-            <MDBCardTitle>JEE Main</MDBCardTitle>
-            <MDBCardText>
+            <MDBCardTitle>MANAGEMENT</MDBCardTitle>
+            {/*<MDBCardText>
             Participating Colleges
-            </MDBCardText>
+            </MDBCardText>*/}
           </MDBCardBody>
           <div className="jsx-600450678">
           <hr className="jsx-600450678 mt-2 mb-2" />
           <a
             data-ga-title="Application Process"
-            data-ga-href="exams/neet/application-process"
             className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-            href="/exams/neet/application-process"
+            href="#"
             style={{ textDecoration: "none" }}
           >
-            Application Process
+          CAT
             <svg
               fill="#666"
               xmlns="http://www.w3.org/2000/svg"
@@ -243,12 +309,77 @@ const Exams = () => {
           <hr className="jsx-600450678 mt-2 mb-2" />
           <a
             data-ga-title="Exam Info"
-            data-ga-href="exams/neet"
             className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-            href="/exams/neet"
+            href="#"
             style={{ textDecoration: "none" }}
           >
-            Exam Info
+            MAT
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            SNAP
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            TS-ICET
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            UPESMET
             <svg
               fill="#666"
               xmlns="http://www.w3.org/2000/svg"
@@ -267,21 +398,20 @@ const Exams = () => {
           <MDBCol>
           <MDBCard style={cardStyles}>
           <MDBCardBody>
-            <MDBCardTitle>CAT</MDBCardTitle>
-            <MDBCardText>
+            <MDBCardTitle>SCIENCE</MDBCardTitle>
+            {/*<MDBCardText>
             Participating Colleges
-            </MDBCardText>
+            </MDBCardText>*/}
           </MDBCardBody>
           <div className="jsx-600450678">
           <hr className="jsx-600450678 mt-2 mb-2" />
           <a
             data-ga-title="Application Process"
-            data-ga-href="exams/neet/application-process"
             className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-            href="/exams/neet/application-process"
+            href="#"
             style={{ textDecoration: "none" }}
           >
-            Application Process
+            JCECE
             <svg
               fill="#666"
               xmlns="http://www.w3.org/2000/svg"
@@ -299,12 +429,77 @@ const Exams = () => {
           <hr className="jsx-600450678 mt-2 mb-2" />
           <a
             data-ga-title="Exam Info"
-            data-ga-href="exams/neet"
             className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-            href="/exams/neet"
+            href="#"
             style={{ textDecoration: "none" }}
           >
-            Exam Info
+            IIT-JAM
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            IMU-CET
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            SET-EXAM
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            JEE-Advance
             <svg
               fill="#666"
               xmlns="http://www.w3.org/2000/svg"
@@ -326,19 +521,18 @@ const Exams = () => {
           <MDBCol>
             <MDBCard style={cardStyles}>
               <MDBCardBody>
-                <MDBCardTitle>JEE-Ad</MDBCardTitle>
-                <MDBCardText>Participating Colleges</MDBCardText>
+                <MDBCardTitle>PHARMACY</MDBCardTitle>
+                {/*<MDBCardText>Participating Colleges</MDBCardText>*/}
               </MDBCardBody>
               <div className="jsx-600450678">
               <hr className="jsx-600450678 mt-2 mb-2" />
               <a
                 data-ga-title="Application Process"
-                data-ga-href="exams/jee-advanced/application-process"
                 className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-                href="/exams/jee-advanced/application-process"
+                href="#"
                 style={{ textDecoration: "none" }}
               >
-                Application Process
+                GPat
                 <svg
                   fill="#666"
                   xmlns="http://www.w3.org/2000/svg"
@@ -356,12 +550,77 @@ const Exams = () => {
               <hr className="jsx-600450678 mt-2 mb-2" />
               <a
                 data-ga-title="Exam Info"
-                data-ga-href="exams/jee-advanced"
                 className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-                href="/exams/jee-advanced"
+                href="#"
                 style={{ textDecoration: "none" }}
               >
-                Exam Info
+                BITSAT
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="#"
+                style={{ textDecoration: "none" }}
+              >
+                WBJEE
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="#"
+                style={{ textDecoration: "none" }}
+              >
+                AP-EAMCET
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="#"
+                style={{ textDecoration: "none" }}
+              >
+                TS-EAMCET
                 <svg
                   fill="#666"
                   xmlns="http://www.w3.org/2000/svg"
@@ -380,19 +639,18 @@ const Exams = () => {
           <MDBCol>
             <MDBCard style={cardStyles}>
               <MDBCardBody>
-                <MDBCardTitle>GATE</MDBCardTitle>
-                <MDBCardText>Participating Colleges</MDBCardText>
+                <MDBCardTitle>LAW</MDBCardTitle>
+                {/*<MDBCardText>Participating Colleges</MDBCardText>*/}
               </MDBCardBody>
               <div className="jsx-600450678">
               <hr className="jsx-600450678 mt-2 mb-2" />
               <a
                 data-ga-title="Application Process"
-                data-ga-href="exams/gate/application-process"
                 className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
                 href="/exams/gate/application-process"
                 style={{ textDecoration: "none" }}
               >
-                Application Process
+               CLAT
                 <svg
                   fill="#666"
                   xmlns="http://www.w3.org/2000/svg"
@@ -410,12 +668,77 @@ const Exams = () => {
               <hr className="jsx-600450678 mt-2 mb-2" />
               <a
                 data-ga-title="Exam Info"
-                data-ga-href="exams/gate"
                 className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-                href="/exams/gate"
+                href="#"
                 style={{ textDecoration: "none" }}
               >
-                Exam Info
+                ULSAT
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="#"
+                style={{ textDecoration: "none" }}
+              >
+                AILET
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="#"
+                style={{ textDecoration: "none" }}
+              >
+                AP-LAWCET
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="#"
+                style={{ textDecoration: "none" }}
+              >
+                TS-LAWCET
                 <svg
                   fill="#666"
                   xmlns="http://www.w3.org/2000/svg"
@@ -434,19 +757,18 @@ const Exams = () => {
           <MDBCol>
             <MDBCard style={cardStyles}>
               <MDBCardBody>
-                <MDBCardTitle>NMAT</MDBCardTitle>
-                <MDBCardText>Participating Colleges</MDBCardText>
+                <MDBCardTitle>DESIGN</MDBCardTitle>
+                {/*<MDBCardText>Participating Colleges</MDBCardText>*/}
               </MDBCardBody>
               <div className="jsx-600450678">
               <hr className="jsx-600450678 mt-2 mb-2" />
               <a
                 data-ga-title="Application Process"
-                data-ga-href="exams/nmat/application-process"
                 className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-                href="/exams/nmat/application-process"
+                href="#"
                 style={{ textDecoration: "none" }}
               >
-                Application Process
+                NID
                 <svg
                   fill="#666"
                   xmlns="http://www.w3.org/2000/svg"
@@ -464,12 +786,77 @@ const Exams = () => {
               <hr className="jsx-600450678 mt-2 mb-2" />
               <a
                 data-ga-title="Exam Info"
-                data-ga-href="exams/nmat"
                 className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-                href="/exams/nmat"
+                href="#"
                 style={{ textDecoration: "none" }}
               >
-                Exam Info
+                NIFT
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="#"
+                style={{ textDecoration: "none" }}
+              >
+                UCEED
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="#"
+                style={{ textDecoration: "none" }}
+              >
+                UID-DAT
+                <svg
+                  fill="#666"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="451.846"
+                  height="451.847"
+                  viewBox="0 0 451.846 451.847"
+                  xmlSpace="preserve"
+                  style={{ width: 10, height: 10 }}
+                >
+                  <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+                </svg>
+              </a>
+            </div>
+            <div className="jsx-600450678">
+              <hr className="jsx-600450678 mt-2 mb-2" />
+              <a
+                data-ga-title="Exam Info"
+                className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+                href="#"
+                style={{ textDecoration: "none" }}
+              >
+                UPES-DAT
                 <svg
                   fill="#666"
                   xmlns="http://www.w3.org/2000/svg"
@@ -486,6 +873,1078 @@ const Exams = () => {
             </MDBCard>
           </MDBCol>
         </MDBRow>
+        <br/>
+        <MDBRow className="gx-3">
+        <MDBCol>
+          <MDBCard style={cardStyles}>
+            <MDBCardBody>
+              <MDBCardTitle>COMMERCE</MDBCardTitle>
+              {/*<MDBCardText>Participating Colleges</MDBCardText>*/}
+            </MDBCardBody>
+            <div className="jsx-600450678">
+            <hr className="jsx-600450678 mt-2 mb-2" />
+            <a
+              data-ga-title="Application Process"
+              className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+              href="#"
+              style={{ textDecoration: "none" }}
+            >
+              NPAT
+              <svg
+                fill="#666"
+                xmlns="http://www.w3.org/2000/svg"
+                width="451.846"
+                height="451.847"
+                viewBox="0 0 451.846 451.847"
+                xmlSpace="preserve"
+                style={{ width: 10, height: 10 }}
+              >
+                <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+              </svg>
+            </a>
+          </div>
+          <div className="jsx-600450678">
+            <hr className="jsx-600450678 mt-2 mb-2" />
+            <a
+              data-ga-title="Exam Info"
+              className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+              href="#"
+              style={{ textDecoration: "none" }}
+            >
+              DSAT
+              <svg
+                fill="#666"
+                xmlns="http://www.w3.org/2000/svg"
+                width="451.846"
+                height="451.847"
+                viewBox="0 0 451.846 451.847"
+                xmlSpace="preserve"
+                style={{ width: 10, height: 10 }}
+              >
+                <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+              </svg>
+            </a>
+          </div>
+          <div className="jsx-600450678">
+            <hr className="jsx-600450678 mt-2 mb-2" />
+            <a
+              data-ga-title="Exam Info"
+              className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+              href="#"
+              style={{ textDecoration: "none" }}
+            >
+              OUCET
+              <svg
+                fill="#666"
+                xmlns="http://www.w3.org/2000/svg"
+                width="451.846"
+                height="451.847"
+                viewBox="0 0 451.846 451.847"
+                xmlSpace="preserve"
+                style={{ width: 10, height: 10 }}
+              >
+                <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+              </svg>
+            </a>
+          </div>
+          <div className="jsx-600450678">
+            <hr className="jsx-600450678 mt-2 mb-2" />
+            <a
+              data-ga-title="Exam Info"
+              className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+              href="#"
+              style={{ textDecoration: "none" }}
+            >
+              BHU-UET
+              <svg
+                fill="#666"
+                xmlns="http://www.w3.org/2000/svg"
+                width="451.846"
+                height="451.847"
+                viewBox="0 0 451.846 451.847"
+                xmlSpace="preserve"
+                style={{ width: 10, height: 10 }}
+              >
+                <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+              </svg>
+            </a>
+          </div>
+          <div className="jsx-600450678">
+            <hr className="jsx-600450678 mt-2 mb-2" />
+            <a
+              data-ga-title="Exam Info"
+              className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+              href="#"
+              style={{ textDecoration: "none" }}
+            >
+              IPU-CET
+              <svg
+                fill="#666"
+                xmlns="http://www.w3.org/2000/svg"
+                width="451.846"
+                height="451.847"
+                viewBox="0 0 451.846 451.847"
+                xmlSpace="preserve"
+                style={{ width: 10, height: 10 }}
+              >
+                <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+              </svg>
+            </a>
+          </div>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol>
+        <MDBCard style={cardStyles}>
+          <MDBCardBody>
+            <MDBCardTitle>DENTAL</MDBCardTitle>
+            {/*<MDBCardText>Participating Colleges</MDBCardText>*/}
+          </MDBCardBody>
+          <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Application Process"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            NEET
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            RUET
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            PGIMER
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            NEET-MDS
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            MP-DMAT
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        </MDBCard>
+        </MDBCol>
+        <MDBCol>
+        <MDBCard style={cardStyles}>
+          <MDBCardBody>
+            <MDBCardTitle>DENTAL</MDBCardTitle>
+            {/*<MDBCardText>Participating Colleges</MDBCardText>*/}
+          </MDBCardBody>
+          <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Application Process"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            NEET
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            RUET
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            PGIMER
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            NEET-MDS
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            MP-DMAT
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        </MDBCard>
+        </MDBCol>
+        </MDBRow>
+        <br />
+        <MDBRow className="gx-3">
+        <MDBCol>
+        <MDBCard style={cardStyles}>
+          <MDBCardBody>
+            <MDBCardTitle>AECHITECTURE</MDBCardTitle>
+            {/*<MDBCardText>Participating Colleges</MDBCardText>*/}
+          </MDBCardBody>
+          <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Application Process"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            NATA
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            KIITE
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            JEE-Main
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            JEE-Advance
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            COMEDK-UGET
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        </MDBCard>
+        </MDBCol>
+        <MDBCol>
+        <MDBCard style={cardStyles}>
+        <MDBCardBody>
+          <MDBCardTitle>ARTS</MDBCardTitle>
+          {/*<MDBCardText>Participating Colleges</MDBCardText>*/}
+        </MDBCardBody>
+        <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Application Process"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+          NPAT
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+          CUCET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+          KIITEE
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+          DAVV-CET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+          TISSNET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+        </MDBCard>
+        </MDBCol>
+        <MDBCol>
+        <MDBCard style={cardStyles}>
+        <MDBCardBody>
+          <MDBCardTitle>AGRICULTURE</MDBCardTitle>
+          {/*<MDBCardText>Participating Colleges</MDBCardText>*/}
+        </MDBCardBody>
+        <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Application Process"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+        KEAM
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+        BCECE
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+        MHT-CET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+        AGRICET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+          ICAR-AIEEA
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+        </MDBCard>
+        </MDBCol>
+        </MDBRow>
+        <br />
+        <MDBRow className="gx-3">
+        <MDBCol>
+        <MDBCard style={cardStyles}>
+          <MDBCardBody>
+            <MDBCardTitle>PARA MEDICAL</MDBCardTitle>
+            {/*<MDBCardText>Participating Colleges</MDBCardText>*/}
+          </MDBCardBody>
+          <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Application Process"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            CPNET
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            SMFWBEE
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            JENPAUH
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            AIIM-NURSING
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        <div className="jsx-600450678">
+          <hr className="jsx-600450678 mt-2 mb-2" />
+          <a
+            data-ga-title="Exam Info"
+            className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+            href="#"
+            style={{ textDecoration: "none" }}
+          >
+            BHU BSC NURSING
+            <svg
+              fill="#666"
+              xmlns="http://www.w3.org/2000/svg"
+              width="451.846"
+              height="451.847"
+              viewBox="0 0 451.846 451.847"
+              xmlSpace="preserve"
+              style={{ width: 10, height: 10 }}
+            >
+              <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+            </svg>
+          </a>
+        </div>
+        </MDBCard>
+        </MDBCol>
+        <MDBCol>
+        <MDBCard style={cardStyles}>
+        <MDBCardBody>
+          <MDBCardTitle>EDUCATION</MDBCardTitle>
+          {/*<MDBCardText>Participating Colleges</MDBCardText>*/}
+        </MDBCardBody>
+        <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Application Process"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+          AP-EdCET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+          TS-EDCET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+          IGNOU-BEd
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+          Bihar CET BEd
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+          Mah BEd CET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+        </MDBCard>
+        </MDBCol>
+        <MDBCol>
+        <MDBCard style={cardStyles}>
+        <MDBCardBody>
+          <MDBCardTitle>COMPUTER APPLICATION</MDBCardTitle>
+          {/*<MDBCardText>Participating Colleges</MDBCardText>*/}
+        </MDBCardBody>
+        <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Application Process"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+        PGCET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+        TANCET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+        TS ICET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+        AP ICET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+      <div className="jsx-600450678">
+        <hr className="jsx-600450678 mt-2 mb-2" />
+        <a
+          data-ga-title="Exam Info"
+          className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
+          href="#"
+          style={{ textDecoration: "none" }}
+        >
+          MAH MCA CET
+          <svg
+            fill="#666"
+            xmlns="http://www.w3.org/2000/svg"
+            width="451.846"
+            height="451.847"
+            viewBox="0 0 451.846 451.847"
+            xmlSpace="preserve"
+            style={{ width: 10, height: 10 }}
+          >
+            <path d="M345.441 248.292 151.154 442.573c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744L278.318 225.92 106.409 54.017c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.287 194.284c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z" />
+          </svg>
+        </a>
+      </div>
+        </MDBCard>
+        </MDBCol>
+        </MDBRow>
+        <br />
         </MDBContainer>
         </MDBRow>
       </MDBContainer>
