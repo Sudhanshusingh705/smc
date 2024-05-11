@@ -7,6 +7,7 @@ import Exams from './Pages/Exams/Exams';
 import Login from './Pages/Login/Login';
 import AboutUs from "./Components/Aboutus/AboutUs";
 import OurTeam from './Components/OurTeam/OurTeam';
+import Admission from './Pages/Admission/Admission';
 import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy';
 import TermsAndConditions from './Components/TermAndCondition/Terms&Condition';
 import Footer from './Components/Footer/Footer';
@@ -30,6 +31,7 @@ function App() {
         <Route excat path="/termsandconditions" element={<TermsAndConditions />}> </Route>
         <Route excat path="/aboutus" element={<AboutUs />}> </Route>
         <Route excat path="/ourteam" element={<OurTeam />}> </Route>
+        <Route excat path="/admission" element={<Admission />}> </Route>
         
       </Routes>
       <Footer></Footer>

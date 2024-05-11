@@ -42,7 +42,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black text-uppercase font-weight-bold" href="#">
+              <a className="nav-link text-black text-uppercase font-weight-bold" href="/admission">
                 Admission
               </a>
             </li>
