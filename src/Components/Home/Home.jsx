@@ -12652,28 +12652,39 @@ const cardsData = [
     </MDBContainer>
       </div>
       {/* TESTIMONIALS CLOSE */}
-
       {/*FAQ SECTION START*/}
       <MDBContainer fluid className="p-4">
       <MDBAccordion active={active} onChange={(itemId) => setActive(itemId)}>
-        <MDBAccordionItem collapseId={1} headerTitle='What Services Does SearchMyCollege Offer?'>
+        <MDBAccordionItem 
+          collapseId={1} 
+          headerTitle={<span style={{ fontWeight: 'bold' }}>What Services Does SearchMyCollege Offer?</span>}
+        >
           Discover the comprehensive range of services provided by SearchMyCollege, 
           including career counseling, college admissions, scholarship guidance, 
           visa assistance, and more for both Indian and international educational 
           institutions.
         </MDBAccordionItem>
-        <MDBAccordionItem collapseId={2} headerTitle='How Can SearchMyCollege Help with Overseas Education?'>
+        <MDBAccordionItem 
+          collapseId={2} 
+          headerTitle={<span style={{ fontWeight: 'bold' }}>How Can SearchMyCollege Help with Overseas Education?</span>}
+        >
           Learn how SearchMyCollege assists students in securing admission 
           to top universities abroad, including personalized counseling, 
           application support, documentation, and guidance on living and 
           studying in a foreign country.
         </MDBAccordionItem>
-        <MDBAccordionItem collapseId={3} headerTitle='What Are the Benefits of Choosing SearchMyCollege for Indian Education?'>
+        <MDBAccordionItem 
+          collapseId={3} 
+          headerTitle={<span style={{ fontWeight: 'bold' }}>What Are the Benefits of Choosing SearchMyCollege for Indian Education?</span>}
+        >
           Find out why SearchMyCollege is the best choice for pursuing 
           education in India, including expert advice on college selection, 
           entrance exam preparation, and securing scholarships.
         </MDBAccordionItem>
-        <MDBAccordionItem collapseId={4} headerTitle='How Does SearchMyCollege Assist with Scholarship Applications?'>
+        <MDBAccordionItem 
+          collapseId={4} 
+          headerTitle={<span style={{ fontWeight: 'bold' }}>How Does SearchMyCollege Assist with Scholarship Applications?</span>}
+        >
           Understand the process and benefits of SearchMyCollege’s 
           scholarship application support, including identifying 
           eligible scholarships, preparing necessary documents, and 
