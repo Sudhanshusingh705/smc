@@ -81,11 +81,13 @@ import 'react-multi-carousel/lib/styles.css';
 import MISHRA from "../../assets/testimonial/MISHRA.jpg";
 import SINGH from "../../assets/testimonial/SINGH.jpg";
 import Rajeev from "../../assets/testimonial/Rajeev.jpg";
-
+//FAQ SECTION
+import { MDBAccordion, MDBAccordionItem } from 'mdb-react-ui-kit';
 
 
 const Home = () => {
   const [iconsActive, setIconsActive] = useState("pill1");
+  const [active, setActive] = useState(0);
 
   const handleIconsClick = (value) => {
     if (value === iconsActive) {
@@ -12650,6 +12652,36 @@ const cardsData = [
     </MDBContainer>
       </div>
       {/* TESTIMONIALS CLOSE */}
+
+      {/*FAQ SECTION START*/}
+      <MDBContainer fluid className="p-4">
+      <MDBAccordion active={active} onChange={(itemId) => setActive(itemId)}>
+        <MDBAccordionItem collapseId={1} headerTitle='What Services Does SearchMyCollege Offer?'>
+          Discover the comprehensive range of services provided by SearchMyCollege, 
+          including career counseling, college admissions, scholarship guidance, 
+          visa assistance, and more for both Indian and international educational 
+          institutions.
+        </MDBAccordionItem>
+        <MDBAccordionItem collapseId={2} headerTitle='How Can SearchMyCollege Help with Overseas Education?'>
+          Learn how SearchMyCollege assists students in securing admission 
+          to top universities abroad, including personalized counseling, 
+          application support, documentation, and guidance on living and 
+          studying in a foreign country.
+        </MDBAccordionItem>
+        <MDBAccordionItem collapseId={3} headerTitle='What Are the Benefits of Choosing SearchMyCollege for Indian Education?'>
+          Find out why SearchMyCollege is the best choice for pursuing 
+          education in India, including expert advice on college selection, 
+          entrance exam preparation, and securing scholarships.
+        </MDBAccordionItem>
+        <MDBAccordionItem collapseId={4} headerTitle='How Does SearchMyCollege Assist with Scholarship Applications?'>
+          Understand the process and benefits of SearchMyCollege’s 
+          scholarship application support, including identifying 
+          eligible scholarships, preparing necessary documents, and 
+          maximizing your chances of receiving financial aid.
+        </MDBAccordionItem>
+      </MDBAccordion>
+      </MDBContainer>
+      {/*FAQ SECTION CLOSE*/}
 
     </> 
   );
