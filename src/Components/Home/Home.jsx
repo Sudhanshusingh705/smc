@@ -12698,4 +12698,4 @@ const cardsData = [
   );
 };
 
-export default Home;
+export default Home; 
