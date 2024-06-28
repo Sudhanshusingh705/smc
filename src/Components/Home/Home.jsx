@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+
 import Banner1 from "../../assets/banner/BANNER1.jpg";
 import Banner4 from "../../assets/banner/Banner4.jpg";
 import Banner5 from "../../assets/banner/Banner5.jpg";
