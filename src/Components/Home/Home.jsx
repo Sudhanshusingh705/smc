@@ -3330,7 +3330,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -3414,7 +3414,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -3500,7 +3500,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -3585,7 +3585,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -3668,7 +3668,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -3752,7 +3752,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -3837,7 +3837,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -3920,7 +3920,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -4005,7 +4005,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -4089,7 +4089,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -4208,7 +4208,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -4292,7 +4292,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -4462,7 +4462,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -4545,7 +4545,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -4629,7 +4629,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -4713,7 +4713,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -4796,7 +4796,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -4880,7 +4880,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -4964,7 +4964,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -5082,7 +5082,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -5166,7 +5166,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -5251,7 +5251,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -5337,7 +5337,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -5420,7 +5420,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -5505,7 +5505,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -5589,7 +5589,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -5673,7 +5673,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -5758,7 +5758,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -5842,7 +5842,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -5960,7 +5960,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -6045,7 +6045,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -6130,7 +6130,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -6216,7 +6216,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -6299,7 +6299,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -6383,7 +6383,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -6467,7 +6467,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -6551,7 +6551,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -6635,7 +6635,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -6719,7 +6719,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -6837,7 +6837,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -6922,7 +6922,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -7007,7 +7007,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -7092,7 +7092,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -7175,7 +7175,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -7259,7 +7259,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -7343,7 +7343,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -7426,7 +7426,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -7510,7 +7510,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -7594,7 +7594,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -7712,7 +7712,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -7796,7 +7796,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -7881,7 +7881,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -7967,7 +7967,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -8050,7 +8050,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -8134,7 +8134,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -8218,7 +8218,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -8301,7 +8301,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -8385,7 +8385,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -8469,7 +8469,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -8587,7 +8587,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -8671,7 +8671,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -8756,7 +8756,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -8841,7 +8841,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -8924,7 +8924,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -9008,7 +9008,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -9092,7 +9092,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -9175,7 +9175,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -9259,7 +9259,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -9343,7 +9343,7 @@ const cardsData = [
                     <td>
                       <a
                         className="btn btn-primary"
-                        href="/enqueryform"
+                        href="https://searchmycolleges.com/application-form-ads"
                         style={{ textDecoration: "none", color: "white" }}
                       >
                         Enquiry
@@ -9383,7 +9383,7 @@ const cardsData = [
                   of 1400 QS, Ranked 8 out of 15 
                   Outlook, Ranked 1106 out of 2000.
                   </MDBCardText>
-                  <MDBBtn href="#">Enquiry</MDBBtn>
+                  <MDBBtn href="https://searchmycolleges.com/application-form-ads">Enquiry</MDBBtn>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
@@ -9402,7 +9402,7 @@ const cardsData = [
                   Ranked 384 out of 1400 QS, Ranked 8 out of 15
                   Outlook.
                   </MDBCardText>
-                  <MDBBtn href="#">Enquiry</MDBBtn>
+                  <MDBBtn href="https://searchmycolleges.com/application-form-ads">Enquiry</MDBBtn>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
@@ -9421,7 +9421,7 @@ const cardsData = [
                   out of 200 NIRF, Ranked 80 out of 171 IIRF, Ranked
                   11 out of 312 NIRF Innovation .
                   </MDBCardText>
-                  <MDBBtn href="#">Enquiry</MDBBtn>
+                  <MDBBtn href="https://searchmycolleges.com/application-form-ads">Enquiry</MDBBtn>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
@@ -9439,7 +9439,7 @@ const cardsData = [
                   TOI,Ranked 11 out of 312 NIRF Innovation, Ranked
                   1001 out of 1799 THE, Ranked 384 out of 1400 QS.
                   </MDBCardText>
-                  <MDBBtn href="#">Enquiry</MDBBtn>
+                  <MDBBtn href="https://searchmycolleges.com/application-form-ads">Enquiry</MDBBtn>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>
@@ -9462,7 +9462,7 @@ const cardsData = [
                 Ranked 1106 out of 2000 US News, Ranked 937 out of
                 2000 CWUR Ranked 8 out of 15.
                 </MDBCardText>
-                <MDBBtn href="#">Enquiry</MDBBtn>
+                <MDBBtn href="https://searchmycolleges.com/application-form-ads">Enquiry</MDBBtn>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -9482,7 +9482,7 @@ const cardsData = [
                 Outlook, Ranked 1106 out of 2000 US News, Ranked 937
                 out of 2000 CWUR.
                 </MDBCardText>
-                <MDBBtn href="#">Enquiry</MDBBtn>
+                <MDBBtn href="https://searchmycolleges.com/application-form-ads">Enquiry</MDBBtn>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -9502,7 +9502,7 @@ const cardsData = [
                 Outlook, Ranked 1106 out of 2000 US News, Ranked 937
                 out of 2000 CWUR.
                 </MDBCardText>
-                <MDBBtn href="#">Enquiry</MDBBtn>
+                <MDBBtn href="https://searchmycolleges.com/application-form-ads">Enquiry</MDBBtn>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -9522,7 +9522,7 @@ const cardsData = [
                 Outlook, Ranked 1106 out of 2000 US News, Ranked 937
                 out of 2000 CWUR.
                 </MDBCardText>
-                <MDBBtn href="#">Enquiry</MDBBtn>
+                <MDBBtn href="https://searchmycolleges.com/application-form-ads">Enquiry</MDBBtn>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>

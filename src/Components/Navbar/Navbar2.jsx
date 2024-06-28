@@ -13,25 +13,25 @@ function Navbar2() {
               <a className="nav-link text-black font-weight-bold" aria-current="page" href="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black font-weight-bold" href="#">Engineering</a>
+              <a className="nav-link text-black font-weight-bold" href="/engineering">Engineering</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black font-weight-bold" href="#">Management</a>
+              <a className="nav-link text-black font-weight-bold" href="/management">Management</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black font-weight-bold" href="#">Medical</a>
+              <a className="nav-link text-black font-weight-bold" href="/medical">Medical</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black font-weight-bold" href="#">Science</a>
+              <a className="nav-link text-black font-weight-bold" href="/science">Science</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black font-weight-bold" href="#">Commerce</a>
+              <a className="nav-link text-black font-weight-bold" href="/commerce">Commerce</a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-black font-weight-bold" href="https://studyabroad.searchmycollege.com/index.php/study-abroad/">Study Abroad</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black font-weight-bold" href="#">More</a>
+              <a className="nav-link text-black font-weight-bold" href="/more">More</a>
             </li>
           </ul>
         </div>
