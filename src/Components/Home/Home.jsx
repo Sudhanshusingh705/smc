@@ -277,13 +277,13 @@ const cardsData = [
                       <h5 className="card-title">Engineering</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">BE/B'Tech</a>
+                          <a href="/engineering">BE/B'Tech</a>
                         </li>
                         <li>
-                          <a href="#">ME/M'Tech</a>
+                          <a href="/engineering">ME/M'Tech</a>
                         </li>
                         <li>
-                          <a href="#">Diploma In Engineering</a>
+                          <a href="/engineering">Diploma In Engineering</a>
                         </li>
                       </ul>
                     </div>
@@ -308,13 +308,13 @@ const cardsData = [
                       <h5 className="card-title">Management</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">MBA/PGDM</a>
+                          <a href="/management">MBA/PGDM</a>
                         </li>
                         <li>
-                          <a href="#">BBA/BBM</a>
+                          <a href="/management">BBA/BBM</a>
                         </li>
                         <li>
-                          <a href="#">Executive MBA</a>
+                          <a href="/management">Executive MBA</a>
                         </li>
                       </ul>
                     </div>
@@ -339,13 +339,13 @@ const cardsData = [
                       <h5 className="card-title">Commerce</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">B.Com</a>
+                          <a href="/commerce">B.Com</a>
                         </li>
                         <li>
-                          <a href="#">M.Com</a>
+                          <a href="/commerce">M.Com</a>
                         </li>
                         <li>
-                          <a href="#">MBA</a>
+                          <a href="/commerce">MBA</a>
                         </li>
                       </ul>
                     </div>
@@ -370,13 +370,13 @@ const cardsData = [
                       <h5 className="card-title">Medical</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">MBBS</a>
+                          <a href="/medical">MBBS</a>
                         </li>
                         <li>
-                          <a href="#">B.Pharma</a>
+                          <a href="/medical">B.Pharma</a>
                         </li>
                         <li>
-                          <a href="#">BSC.Nursing</a>
+                          <a href="/medical">BSC.Nursing</a>
                         </li>
                       </ul>
                     </div>
@@ -401,13 +401,13 @@ const cardsData = [
                       <h5 className="card-title">Design</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">B.Des</a>
+                          <a href="/design">B.Des</a>
                         </li>
                         <li>
-                          <a href="#">M.Des</a>
+                          <a href="/design">M.Des</a>
                         </li>
                         <li>
-                          <a href="#">BFA</a>
+                          <a href="/design">BFA</a>
                         </li>
                       </ul>
                     </div>
@@ -432,13 +432,13 @@ const cardsData = [
                       <h5 className="card-title">Arts</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">BA</a>
+                          <a href="/arts">BA</a>
                         </li>
                         <li>
-                          <a href="#">MA</a>
+                          <a href="/arts">MA</a>
                         </li>
                         <li>
-                          <a href="#">BFA</a>
+                          <a href="/arts">BFA</a>
                         </li>
                       </ul>
                     </div>
@@ -463,10 +463,10 @@ const cardsData = [
                       <h5 className="card-title">Science</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">B.Sc</a>
+                          <a href="/science">B.Sc</a>
                         </li>
                         <li>
-                          <a href="#">M.Sc</a>
+                          <a href="/science">M.Sc</a>
                         </li>
                       </ul>
                     </div>
@@ -491,10 +491,13 @@ const cardsData = [
                       <h5 className="card-title">Pharmacy</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">B.Pharma</a>
+                          <a href="/pharmacy">B.Pharma</a>
                         </li>
                         <li>
-                          <a href="#">M.Pharma</a>
+                          <a href="/pharmacy">D.Pharma</a>
+                        </li>
+                        <li>
+                        <a href="/pharmacy">Pharma.D</a>
                         </li>
                       </ul>
                     </div>
@@ -519,10 +522,10 @@ const cardsData = [
                       <h5 className="card-title">ParaMedical</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">B.Sc (Nursing)</a>
+                          <a href="/paramedical">B.Sc (Nursing)</a>
                         </li>
                         <li>
-                          <a href="#">M.Sc (Nursing)</a>
+                          <a href="/paramedical">M.Sc (Nursing)</a>
                         </li>
                       </ul>
                     </div>
@@ -547,10 +550,10 @@ const cardsData = [
                       <h5 className="card-title">Computer Application</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">BCA</a>
+                          <a href="/computerapplication">BCA</a>
                         </li>
                         <li>
-                          <a href="#">MCA</a>
+                          <a href="/computerapplication">MCA</a>
                         </li>
                       </ul>
                     </div>
@@ -575,13 +578,13 @@ const cardsData = [
                       <h5 className="card-title">Education</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">B.Ed</a>
+                          <a href="/education">B.Ed</a>
                         </li>
                         <li>
-                          <a href="#">M.Ed</a>
+                          <a href="/education">M.Ed</a>
                         </li>
                         <li>
-                          <a href="#">B.P.Ed</a>
+                          <a href="/education">B.P.Ed</a>
                         </li>
                       </ul>
                     </div>
@@ -606,10 +609,10 @@ const cardsData = [
                       <h5 className="card-title">Agriculture</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">B.Sc (Agriculture)</a>
+                          <a href="/agriculture">B.Sc (Agriculture)</a>
                         </li>
                         <li>
-                          <a href="#">M.Sc (Agriculture)</a>
+                          <a href="/agriculture">M.Sc (Agriculture)</a>
                         </li>
                       </ul>
                     </div>
@@ -634,13 +637,13 @@ const cardsData = [
                       <h5 className="card-title">Animation</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">Bachelor of Animation</a>
+                          <a href="/animation">Bachelor of Animation</a>
                         </li>
                         <li>
-                          <a href="#">Diploma in Animation</a>
+                          <a href="/animation">Diploma in Animation</a>
                         </li>
                         <li>
-                          <a href="#">Certificate in Animation</a>
+                          <a href="/animation">Certificate in Animation</a>
                         </li>
                       </ul>
                     </div>
@@ -665,10 +668,10 @@ const cardsData = [
                       <h5 className="card-title">Architecture</h5>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="#">B.Arch</a>
+                          <a href="/architecture">B.Arch</a>
                         </li>
                         <li>
-                          <a href="#">M.Arch</a>
+                          <a href="/architecture">M.Arch</a>
                         </li>
                       </ul>
                     </div>
@@ -1442,25 +1445,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         Indiatoday
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         Outlook
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         NIRF
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         The Week
@@ -1476,25 +1479,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         B'Tech
                       </a>
                       <a
-                        href="#"
+                        href="engineering"
                         className="list-group-item list-group-item-action"
                       >
                         M'Tech
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         MBA/PGDM
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Best BTech Private College
@@ -1512,25 +1515,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         IIT-Madras
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         IIT-Delhi
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         IIT-Madras
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         IIT-Bombay
@@ -1549,25 +1552,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/arts"
                         className="list-group-item list-group-item-action"
                       >
                         B.Com
                       </a>
                       <a
-                        href="#"
+                        href="/arts"
                         className="list-group-item list-group-item-action"
                       >
                         B.Sc
                       </a>
                       <a
-                        href="#"
+                        href="/medical"
                         className="list-group-item list-group-item-action"
                       >
                         Nursing
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         B'Tech/M'Tech
@@ -1583,25 +1586,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         NEET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         NMAT
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         GATE
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         JEE-Advance
@@ -1617,25 +1620,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         NEET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         NMAT
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         GATE
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         JEE-Advance
@@ -1660,25 +1663,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         Indiatoday
                       </a>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         Outlook
                       </a>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         NIRF
                       </a>
                       <a
-                        href="#"
+                        href="https://searchmycolleges.com"
                         className="list-group-item list-group-item-action"
                       >
                         SMC
@@ -1694,25 +1697,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Best MBA College in India
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Best MBA College in OJEE
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Best MBA College in XAT
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Best MBA College in India CMAT
@@ -1730,25 +1733,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         IIT-Calcutta
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         IIT-Ahemdabad
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         IIT-SJMSOM
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         DMS-IITD
@@ -1767,25 +1770,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         CAT
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         MAT
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         NMAT
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         CMAT
@@ -1835,25 +1838,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Finance
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Operation Management
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Data Science
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Artificial Intelligence
@@ -1878,25 +1881,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         IIRF
                       </a>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         IndiaToday
                       </a>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         NIRF
                       </a>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         Outlook
@@ -1912,25 +1915,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Best MBA College in Kolkata
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Best MBA College in Lucknow
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Best MBA College in Ahemdabad
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Best MBA College in India Chennai
@@ -1948,25 +1951,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/medical"
                         className="list-group-item list-group-item-action"
                       >
                         JIPMER
                       </a>
                       <a
-                        href="#"
+                        href="/medical"
                         className="list-group-item list-group-item-action"
                       >
                         KGMU
                       </a>
                       <a
-                        href="#"
+                        href="/medical"
                         className="list-group-item list-group-item-action"
                       >
                         JAMIA
                       </a>
                       <a
-                        href="#"
+                        href="/medical"
                         className="list-group-item list-group-item-action"
                       >
                         MANIPAL
@@ -1985,25 +1988,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         NEET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         KEAM
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         JIPMER
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         MANIPAL
@@ -2019,25 +2022,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         NEET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         KEAM
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         UGNAC
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         Punjabi NEET Conselling
@@ -2053,25 +2056,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Finance
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Operation Management
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Data Science
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Artificial Intelligence
@@ -2096,25 +2099,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         NIRF
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         IIRF
                       </a>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         Indiatoday
                       </a>
                       <a
-                        href="#"
+                        href="https://searchmycolleges.com"
                         className="list-group-item list-group-item-action"
                       >
                         SMC
@@ -2130,25 +2133,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Best IIT For M'Tech
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Best M'Tech College in Bangalore
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Best M'Tech College in Kanpur
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Best M'Tech College in Delhi
@@ -2166,25 +2169,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/agriculture"
                         className="list-group-item list-group-item-action"
                       >
                         Agriculture
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Mechanical
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Civil
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Electrical
@@ -2203,25 +2206,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         GATE
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         OJEE
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         Ts PGECET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         AP-PGECET
@@ -2237,25 +2240,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         GATE
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         IPU
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         CUSAT
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         MET
@@ -2271,25 +2274,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Finance
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Operation Management
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Data Science
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Artificial Intelligence
@@ -2314,25 +2317,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         IndiaToday
                       </a>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         Outlook
                       </a>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         The Week
                       </a>
                       <a
-                        href="#"
+                        href="https://searchmycolleges.com"
                         className="list-group-item list-group-item-action"
                       >
                         SMC
@@ -2348,25 +2351,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/science"
                         className="list-group-item list-group-item-action"
                       >
                         Best B.Sc IT College
                       </a>
                       <a
-                        href="#"
+                        href="/science"
                         className="list-group-item list-group-item-action"
                       >
                         Best B.Sc Forensic College
                       </a>
                       <a
-                        href="#"
+                        href="/science"
                         className="list-group-item list-group-item-action"
                       >
                         Best B.Sc Science College
                       </a>
                       <a
-                        href="#"
+                        href="/science"
                         className="list-group-item list-group-item-action"
                       >
                         Best B.Sc CS College
@@ -2384,25 +2387,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Chandigarh
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Lovely Professional
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Pune
                       </a>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Bangalore
@@ -2421,25 +2424,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         TS|EAMCET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         KCET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         NPAT
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         NEST
@@ -2455,25 +2458,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         JEE-Main
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         AP|EAPCET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         OJEE
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         KCET
@@ -2489,25 +2492,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Computer
                       </a>
                       <a
-                        href="#"
+                        href="/medical"
                         className="list-group-item list-group-item-action"
                       >
                         Media Studies
                       </a>
                       <a
-                        href="#"
+                        href="/science"
                         className="list-group-item list-group-item-action"
                       >
                         Science
                       </a>
                       <a
-                        href="#"
+                        href="/science"
                         className="list-group-item list-group-item-action"
                       >
                         Mathmatics
@@ -2532,25 +2535,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         IndiaToday
                       </a>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         Outlook
                       </a>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         The Week
                       </a>
                       <a
-                        href="#"
+                        href="https://searchmycolleges.com"
                         className="list-group-item list-group-item-action"
                       >
                         SMC
@@ -2566,25 +2569,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/arts"
                         className="list-group-item list-group-item-action"
                       >
                         Best BA College in India
                       </a>
                       <a
-                        href="#"
+                        href="/arts"
                         className="list-group-item list-group-item-action"
                       >
                         Best BA College in Delhi
                       </a>
                       <a
-                        href="#"
+                        href="/arts"
                         className="list-group-item list-group-item-action"
                       >
                         Best BA College in Noida
                       </a>
                       <a
-                        href="#"
+                        href="/arts"
                         className="list-group-item list-group-item-action"
                       >
                         Best BA College in Bangalore
@@ -2602,25 +2605,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#colleges"
                         className="list-group-item list-group-item-action"
                       >
                         Bhairab Ganguly College
                       </a>
                       <a
-                        href="#"
+                        href="#colleges"
                         className="list-group-item list-group-item-action"
                       >
                         Lovely Brabourne College
                       </a>
                       <a
-                        href="#"
+                        href="#colleges"
                         className="list-group-item list-group-item-action"
                       >
                         Bhairab Ganguly College
                       </a>
                       <a
-                        href="#"
+                        href="#colleges"
                         className="list-group-item list-group-item-action"
                       >
                         Lovely Brabourne College
@@ -2639,25 +2642,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#colleges"
                         className="list-group-item list-group-item-action"
                       >
                         BHU|UET
                       </a>
                       <a
-                        href="#"
+                        href="#colleges"
                         className="list-group-item list-group-item-action"
                       >
                         DAVV|CET
                       </a>
                       <a
-                        href="#"
+                        href="#colleges"
                         className="list-group-item list-group-item-action"
                       >
                         CUET
                       </a>
                       <a
-                        href="#"
+                        href="#colleges"
                         className="list-group-item list-group-item-action"
                       >
                         GLAET
@@ -2673,25 +2676,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         IPU|CET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         DAVV|CET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         CUET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         DAVV|CET
@@ -2707,25 +2710,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Computer
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Media Studies
                       </a>
                       <a
-                        href="#"
+                        href="/science"
                         className="list-group-item list-group-item-action"
                       >
                         Science
                       </a>
                       <a
-                        href="#"
+                        href="/science"
                         className="list-group-item list-group-item-action"
                       >
                         Mathmatics
@@ -2750,25 +2753,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         IndiaToday
                       </a>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         Outlook
                       </a>
                       <a
-                        href="#"
+                        href="#news"
                         className="list-group-item list-group-item-action"
                       >
                         The Week
                       </a>
                       <a
-                        href="#"
+                        href="https://searchmycolleges.com"
                         className="list-group-item list-group-item-action"
                       >
                         SMC
@@ -2784,25 +2787,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#colleges"
                         className="list-group-item list-group-item-action"
                       >
                         Best B.Com College in India
                       </a>
                       <a
-                        href="#"
+                        href="#collegs"
                         className="list-group-item list-group-item-action"
                       >
                         Best B.Com College in Bangalore
                       </a>
                       <a
-                        href="#"
+                        href="#colleges"
                         className="list-group-item list-group-item-action"
                       >
                         Best B.Com College in Delhi
                       </a>
                       <a
-                        href="#"
+                        href="#colleges"
                         className="list-group-item list-group-item-action"
                       >
                         Best B.Com College in Noida
@@ -2820,25 +2823,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/commerce"
                         className="list-group-item list-group-item-action"
                       >
                         KMC
                       </a>
                       <a
-                        href="#"
+                        href="/commerce"
                         className="list-group-item list-group-item-action"
                       >
                         B.Com
                       </a>
                       <a
-                        href="#"
+                        href="/commerce"
                         className="list-group-item list-group-item-action"
                       >
                         KMC
                       </a>
                       <a
-                        href="#"
+                        href="/commerce"
                         className="list-group-item list-group-item-action"
                       >
                         B.Com
@@ -2857,25 +2860,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         NPAT
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         BHU|UET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         CUSAT|CAT
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         DAVV|CET
@@ -2891,25 +2894,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         IPU|CET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         DAVV|CET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         CUET
                       </a>
                       <a
-                        href="#"
+                        href="#exams"
                         className="list-group-item list-group-item-action"
                       >
                         DAVV|CET
@@ -2925,25 +2928,25 @@ const cardsData = [
                     </MDBCardBody>
                     <MDBListGroup flush>
                       <a
-                        href="#"
+                        href="/engineering"
                         className="list-group-item list-group-item-action"
                       >
                         Computer
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Accounting
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Finance
                       </a>
                       <a
-                        href="#"
+                        href="/management"
                         className="list-group-item list-group-item-action"
                       >
                         Banking
@@ -9909,7 +9912,7 @@ const cardsData = [
                   <MDBCol>
                     <MDBCard style={cardStyles}>
                       <MDBCardBody>
-                        <MDBCardTitle>  Polytechnic Electrical</MDBCardTitle>
+                        <MDBCardTitle>Polytechnic Electrical</MDBCardTitle>
                         <MDBCardText>FULL TIME</MDBCardText>
                       </MDBCardBody>
                       <MDBListGroup flush>
@@ -9987,25 +9990,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 2 Years
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 1.23L
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         college: 1809
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10016,30 +10019,30 @@ const cardsData = [
                   <MDBCol>
                     <MDBCard style={cardStyles}>
                       <MDBCardBody>
-                        <MDBCardTitle> B.COM GENERAL</MDBCardTitle>
+                        <MDBCardTitle>B.COM GENERAL</MDBCardTitle>
                         <MDBCardText>FULL TIME</MDBCardText>
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/commerce"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 3 Years
                         </a>
                         <a
-                          href="#"
+                          href="/commerce"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 62.07k
                         </a>
                         <a
-                          href="#"
+                          href="/commerce"
                           className="list-group-item list-group-item-action"
                         >
                         college: 6491
                         </a>
                         <a
-                          href="#"
+                          href="/commerce"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10050,30 +10053,30 @@ const cardsData = [
                   <MDBCol>
                     <MDBCard style={cardStyles}>
                       <MDBCardBody>
-                        <MDBCardTitle> B.Ed GENERAL</MDBCardTitle>
-                        <MDBCardText> FULL TIME</MDBCardText>
+                        <MDBCardTitle>B.Ed GENERAL</MDBCardTitle>
+                        <MDBCardText>FULL TIME</MDBCardText>
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/education"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 2 Years
                         </a>
                         <a
-                          href="#"
+                          href="/education"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 81.79k
                         </a>
                         <a
-                          href="#"
+                          href="/education"
                           className="list-group-item list-group-item-action"
                         >
                         college: 5436
                         </a>
                         <a
-                          href="#"
+                          href="/education"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10098,25 +10101,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 3 Years
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 1.34L
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         college: 4901
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10132,25 +10135,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/arts"
                           className="list-group-item list-group-item-action"
                         >
                         B.A GENERAL
                         </a>
                         <a
-                          href="#"
+                          href="/arts"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 3 Years
                         </a>
                         <a
-                          href="#"
+                          href="arts"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 41.59k
                         </a>
                         <a
-                          href="#"
+                          href="arts"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10168,25 +10171,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 4 Years
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 3.50L
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         college: 3522
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10205,25 +10208,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 2 Years
                         </a>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 2.34L
                         </a>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         college: 5495
                         </a>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10239,25 +10242,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 2 Years
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 1.64L
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         college: 3649
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10268,30 +10271,30 @@ const cardsData = [
                   <MDBCol>
                     <MDBCard style={cardStyles}>
                       <MDBCardBody>
-                        <MDBCardTitle> M.Com General</MDBCardTitle>
+                        <MDBCardTitle>M.Com General</MDBCardTitle>
                         <MDBCardText>FULL TIME</MDBCardText>
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 2 Years
                         </a>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 47.62k
                         </a>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         college: 3079
                         </a>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10316,25 +10319,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 2 Years
                         </a>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 2.38L
                         </a>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         college: 2751
                         </a>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10350,25 +10353,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 2 Years
                         </a>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 2.40L
                         </a>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         college: 2637
                         </a>
                         <a
-                          href="#"
+                          href="/management"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10386,25 +10389,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 3 Years
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 1.85L
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         college: 966
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10423,25 +10426,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 3 Years
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 1.86L
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         college: 899
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10457,25 +10460,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 3 Years
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 1.82L
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         college: 880
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10486,30 +10489,30 @@ const cardsData = [
                   <MDBCol>
                     <MDBCard style={cardStyles}>
                       <MDBCardBody>
-                        <MDBCardTitle> Ph.D</MDBCardTitle>
+                        <MDBCardTitle>Ph.D</MDBCardTitle>
                         <MDBCardText>FULL TIME</MDBCardText>
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 2 Years
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 1.39L
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         college: 797
                         </a>
                         <a
-                          href="#"
+                          href="/medical"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10534,25 +10537,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         Duration: 3 Years
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         Total Avg.fees: 2.20L
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         college: 736
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                         Course Overview
@@ -10568,25 +10571,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/enginering"
                           className="list-group-item list-group-item-action"
                         >
                           Best B.Sc IT College
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                           Best B.Sc Forensic College
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                           Best B.Sc Science College
                         </a>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                           Best B.Sc CS College
@@ -10604,25 +10607,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="#colleges"
                           className="list-group-item list-group-item-action"
                         >
                           Chandigarh
                         </a>
                         <a
-                          href="#"
+                          href="#colleges"
                           className="list-group-item list-group-item-action"
                         >
                           Lovely Professional
                         </a>
                         <a
-                          href="#"
+                          href="#colleges"
                           className="list-group-item list-group-item-action"
                         >
                           Pune
                         </a>
                         <a
-                          href="#"
+                          href="#colleges"
                           className="list-group-item list-group-item-action"
                         >
                           Bangalore
@@ -10641,25 +10644,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="#exams"
                           className="list-group-item list-group-item-action"
                         >
                           TS|EAMCET
                         </a>
                         <a
-                          href="#"
+                          href="#exams"
                           className="list-group-item list-group-item-action"
                         >
                           KCET
                         </a>
                         <a
-                          href="#"
+                          href="#exams"
                           className="list-group-item list-group-item-action"
                         >
                           NPAT
                         </a>
                         <a
-                          href="#"
+                          href="#exams"
                           className="list-group-item list-group-item-action"
                         >
                           NEST
@@ -10675,25 +10678,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="#exams"
                           className="list-group-item list-group-item-action"
                         >
                           JEE-Main
                         </a>
                         <a
-                          href="#"
+                          href="#exams"
                           className="list-group-item list-group-item-action"
                         >
                           AP|EAPCET
                         </a>
                         <a
-                          href="#"
+                          href="#exams"
                           className="list-group-item list-group-item-action"
                         >
                           OJEE
                         </a>
                         <a
-                          href="#"
+                          href="#exams"
                           className="list-group-item list-group-item-action"
                         >
                           KCET
@@ -10709,25 +10712,25 @@ const cardsData = [
                       </MDBCardBody>
                       <MDBListGroup flush>
                         <a
-                          href="#"
+                          href="/engineering"
                           className="list-group-item list-group-item-action"
                         >
                           Computer
                         </a>
                         <a
-                          href="#"
+                          href="/commerce"
                           className="list-group-item list-group-item-action"
                         >
                           Media Studies
                         </a>
                         <a
-                          href="#"
+                          href="/science"
                           className="list-group-item list-group-item-action"
                         >
                           Science
                         </a>
                         <a
-                          href="#"
+                          href="/science "
                           className="list-group-item list-group-item-action"
                         >
                           Mathmatics
@@ -10765,7 +10768,7 @@ const cardsData = [
               data-ga-title="Application Process"
               data-ga-href="exams/neet/application-process"
               className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-              href="/exams/neet/application-process"
+              href="#exams/neet/application-process"
               style={{ textDecoration: "none" }}
             >
               Application Process
@@ -10788,7 +10791,7 @@ const cardsData = [
               data-ga-title="Exam Info"
               data-ga-href="exams/neet"
               className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-              href="/exams/neet"
+              href="#exams/neet"
               style={{ textDecoration: "none" }}
             >
               Exam Info
@@ -10821,7 +10824,7 @@ const cardsData = [
           data-ga-title="Application Process"
           data-ga-href="exams/neet/application-process"
           className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-          href="/exams/neet/application-process"
+          href="#exams/neet/application-process"
           style={{ textDecoration: "none" }}
         >
           Application Process
@@ -10844,7 +10847,7 @@ const cardsData = [
           data-ga-title="Exam Info"
           data-ga-href="exams/neet"
           className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-          href="/exams/neet"
+          href="#exams/neet"
           style={{ textDecoration: "none" }}
         >
           Exam Info
@@ -10877,7 +10880,7 @@ const cardsData = [
           data-ga-title="Application Process"
           data-ga-href="exams/neet/application-process"
           className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-          href="/exams/neet/application-process"
+          href="#exams/neet/application-process"
           style={{ textDecoration: "none" }}
         >
           Application Process
@@ -10900,7 +10903,7 @@ const cardsData = [
           data-ga-title="Exam Info"
           data-ga-href="exams/neet"
           className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-          href="/exams/neet"
+          href="#exams/neet"
           style={{ textDecoration: "none" }}
         >
           Exam Info
@@ -10934,7 +10937,7 @@ const cardsData = [
               data-ga-title="Application Process"
               data-ga-href="exams/jee-advanced/application-process"
               className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-              href="/exams/jee-advanced/application-process"
+              href="#exams/jee-advanced/application-process"
               style={{ textDecoration: "none" }}
             >
               Application Process
@@ -10957,7 +10960,7 @@ const cardsData = [
               data-ga-title="Exam Info"
               data-ga-href="exams/jee-advanced"
               className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-              href="/exams/jee-advanced"
+              href="#exams/jee-advanced"
               style={{ textDecoration: "none" }}
             >
               Exam Info
@@ -10988,7 +10991,7 @@ const cardsData = [
               data-ga-title="Application Process"
               data-ga-href="exams/gate/application-process"
               className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-              href="/exams/gate/application-process"
+              href="#exams/gate/application-process"
               style={{ textDecoration: "none" }}
             >
               Application Process
@@ -11011,7 +11014,7 @@ const cardsData = [
               data-ga-title="Exam Info"
               data-ga-href="exams/gate"
               className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-              href="/exams/gate"
+              href="#exams/gate"
               style={{ textDecoration: "none" }}
             >
               Exam Info
@@ -11042,7 +11045,7 @@ const cardsData = [
               data-ga-title="Application Process"
               data-ga-href="exams/nmat/application-process"
               className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-              href="/exams/nmat/application-process"
+              href="#exams/nmat/application-process"
               style={{ textDecoration: "none" }}
             >
               Application Process
@@ -11065,7 +11068,7 @@ const cardsData = [
               data-ga-title="Exam Info"
               data-ga-href="exams/nmat"
               className="jsx-600450678 d-flex font-weight-semi color-base selected1-box-line align-items-center justify-content-between hover-color-primary"
-              href="/exams/nmat"
+              href="#exams/nmat"
               style={{ textDecoration: "none" }}
             >
               Exam Info
@@ -11152,7 +11155,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/"
+                  href="#https://studyabroad.searchmycollege.com/"
                   style={{ textDecoration: "none" }}
                 >
                   Why Study in the USA?
@@ -11177,7 +11180,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/"
+                  href="#https://studyabroad.searchmycollege.com/"
                   style={{ textDecoration: "none" }}
                 >
                   SOP for USA
@@ -11202,7 +11205,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/"
+                  href="#https://studyabroad.searchmycollege.com/"
                   style={{ textDecoration: "none" }}
                 >
                   Exams for Studying in USA
@@ -11227,7 +11230,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/"
+                  href="#https://studyabroad.searchmycollege.com/"
                   style={{ textDecoration: "none" }}
                 >
                   Post Study Opportunities in USA
@@ -11295,7 +11298,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-uk/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-uk/"
                   style={{ textDecoration: "none" }}
                 >
                   Why Study in UK?
@@ -11320,7 +11323,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-uk/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-uk/"
                   style={{ textDecoration: "none" }}
                 >
                   SOP for UK
@@ -11345,7 +11348,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-uk/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-uk/"
                   style={{ textDecoration: "none" }}
                 >
                   UK Student VISA
@@ -11370,7 +11373,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-uk/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-uk/"
                   style={{ textDecoration: "none" }}
                 >
                   Cost to Study in UK
@@ -11438,7 +11441,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-canada/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-canada/"
                   style={{ textDecoration: "none" }}
                 >
                   Why Study in Canada
@@ -11463,7 +11466,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-canada/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-canada/"
                   style={{ textDecoration: "none" }}
                 >
                   Top Universities to study
@@ -11488,7 +11491,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-canada/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-canada/"
                   style={{ textDecoration: "none" }}
                 >
                   SOP for Canada
@@ -11513,7 +11516,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-canada/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-canada/"
                   style={{ textDecoration: "none" }}
                 >
                   Work Study in Canada
@@ -11578,7 +11581,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-australia/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-australia/"
                   style={{ textDecoration: "none" }}
                 >
                   Why Study in Australia?
@@ -11603,7 +11606,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-australia/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-australia/"
                   style={{ textDecoration: "none" }}
                 >
                   Australian Student VISA
@@ -11628,7 +11631,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-australia/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-australia/"
                   style={{ textDecoration: "none" }}
                 >
                   SOP for Australia
@@ -11653,7 +11656,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-australia/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-australia/"
                   style={{ textDecoration: "none" }}
                 >
                   Top Universities in Australia
@@ -11725,7 +11728,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-ireland/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-ireland/"
                   style={{ textDecoration: "none" }}
                 >
                   Why Study in Ireland?
@@ -11750,7 +11753,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-ireland/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-ireland/"
                   style={{ textDecoration: "none" }}
                 >
                   Top Universities in Ireland
@@ -11775,7 +11778,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-ireland/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-ireland/"
                   style={{ textDecoration: "none" }}
                 >
                   SOP for Germany
@@ -11800,7 +11803,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-ireland/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-ireland/"
                   style={{ textDecoration: "none" }}
                 >
                   Scholarships in Ireland
@@ -11872,7 +11875,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-ireland/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-ireland/"
                   style={{ textDecoration: "none" }}
                 >
                   Why Study in Nepal?
@@ -11897,7 +11900,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-ireland/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-ireland/"
                   style={{ textDecoration: "none" }}
                 >
                   Top Universities in Nepal
@@ -11922,7 +11925,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-ireland/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-ireland/"
                   style={{ textDecoration: "none" }}
                 >
                   SOP for Nepal
@@ -11947,7 +11950,7 @@ const cardsData = [
                   data-event-type="link_click"
                   data-section_name="Study Abroad"
                   className="jsx-1066289220 d-flex color-base selected0-box-line align-items-center justify-content-between hover-color-primary"
-                  href="https://studyabroad.searchmycollege.com/study-in-ireland/"
+                  href="#https://studyabroad.searchmycollege.com/study-in-ireland/"
                   style={{ textDecoration: "none" }}
                 >
                   Scholarships in Nepal
