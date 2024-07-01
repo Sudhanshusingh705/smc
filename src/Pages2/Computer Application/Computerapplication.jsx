@@ -10,7 +10,7 @@ import {
   MDBListGroupItem,
   MDBBtn,
 } from "mdb-react-ui-kit";
-// import "./Exams.css"; // Assuming Exams.css is in the same directory
+// import "./Computerapplication.css";
 
 const Computerapplication = () => {
   const [showContent, setShowContent] = useState(false);
@@ -56,13 +56,13 @@ const Computerapplication = () => {
   return (
     <div className="section">
       <h2 className="section-title">
-        Top Engineering Colleges in India 2023-2024
+        Top Computer Application Colleges in India 2023-2024
       </h2>
       <MDBContainer fluid>
         <MDBRow>
           <MDBCol md="9" className="mx-auto">
             <div className="pageDescription text-center">
-              <h1>Engineering Colleges</h1>
+              <h1>Computer Application Colleges</h1>
 
               {showContent ? (
                 <>
@@ -79,38 +79,38 @@ const Computerapplication = () => {
                   <p>
                     <div className="mb-2">
                       <span>
-                        Top Engineering Colleges in India include colleges like
+                        Top Computer Application Colleges in India include colleges like
                         IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
                       </span>
                     </div>
                     <div className="mb-2">
                       <span>
-                        Engineering is a discipline that involves various
+                        Computer Application is a discipline that involves various
                         scientific principles to design, innovate, and develop
                         machines, software, hardware, technical systems, and
-                        processes. Engineering offers a degree in multiple
+                        processes. Computer Application offers a degree in multiple
                         specialisations such as computer science and
-                        engineering, mechanical engineering, civil engineering,
-                        chemical engineering, etc.
+                        Computer Application, mechanical Computer Application, civil Computer Application,
+                        chemical Computer Application, etc.
                       </span>
                     </div>
                   </p>
                   <p>
                     <div className="mb-2">
                       <span>
-                        Courses offered in top engineering colleges in India
+                        Courses offered in top Computer Application colleges in India
                         are&nbsp;
                         <a href="#">BE</a>,&nbsp;<a href="#">BTech</a>,&nbsp;
                         <a href="#">MTech</a>,&nbsp;<a href="#">ME</a>, Diploma
-                        in Engineering, PhD.
+                        in Computer Application, PhD.
                       </span>
                     </div>
                     <div className="mb-2">
                       <span>
                         Entrance exams accepted by the best colleges for
-                        engineering are JEE MAINS, JEE Advanced, BITSAT, KCET
+                        Computer Application are JEE MAINS, JEE Advanced, BITSAT, KCET
                         etc. There are various job opportunities after an
-                        Engineering degree like software engineer, mechanical
+                        Computer Application degree like software engineer, mechanical
                         engineer, electrical engineer, web developer, biomedical
                         engineer etc.
                       </span>
@@ -118,15 +118,15 @@ const Computerapplication = () => {
                   </p>
                   <h2>
                     <strong>
-                      Top Engineering Colleges in India: Highlights
+                      Top Computer Application Colleges in India: Highlights
                     </strong>
                   </h2>
                   <p>
                     <span>
                       Candidates must have passed 10+2 with a minimum of 50%
                       marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
+                      Computer Application colleges in India. Tabulated below are the key
+                      highlights regarding the Computer Application colleges in India
                     </span>
                   </p>
                   <div className="table-responsive">
@@ -178,9 +178,9 @@ const Computerapplication = () => {
                           <td>
                             <p>
                               <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
+                                Computer Science Computer Application, Mechanical
+                                Computer Application, Civil Computer Application, Aeronautical
+                                Computer Application
                               </span>
                             </p>
                           </td>
@@ -194,7 +194,7 @@ const Computerapplication = () => {
                           <td>
                             <p>
                               <span>
-                                The annual fee of engineering colleges in India
+                                The annual fee of Computer Application colleges in India
                                 ranges between 125000 to 350000.
                               </span>
                             </p>
@@ -207,25 +207,25 @@ const Computerapplication = () => {
                     <h2>
                       <span>
                         <strong>Ranking</strong>&nbsp;
-                        <strong>of Engineering Colleges in India</strong>
+                        <strong>of Computer Application Colleges in India</strong>
                       </span>
                     </h2>
                     <p>
                       <span>
                         NIRF and many other ranking sources have ranked various
                         government and private colleges in India. Given below
-                        are the ranking of top engineering colleges in India by
-                        various sources to make it easier for engineering
-                        aspirants to choose the best engineering colleges.
+                        are the ranking of top Computer Application colleges in India by
+                        various sources to make it easier for Computer Application
+                        aspirants to choose the best Computer Application colleges.
                       </span>
                     </p>
                     <h3>
-                      <strong>NIRF Ranking of Engineering Colleges</strong>
+                      <strong>NIRF Ranking of Computer Application Colleges</strong>
                     </h3>
                     <p>
-                      Engineering college ranking by NIRF is done on the basis
+                      Computer Application college ranking by NIRF is done on the basis
                       of various parameters like teaching, learning, resources
-                      etc. Tabulated below are the best engineering colleges in
+                      etc. Tabulated below are the best Computer Application colleges in
                       India ranked by NIRF.
                     </p>
                     <div className="table-responsive">
@@ -341,11 +341,11 @@ const Computerapplication = () => {
                   <div>
                     <h3>
                       <strong>
-                        Top Engineering Colleges in India by India Today Ranking
+                        Top Computer Application Colleges in India by India Today Ranking
                       </strong>
                     </h3>
                     <p>
-                      Tabulated below are the ranking of Engineering colleges in
+                      Tabulated below are the ranking of Computer Application colleges in
                       India by India Today
                     </p>
                     <div className="table-responsive">
@@ -462,10 +462,10 @@ const Computerapplication = () => {
                   </div>
                   <div>
                     <h3>
-                      <strong>Top 10 Engineering Colleges in India</strong>
+                      <strong>Top 10 Computer Application Colleges in India</strong>
                     </h3>
                     <p>
-                      Tabulated below are the 10 tier 1 Engineering colleges in
+                      Tabulated below are the 10 tier 1 Computer Application colleges in
                       India
                     </p>
                     <div className="table-responsive">
@@ -583,26 +583,26 @@ const Computerapplication = () => {
                   <div>
                     <h2>
                       <span>
-                        <strong>Engineering College Fees in India</strong>&nbsp;
+                        <strong>Computer Application College Fees in India</strong>&nbsp;
                       </span>
                     </h2>
                     <p>
                       <span>
-                        Best engineering colleges in India offer B.Tech, M.Tech
+                        Best Computer Application colleges in India offer B.Tech, M.Tech
                         and other courses with a varying fee structure from low
                         to high depending on the type of college and the
-                        facilities provided. Given below are engineering college
+                        facilities provided. Given below are Computer Application college
                         fees in India in various types of colleges.
                       </span>
                     </p>
 
                     <h3>
                       <strong>
-                        Top Government Engineering Colleges in India with Fees
+                        Top Government Computer Application Colleges in India with Fees
                       </strong>
                     </h3>
                     <p>
-                      Tabulated below are the top government engineering
+                      Tabulated below are the top government Computer Application
                       colleges in India
                     </p>
                     <div className="table-responsive">
@@ -699,11 +699,11 @@ const Computerapplication = () => {
                   <div>
                     <h3>
                       <strong>
-                        Top Private Engineering Colleges in India with Fees
+                        Top Private Computer Application Colleges in India with Fees
                       </strong>
                     </h3>
                     <p>
-                      Tabulated below are the best private engineering colleges
+                      Tabulated below are the best private Computer Application colleges
                       in India
                     </p>
                     <div className="table-responsive">
@@ -799,10 +799,10 @@ const Computerapplication = () => {
                   </div>
                   <div>
                     <h3>
-                      <strong>Cheapest Engineering Colleges in India</strong>
+                      <strong>Cheapest Computer Application Colleges in India</strong>
                     </h3>
                     <p>
-                      Tabulated below are the low fees engineering colleges in
+                      Tabulated below are the low fees Computer Application colleges in
                       India
                     </p>
                     <div className="table-responsive">
@@ -814,7 +814,7 @@ const Computerapplication = () => {
                             </th>
                             <th>
                               <strong>
-                                Diploma in Engineering Total Tuition Fees (INR)
+                                Diploma in Computer Application Total Tuition Fees (INR)
                               </strong>
                             </th>
                           </tr>
@@ -878,11 +878,11 @@ const Computerapplication = () => {
                   <div>
                     <h2>
                       <strong>
-                        Top Engineering Colleges in India Admission
+                        Top Computer Application Colleges in India Admission
                       </strong>
                     </h2>
                     <p>
-                      Engineering colleges offer admission to various courses at
+                      Computer Application colleges offer admission to various courses at
                       undergraduate, postgraduate, and PhD levels.
                     </p>
                     <h3>
@@ -890,7 +890,7 @@ const Computerapplication = () => {
                     </h3>
                     <p>
                       Candidates must fulfil the eligibility criteria to get
-                      admission to top engineering colleges in India.
+                      admission to top Computer Application colleges in India.
                     </p>
                     <p>
                       <strong>B.Tech/B.E.</strong>
@@ -1021,11 +1021,11 @@ const Computerapplication = () => {
                           <tr>
                             <td>10</td>
                             <td>
-                              College of Engineering, Anna University (Chennai)
+                              College of Computer Application, Anna University (Chennai)
                             </td>
                             <td>
                               <a className="in-cell-link" href="#">
-                                College of Engineering, Anna University
+                                College of Computer Application, Anna University
                                 (Chennai) Admission Link
                               </a>
                             </td>
@@ -1037,12 +1037,12 @@ const Computerapplication = () => {
                   <div>
                     <h2>
                       <strong>
-                        Top Engineering Colleges in India for Lateral Entry
+                        Top Computer Application Colleges in India for Lateral Entry
                       </strong>
                     </h2>
                     <p>
-                      Some engineering colleges offer lateral entry. Tabulated
-                      below are the best engineering colleges offering lateral
+                      Some Computer Application colleges offer lateral entry. Tabulated
+                      below are the best Computer Application colleges offering lateral
                       entry
                     </p>
                     <div className="table-responsive">
@@ -1126,7 +1126,7 @@ const Computerapplication = () => {
                             <td>9</td>
                             <td>
                               <a className="in-cell-link" href="#">
-                                Pondicherry Engineering College
+                                Pondicherry Computer Application College
                               </a>
                             </td>
                           </tr>
@@ -1145,37 +1145,37 @@ const Computerapplication = () => {
                   <div>
                     <h2>
                       <strong>
-                        Specialisations Available in Top Engineering Colleges in
+                        Specialisations Available in Top Computer Application Colleges in
                         India&nbsp;
                       </strong>
                     </h2>
                     <p>
-                      Engineering courses are offered in various
+                      Computer Application courses are offered in various
                       specialisations. Few of the specialisations offer job
                       opportunities in various fields with high salary packages.
-                      Below mentioned are the most popular engineering
-                      specialisations in best engineering colleges in India
+                      Below mentioned are the most popular Computer Application
+                      specialisations in best Computer Application colleges in India
                     </p>
                     <ul>
-                      <li>Chemical Engineering</li>
-                      <li>Mechanical Engineering</li>
-                      <li>Computer Science Engineering</li>
-                      <li>Aeronautical Engineering</li>
-                      <li>Civil Engineering</li>
+                      <li>Chemical Computer Application</li>
+                      <li>Mechanical Computer Application</li>
+                      <li>Computer Science Computer Application</li>
+                      <li>Aeronautical Computer Application</li>
+                      <li>Civil Computer Application</li>
                     </ul>
                   </div>
                   <div>
                     <h3>
                       <strong>
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
+                        Top Computer Application Colleges in India for Computer Science
+                        Computer Application
                       </strong>
                     </h3>
                     <p>
-                      Computer science and engineering are one of the most
-                      preferred courses among engineering students due to the
+                      Computer science and Computer Application are one of the most
+                      preferred courses among Computer Application students due to the
                       booming technology and growth of tech startups. Listed
-                      below are some of the top engineering colleges for
+                      below are some of the top Computer Application colleges for
                       computer science
                     </p>
                     <ul>
@@ -1208,21 +1208,21 @@ const Computerapplication = () => {
                     <p>
                       <strong>Read More:</strong>{" "}
                       <a href="#">
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
+                        Top Computer Application Colleges in India for Computer Science
+                        Computer Application
                       </a>
                     </p>
                   </div>
                   <div>
                     <h3>
                       <strong>
-                        Top Engineering Colleges in India for Mechanical
-                        Engineering
+                        Top Computer Application Colleges in India for Mechanical
+                        Computer Application
                       </strong>
                     </h3>
                     <p>
-                      Listed below are the best engineering colleges for
-                      Mechanical Engineering
+                      Listed below are the best Computer Application colleges for
+                      Mechanical Computer Application
                     </p>
                     <ul>
                       <li>
@@ -1254,18 +1254,18 @@ const Computerapplication = () => {
                   </div>
                   <div>
                     <p>
-                      <strong>Read More:</strong> Top Engineering Colleges in
-                      India for Mechanical Engineering
+                      <strong>Read More:</strong> Top Computer Application Colleges in
+                      India for Mechanical Computer Application
                     </p>
                     <h3>
                       <strong>
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
+                        Top Computer Application Colleges in India for Aeronautical
+                        Computer Application
                       </strong>
                     </h3>
                     <p>
-                      Listed below are some of the best colleges for engineering
-                      offering Aeronautical Engineering specialization
+                      Listed below are some of the best colleges for Computer Application
+                      offering Aeronautical Computer Application specialization
                     </p>
                     <ul>
                       <li>
@@ -1297,19 +1297,19 @@ const Computerapplication = () => {
                     <p>
                       <strong>Read More:</strong>{" "}
                       <a href="#">
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
+                        Top Computer Application Colleges in India for Aeronautical
+                        Computer Application
                       </a>
                     </p>
                   </div>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India for Civil Engineering
+                      Top Computer Application Colleges in India for Civil Computer Application
                     </strong>
                   </h3>
                   <p>
-                    Listed below are top engineering colleges that offer
-                    specialization in Civil Engineering
+                    Listed below are top Computer Application colleges that offer
+                    specialization in Civil Computer Application
                   </p>
                   <ul>
                     <li>
@@ -1341,17 +1341,17 @@ const Computerapplication = () => {
                   <p>
                     <strong>Read More:</strong>{" "}
                     <a href="#">
-                      Top Engineering Colleges in India for Civil Engineering
+                      Top Computer Application Colleges in India for Civil Computer Application
                     </a>
                   </p>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India for Chemical Engineering
+                      Top Computer Application Colleges in India for Chemical Computer Application
                     </strong>
                   </h3>
                   <p>
-                    Listed below are some of the best colleges for engineering
-                    offering Chemical Engineering specialization
+                    Listed below are some of the best colleges for Computer Application
+                    offering Chemical Computer Application specialization
                   </p>
                   <ul>
                     <li>
@@ -1383,21 +1383,21 @@ const Computerapplication = () => {
                   <p>
                     <strong>Read More:</strong>{" "}
                     <a href="#">
-                      Top Engineering Colleges in India for Chemical Engineering
+                      Top Computer Application Colleges in India for Chemical Computer Application
                     </a>
                   </p>
                   <h2>
                     <strong>
-                      Entrance Exams for Top Engineering Colleges in India
+                      Entrance Exams for Top Computer Application Colleges in India
                     </strong>
                   </h2>
                   <p>
                     <span>
-                      Top engineering colleges in India offer admission based on
+                      Top Computer Application colleges in India offer admission based on
                       the students' marks in various national or state-level
                       entrance examinations. Below mentioned are some of the
                       popular entrance exams to get admission to the best
-                      engineering colleges in India
+                      Computer Application colleges in India
                     </span>
                   </p>
                   <ul>
@@ -1417,14 +1417,14 @@ const Computerapplication = () => {
                   </ul>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India Accepting JEE Main Score
+                      Top Computer Application Colleges in India Accepting JEE Main Score
                     </strong>
                   </h3>
                   <p>
                     <span>
                       JEE Main is an all-India test conducted for admission to
-                      top engineering colleges in India. Tabulated below are the
-                      top colleges for engineering accepting JEE Main Score
+                      top Computer Application colleges in India. Tabulated below are the
+                      top colleges for Computer Application accepting JEE Main Score
                     </span>
                   </p>
                   <div className="table-responsive">
@@ -1485,16 +1485,16 @@ const Computerapplication = () => {
                   </div>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India Accepting JEE Advanced
+                      Top Computer Application Colleges in India Accepting JEE Advanced
                       Score
                     </strong>
                   </h3>
                   <p>
                     <span>
                       Candidates who clear JEE Main are allowed to take up JEE
-                      Advanced to get admitted to the top-most engineering
+                      Advanced to get admitted to the top-most Computer Application
                       colleges in the country. Tabulated below are the best
-                      engineering colleges accepting JEE Advanced score
+                      Computer Application colleges accepting JEE Advanced score
                     </span>
                   </p>
                   <div className="table-responsive">
@@ -1555,13 +1555,13 @@ const Computerapplication = () => {
                   </div>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India Accepting KCET Score
+                      Top Computer Application Colleges in India Accepting KCET Score
                     </strong>
                   </h3>
                   <p>
                     KCET is a state-level entrance examination conducted in
                     Karnataka for various courses. Tabulated below are the best
-                    colleges for engineering accepting KCET score
+                    colleges for Computer Application accepting KCET score
                   </p>
                   <div className="table-responsive">
                     <table className="table table-bordered">
@@ -1621,14 +1621,14 @@ const Computerapplication = () => {
                   </div>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India Accepting GATE Score
+                      Top Computer Application Colleges in India Accepting GATE Score
                     </strong>
                   </h3>
                   <p>
                     <span>
                       GATE is an all-India level entrance examination conducted
                       for admission to the master's program and for admission to
-                      PhD. Tabulated below are top engineering colleges
+                      PhD. Tabulated below are top Computer Application colleges
                       accepting GATE score
                     </span>
                   </p>
@@ -1690,14 +1690,14 @@ const Computerapplication = () => {
                   </div>
                   <h2>
                     <strong>
-                      Best Placement Engineering Colleges in India
+                      Best Placement Computer Application Colleges in India
                     </strong>
                   </h2>
                   <p>
                     <span>
-                      Students of top engineering colleges in India are
+                      Students of top Computer Application colleges in India are
                       recruited by big companies during campus placements every
-                      year. Tabulated below are the best placement engineering
+                      year. Tabulated below are the best placement Computer Application
                       colleges in India
                     </span>
                   </p>
@@ -1815,14 +1815,14 @@ const Computerapplication = () => {
                   </div>
                   <h2>
                     <strong>
-                      Average Salary Package in Top Engineering Colleges in
+                      Average Salary Package in Top Computer Application Colleges in
                       India
                     </strong>
                   </h2>
                   <p>
                     <span>
                       Tabulated below are the average salary package offered in
-                      the best colleges for engineering in India
+                      the best colleges for Computer Application in India
                     </span>
                   </p>
                   <div className="table-responsive">
@@ -1902,12 +1902,12 @@ const Computerapplication = () => {
                     </table>
                   </div>
                   <h2>
-                    <strong>Top Engineering Colleges in India Cutoff</strong>
+                    <strong>Top Computer Application Colleges in India Cutoff</strong>
                   </h2>
                   <p>
                     <span>
                       Tabulated below are the JEE Advanced cutoff ranks in
-                      Aerospace Engineering in top engineering colleges
+                      Aerospace Computer Application in top Computer Application colleges
                     </span>
                   </p>
                   <div className="table-responsive">
@@ -1992,45 +1992,45 @@ const Computerapplication = () => {
                 <>
                   <p>
                     <span style={{ fontWeight: 400 }}>
-                      Top Engineering Colleges in India include colleges like
+                      Top Computer Application Colleges in India include colleges like
                       IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
                     </span>
                   </p>
                   <p>
                     <span style={{ fontWeight: 400 }}>
-                      Engineering is a discipline that involves various
+                      Computer Application is a discipline that involves various
                       scientific principles to design, innovate, and develop
                       machines, software, hardware, technical systems, and
-                      processes. Engineering offers a degree in multiple
-                      specializations such as computer science and engineering,
-                      mechanical engineering, civil engineering, chemical
-                      engineering, etc.
+                      processes. Computer Application offers a degree in multiple
+                      specializations such as computer science and Computer Application,
+                      mechanical Computer Application, civil Computer Application, chemical
+                      Computer Application, etc.
                     </span>
                     <span>
-                      Courses offered in top engineering colleges in India
+                      Courses offered in top Computer Application colleges in India
                       are&nbsp;
                       <a href="#">BE</a>,&nbsp;
                       <a href="#">BTech</a>
                       ,&nbsp;
                       <a href="#">MTech</a>
-                      ,&nbsp;<a href="#">ME</a>, Diploma in Engineering, PhD.
+                      ,&nbsp;<a href="#">ME</a>, Diploma in Computer Application, PhD.
                     </span>
                     <span>
                       Entrance exams accepted by the best colleges for
-                      engineering are JEE MAINS, JEE Advanced, BITSAT, KCET etc.
-                      There are various job opportunities after an Engineering
+                      Computer Application are JEE MAINS, JEE Advanced, BITSAT, KCET etc.
+                      There are various job opportunities after an Computer Application
                       degree like software engineer, mechanical engineer,
                       electrical engineer, web developer, biomedical engineer
                       etc.
                     </span>
                   </p>
-                  <h2>Top Engineering Colleges in India: Highlights</h2>
+                  <h2>Top Computer Application Colleges in India: Highlights</h2>
                   <p>
                     <span style={{ fontWeight: 400 }}>
                       Candidates must have passed 10+2 with a minimum of 50%
                       marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
+                      Computer Application colleges in India. Tabulated below are the key
+                      highlights regarding the Computer Application colleges in India
                     </span>
                   </p>
                   <div className="table-responsive">
@@ -2082,9 +2082,9 @@ const Computerapplication = () => {
                           <td>
                             <p>
                               <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
+                                Computer Science Computer Application, Mechanical
+                                Computer Application, Civil Computer Application, Aeronautical
+                                Computer Application
                               </span>
                             </p>
                           </td>
@@ -2098,7 +2098,7 @@ const Computerapplication = () => {
                           <td>
                             <p>
                               <span>
-                                The annual fee of engineering colleges in India
+                                The annual fee of Computer Application colleges in India
                                 ranges between 125000 to 350000.
                               </span>
                             </p>
@@ -2108,15 +2108,15 @@ const Computerapplication = () => {
                     </table>
                   </div>
                   <h2>
-                    <strong>Ranking of Engineering Colleges in India</strong>
+                    <strong>Ranking of Computer Application Colleges in India</strong>
                   </h2>
                   <p>
                     <span style={{ fontWeight: 400 }}>
                       NIRF and many other ranking sources have ranked various
                       government and private colleges in India. Given below are
-                      the ranking of&nbsp; top engineering colleges in India by
-                      various sources to make it easier for engineering
-                      aspirants to choose the best engineering colleges.
+                      the ranking of&nbsp; top Computer Application colleges in India by
+                      various sources to make it easier for Computer Application
+                      aspirants to choose the best Computer Application colleges.
                     </span>
                   </p>
                 </>

@@ -10,7 +10,7 @@ import {
   MDBListGroupItem,
   MDBBtn,
 } from "mdb-react-ui-kit";
-// import "./Exams.css"; // Assuming Exams.css is in the same directory
+// import "./Medical.css";
 
 const Medical = () => {
   const [showContent, setShowContent] = useState(false);
@@ -56,13 +56,13 @@ const Medical = () => {
   return (
     <div className="section">
       <h2 className="section-title">
-        Top Engineering Colleges in India 2023-2024
+        Top Medical Colleges in India 2023-2024
       </h2>
       <MDBContainer fluid>
         <MDBRow>
           <MDBCol md="9" className="mx-auto">
             <div className="pageDescription text-center">
-              <h1>Engineering Colleges</h1>
+              <h1>Medical Colleges</h1>
 
               {showContent ? (
                 <>
@@ -79,58 +79,39 @@ const Medical = () => {
                   <p>
                     <div className="mb-2">
                       <span>
-                        Top Engineering Colleges in India include colleges like
-                        IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
-                      </span>
-                    </div>
-                    <div className="mb-2">
-                      <span>
-                        Engineering is a discipline that involves various
-                        scientific principles to design, innovate, and develop
-                        machines, software, hardware, technical systems, and
-                        processes. Engineering offers a degree in multiple
-                        specialisations such as computer science and
-                        engineering, mechanical engineering, civil engineering,
-                        chemical engineering, etc.
-                      </span>
-                    </div>
-                  </p>
-                  <p>
-                    <div className="mb-2">
-                      <span>
-                        Courses offered in top engineering colleges in India
-                        are&nbsp;
-                        <a href="#">BE</a>,&nbsp;<a href="#">BTech</a>,&nbsp;
-                        <a href="#">MTech</a>,&nbsp;<a href="#">ME</a>, Diploma
-                        in Engineering, PhD.
-                      </span>
-                    </div>
-                    <div className="mb-2">
-                      <span>
-                        Entrance exams accepted by the best colleges for
-                        engineering are JEE MAINS, JEE Advanced, BITSAT, KCET
-                        etc. There are various job opportunities after an
-                        Engineering degree like software engineer, mechanical
-                        engineer, electrical engineer, web developer, biomedical
-                        engineer etc.
+                      Top medical colleges in India include AIIMS Delhi, CMC
+                      Vellore, PGIMER Chandigarh, JIPMER Puducherry, KMC
+                      Manipal, etc. Medicine comprises a variety of health
+                      care practices to maintain and restore health through
+                      the prevention and treatment of illness. Top medical
+                      colleges in India offer various specializations -
+                      Physiotherapy, Anaesthesia, Medicine, and Pediatrics. To
+                      get admission to the best medical colleges in India,
+                      candidates must appear for the entrance examinations.
+                      The most famous entrance examinations for medical
+                      colleges are NEET UG & NEET PG. After pursuing Medical,
+                      one can practice Medicine as a general physician,
+                      surgeon, medical officer, dentist etc.
                       </span>
                     </div>
                   </p>
                   <h2>
-                    <strong>
-                      Top Engineering Colleges in India: Highlights
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
+                  <strong>
+                    <span data-preserver-spaces="true">
+                      Top Medical Colleges in India: Highlights
                     </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
+                  </strong>
+                </h2>
+                <p>
+                      <span data-preserver-spaces="true">
+                        To get admission to medical colleges, candidates must
+                        have passed the 12th examination with a minimum of 50%
+                        marks from a recognized board. Below mentioned are the
+                        key highlights regarding top medical colleges in India.
+                      </span>
+                    </p>
+                    <div className="table-responsive">
+                    <table border="1">
                       <tbody>
                         <tr>
                           <td>
@@ -140,8 +121,8 @@ const Medical = () => {
                           </td>
                           <td>
                             <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
+                              Government Colleges - 615 & Private Colleges -
+                              1377
                             </p>
                           </td>
                         </tr>
@@ -152,9 +133,7 @@ const Medical = () => {
                             </p>
                           </td>
                           <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
+                            <p>UGC, MCI, NAAC</p>
                           </td>
                         </tr>
                         <tr>
@@ -164,9 +143,7 @@ const Medical = () => {
                             </p>
                           </td>
                           <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
+                            <p>NEET UG, NEET PG, AIIMS PG, CUET</p>
                           </td>
                         </tr>
                         <tr>
@@ -177,11 +154,7 @@ const Medical = () => {
                           </td>
                           <td>
                             <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
+                              Physiotherapy, Anaesthesia, Medicine, Pediatrics
                             </p>
                           </td>
                         </tr>
@@ -192,1788 +165,2265 @@ const Medical = () => {
                             </p>
                           </td>
                           <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
+                            <p>Annual fee ranges between 10,000-5,00,000.</p>
                           </td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
                   <div>
-                    <h2>
-                      <span>
-                        <strong>Ranking</strong>&nbsp;
-                        <strong>of Engineering Colleges in India</strong>
-                      </span>
-                    </h2>
-                    <p>
-                      <span>
-                        NIRF and many other ranking sources have ranked various
-                        government and private colleges in India. Given below
-                        are the ranking of top engineering colleges in India by
-                        various sources to make it easier for engineering
-                        aspirants to choose the best engineering colleges.
-                      </span>
-                    </p>
-                    <h3>
-                      <strong>NIRF Ranking of Engineering Colleges</strong>
-                    </h3>
-                    <p>
-                      Engineering college ranking by NIRF is done on the basis
-                      of various parameters like teaching, learning, resources
-                      etc. Tabulated below are the best engineering colleges in
-                      India ranked by NIRF.
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>NIRF Score</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>90.14</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>88.12</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>83.96</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>82.56</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>78.89</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>76.70</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>72.98</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>69.17</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>68.03</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Surathkal
-                              </a>
-                            </td>
-                            <td>66.04</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
+                  <h2>
+                    <strong>Ranking of Medical Colleges in India</strong>
+                  </h2>
+                  <p>
+                    <span>
+                      Medical colleges are ranked based on several parameters
+                      by renowned institutions. Ranking of medical colleges in
+                      India helps students choose the best medical colleges.
+                      Below are the rankings of the top medical colleges in
+                      India provided by reputed institutions for the
+                      convenience of aspiring medical candidates.
+                    </span>
+                  </p>
+                  <h3>
+                    <strong>
+                      Top Medical Colleges in India NIRF Ranking
+                    </strong>
+                  </h3>
+                  <p>
+                    NIRF releases the ranking of top medical colleges in India
+                    every year. Below mentioned are the best medical colleges
+                    in India by NIRF
+                  </p>
+                  <div className="table-responsive">
+                    <table border="1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong>Ranking</strong>
+                          </td>
+                          <td>
+                            <strong>College Name</strong>
+                          </td>
+                          <td>
+                            <strong>NIRF Score</strong>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AIIMS Delhi
+                            </a>
+                          </td>
+                          <td>91.60</td>
+                        </tr>
+                        <td>2</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            PGIMER Chandigarh
+                          </a>
+                        </td>
+                        <td>79.00</td>
+                        <tr>
+                          <td>3</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              CMC Vellore
+                            </a>
+                          </td>
+                          <td>72.84</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              National Institute of Mental Health and
+                              Neurosciences
+                            </a>
+                          </td>
+                          <td>71.56</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              BHU Varanasi
+                            </a>
+                          </td>
+                          <td>68.12</td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              JIPMER Puducherry
+                            </a>
+                          </td>
+                          <td>67.64</td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Sanjay Gandhi Postgraduate Institute of Medical
+                              Sciences
+                            </a>
+                          </td>
+                          <td>67.18</td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Amrita University Coimbatore
+                            </a>
+                          </td>
+                          <td>66.49</td>
+                        </tr>
+                        <tr>
+                          <td>9</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Sree Chitra Tirunal Institute for Medical
+                              Sciences and Technology
+                            </a>
+                          </td>
+                          <td>65.17</td>
+                        </tr>
+                        {/* ... Repeat the other rows ... */}
+                        <tr>
+                          <td>10</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KMC Manipal
+                            </a>
+                          </td>
+                          <td>63.89</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India by India Today Ranking
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the ranking of Engineering colleges in
-                      India by India Today
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,80,000</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bhubaneswar
-                              </a>
-                            </td>
-                            <td>8,83,036</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                            <td>8,76,000</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>6,47,000</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Patna
-                              </a>
-                            </td>
-                            <td>6,98,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>Top 10 Engineering Colleges in India</strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the 10 tier 1 Engineering colleges in
-                      India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>3,00,464</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,81,200</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
-                              </a>
-                            </td>
-                            <td>20,51,100</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>9,46,000</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
-                              </a>
-                            </td>
-                            <td>2,00,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <span>
-                        <strong>Engineering College Fees in India</strong>&nbsp;
-                      </span>
-                    </h2>
-                    <p>
-                      <span>
-                        Best engineering colleges in India offer B.Tech, M.Tech
-                        and other courses with a varying fee structure from low
-                        to high depending on the type of college and the
-                        facilities provided. Given below are engineering college
-                        fees in India in various types of colleges.
-                      </span>
-                    </p>
+                </div>
 
-                    <h3>
-                      <strong>
-                        Top Government Engineering Colleges in India with Fees
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the top government engineering
-                      colleges in India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>3,00,464</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,81,200</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>9,46,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>6,47,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Private Engineering Colleges in India with Fees
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the best private engineering colleges
-                      in India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
-                              </a>
-                            </td>
-                            <td>20,51,100</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                ICT Mumbai
-                              </a>
-                            </td>
-                            <td>3,56,400</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                VIT Vellore
-                              </a>
-                            </td>
-                            <td>7,92,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
-                              </a>
-                            </td>
-                            <td>14,68,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIST Trivandrum
-                              </a>
-                            </td>
-                            <td>5,79,600</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Institute of Technical Education and Research
-                              </a>
-                            </td>
-                            <td>9,40,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BIT Mesra
-                              </a>
-                            </td>
-                            <td>11,40,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                            <td>8,76,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Amity University Noida
-                              </a>
-                            </td>
-                            <td>12,44,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>Cheapest Engineering Colleges in India</strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the low fees engineering colleges in
-                      India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                Diploma in Engineering Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                APCC
-                              </a>
-                            </td>
-                            <td>2,505</td>
-                          </tr>
-                          <tr>
-                            <td>Asansol Polytechnic, Asansol</td>
-                            <td>1,020</td>
-                          </tr>
-                          <tr>
-                            <td>Govt. Womens Polytechnic, Seraikela</td>
-                            <td>1,215</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Medinipur Sadar Government Polytechnic, Medinipur
-                            </td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>Central Footwear Training Centre, Parganas</td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Haji Md. Serafat Mondal Government Polytechnic,
-                              Birbhum
-                            </td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Ratua S. N. Bose Government Polytechnic, Ratua
-                            </td>
-                            <td>2,055</td>
-                          </tr>
-                          <tr>
-                            <td>Government Womens Polytechnic, Patna</td>
-                            <td>3,195</td>
-                          </tr>
-                          <tr>
-                            <td>Nalhati Government Polytechnic, Birbhum</td>
-                            <td>2,550</td>
-                          </tr>
-                          <tr>
-                            <td>Raipur Government Polytechnic, Raipur</td>
-                            <td>2,655</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Top Engineering Colleges in India Admission
-                      </strong>
-                    </h2>
-                    <p>
-                      Engineering colleges offer admission to various courses at
-                      undergraduate, postgraduate, and PhD levels.
-                    </p>
-                    <h3>
-                      <strong>Eligibility Criteria</strong>
-                    </h3>
-                    <p>
-                      Candidates must fulfil the eligibility criteria to get
-                      admission to top engineering colleges in India.
-                    </p>
-                    <p>
-                      <strong>B.Tech/B.E.</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        <span>
-                          Candidates must have passed 10+2 with a minimum of 50%
-                          marks in the PCB/PCMB stream
-                        </span>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>M.Tech/M.E.</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/B.E. degree with
-                        a valid GATE score.
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>PhD</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/M. Tech degree
-                        with a minimum of 55% marks and a valid GATE/NET score.
-                      </li>
-                    </ul>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>Admission Link</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>IIT Madras</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>IIT Delhi</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>IIT Bombay</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>IIT Kharagpur</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>IIT Kanpur</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>IIT Roorkee</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>BITS Pilani</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>IIT Guwahati</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>IIT Hyderabad</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              College of Engineering, Anna University (Chennai)
-                            </td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                College of Engineering, Anna University
-                                (Chennai) Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Top Engineering Colleges in India for Lateral Entry
-                      </strong>
-                    </h2>
-                    <p>
-                      Some engineering colleges offer lateral entry. Tabulated
-                      below are the best engineering colleges offering lateral
-                      entry
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Jadavpur University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Manipal Institute of Technology
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                PES University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                PSGCT
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                COEP
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                KIIT University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Pondicherry Engineering College
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                RVCE
-                              </a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Specialisations Available in Top Engineering Colleges in
-                        India&nbsp;
-                      </strong>
-                    </h2>
-                    <p>
-                      Engineering courses are offered in various
-                      specialisations. Few of the specialisations offer job
-                      opportunities in various fields with high salary packages.
-                      Below mentioned are the most popular engineering
-                      specialisations in best engineering colleges in India
-                    </p>
-                    <ul>
-                      <li>Chemical Engineering</li>
-                      <li>Mechanical Engineering</li>
-                      <li>Computer Science Engineering</li>
-                      <li>Aeronautical Engineering</li>
-                      <li>Civil Engineering</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Computer science and engineering are one of the most
-                      preferred courses among engineering students due to the
-                      booming technology and growth of tech startups. Listed
-                      below are some of the top engineering colleges for
-                      computer science
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kanpur
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Mechanical
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Listed below are the best engineering colleges for
-                      Mechanical Engineering
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kharagpur
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <p>
-                      <strong>Read More:</strong> Top Engineering Colleges in
-                      India for Mechanical Engineering
-                    </p>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Listed below are some of the best colleges for engineering
-                      offering Aeronautical Engineering specialization
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Sathyabama Institute
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Kumaraguru College of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Bannari Amman Institute of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          DSCE
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIST Trivandrum
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
+                <div>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India for Civil Engineering
+                      Top Medical Colleges in India by India Today Ranking
                     </strong>
                   </h3>
                   <p>
-                    Listed below are top engineering colleges that offer
-                    specialization in Civil Engineering
+                    Below is the list of top 10 medical colleges in India by
+                    India Today ranking
                   </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kanpur
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Civil Engineering
-                    </a>
-                  </p>
+                  <div className="table-responsive">
+                    <table border="1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong>S. No.</strong>
+                          </td>
+                          <td>
+                            <strong>College Name</strong>
+                          </td>
+                          <td>
+                            <strong>MBBS Total Tuition Fees (INR)</strong>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AIIMS Delhi
+                            </a>
+                          </td>
+                          <td>8,140</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              CMC Vellore
+                            </a>
+                          </td>
+                          <td>2,41,650</td>
+                        </tr>
+                        <td>3</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            BHU Varanasi
+                          </a>
+                        </td>
+                        <td>51,845</td>
+
+                        <tr>
+                          <td>4</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KMC Manipal
+                            </a>
+                          </td>
+                          <td>89,00,000</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              JIPMER Puducherry
+                            </a>
+                          </td>
+                          <td>24,850</td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KGMU
+                            </a>
+                          </td>
+                          <td>2,74,500</td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Sri Ramachandra University Chennai
+                            </a>
+                          </td>
+                          <td>50,00,000</td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              St Johns Medical College
+                            </a>
+                          </td>
+                          <td>31,40,850</td>
+                        </tr>
+                        <tr>
+                          <td>9</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AMU
+                            </a>
+                          </td>
+                          <td>50,000</td>
+                        </tr>
+                        {/* ... Repeat the other rows ... */}
+                        <tr>
+                          <td>10</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              MAMC Delhi
+                            </a>
+                          </td>
+                          <td>22,225</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
                   <h3>
-                    <strong>
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </strong>
+                    <strong>Top 10 Medical Colleges in India</strong>
                   </h3>
                   <p>
-                    Listed below are some of the best colleges for engineering
-                    offering Chemical Engineering specialization
+                    Below mentioned is the list of top 10 medical colleges in
+                    India
                   </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Guwahati
-                      </a>
-                    </li>
-                  </ul>
+                  <div className="table-responsive">
+                    <table border="1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong>S. No.</strong>
+                          </td>
+                          <td>
+                            <strong>College Name</strong>
+                          </td>
+                          <td>
+                            <strong>MBBS/MD Total Tuition Fees (INR)</strong>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AIIMS Delhi
+                            </a>
+                          </td>
+                          <td>8,140</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              PGIMER Chandigarh
+                            </a>
+                          </td>
+                          <td>7,100</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              CMC Vellore
+                            </a>
+                          </td>
+                          <td>2,41,650</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Sanjay Gandhi Postgraduate Institute of Medical
+                              Sciences
+                            </a>
+                          </td>
+                          <td>2,06,000</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              BHU Varanasi
+                            </a>
+                          </td>
+                          <td>51,845</td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KMC Manipal
+                            </a>
+                          </td>
+                          <td>89,00,000</td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              JIPMER Puducherry
+                            </a>
+                          </td>
+                          <td>24,850</td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KGMU
+                            </a>
+                          </td>
+                          <td>2,74,500</td>
+                        </tr>
+                        <tr>
+                          <td>9</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Sri Ramachandra University Chennai
+                            </a>
+                          </td>
+                          <td>50,00,000</td>
+                        </tr>
+                        {/* ... Repeat the other rows ... */}
+                        <tr>
+                          <td>10</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              St Johns Medical College
+                            </a>
+                          </td>
+                          <td>31,40,850</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
+                  <h3>
+                    <strong>Top 10 Medical Universities in India</strong>
+                  </h3>
                   <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </a>
+                    Top medical colleges in India are affiliated to approved
+                    universities in India. Below mentioned are the top 10
+                    medical universities in India
                   </p>
+                  <div className="table-responsive">
+                    <table border="1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong>S. No.</strong>
+                          </td>
+                          <td>
+                            <strong>University Name</strong>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              BHU Varanasi
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              UCMS
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KGMU
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Jamia Hamdard University
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Manipal Academy of Higher Education
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AMU
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AIIMS Delhi
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Sanjay Gandhi Postgraduate Institute of Medical
+                              Sciences
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>9</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Institute of Post Graduate Medical Education and
+                              Research
+                            </a>
+                          </td>
+                        </tr>
+                        {/* ... Repeat the other rows ... */}
+                        <tr>
+                          <td>10</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Amrita University Coimbatore
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
+                  <h3>
+                    <strong>Deemed Medical Colleges in India</strong>
+                  </h3>
+                  <p>
+                    Listed below is the best deemed medical colleges in
+                    India.&nbsp;
+                  </p>
+                  <div className="table-responsive">
+                    <table border="1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong>S. No.</strong>
+                          </td>
+                          <td>
+                            <strong>College Name</strong>
+                          </td>
+                          {/* <td><strong>Location</strong></td>*/}
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Subharti Medical College Meerut
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Hind Institute of Medical Sciences
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Shri Ram Murti Smarak Institute of Medical
+                              Sciences
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              MJPRU Bareilly
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Smt. Kashibai Navale Medical College and General
+                              Hospital
+                            </a>
+                          </td>
+                        </tr>
+                        {/* Add more rows as needed */}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
+                  <h3>
+                    <strong>Lowest Cutoff Medical Colleges in India</strong>
+                  </h3>
+                  <p>
+                    Below mentioned is the lowest cutoff medical colleges in
+                    India
+                  </p>
+                  <div className="table-responsive">
+                    <table border="1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong>S. No.</strong>
+                          </td>
+                          <td>
+                            <strong>College Name</strong>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Subharti Medical College Meerut
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Hind Institute of Medical Sciences
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Shri Ram Murti Smarak Institute of Medical
+                              Sciences
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              MJPRU Bareilly
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Smt. Kashibai Navale Medical College and General
+                              Hospital
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
                   <h2>
+                    <strong>Medical Colleges Fees in India</strong>
+                  </h2>
+                  <p>
+                    The fees of medical colleges vary depending on the type -
+                    government or private. Government medical colleges charge
+                    less fees compared to private medical colleges in India.
+                    Top government medical colleges in India charge low fees
+                    and provide quality education & resources.
+                  </p>
+                  <h3>
                     <strong>
-                      Entrance Exams for Top Engineering Colleges in India
+                      Top Government Medical Colleges in India with Fees
                     </strong>
+                  </h3>
+                  <p>
+                    There are around 2074 medical colleges in India, of which
+                    615 are government medical colleges. Given below is the
+                    list of top government medical colleges fees in India.
+                  </p>
+                  <div className="table-responsive">
+                    <table border="1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong>College Name</strong>
+                          </td>
+                          <td>
+                            <strong>MBBS Total Tuition Fees (INR)</strong>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AIIMS Delhi
+                            </a>
+                          </td>
+                          <td>8,140</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              BHU Varanasi
+                            </a>
+                          </td>
+                          <td>51,845</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KGMU
+                            </a>
+                          </td>
+                          <td>2,74,500</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AMU
+                            </a>
+                          </td>
+                          <td>50,000</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              MAMC Delhi
+                            </a>
+                          </td>
+                          <td>22,225</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              VMMC
+                            </a>
+                          </td>
+                          <td>1,67,500</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Annamalai University
+                            </a>
+                          </td>
+                          <td>5,54,370</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Sri Venkateswara Institute of Medical Sciences
+                            </a>
+                          </td>
+                          <td>3,39,500</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AFMC
+                            </a>
+                          </td>
+                          <td>1,59,350</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
+                  <h3>
+                    <strong>
+                      Private Medical Colleges in India with Fees
+                    </strong>
+                  </h3>
+                  <p>
+                    Below is the list of best private medical colleges fees in
+                    India.
+                  </p>
+                  <div className="table-responsive">
+                    <table border="1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong>College Name</strong>
+                          </td>
+                          <td>
+                            <strong>MBBS Total Tuition Fees (INR)</strong>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              CMC Vellore
+                            </a>
+                          </td>
+                          <td>2,41,650</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KMC Manipal
+                            </a>
+                          </td>
+                          <td>89,00,000</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Sri Ramachandra University Chennai
+                            </a>
+                          </td>
+                          <td>50,00,000</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              St Johns Medical College
+                            </a>
+                          </td>
+                          <td>31,40,850</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Jamia Hamdard University
+                            </a>
+                          </td>
+                          <td>64,00,000</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KMC Mangalore
+                            </a>
+                          </td>
+                          <td>89,00,000</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              JSS Medical College
+                            </a>
+                          </td>
+                          <td>73,75,000</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              CMC Ludhiana
+                            </a>
+                          </td>
+                          <td>33,00,000</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Dr. D.Y. Patil Vidyapeeth, Pune
+                            </a>
+                          </td>
+                          <td>27,50,000</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              DMCH Ludhiana
+                            </a>
+                          </td>
+                          <td>11,00,000</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
+                  <h3>
+                    <strong>Cheapest Medical Colleges in India&nbsp;</strong>
+                  </h3>
+                  <p>
+                    The top medical colleges in India charge meagre fees.
+                    AIIMS medical colleges in India are not only the best
+                    colleges for medical, but also among the cheapest. The
+                    list of cheapest medical colleges fees is given below.
+                  </p>
+                  <div className="table-responsive">
+                    <table border="1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong>College Name</strong>
+                          </td>
+                          <td>
+                            <strong>MBBS Total Tuition Fees (INR)</strong>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Lady Hardinge Medical College
+                            </a>
+                          </td>
+                          <td>7,000</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AIIMS Nagpur
+                            </a>
+                          </td>
+                          <td>8,140</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AIIMS Raipur
+                            </a>
+                          </td>
+                          <td>8,140</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AIIMS Delhi
+                            </a>
+                          </td>
+                          <td>8,140</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AIIMS Mangalagiri
+                            </a>
+                          </td>
+                          <td>8,140</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              The Tamil Nadu Dr. M.G.R. Medical University
+                            </a>
+                          </td>
+                          <td>45,000</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Ranchi University
+                            </a>
+                          </td>
+                          <td>11,750</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              MAMC Delhi
+                            </a>
+                          </td>
+                          <td>22,225</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
+                  <h2>
+                    <strong>Top Medical Colleges in India Admission</strong>
                   </h2>
                   <p>
                     <span>
-                      Top engineering colleges in India offer admission based on
-                      the students' marks in various national or state-level
-                      entrance examinations. Below mentioned are some of the
-                      popular entrance exams to get admission to the best
-                      engineering colleges in India
+                      Admission to top medical colleges in India can be
+                      through entrance examinations accepted by the medical
+                      colleges. Cutoff list of top medical colleges in India
+                      is released every year after the entrance exams.
                     </span>
+                  </p>
+                  <h3>
+                    <strong>Eligibility Criteria</strong>
+                  </h3>
+                  <p>
+                    <span>
+                      Candidates must fulfill the eligibility criteria to get
+                      admission to the best medical colleges.
+                    </span>
+                  </p>
+                  <p>
+                    <strong>MBBS</strong>
                   </p>
                   <ul>
                     <li>
-                      <span>JEE Mains</span>
-                    </li>
-                    <li>JEE Advanced</li>
-                    <li>
-                      <span>BITSAT</span>
-                    </li>
-                    <li>
-                      <span>KCET</span>
-                    </li>
-                    <li>
-                      <span>GATE</span>
+                      <span>
+                        Candidates must have passed 12th with a minimum of 45%
+                        marks from PCB/PCMB stream.
+                      </span>
                     </li>
                   </ul>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Main Score
-                    </strong>
-                  </h3>
                   <p>
-                    <span>
-                      JEE Main is an all-India test conducted for admission to
-                      top engineering colleges in India. Tabulated below are the
-                      top colleges for engineering accepting JEE Main Score
-                    </span>
+                    <strong>MD</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      Candidates need to have a valid MBBS degree from a
+                      University/Institute recognized by the MCI.
+                    </li>
+                  </ul>
+                  <p>
+                    <strong>Ph.D.</strong>
+                  </p>
+                  <ul>
+                    <li>
+                      A post-graduate degree in Medicine or MS/MD with a
+                      minimum aggregate of 55% marks from a recognized
+                      university.
+                    </li>
+                  </ul>
+                  <p>
+                    Below mentioned are the top medical colleges in India with
+                    admission links
                   </p>
                   <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
+                    <table border="1">
                       <tbody>
+                        <tr>
+                          <td>
+                            <strong>S. No.</strong>
+                          </td>
+                          <td>
+                            <strong>College Name</strong>
+                          </td>
+                          <td>
+                            <strong>Admission Link</strong>
+                          </td>
+                        </tr>
                         <tr>
                           <td>1</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              VIT Vellore
-                            </a>
+                            All India Institute of Medical Sciences, (AIIMS)
+                            New Delhi
+                          </td>
+                          <td>
+                            All India Institute of Medical Sciences, (AIIMS)
+                            New Delhi Admission Link
                           </td>
                         </tr>
                         <tr>
                           <td>2</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              Thapar University
-                            </a>
+                            Post Graduate Institute of Medical Education &
+                            Research, (PGIMER) Chandigarh
+                          </td>
+                          <td>
+                            Post Graduate Institute of Medical Education &
+                            Research, (PGIMER) Chandigarh Admission Link
                           </td>
                         </tr>
                         <tr>
                           <td>3</td>
+                          <td>Christian Medical College, (CMC) Vellore</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Warangal
-                            </a>
+                            Christian Medical College, (CMC) Vellore Admission
+                            Link
                           </td>
                         </tr>
                         <tr>
                           <td>4</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIIT Hyderabad
-                            </a>
+                            Sanjay Gandhi Postgraduate Institute of Medical
+                            Sciences, (SGPGIMS) Lucknow
+                          </td>
+                          <td>
+                            Sanjay Gandhi Postgraduate Institute of Medical
+                            Sciences, (SGPGIMS) Lucknow Admission Link
                           </td>
                         </tr>
                         <tr>
                           <td>5</td>
+                          <td>Banaras Hindu University, (BHU) Varanasi</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Durgapur
-                            </a>
+                            Banaras Hindu University, (BHU) Varanasi Admission
+                            Link
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>Kasturba Medical College, (KMC) Manipal</td>
+                          <td>
+                            Kasturba Medical College, (KMC) Manipal Admission
+                            Link
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td>
+                            Jawaharlal Institute of Post Graduate Medical
+                            Education & Research, (JIPMER) Puducherry
+                          </td>
+                          <td>
+                            Jawaharlal Institute of Post Graduate Medical
+                            Education & Research, (JIPMER) Puducherry
+                            Admission Link
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>
+                            King Georges Medical University, (KGMU) Lucknow
+                          </td>
+                          <td>
+                            King Georges Medical University, (KGMU) Lucknow
+                            Admission Link
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>9</td>
+                          <td>
+                            Sri Ramachandra Institute of Higher Education &
+                            Research, Chennai
+                          </td>
+                          <td>
+                            Sri Ramachandra Institute of Higher Education &
+                            Research, Chennai Admission Link
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>10</td>
+                          <td>St. Johns Medical College, Bangalore</td>
+                          <td>
+                            St. Johns Medical College, Bangalore Admission
+                            Link
                           </td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Advanced
-                      Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      Candidates who clear JEE Main are allowed to take up JEE
-                      Advanced to get admitted to the top-most engineering
-                      colleges in the country. Tabulated below are the best
-                      engineering colleges accepting JEE Advanced score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting KCET Score
-                    </strong>
-                  </h3>
-                  <p>
-                    KCET is a state-level entrance examination conducted in
-                    Karnataka for various courses. Tabulated below are the best
-                    colleges for engineering accepting KCET score
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              RVCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              MSRIT
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BMSCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NHCE Bangalore
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              PES University
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting GATE Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      GATE is an all-India level entrance examination conducted
-                      for admission to the master's program and for admission to
-                      PhD. Tabulated below are top engineering colleges
-                      accepting GATE score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Guwahati
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                </div>
+
+                <div>
                   <h2>
                     <strong>
-                      Best Placement Engineering Colleges in India
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Students of top engineering colleges in India are
-                      recruited by big companies during campus placements every
-                      year. Tabulated below are the best placement engineering
-                      colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Top Recruiters</strong>
-                          </th>
-                          <th>
-                            <strong>Placement Link</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Kanpur
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Flipkart, Microsoft, Myntra, Jaguar</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Madras
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Google, Microsoft, TCS</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Bombay
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Microsoft, Amazon, Google</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Kharagpur
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>IBM, JP Morgan, Tata Steel, Microsoft</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>Indian Institute of Technology, Delhi</span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Capgemini, Wipro, IBM, Dell, Infosys</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>
-                      Average Salary Package in Top Engineering Colleges in
+                      Specialisations Available in Top Medical Colleges in
                       India
                     </strong>
                   </h2>
                   <p>
                     <span>
-                      Tabulated below are the average salary package offered in
-                      the best colleges for engineering in India
+                      Specialisation is offered in many subjects in top
+                      medical colleges in India. Listed below is the list of
+                      most famous specialisations opted by students in top
+                      ranking medical colleges in India
+                    </span>
+                  </p>
+                  <ul>
+                    <li aria-level="1">Physiotherapy</li>
+                    <li aria-level="1">Medical Laboratory Technology</li>
+                    <li aria-level="1">Anaesthisia</li>
+                    <li aria-level="1">Medicine</li>
+                    <li aria-level="1">Pediatrics</li>
+                  </ul>
+                  <h3>
+                    <strong>
+                      Top Medical Colleges in India for Physiotherapy
+                    </strong>
+                  </h3>
+                  <p>
+                    <span>
+                      The top medical colleges in India offer specialization
+                      in Physiotherapy. Listed below is the list of top
+                      medical colleges in India offering specialization in
+                      Physiotherapy
+                    </span>
+                  </p>
+                  <ul>
+                    <li aria-level="1">
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          PGIMER Chandigarh
+                        </a>
+                      </span>
+                    </li>
+                    <li aria-level="1">
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          CMC Vellore
+                        </a>
+                      </span>
+                    </li>
+                    <li aria-level="1">
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          KGMU
+                        </a>
+                      </span>
+                    </li>
+                    <li aria-level="1">
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          Sri Ramachandra University Chennai
+                        </a>
+                      </span>
+                    </li>
+                    <li aria-level="1">
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          AMU
+                        </a>
+                      </span>
+                    </li>
+                  </ul>
+                  <p>
+                    <strong>Read More:&nbsp;</strong>Top Medical Colleges in
+                    India for Physiotherapy
+                  </p>
+                  <h3>
+                    <strong>
+                      Top Medical Colleges in India for Medical Laboratory
+                      Technology
+                    </strong>
+                  </h3>
+                  <p>
+                    <span>
+                      Best medical colleges in India offer specialization in
+                      Medical Laboratory Technology. Listed below are the top
+                      medical colleges in India offering specialization in
+                      Medical Laboratory Technology
+                    </span>
+                  </p>
+                  <ul>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          PGIMER Chandigarh
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          BHU Varanasi
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          JIPMER Puducherry
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          KGMU
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          Sri Ramachandra University Chennai
+                        </a>
+                      </span>
+                    </li>
+                  </ul>
+                  <p>
+                    <strong>Read More:&nbsp;</strong>Top Medical Colleges in
+                    India for Medical Laboratory Technology
+                  </p>
+                  <h3>
+                    <strong>
+                      Top Medical Colleges in India for Anaesthesia
+                    </strong>
+                  </h3>
+                  <p>
+                    <span>
+                      Below mentioned are top medical colleges in India
+                      offering specialization in Anaesthesia
+                    </span>
+                  </p>
+                  <ul>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          AIIMS Delhi
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          PGIMER Chandigarh
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          CMC Vellore
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          Sanjay Gandhi Postgraduate Institute of Medical
+                          Sciences
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          BHU Varanasi
+                        </a>
+                      </span>
+                    </li>
+                  </ul>
+                  <p>
+                    <strong>Read More:&nbsp;</strong>Top Medical Colleges in
+                    India for Anaesthisia
+                  </p>
+                  <h3>
+                    <strong>
+                      Top Medical Colleges in India for Medicine
+                    </strong>
+                  </h3>
+                  <p>
+                    Given below is the best medical colleges in India offering
+                    specialization in Medicine
+                  </p>
+                  <ul>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          AIIMS Delhi
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          PGIMER Chandigarh
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          CMC Vellore
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          Sanjay Gandhi Postgraduate Institute of Medical
+                          Sciences
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          BHU Varanasi
+                        </a>
+                      </span>
+                    </li>
+                  </ul>
+                  <p>
+                    <strong>Read More:&nbsp;</strong>Top Medical Colleges in
+                    India for Medicine
+                  </p>
+                  <h3>
+                    <strong>
+                      Top Medical Colleges in India for Pediatrics
+                    </strong>
+                  </h3>
+                  <p>
+                    Pediatrics is one of the most famous specializations opted
+                    by MD students. Given below is the list of top medical
+                    colleges in India offering specialization in Pediatrics.
+                  </p>
+                  <ul>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          AIIMS Delhi
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          PGIMER Chandigarh
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          CMC Vellore
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          Sanjay Gandhi Postgraduate Institute of Medical
+                          Sciences
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          BHU Varanasi
+                        </a>
+                      </span>
+                    </li>
+                  </ul>
+                  <p>
+                    <strong>Read More:&nbsp;</strong>Top Medical Colleges in
+                    India for Pediatrics
+                  </p>
+                  <h2>
+                    <strong>
+                      Entrance Exams for Top Medical Colleges in India&nbsp;
+                    </strong>
+                  </h2>
+                  <p>
+                    <span>
+                      There are entrance exams conducted all over the country
+                      for admission to top medical colleges in India. Listed
+                      below are the most prestigious entrance exams for
+                      medical in India
+                    </span>
+                  </p>
+                  <ul>
+                    <li aria-level="1">
+                      <span>NEET UG</span>
+                    </li>
+                    <li aria-level="1">NEET PG</li>
+                    <li aria-level="1">CUET</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3>
+                    <strong>
+                      Top Medical Colleges in India Accepting NEET UG Score
+                    </strong>
+                  </h3>
+                  <p>
+                    <span>
+                      NTA conducts NEET UG for admission to MBBS &amp; BDS
+                      courses every year. Given below is the list of best
+                      medical colleges in India accepting NEET UG score
                     </span>
                   </p>
                   <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Average Package</strong>
-                          </th>
-                        </tr>
-                      </thead>
+                    <table border="1">
                       <tbody>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
+                            <strong>S. No.</strong>
                           </td>
                           <td>
-                            <p>
-                              <span>16.5 LPA</span>
-                            </p>
+                            <strong>College Name</strong>
                           </td>
                         </tr>
                         <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
+                          <td>1</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"aiims delhi"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AIIMS Delhi
                             </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16.1 LPA</span>
-                            </p>
                           </td>
                         </tr>
                         <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
+                          <td>2</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"cmc vellore"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              CMC Vellore
                             </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16 LPA</span>
-                            </p>
                           </td>
                         </tr>
                         <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BITS Pilani
+                          <td>3</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"bhu varanasi"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              BHU Varanasi
                             </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>9.5 LPA</span>
-                            </p>
                           </td>
                         </tr>
                         <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              SRM IST Chennai
+                          <td>4</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"kmc manipal"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KMC Manipal
                             </a>
                           </td>
-                          <td>
-                            <p>
-                              <span>9 LPA</span>
-                            </p>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"kgmu"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KGMU
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"sri ramachandra university chennai"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Sri Ramachandra University Chennai
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"st john\"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              St John.s Medical College
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"amu"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AMU
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>9</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"mamc delhi"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              MAMC Delhi
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>10</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"jamia hamdard university"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Jamia Hamdard University
+                            </a>
                           </td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
-                  <h2>
-                    <strong>Top Engineering Colleges in India Cutoff</strong>
-                  </h2>
+                </div>
+
+                <div>
+                  <h3>
+                    <strong>
+                      Top Medical Colleges in India Accepting NEET PG Score
+                    </strong>
+                  </h3>
                   <p>
                     <span>
-                      Tabulated below are the JEE Advanced cutoff ranks in
-                      Aerospace Engineering in top engineering colleges
+                      NTA conducts NEET PG for admission to MS &amp; MD
+                      courses every year. Given below is the list of top PG
+                      medical colleges in India accepting NEET PG score
                     </span>
                   </p>
                   <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
+                    <table border="1">
+                      <tbody>
                         <tr>
-                          <th>
+                          <td>
+                            <strong>S. No.</strong>
+                          </td>
+                          <td>
                             <strong>College Name</strong>
-                          </th>
-                          <th>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"aiims delhi"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AIIMS Delhi
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"jipmer puducherry"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              JIPMER Puducherry
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"st john\"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              St John.s Medical College
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"jamia hamdard university"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Jamia Hamdard University
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"kmc mangalore"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KMC Mangalore
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"cmc vellore"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              CMC Vellore
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"gmc aurangabad"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              GMC Aurangabad
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"pondicherry institute of medical sciences"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Pondicherry Institute of Medical Sciences
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>9</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"mgm medical college navi mumbai"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              MGM Medical College Navi Mumbai
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>10</td>
+                          <td
+                            data-sheets-value='{"1":2,"2":"jawaharlal nehru medical college, amu"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Jawaharlal Nehru Medical College, AMU
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div>
+                  <h2>
+                    <strong>
+                      Top Medical Colleges in India NEET UG Cutoff 2021
+                    </strong>
+                  </h2>
+                  <p>
+                    Below mentioned is the list of NEET UG cutoff for top
+                    medical colleges in India
+                  </p>
+                  <div className="table-responsive">
+                    <table border="1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong>College Name</strong>
+                          </td>
+                          <td>
                             <strong>Opening Rank</strong>
-                          </th>
-                          <th>
+                          </td>
+                          <td>
                             <strong>Closing Rank</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
                           </td>
-                          <td>123</td>
-                          <td>2118</td>
                         </tr>
                         <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
+                          <td
+                            data-sheets-value='{"1":2,"2":"aiims delhi"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AIIMS Delhi
                             </a>
                           </td>
-                          <td>741</td>
-                          <td>879</td>
+                          <td>27</td>
+                          <td>1,628</td>
                         </tr>
                         <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
+                          <td
+                            data-sheets-value='{"1":2,"2":"cmc vellore"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              CMC Vellore
                             </a>
                           </td>
-                          <td>3321</td>
-                          <td>4493</td>
+                          <td>276</td>
+                          <td>2,341</td>
                         </tr>
                         <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
+                          <td
+                            data-sheets-value='{"1":2,"2":"bhu varanasi"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              BHU Varanasi
                             </a>
                           </td>
-                          <td>2209</td>
-                          <td>3809</td>
+                          <td>820</td>
+                          <td>974</td>
                         </tr>
                         <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
+                          <td
+                            data-sheets-value='{"1":2,"2":"kmc manipal"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KMC Manipal
                             </a>
                           </td>
-                          <td>190</td>
-                          <td>3259</td>
+                          <td>48,507</td>
+                          <td>53,472</td>
+                        </tr>
+                        <tr>
+                          <td
+                            data-sheets-value='{"1":2,"2":"the tamil nadu dr. m.g.r. medical university"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              The Tamil Nadu Dr. M.G.R. Medical University
+                            </a>
+                          </td>
+                          <td>1,67,843</td>
+                          <td>3,87,400</td>
+                        </tr>
+                        <tr>
+                          <td
+                            data-sheets-value='{"1":2,"2":"kgmu"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              KGMU
+                            </a>
+                          </td>
+                          <td>1,666</td>
+                          <td>15,330</td>
+                        </tr>
+                        <tr>
+                          <td
+                            data-sheets-value='{"1":2,"2":"sri ramachandra university chennai"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              Sri Ramachandra University Chennai
+                            </a>
+                          </td>
+                          <td>51,500</td>
+                          <td>2,30,552</td>
+                        </tr>
+                        <tr>
+                          <td
+                            data-sheets-value='{"1":2,"2":"st john\"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              St John.s Medical College
+                            </a>
+                          </td>
+                          <td>9,670</td>
+                          <td>18,910</td>
+                        </tr>
+                        <tr>
+                          <td
+                            data-sheets-value='{"1":2,"2":"amu"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              AMU
+                            </a>
+                          </td>
+                          <td>1,754</td>
+                          <td>8,240</td>
+                        </tr>
+                        <tr>
+                          <td
+                            data-sheets-value='{"1":2,"2":"mamc delhi"}'
+                            data-sheets-formula="=HYPERLINK(R[0]C[-4],R[0]C[-2])"
+                            data-sheets-hyperlink="#"
+                          >
+                            <a
+                              className="in-cell-link"
+                              href="#"
+                            >
+                              MAMC Delhi
+                            </a>
+                          </td>
+                          <td>45</td>
+                          <td>92</td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
+                </div>
                 </>
               ) : (
                 <>
@@ -1988,139 +2438,6 @@ const Medical = () => {
                 </>
               )}
               {/* Additional content */}
-              {showContent && (
-                <>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Top Engineering Colleges in India include colleges like
-                      IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
-                    </span>
-                  </p>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Engineering is a discipline that involves various
-                      scientific principles to design, innovate, and develop
-                      machines, software, hardware, technical systems, and
-                      processes. Engineering offers a degree in multiple
-                      specializations such as computer science and engineering,
-                      mechanical engineering, civil engineering, chemical
-                      engineering, etc.
-                    </span>
-                    <span>
-                      Courses offered in top engineering colleges in India
-                      are&nbsp;
-                      <a href="#">BE</a>,&nbsp;
-                      <a href="#">BTech</a>
-                      ,&nbsp;
-                      <a href="#">MTech</a>
-                      ,&nbsp;<a href="#">ME</a>, Diploma in Engineering, PhD.
-                    </span>
-                    <span>
-                      Entrance exams accepted by the best colleges for
-                      engineering are JEE MAINS, JEE Advanced, BITSAT, KCET etc.
-                      There are various job opportunities after an Engineering
-                      degree like software engineer, mechanical engineer,
-                      electrical engineer, web developer, biomedical engineer
-                      etc.
-                    </span>
-                  </p>
-                  <h2>Top Engineering Colleges in India: Highlights</h2>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>College Type</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Colleges Affiliated To</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Entrance Exams Accepted</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Specializations</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Approximate Fees</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>Ranking of Engineering Colleges in India</strong>
-                  </h2>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      NIRF and many other ranking sources have ranked various
-                      government and private colleges in India. Given below are
-                      the ranking of&nbsp; top engineering colleges in India by
-                      various sources to make it easier for engineering
-                      aspirants to choose the best engineering colleges.
-                    </span>
-                  </p>
-                </>
-              )}
             </div>
           </MDBCol>
         </MDBRow>

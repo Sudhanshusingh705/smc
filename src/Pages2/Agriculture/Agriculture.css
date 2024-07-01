@@ -1,27 +1,26 @@
 .section {
     padding: 20px;
   }
-  
+
   .section-title {
     font-weight: bold;
     text-align: center;
   }
-  
+
   .pageDescription {
     margin-top: 20px;
   }
-  
+
   .readMoreButton {
     background-color: blue;
     color: white;
     border: none;
     cursor: pointer;
   }
-  
+
   /* Media Query for smaller devices */
   @media screen and (max-width: 768px) {
     .col-md-9 {
       max-width: 100%;
     }
   }
-  

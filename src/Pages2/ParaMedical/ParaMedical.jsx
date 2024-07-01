@@ -10,7 +10,7 @@ import {
   MDBListGroupItem,
   MDBBtn,
 } from "mdb-react-ui-kit";
-// import "./Exams.css"; // Assuming Exams.css is in the same directory
+// import "./ParaMedical.css";
 
 const ParaMedical = () => {
   const [showContent, setShowContent] = useState(false);
@@ -56,13 +56,13 @@ const ParaMedical = () => {
   return (
     <div className="section">
       <h2 className="section-title">
-        Top Engineering Colleges in India 2023-2024
+        Top Para Medical Colleges in India 2023-2024
       </h2>
       <MDBContainer fluid>
         <MDBRow>
           <MDBCol md="9" className="mx-auto">
             <div className="pageDescription text-center">
-              <h1>Engineering Colleges</h1>
+              <h1>Para Medical Colleges</h1>
 
               {showContent ? (
                 <>
@@ -76,1613 +76,206 @@ const ParaMedical = () => {
                       Show Less
                     </button>
                   </div>
+                  <h1>Paramedical Colleges </h1>
+              <h2>
+                Paramedical College: Eligibility, Admission, Syllabus,
+                Placements
+              </h2>
                   <p>
                     <div className="mb-2">
                       <span>
-                        Top Engineering Colleges in India include colleges like
-                        IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
+                      The majority of the top paramedical colleges in India
+                      provide a comprehensive curriculum of paramedical courses
+                      for diploma, UG, PG and doctorate certifications. Students
+                      can choose any paramedical courses after passing their
+                      12th or higher studies with Diploma in X-Ray Technology,
+                      Diploma in Occupational Therapy, Certificate in ECG and CT
+                      Scan Technician, B.Sc Nursing, M.Sc in optometry, etc.,
+                      with a course duration ranging from six months to 4 years
+                      depending on the programs.
                       </span>
                     </div>
                     <div className="mb-2">
                       <span>
-                        Engineering is a discipline that involves various
-                        scientific principles to design, innovate, and develop
-                        machines, software, hardware, technical systems, and
-                        processes. Engineering offers a degree in multiple
-                        specialisations such as computer science and
-                        engineering, mechanical engineering, civil engineering,
-                        chemical engineering, etc.
+                      Paramedical is a branch of medical science in healthcare
+                      to train individuals in pre-medical emergency treatment,
+                      medical assistance, diagnostic technology training,
+                      etc.&nbsp;
                       </span>
-                    </div>
-                  </p>
-                  <p>
-                    <div className="mb-2">
                       <span>
-                        Courses offered in top engineering colleges in India
-                        are&nbsp;
-                        <a href="#">BE</a>,&nbsp;<a href="#">BTech</a>,&nbsp;
-                        <a href="#">MTech</a>,&nbsp;<a href="#">ME</a>, Diploma
-                        in Engineering, PhD.
-                      </span>
-                    </div>
-                    <div className="mb-2">
-                      <span>
-                        Entrance exams accepted by the best colleges for
-                        engineering are JEE MAINS, JEE Advanced, BITSAT, KCET
-                        etc. There are various job opportunities after an
-                        Engineering degree like software engineer, mechanical
-                        engineer, electrical engineer, web developer, biomedical
-                        engineer etc.
-                      </span>
+                      This medical training course related to allied healthcare
+                      sectors strives to prepare individuals to become qualified
+                      health care workers and technicians for real-life medical
+                      situations. A trained medical professional can get
+                      employment in government and private medical hospitals,
+                      nursing homes, and different prospects of the hospitality
+                      industry.
+                    </span>
                     </div>
                   </p>
                   <h2>
-                    <strong>
-                      Top Engineering Colleges in India: Highlights
-                    </strong>
+                    <strong>Top Paramedical Colleges in India by NIRF</strong>
                   </h2>
                   <p>
                     <span>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
+                      National Institutional Ranking Framework (NIRF) uses a
+                      broad methodology set up by MHRD on distinct parameters to
+                      rank various colleges/universities across India.
                     </span>
                   </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>College Type</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Colleges Affiliated To</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Entrance Exams Accepted</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Specialisations</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Approximate Fees</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div>
-                    <h2>
-                      <span>
-                        <strong>Ranking</strong>&nbsp;
-                        <strong>of Engineering Colleges in India</strong>
-                      </span>
-                    </h2>
-                    <p>
-                      <span>
-                        NIRF and many other ranking sources have ranked various
-                        government and private colleges in India. Given below
-                        are the ranking of top engineering colleges in India by
-                        various sources to make it easier for engineering
-                        aspirants to choose the best engineering colleges.
-                      </span>
-                    </p>
-                    <h3>
-                      <strong>NIRF Ranking of Engineering Colleges</strong>
-                    </h3>
-                    <p>
-                      Engineering college ranking by NIRF is done on the basis
-                      of various parameters like teaching, learning, resources
-                      etc. Tabulated below are the best engineering colleges in
-                      India ranked by NIRF.
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>NIRF Score</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>90.14</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>88.12</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>83.96</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>82.56</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>78.89</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>76.70</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>72.98</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>69.17</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>68.03</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Surathkal
-                              </a>
-                            </td>
-                            <td>66.04</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India by India Today Ranking
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the ranking of Engineering colleges in
-                      India by India Today
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,80,000</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bhubaneswar
-                              </a>
-                            </td>
-                            <td>8,83,036</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                            <td>8,76,000</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>6,47,000</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Patna
-                              </a>
-                            </td>
-                            <td>6,98,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>Top 10 Engineering Colleges in India</strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the 10 tier 1 Engineering colleges in
-                      India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>3,00,464</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,81,200</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
-                              </a>
-                            </td>
-                            <td>20,51,100</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>9,46,000</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
-                              </a>
-                            </td>
-                            <td>2,00,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <span>
-                        <strong>Engineering College Fees in India</strong>&nbsp;
-                      </span>
-                    </h2>
-                    <p>
-                      <span>
-                        Best engineering colleges in India offer B.Tech, M.Tech
-                        and other courses with a varying fee structure from low
-                        to high depending on the type of college and the
-                        facilities provided. Given below are engineering college
-                        fees in India in various types of colleges.
-                      </span>
-                    </p>
-
-                    <h3>
-                      <strong>
-                        Top Government Engineering Colleges in India with Fees
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the top government engineering
-                      colleges in India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>3,00,464</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,81,200</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>9,46,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>6,47,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Private Engineering Colleges in India with Fees
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the best private engineering colleges
-                      in India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
-                              </a>
-                            </td>
-                            <td>20,51,100</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                ICT Mumbai
-                              </a>
-                            </td>
-                            <td>3,56,400</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                VIT Vellore
-                              </a>
-                            </td>
-                            <td>7,92,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
-                              </a>
-                            </td>
-                            <td>14,68,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIST Trivandrum
-                              </a>
-                            </td>
-                            <td>5,79,600</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Institute of Technical Education and Research
-                              </a>
-                            </td>
-                            <td>9,40,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BIT Mesra
-                              </a>
-                            </td>
-                            <td>11,40,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                            <td>8,76,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Amity University Noida
-                              </a>
-                            </td>
-                            <td>12,44,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>Cheapest Engineering Colleges in India</strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the low fees engineering colleges in
-                      India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                Diploma in Engineering Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                APCC
-                              </a>
-                            </td>
-                            <td>2,505</td>
-                          </tr>
-                          <tr>
-                            <td>Asansol Polytechnic, Asansol</td>
-                            <td>1,020</td>
-                          </tr>
-                          <tr>
-                            <td>Govt. Womens Polytechnic, Seraikela</td>
-                            <td>1,215</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Medinipur Sadar Government Polytechnic, Medinipur
-                            </td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>Central Footwear Training Centre, Parganas</td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Haji Md. Serafat Mondal Government Polytechnic,
-                              Birbhum
-                            </td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Ratua S. N. Bose Government Polytechnic, Ratua
-                            </td>
-                            <td>2,055</td>
-                          </tr>
-                          <tr>
-                            <td>Government Womens Polytechnic, Patna</td>
-                            <td>3,195</td>
-                          </tr>
-                          <tr>
-                            <td>Nalhati Government Polytechnic, Birbhum</td>
-                            <td>2,550</td>
-                          </tr>
-                          <tr>
-                            <td>Raipur Government Polytechnic, Raipur</td>
-                            <td>2,655</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Top Engineering Colleges in India Admission
-                      </strong>
-                    </h2>
-                    <p>
-                      Engineering colleges offer admission to various courses at
-                      undergraduate, postgraduate, and PhD levels.
-                    </p>
-                    <h3>
-                      <strong>Eligibility Criteria</strong>
-                    </h3>
-                    <p>
-                      Candidates must fulfil the eligibility criteria to get
-                      admission to top engineering colleges in India.
-                    </p>
-                    <p>
-                      <strong>B.Tech/B.E.</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        <span>
-                          Candidates must have passed 10+2 with a minimum of 50%
-                          marks in the PCB/PCMB stream
-                        </span>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>M.Tech/M.E.</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/B.E. degree with
-                        a valid GATE score.
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>PhD</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/M. Tech degree
-                        with a minimum of 55% marks and a valid GATE/NET score.
-                      </li>
-                    </ul>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>Admission Link</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>IIT Madras</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>IIT Delhi</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>IIT Bombay</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>IIT Kharagpur</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>IIT Kanpur</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>IIT Roorkee</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>BITS Pilani</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>IIT Guwahati</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>IIT Hyderabad</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              College of Engineering, Anna University (Chennai)
-                            </td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                College of Engineering, Anna University
-                                (Chennai) Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Top Engineering Colleges in India for Lateral Entry
-                      </strong>
-                    </h2>
-                    <p>
-                      Some engineering colleges offer lateral entry. Tabulated
-                      below are the best engineering colleges offering lateral
-                      entry
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Jadavpur University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Manipal Institute of Technology
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                PES University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                PSGCT
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                COEP
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                KIIT University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Pondicherry Engineering College
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                RVCE
-                              </a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Specialisations Available in Top Engineering Colleges in
-                        India&nbsp;
-                      </strong>
-                    </h2>
-                    <p>
-                      Engineering courses are offered in various
-                      specialisations. Few of the specialisations offer job
-                      opportunities in various fields with high salary packages.
-                      Below mentioned are the most popular engineering
-                      specialisations in best engineering colleges in India
-                    </p>
-                    <ul>
-                      <li>Chemical Engineering</li>
-                      <li>Mechanical Engineering</li>
-                      <li>Computer Science Engineering</li>
-                      <li>Aeronautical Engineering</li>
-                      <li>Civil Engineering</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Computer science and engineering are one of the most
-                      preferred courses among engineering students due to the
-                      booming technology and growth of tech startups. Listed
-                      below are some of the top engineering colleges for
-                      computer science
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kanpur
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Mechanical
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Listed below are the best engineering colleges for
-                      Mechanical Engineering
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kharagpur
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <p>
-                      <strong>Read More:</strong> Top Engineering Colleges in
-                      India for Mechanical Engineering
-                    </p>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Listed below are some of the best colleges for engineering
-                      offering Aeronautical Engineering specialization
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Sathyabama Institute
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Kumaraguru College of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Bannari Amman Institute of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          DSCE
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIST Trivandrum
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India for Civil Engineering
-                    </strong>
-                  </h3>
-                  <p>
-                    Listed below are top engineering colleges that offer
-                    specialization in Civil Engineering
-                  </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kanpur
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Civil Engineering
-                    </a>
-                  </p>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </strong>
-                  </h3>
-                  <p>
-                    Listed below are some of the best colleges for engineering
-                    offering Chemical Engineering specialization
-                  </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Guwahati
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </a>
-                  </p>
-                  <h2>
-                    <strong>
-                      Entrance Exams for Top Engineering Colleges in India
-                    </strong>
-                  </h2>
                   <p>
                     <span>
-                      Top engineering colleges in India offer admission based on
-                      the students' marks in various national or state-level
-                      entrance examinations. Below mentioned are some of the
-                      popular entrance exams to get admission to the best
-                      engineering colleges in India
+                      The NIRF parameters and areas of weightage include below;
                     </span>
                   </p>
                   <ul>
-                    <li>
-                      <span>JEE Mains</span>
+                    <li aria-level={1}>
+                      <span>Teaching, Learning &amp; Resources - 30%</span>
                     </li>
-                    <li>JEE Advanced</li>
-                    <li>
-                      <span>BITSAT</span>
+                    <li aria-level={1}>
+                      <span>Research and Professional Practice - 30%</span>
                     </li>
-                    <li>
-                      <span>KCET</span>
+                    <li aria-level={1}>
+                      <span>Graduation Outcomes - 20%</span>
                     </li>
-                    <li>
-                      <span>GATE</span>
+                    <li aria-level={1}>
+                      <span>Outreach and Inclusivity - 10%</span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>Perception - 10%</span>
                     </li>
                   </ul>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Main Score
-                    </strong>
-                  </h3>
                   <p>
                     <span>
-                      JEE Main is an all-India test conducted for admission to
-                      top engineering colleges in India. Tabulated below are the
-                      top colleges for engineering accepting JEE Main Score
+                      According to the NIRF ranking system, the following are
+                      the top paramedical colleges in India:
                     </span>
                   </p>
                   <div className="table-responsive">
-                    <table className="table table-bordered">
+                    <table>
                       <thead>
                         <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
+                          <td>
+                            <strong>Ranking</strong>
+                          </td>
+                          <td>
                             <strong>College Name</strong>
-                          </th>
+                          </td>
+                          <td>
+                            <strong>NIRF Score</strong>
+                          </td>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>1</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              VIT Vellore
-                            </a>
+                            <span>1</span>
+                          </td>
+                          <td>
+                            <span>
+                              King George.s Medical University, Lucknow
+                            </span>
+                          </td>
+                          <td>
+                            <span>64.67</span>
                           </td>
                         </tr>
                         <tr>
-                          <td>2</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              Thapar University
-                            </a>
+                            <span>2</span>
+                          </td>
+                          <td>
+                            <span>St. John’s Medical College, Bengaluru</span>
+                          </td>
+                          <td>60.83</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span>3</span>
+                          </td>
+                          <td>
+                            <span>
+                              Aligarh Muslim University, AligarhMadras Medical
+                              College and Government General Hospital, Chennai
+                            </span>
+                          </td>
+                          <td>58.10</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span>4</span>
+                          </td>
+                          <td>
+                            <span>
+                              Madras Medical College and Government General
+                              Hospital, Chennai
+                            </span>
+                          </td>
+                          <td>
+                            <span>57.88</span>
                           </td>
                         </tr>
                         <tr>
-                          <td>3</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Warangal
-                            </a>
+                            <span>5</span>
+                          </td>
+                          <td>
+                            <span>
+                              Maulana Azad Medical College (MAMC), Delhi
+                            </span>
+                          </td>
+                          <td>
+                            <span>56.35</span>
                           </td>
                         </tr>
                         <tr>
-                          <td>4</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIIT Hyderabad
-                            </a>
+                            <span>6</span>
+                          </td>
+                          <td>
+                            <span>Kasturba Medical College, Mangalore</span>
+                          </td>
+                          <td>
+                            <span>53.75</span>
                           </td>
                         </tr>
                         <tr>
-                          <td>5</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Durgapur
-                            </a>
+                            <span>7</span>
                           </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Advanced
-                      Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      Candidates who clear JEE Main are allowed to take up JEE
-                      Advanced to get admitted to the top-most engineering
-                      colleges in the country. Tabulated below are the best
-                      engineering colleges accepting JEE Advanced score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
+                            <span>Jamia Hamdard University, New Delhi</span>
+                          </td>
+                          <td>
+                            <span>53.18</span>
                           </td>
                         </tr>
                         <tr>
-                          <td>2</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
+                            <span>8</span>
+                          </td>
+                          <td>
+                            <span>
+                              Government Medical College and Hospital (GMCH),
+                              Chandigarh
+                            </span>
+                          </td>
+                          <td>
+                            <span>51.90</span>
                           </td>
                         </tr>
                         <tr>
-                          <td>3</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
+                            <span>9</span>
                           </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
+                            <span>
+                              PSG Institute of Medical Sciences &amp;
+                              ResearchMore Details, Coimbatore
+                            </span>
                           </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting KCET Score
-                    </strong>
-                  </h3>
-                  <p>
-                    KCET is a state-level entrance examination conducted in
-                    Karnataka for various courses. Tabulated below are the best
-                    colleges for engineering accepting KCET score
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              RVCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              MSRIT
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BMSCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NHCE Bangalore
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              PES University
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting GATE Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      GATE is an all-India level entrance examination conducted
-                      for admission to the master's program and for admission to
-                      PhD. Tabulated below are top engineering colleges
-                      accepting GATE score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Guwahati
-                            </a>
+                            <span>51.62</span>
                           </td>
                         </tr>
                       </tbody>
@@ -1690,290 +283,1531 @@ const ParaMedical = () => {
                   </div>
                   <h2>
                     <strong>
-                      Best Placement Engineering Colleges in India
+                      Top Paramedical Colleges in India by India Today
                     </strong>
                   </h2>
                   <p>
                     <span>
-                      Students of top engineering colleges in India are
-                      recruited by big companies during campus placements every
-                      year. Tabulated below are the best placement engineering
-                      colleges in India
+                      Here are the lists of India’s top paramedical colleges
+                      based on the India Today ranking system:
                     </span>
                   </p>
                   <div className="table-responsive">
-                    <table className="table table-bordered">
+                    <table>
                       <thead>
                         <tr>
-                          <th>
+                          <td>
+                            <strong>Ranking</strong>
+                          </td>
+                          <td>
                             <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Top Recruiters</strong>
-                          </th>
-                          <th>
-                            <strong>Placement Link</strong>
-                          </th>
+                          </td>
+                          <td>
+                            <strong>Total UG Fees (in INR)</strong>
+                          </td>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Kanpur
-                              </span>
-                            </p>
+                            <span>1</span>
                           </td>
                           <td>
-                            <p>
-                              <span>Flipkart, Microsoft, Myntra, Jaguar</span>
-                            </p>
+                            <span>
+                              Maulana Azad Medical College (MAMC), New Delhi
+                            </span>
                           </td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur Placement Link
-                            </a>
+                            <span>-</span>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Madras
-                              </span>
-                            </p>
+                            <span>2</span>
                           </td>
                           <td>
-                            <p>
-                              <span>Google, Microsoft, TCS</span>
-                            </p>
+                            <span>
+                              King George.s Medical University, Lucknow
+                            </span>
                           </td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras Placement Link
-                            </a>
+                            <span>1,38,000</span>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Bombay
-                              </span>
-                            </p>
+                            <span>3</span>
                           </td>
                           <td>
-                            <p>
-                              <span>Microsoft, Amazon, Google</span>
-                            </p>
+                            <span>
+                              Grant Government Medical College, Mumbai
+                            </span>
                           </td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay Placement Link
-                            </a>
+                            <span>-</span>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Kharagpur
-                              </span>
-                            </p>
+                            <span>4</span>
                           </td>
                           <td>
-                            <p>
-                              <span>IBM, JP Morgan, Tata Steel, Microsoft</span>
-                            </p>
+                            <span>
+                              Bangalore Medical College &amp; Research
+                              Institute, Bengaluru
+                            </span>
                           </td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur Placement Link
-                            </a>
+                            <span>40,000</span>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <p>
-                              <span>Indian Institute of Technology, Delhi</span>
-                            </p>
+                            <span>5</span>
                           </td>
                           <td>
-                            <p>
-                              <span>Capgemini, Wipro, IBM, Dell, Infosys</span>
-                            </p>
+                            <span>
+                              Government Medical College and Hospital (GMCH),
+                              Chandigarh
+                            </span>
                           </td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi Placement Link
-                            </a>
+                            <span>1,06,000</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span>6</span>
+                          </td>
+                          <td>
+                            <span>
+                              Lokmanya Tilak Municipal Medical College and
+                              General Hospital, Mumbai
+                            </span>
+                          </td>
+                          <td>
+                            <span>1,90,000</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span>7</span>
+                          </td>
+                          <td>
+                            <span>St. Johns Medical College, Bengaluru</span>
+                          </td>
+                          <td>
+                            <span>9,64,000</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span>8</span>
+                          </td>
+                          <td>
+                            <span>Gandhi Medical College, Hyderabad</span>
+                          </td>
+                          <td>
+                            <span>-</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span>9</span>
+                          </td>
+                          <td>
+                            <span>
+                              Jawaharlal Nehru Medical College - Aligarh Muslim
+                              University (AMU), Aligarh
+                            </span>
+                          </td>
+                          <td>
+                            <span>90,170</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span>10</span>
+                          </td>
+                          <td>
+                            <span>Osmania Medical College, Hyderabad</span>
+                          </td>
+                          <td>
+                            <span>53,200</span>
                           </td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
                   <h2>
-                    <strong>
-                      Average Salary Package in Top Engineering Colleges in
-                      India
-                    </strong>
-                  </h2>
-                  <p>
+                  <strong>
+                    Top Paramedical Colleges in India Based on Zones
+                  </strong>
+                </h2>
+                <p>
+                  <span>
+                    The ranking lists for diverse colleges is updated and
+                    released every year by the NIRF. Based on the NIRF
+                    ranking, the following are some of the top paramedical
+                    colleges in India zone-wise.
+                  </span>
+                </p>
+                <h3>
+                  <strong>Top Paramedical Colleges in North India</strong>
+                </h3>
+                <p>
+                  <span>
+                    The top paramedical colleges in north India based on NIRF
+                    are:
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>King George.s Medical University, Lucknow</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Aligarh Muslim University, Aligarh</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Maulana Azad Medical College (MAMC), Delhi</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Jamia Hamdard University, New Delhi</span>
+                  </li>
+                </ul>
+                <h3>
+                  <strong>Top Paramedical Colleges in South India</strong>
+                </h3>
+                <p>
+                  <span>
+                    Some of the top paramedical colleges in south India are
+                    cited below:
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
                     <span>
-                      Tabulated below are the average salary package offered in
-                      the best colleges for engineering in India
+                      Madras Medical College and Government General Hospital,
+                      Chennai
                     </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Average Package</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16.5 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16.1 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BITS Pilani
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>9.5 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              SRM IST Chennai
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>9 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>Top Engineering Colleges in India Cutoff</strong>
-                  </h2>
-                  <p>
+                  </li>
+                  <li aria-level={1}>
+                    <span>St. John’s Medical College, Bengaluru</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Kasturba Medical College, Mangalore</span>
+                  </li>
+                  <li aria-level={1}>
                     <span>
-                      Tabulated below are the JEE Advanced cutoff ranks in
-                      Aerospace Engineering in top engineering colleges
+                      PSG Institute of Medical Sciences &amp; ResearchMore
+                      Details, Coimbatore
                     </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Opening Rank</strong>
-                          </th>
-                          <th>
-                            <strong>Closing Rank</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                          <td>123</td>
-                          <td>2118</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                          <td>741</td>
-                          <td>879</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                          <td>3321</td>
-                          <td>4493</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
-                            </a>
-                          </td>
-                          <td>2209</td>
-                          <td>3809</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                          <td>190</td>
-                          <td>3259</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  </li>
+                </ul>
+                <h3>
+                  <strong>Top Paramedical Colleges in East India</strong>
+                </h3>
+                <p>
+                  <span>
+                    A few of the top paramedical colleges in east India are
+                    highlighted below:
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>
+                      Institute of Post Graduate Medical Education &amp;
+                      Research (IPGME&amp;R), Kolkata
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Kolkata Medical College, Kolkata</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Adamas University, Kolkata</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>IAS Academy, Kolkata</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      West Bengal University of Health Sciences, Kolkata
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Nalanda Medical College, Patna</span>
+                  </li>
+                </ul>
+                <h3>
+                  <strong>Top Paramedical Colleges in West India</strong>
+                </h3>
+                <p>
+                  <span>
+                    The following are top paramedical in west India colleges:
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>Grant Medical College (GMC), Mumbai</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      Lokmanya Tilak Municipal Medical College and General
+                      Hospital, Mumbai
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>St. Xavier’s College, Mumbai</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>B. J. Government Medical College, Ahmedabad</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Government Medical College, Surat</span>
+                  </li>
+                </ul>
+                <h3>
+                  <strong>Top Paramedical Colleges in Central India</strong>
+                </h3>
+                <p>
+                  <span>
+                    The top paramedical colleges in central India are given
+                    below:
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>
+                      Institute for Excellence in Higher Education, Bhopal
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      Mahatma Gandhi Memorial Medical College, Indore
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>P.K. University, Shivpuri</span>
+                  </li>
+                </ul>
+                <h2>
+                  <strong>
+                    Specialisations-wise Top Paramedical Colleges in India
+                  </strong>
+                </h2>
+                <p>
+                  <span>
+                    About 1,950 plus paramedical colleges offer multiple
+                    programmes with various specializations across India.
+                    There are five main types of paramedical courses available
+                    in India, i.e., vocational and certificate, diploma,
+                    bachelor’s, masters and postgraduate diploma namely in
+                    physiotherapy, occupational therapy, dialysis technology,
+                    optometry, anaesthesia technology, cardiology, medical
+                    imaging technology, MLT (Medical Lab Technology),
+                    etc.&nbsp;
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    Some of the popular paramedical courses in India are
+                    listed in the following points.
+                  </span>
+                </p>
+                <h3>
+                  <strong>
+                    Top Medical Lab Technology Colleges in India
+                  </strong>
+                </h3>
+                <p>
+                  <span>
+                    MLT (Medical Lab Technology) is the branch of medical
+                    science equipping the students with knowledge and skills
+                    to apply for laboratory investigations relating to
+                    diagnosis, treatment, and disease prevention. Career
+                    options are lab technician, medical lab technician, etc.
+                    They can work in crime laboratories, pharmaceutical
+                    companies, academic sectors and others.
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    The following are the top medical lab technology colleges
+                    in India:
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>King George.s Medical University, Lucknow</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Aligarh Muslim University, Aligarh</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>St. John’s Medical College, Bengaluru</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Jamia Hamdard University, New Delhi</span>
+                  </li>
+                </ul>
+                <h3>
+                  <strong>Top Radiography Colleges in India</strong>
+                </h3>
+                <p>
+                  <span>
+                    Radiography focuses on imaging techniques using rays
+                    (X-ray and gamma-ray) and radiations to produce diagnostic
+                    images of the internal objects (organs, tissues, bones,
+                    etc.) of the patients to diagnose health conditions. After
+                    completing radiography, candidates can work as an X-ray
+                    technician, mammography technician, radiographer, and
+                    more.&nbsp;
+                  </span>
+                </p>
+                <p>
+                  <span>The top radiography colleges in India include:</span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>Jamia Hamdard University, New Delhi</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>King George.s Medical University, Lucknow</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>St. John’s Medical College, Bengaluru</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      Lokmanya Tilak Municipal Medical College and General
+                      Hospital, Mumbai
+                    </span>
+                  </li>
+                </ul>
+                <p>
+                  <span>Top Physiotherapy Colleges in India</span>
+                </p>
+                <p>
+                  <span>
+                    Physiotherapy or physical therapy involves interventions
+                    to patients with movement and exercise prescription to
+                    develop, maintain and revive health threatened by injury,
+                    disability, diseases, illness, disorder or others. A
+                    candidate can explore working in MNCs, health care
+                    centres, education sectors, NGO’s, etc.
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    The top physiotherapy colleges in India are as follows:
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>Madras Medical College (MMC), Chennai</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Jamia Hamdard University, New Delhi</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Kasturba Medical College, Mangalore</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      Institute of Post Graduate Medical Education &amp;
+                      Research (IPGMER), Kolkata
+                    </span>
+                  </li>
+                </ul>
+                <h2>
+                  <strong>
+                    Fee Structure for Top Paramedical Colleges in India
+                  </strong>
+                </h2>
+                <p>
+                  <span>
+                    When it comes to the fee structure, it could range from
+                    high to low incurs for paramedical programmes depending on
+                    many good reasons. It could be infrastructure, hostel
+                    facilities, number of programs and courses, facility, mode
+                    of class, college type, etc.
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    We have curated some lists of fee charges cited below for
+                    private and government types of paramedical colleges
+                    around India.
+                  </span>
+                </p>
+                <h3>
+                  <strong>
+                    Public Paramedical Colleges with Diploma Fees
+                  </strong>
+                </h3>
+                <p>
+                  <span>
+                    The top government paramedical colleges with diploma fee
+                    structures in India are cited below:
+                  </span>
+                </p>
+                <div className="table-responsive">
+                  <table>
+                    <thead>
+                      <tr>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>Total Diploma Fees (in INR)</strong>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <span>
+                            Institute of Post Graduate Medical Education and
+                            Research, Kolkata
+                          </span>
+                        </td>
+                        <td>
+                          <span>30,000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Osmania University, Hyderabad</span>
+                        </td>
+                        <td>
+                          <span>-</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>
+                            Atal Bihari Vajpayee Hindi Vishwavidyalaya, Bhopal
+                          </span>
+                        </td>
+                        <td>
+                          <span>6,600</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h3>
+                  <strong>
+                    Private Paramedical Colleges with Diploma Fees
+                  </strong>
+                </h3>
+                <p>
+                  <span>
+                    The following table shows the various diploma fee
+                    structures under the top private paramedical colleges in
+                    India:
+                  </span>
+                </p>
+                <div className="table-responsive">
+                  <table>
+                    <thead>
+                      <tr>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>Total Diploma Fees (in INR)</strong>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <span>Sumandeep University, Vadodara</span>
+                        </td>
+                        <td>
+                          <span>32,500</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Madhav University, Sirohi</span>
+                        </td>
+                        <td>
+                          <span>1,20,000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>NIMS University, Jaipur</span>
+                        </td>
+                        <td>
+                          <span>50,000</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h3>
+                  <strong>Public Paramedical Colleges with UG Fees</strong>
+                </h3>
+                <p>
+                  <span>
+                    Here are the various fee structures under the top
+                    government paramedical colleges across India as tabulated
+                    below:
+                  </span>
+                </p>
+                <div className="table-responsive">
+                  <table>
+                    <thead>
+                      <tr>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>Total UG Fees (in INR)</strong>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <span>
+                            King George.s Medical University, Lucknow
+                          </span>
+                        </td>
+                        <td>
+                          <span>1,38,000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Madras Christian College, Chennai</span>
+                        </td>
+                        <td>
+                          <span>71,240</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>
+                            Grant Medical College and Sir J.J. Group of
+                            Hospitals, Mumbai
+                          </span>
+                        </td>
+                        <td>
+                          <span>-</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>St. John’s Medical College, Bengaluru</span>
+                        </td>
+                        <td>
+                          <span>9,64,000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Aligarh Muslim University, Aligarh</span>
+                        </td>
+                        <td>
+                          <span>90,170</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h3>
+                  <strong>Private Paramedical Colleges with UG Fees</strong>
+                </h3>
+                <p>
+                  <span>
+                    The table below are the private paramedical colleges in
+                    India for undergraduate program fees:
+                  </span>
+                </p>
+                <div className="table-responsive">
+                  <table>
+                    <thead>
+                      <tr>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>Total UG Fees (in INR)</strong>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <span>St. Xavier’s College, Mumbai</span>
+                        </td>
+                        <td>
+                          <span>1,22,000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>
+                            Jamia Hamdard University, New Delhi (Deemed to be
+                            University)
+                          </span>
+                        </td>
+                        <td>
+                          <span>2,70,000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Kasturba Medical College, Mangalore</span>
+                        </td>
+                        <td>
+                          <span>28,10,000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>SRM Institute of Technology, Chennai</span>
+                        </td>
+                        <td>
+                          <span>65,000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>
+                            Bangalore Medical College &amp; Research
+                            Institute, Bengaluru
+                          </span>
+                        </td>
+                        <td>
+                          <span>40,000</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h3>
+                  <strong>Public Paramedical Colleges with PG Fees</strong>
+                </h3>
+                <p>
+                  <span>
+                    The various fee structures under the top government
+                    paramedical colleges in India are cited in the table
+                    below:
+                  </span>
+                </p>
+                <div className="table-responsive">
+                  <table>
+                    <thead>
+                      <tr>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>Total PG Fees (in INR)</strong>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <span>
+                            Sri Ramachandra Medical College, Chennai
+                          </span>
+                        </td>
+                        <td>
+                          <span>3,00,000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>
+                            PT Bhagwat Dayal Sharma Post Graduate Institute of
+                            Medical Sciences, Rohtak
+                          </span>
+                        </td>
+                        <td>
+                          <span>59,960</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Government Medical College, Patiala</span>
+                        </td>
+                        <td>
+                          <span>2,02,000</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h3>
+                  <strong>Private Paramedical Colleges with PG Fees</strong>
+                </h3>
+                <p>
+                  <span>
+                    The table below are the private paramedical colleges in
+                    India for postgraduate program fees:
+                  </span>
+                </p>
+                <div className="table-responsive">
+                  <table>
+                    <thead>
+                      <tr>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>Total PG Fees (in INR)</strong>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <span>NSHM Knowledge Campus, Kolkata</span>
+                        </td>
+                        <td>
+                          <span>2,80,00</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Dr DY Patil Vidyapeeth, Pune</span>
+                        </td>
+                        <td>
+                          <span>2,17,000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>
+                            Manipal Academy of Higher Education, Manipal
+                          </span>
+                        </td>
+                        <td>
+                          <span>1,55,000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Christian Medical College, Vellore</span>
+                        </td>
+                        <td>
+                          <span>63,190</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h2>
+                  <strong>
+                    Entrance Exams Accepted by Top Paramedical Colleges in
+                    India
+                  </strong>
+                </h2>
+                <p>
+                  <span>
+                    Popular entrance exams accepted by India’s top paramedical
+                    colleges in India are as follows:
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>
+                      AIIMS (All India Institute of Medical Sciences) Entrance
+                      Exam
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      AFMC Nursing (Armed Forces Medical College Exam for
+                      Nursing)
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      IEMJEE (Institute of Engineering and Management Joint
+                      Entrance Exam)
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>MRNAT (Manav Rachna National Aptitude Test)</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      AUEE - All India Society for Electronics &amp; Computer
+                      Technology (AISECT) University Entrance Exam
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      SVNIRTAR CET / NIRTAR CET (Swami Vivekanand National
+                      Institute of Rehabilitation Training and Research Common
+                      Entrance Test)
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      MAJU Entrance Exam (Mohammad Ali Jauhar University
+                      Entrance Exam)
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      SRHU CEENPB (Swami Rama Himalayan University Common
+                      Examination in Nursing, Paramedical, and Bio-Sciences)
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      WBJEE JENPAUH - West Bengal Joint Entrance Examinations
+                      Board JENPAS(UG)
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      SMFWBEE (State Medical Faculty of West Bengal Entrance
+                      Exam)
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      BCECE (Bihar Combined Entrance Competitive Examination)
+                    </span>
+                  </li>
+                </ul>
+                <h2>
+                  <strong>
+                    Admissions and Eligibility Criteria for Top Paramedical
+                    Colleges in India
+                  </strong>
+                </h2>
+                <p>
+                  <span>
+                    The admission process varies from college to college. It
+                    is important to pass the eligibility criteria and clear
+                    the admission process with the surging number of qualified
+                    candidates with limited seats applicable under Indias top
+                    paramedical colleges.
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    Also, candidates should ensure and submit complete
+                    application form fillings along with application fee
+                    charges on the college’s specified date.
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    You can check the eligibility criteria for admission
+                    posted briefly in the following.
+                  </span>
+                </p>
+                <h3>
+                  <strong>
+                    Eligibility Criteria for Top Paramedical Colleges in India
+                  </strong>
+                </h3>
+                <p>
+                  <span>
+                    General eligibility criteria for the top paramedical
+                    colleges in India are as follows:
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>Candidates should have completed 17 years old</span>
+                  </li>
+                  <li aria-level={1}>
+                    <strong>UG Level</strong>
+                    <span>
+                      : Candidates must complete 12th standard in science
+                      stream with the aggregate 50% marks with Physics,
+                      Chemistry and Biology as compulsory subjects from a
+                      recognized university or board of education
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <strong>PG Level</strong>
+                    <span>
+                      : Candidates should clear a B.Sc degree with the
+                      aggregate score/rank from a recognized university or
+                      board of education
+                    </span>
+                  </li>
+                </ul>
+                <h3>
+                  <strong>
+                    Admissions to Top Paramedical Colleges in India
+                  </strong>
+                </h3>
+                <p>
+                  <span>
+                    Few colleges allow admissions either on entrance
+                    examinations score/ranks at various
+                    national/state/university levels or direct admissions
+                    based on interviews and previous academic performance.
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    Thus, the admission process differs from college to
+                    college.
+                  </span>
+                </p>
+                <h2>
+                  <strong>
+                    Cut Offs for Top Paramedical Colleges in India
+                  </strong>
+                </h2>
+                <p>
+                  <span>
+                    Each candidate must clear the cut-off score to proceed for
+                    the further admission process set by the respective
+                    colleges. Several factors that determine the cut-offs are
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>Exam paper difficulty level</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      Total number of candidates who appeared for the exam
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>
+                      The overall number of seats available per college
+                    </span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Previous year cut-off trends</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Category type and quota, etc.</span>
+                  </li>
+                </ul>
+                <p>
+                  <span>
+                    The cut-off of the various entrance exams for paramedical
+                    courses in India are explained in the following.
+                  </span>
+                </p>
+                <h3>
+                  <strong>BCECE Cut Off</strong>
+                </h3>
+                <p>
+                  <span>
+                    Bihar Combined Entrance Competitive Examination (BCECE) is
+                    a state-level examination for undergraduate programs into
+                    various courses conducted by the Undergraduate Graduate
+                    Engineering Admission Counseling (UGEAC).
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    Given below are the BCECE cut-offs as per category wise:
+                  </span>
+                </p>
+                <div className="table-responsive">
+                  <table>
+                    <thead>
+                      <tr>
+                        <td>
+                          <strong>Category</strong>
+                        </td>
+                        <td>
+                          <strong>Overall Cut Off</strong>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <span>General</span>
+                        </td>
+                        <td>
+                          <span>600</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>General (PwD)</span>
+                        </td>
+                        <td>
+                          <span>540</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Reserved PwD</span>
+                        </td>
+                        <td>
+                          <span>480</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>SC / ST / OBC</span>
+                        </td>
+                        <td>
+                          <span>480</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h3>
+                  <strong>AIIMS Cut Off</strong>
+                </h3>
+                <p>
+                  <span>
+                    All India Institute of Medical Sciences Entrance Exam
+                    (AIIMS) entrance exam is a national level entrance test
+                    conducted by All India Institute of Medical Sciences
+                    (AIIMS) Delhi for medical, paramedical, nursing, and
+                    health entries science courses.
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    Check out the following table to break an idea of the
+                    cut-off score as per category reservation for admissions
+                    counsellings:
+                  </span>
+                </p>
+                <div className="table-responsive">
+                  <table>
+                    <thead>
+                      <tr>
+                        <td>
+                          <strong>Category</strong>
+                        </td>
+                        <td>
+                          <strong>Overall Cut Off</strong>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <span>General</span>
+                        </td>
+                        <td>
+                          <span>98.80 - 99.5</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>
+                            OBC-NCL (Other Backward Classes(Non-Creamy Layer)
+                          </span>
+                        </td>
+                        <td>
+                          <span>97 - 98.35</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>SC / ST</span>
+                        </td>
+                        <td>
+                          <span>94.25 - 94.75</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h2>
+                  <strong>Scope of Paramedical in India</strong>
+                </h2>
+                <p>
+                  <span>
+                    Paramedical courses are job oriented with the number of
+                    medical attention arising in the country due to illness,
+                    accidents and medical emergencies. There is always a 24x7
+                    call for healthcare professionals like paramedics who work
+                    in emergency medical situations.&nbsp;
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    The medical system would be handicapped without
+                    paramedics, nurses, technicians, healthcare workers and
+                    assistants who play an important part in sustaining life,
+                    apart from doctors and surgeons.
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    The graduates can also open their laboratories and clinics
+                    or work in hospitals, health departments, academic fields,
+                    etc.
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    Based on individuals skills and experience count, the
+                    salary packages in India will increase per annum. After
+                    completing any of the course of the paramedical courses,
+                    one can get the following job opportunities in certain
+                    areas;
+                  </span>
+                </p>
+                <p>
+                  <strong>Areas of Employment</strong>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>Government and Private Hospitals</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Nursing Homes</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Clinics</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Health Department</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Sales and Marketing</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Aviation industries</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Civil services</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Education sectors</span>
+                  </li>
+                </ul>
+                <p>
+                  <strong>Job Opportunities</strong>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>Nurse</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>MRI Technician</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>CT Scan Technician</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Dental Assistant</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Medical Laboratory Assistant</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Chiropodists and podiatrists</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Dieticians</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Occupational Therapists</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Orthoptists</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Radiographers</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Prosthetist</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Dentition</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Physiotherapists</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Lecturer</span>
+                  </li>
+                </ul>
+                <h2>
+                  <strong>Paramedical Placements in India</strong>
+                </h2>
+                <p>
+                  <span>
+                    Top colleges offer placement opportunities under the
+                    respective programs. These institutions comprise placement
+                    cells that tend to manage the recruitment process and
+                    bring awareness of the various job opportunities to
+                    students. According to the Glassdoor report, the average
+                    salary for a paramedical student is INR 19,287 per month.
+                  </span>
+                </p>
+                <h3>
+                  <strong>Top Paramedical Recruiters in India</strong>
+                </h3>
+                <p>
+                  <span>
+                    Most companies and agencies visit colleges for recruitment
+                    with students with expertise in skills. The table below
+                    shows the popular recruiters from India’s top paramedical
+                    colleges:
+                  </span>
+                </p>
+                <div className="table-responsive">
+                  <table>
+                    <thead>
+                      <tr>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>Top Recruiters</strong>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <span>St. Xavier’s College, Mumbai</span>
+                        </td>
+                        <td>
+                          <span>
+                            Accenture, Bain Capability Network, Godrej,
+                            Google, Federal Bank, Cognizant, Infosys, Wipro,
+                            Deloitte, Odessa Technologies, Mu Sigma, A.T.
+                            Kearney, Viacom, Reckitt Benckiser, Banijay Asia,
+                            Cactus Communications, Tata Capital, Futures
+                            First, Titan, etc.
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Jamia Hamdard University, New Delhi</span>
+                        </td>
+                        <td>
+                          <span>
+                            Pfizer, Aristo, Reckitt Benckiser, Cadila
+                            Pharmaceuticals, Escort Heart Institute &amp;
+                            Research Centre, Dr Reddy’s Laboratories Ltd,
+                            Fortis Escort Health Institute, Fortis Hospital,
+                            Global Healthcare Pvt.Ltd, Indiabulls, Infozech
+                            Software Ltd, HCL, Max Life Insurance, TCS, Cipla,
+                            Sun Pharma, Torrent Pharma, Ranbaxy Laboratories
+                            Ltd, Kailash Hospital, etc.
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>SRM Institute of Technology, Chennai</span>
+                        </td>
+                        <td>
+                          <span>
+                            Apollo, Aricent, Life Cell, Siemens, Vedanta,
+                            Biocon, Dr Reddy’s, Orchid Pharma Limited,
+                            Patanjali, AGS Health, Hindustan Unilever Limited,
+                            Infosys, Google, Genesys, Nestle, Pfizer, Payoda,
+                            Wipro, Shell India, Teach for India, Pure
+                            Chemicals Co., Flowcrete, etc.
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Aligarh Muslim University, Aligarh</span>
+                        </td>
+                        <td>
+                          <span>
+                            EFS Facilities Service Pvt. Ltd, Cordis
+                            Technology, Genpact, HCL, Asian Paints, GE
+                            capital, ICICI, India Mart, India Infoline, Marque
+                            Impex, Hamari Pahchan NGO, TCS, etc.
+                          </span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h3>
+                  <strong>
+                    Average Salary Offered in Top Paramedical Colleges in
+                    India
+                  </strong>
+                </h3>
+                <p>
+                  <span>
+                    As per the PayScale report, the average yearly salary for
+                    a paramedic is INR 2,92,774 in India. A paramedic fresher
+                    can expect an average of 2.3 LPA. In comparison, a
+                    paramedic with more than one years of experience can
+                    expect 2.9 LPA.
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    The average salary offered in top paramedical colleges in
+                    India based on the colleges official website is tabulated
+                    below:
+                  </span>
+                </p>
+                <div className="table-responsive">
+                  <table>
+                    <thead>
+                      <tr>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>Average Annual Salary</strong>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <span>St. Xavier College, Mumbai</span>
+                        </td>
+                        <td>
+                          <span>3-7 LPA</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>Aligarh Muslim University, Aligarh</span>
+                        </td>
+                        <td>
+                          <span>4.2 LPA</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>
+                            Jamia Hamdard University, New Delhi (Deemed to be
+                            University)
+                          </span>
+                        </td>
+                        <td>
+                          <span>3-6 LPA</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <span>SRM Institute of Technology, Chennai</span>
+                        </td>
+                        <td>
+                          <span>5 LPA</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h2>FAQs</h2>
+                <p>
+                  <strong>
+                    Q.What is the difference between a medical and paramedical
+                    course?
+                  </strong>
+                  <strong>
+                    <br />
+                  </strong>
+                  <strong>A.</strong>
+                  <span>
+                    Medical science deals with developing practical skills,
+                    conducting experiments, and practises medicine to cure
+                    illness or improve health. In contrast, paramedical
+                    science focuses on diagnosis, treatment and detection of
+                    diseases to improve optimal health.
+                  </span>
+                </p>
+                <p>
+                  <strong>Q.Which paramedical course is best?</strong>
+                  <strong>
+                    <br />
+                  </strong>
+                  <strong>A.</strong>
+                  <span>
+                    The following list are Indias best paramedical courses.
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>Diploma in X-Ray Technology</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Diploma in Occupational Therapy</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>B.Sc Nursing</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>B.Sc in Physiotherapy</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>B.Sc Optometry</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>B.Sc in X-ray Technology</span>
+                  </li>
+                </ul>
+                <p>
+                  <strong>
+                    Q.Who are the top recruiters for paramedics in India?
+                  </strong>
+                  <strong>
+                    <br />
+                  </strong>
+                  <strong>A.</strong>
+                  <span>
+                    Here are some of the top agencies for paramedics in India.
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level={1}>
+                    <span>Apollo hospitals,&nbsp;</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Fortis hospital,&nbsp;</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Columbia Asia Referral Hospital,&nbsp;</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>PGIMER,</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Nanavati hospital,&nbsp;</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Artemis hospital,&nbsp;</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Manipal hospital, and&nbsp;</span>
+                  </li>
+                  <li aria-level={1}>
+                    <span>Max Superspeciality hospital, etc.</span>
+                  </li>
+                </ul>
+                <p>
+                  <strong>Q.Do paramedical courses require NEET?</strong>
+                  <strong>
+                    <br />
+                  </strong>
+                  <strong>A.</strong>
+                  <span>
+                    It is not compulsory to apply for NEET. Certain colleges
+                    conduct their entrance tests or accept entrance tests at
+                    the national/state level.
+                  </span>
+                </p>
                 </>
               ) : (
                 <>

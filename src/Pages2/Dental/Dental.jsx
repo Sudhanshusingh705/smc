@@ -10,7 +10,7 @@ import {
   MDBListGroupItem,
   MDBBtn,
 } from "mdb-react-ui-kit";
-// import "./Exams.css"; // Assuming Exams.css is in the same directory
+// import "./Dental.css";
 
 const Dental = () => {
   const [showContent, setShowContent] = useState(false);
@@ -56,13 +56,13 @@ const Dental = () => {
   return (
     <div className="section">
       <h2 className="section-title">
-        Top Engineering Colleges in India 2023-2024
+      Top Dental Colleges in India 2023-2024
       </h2>
       <MDBContainer fluid>
         <MDBRow>
           <MDBCol md="9" className="mx-auto">
             <div className="pageDescription text-center">
-              <h1>Engineering Colleges</h1>
+              <h1>Dental Colleges</h1>
 
               {showContent ? (
                 <>
@@ -76,1904 +76,1330 @@ const Dental = () => {
                       Show Less
                     </button>
                   </div>
+                  <h1>Dental Colleges </h1>
+              <h2>
+                Dental College: Eligibility, Admission, Syllabus, Placements
+              </h2>
                   <p>
                     <div className="mb-2">
                       <span>
-                        Top Engineering Colleges in India include colleges like
-                        IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
+                      Top Commerce colleges in India include Shri Ram College
+                      of Commerce (New Delhi), Lady Shri Ram College for Women
+                      (New Delhi), Loyola College (Chennai), St. Xaviers
+                      College (Mumbai), etc. Pursuing a degree in Commerce
+                      allows students to study Accountancy, Business Studies,
+                      and Economics as core subjects and Mathematics as
+                      optional. Bachelor of Commerce (B.Com)- a three-year
+                      course, is the most popular specialization after 12th in
+                      Commerce stream. Top colleges for Commerce offer various
+                      specializations like B.Com, BBA, B.Com (Hons.), and B.A.
+                      Hons. in Economics etc. Students can secure admission to
+                      top Commerce colleges in India through entrance exams
+                      like CUET, IPU CET, and NMIMS-NPAT. After pursuing a
+                      degree in Commerce, there are a lot of job opportunities
+                      as a Chartered Accountant (CA), Investment Banker,
+                      Marketing Manager, Human Resource Manager, Cost
+                      Accountant, etc.&nbsp;
                       </span>
                     </div>
-                    <div className="mb-2">
-                      <span>
-                        Engineering is a discipline that involves various
-                        scientific principles to design, innovate, and develop
-                        machines, software, hardware, technical systems, and
-                        processes. Engineering offers a degree in multiple
-                        specialisations such as computer science and
-                        engineering, mechanical engineering, civil engineering,
-                        chemical engineering, etc.
-                      </span>
-                    </div>
-                  </p>
-                  <p>
-                    <div className="mb-2">
-                      <span>
-                        Courses offered in top engineering colleges in India
-                        are&nbsp;
-                        <a href="#">BE</a>,&nbsp;<a href="#">BTech</a>,&nbsp;
-                        <a href="#">MTech</a>,&nbsp;<a href="#">ME</a>, Diploma
-                        in Engineering, PhD.
-                      </span>
-                    </div>
-                    <div className="mb-2">
-                      <span>
-                        Entrance exams accepted by the best colleges for
-                        engineering are JEE MAINS, JEE Advanced, BITSAT, KCET
-                        etc. There are various job opportunities after an
-                        Engineering degree like software engineer, mechanical
-                        engineer, electrical engineer, web developer, biomedical
-                        engineer etc.
-                      </span>
-                    </div>
-                  </p>
-                  <h2>
-                    <strong>
-                      Top Engineering Colleges in India: Highlights
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>College Type</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Colleges Affiliated To</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Entrance Exams Accepted</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Specialisations</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Approximate Fees</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div>
                     <h2>
-                      <span>
-                        <strong>Ranking</strong>&nbsp;
-                        <strong>of Engineering Colleges in India</strong>
-                      </span>
+                      <strong>
+                        <span data-preserver-spaces="true">
+                          Top Commerce Colleges in India: Highlights
+                        </span>
+                      </strong>
                     </h2>
-                    <p>
+                    <div className="mb-2">
                       <span>
-                        NIRF and many other ranking sources have ranked various
-                        government and private colleges in India. Given below
-                        are the ranking of top engineering colleges in India by
-                        various sources to make it easier for engineering
-                        aspirants to choose the best engineering colleges.
+                      To get admission to top commerce colleges, candidates
+                      must fulfill the eligibility criteria of 50% or above
+                      marks in any stream in Class 12th. The popular courses
+                      under Commerce are B.Com, B.Com (Hons.), BBA LLB,
+                      BBA/BMS, etc. Tabulated below are the key highlights of
+                      top commerce colleges in India.
                       </span>
-                    </p>
-                    <h3>
-                      <strong>NIRF Ranking of Engineering Colleges</strong>
-                    </h3>
-                    <p>
-                      Engineering college ranking by NIRF is done on the basis
-                      of various parameters like teaching, learning, resources
-                      etc. Tabulated below are the best engineering colleges in
-                      India ranked by NIRF.
-                    </p>
+                    </div>
+                  </p>
+                  <p>&nbsp;</p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>NIRF Score</strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border={1}>
                         <tbody>
                           <tr>
-                            <td>1</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
+                              <p>
+                                <strong>College Type</strong>
+                              </p>
                             </td>
-                            <td>90.14</td>
+                            <td>
+                              <p>
+                                <span>Government Colleges - 5304 </span>
+                                <span>&amp; Private Colleges - 1114</span>
+                              </p>
+                            </td>
                           </tr>
                           <tr>
-                            <td>2</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
+                              <p>
+                                <strong>Colleges Affiliated To</strong>
+                              </p>
                             </td>
-                            <td>88.12</td>
+                            <td>
+                              <p>
+                                <span>NAAC, UGC, AICTE</span>
+                              </p>
+                            </td>
                           </tr>
                           <tr>
-                            <td>3</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
+                              <p>
+                                <strong>Entrance Exams Accepted</strong>
+                              </p>
                             </td>
-                            <td>83.96</td>
+                            <td>
+                              <p>
+                                <span>CUCET, NPAT, IPU CET</span>
+                              </p>
+                            </td>
                           </tr>
                           <tr>
-                            <td>4</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
+                              <p>
+                                <strong>Specializations</strong>
+                              </p>
                             </td>
-                            <td>82.56</td>
+                            <td>
+                              <p>
+                                <span>
+                                  Finance, Banking, Business Management,
+                                  Accountancy, Economics
+                                </span>
+                              </p>
+                            </td>
                           </tr>
                           <tr>
-                            <td>5</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
+                              <p>
+                                <strong>Approximate Fees</strong>
+                              </p>
                             </td>
-                            <td>78.89</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
+                              <p>
+                                <span>
+                                  The annual fee ranges from (INR) 15,000 to
+                                  75,000.
+                                </span>
+                              </p>
                             </td>
-                            <td>76.70</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>72.98</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>69.17</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>68.03</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Surathkal
-                              </a>
-                            </td>
-                            <td>66.04</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
-                  </div>
-                  <div>
+                    <h2>
+                      <strong>Top Commerce Colleges in India Ranking</strong>
+                    </h2>
+                    <p>
+                      Colleges for Commerce are ranked to help students choose
+                      their best-suited commerce colleges. Various parameters
+                      list the top-ranked colleges for Commerce that are
+                      relevant to the students.
+                    </p>
                     <h3>
                       <strong>
-                        Top Engineering Colleges in India by India Today Ranking
+                        Top Commerce Colleges in India by NIRF Ranking
                       </strong>
                     </h3>
                     <p>
-                      Tabulated below are the ranking of Engineering colleges in
-                      India by India Today
+                      Tabulated below are the best colleges for commerce in
+                      India by NIRF Ranking
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border={1}>
                         <tbody>
+                          <tr>
+                            <td>
+                              <strong>S. No.</strong>
+                            </td>
+                            <td>
+                              <strong>Colleges Name</strong>
+                            </td>
+                            <td>
+                              <strong>B.Com Total Tuition Fees (INR)</strong>
+                            </td>
+                          </tr>
                           <tr>
                             <td>1</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
+                              <a href="#">
+                                Sri Ram College of Commerce, New Delhi
                               </a>
                             </td>
-                            <td>8,80,000</td>
+                            <td>90,000</td>
                           </tr>
                           <tr>
                             <td>2</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
+                              <a href="#">
+                                Lady Shri Ram College for Women, New Delhi
                               </a>
                             </td>
-                            <td>9,12,000</td>
+                            <td>59,610</td>
                           </tr>
                           <tr>
                             <td>3</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
+                              <a href="#">
+                                Loyola College, Chennai
                               </a>
                             </td>
-                            <td>9,71,600</td>
+                            <td>12,650</td>
                           </tr>
                           <tr>
                             <td>4</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
+                              <a href="#">
+                                St. Xaviers College, Mumbai
                               </a>
                             </td>
-                            <td>3,60,368</td>
+                            <td>16,611</td>
                           </tr>
                           <tr>
                             <td>5</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
+                              <a href="#">
+                                Hindu College, New Delhi
                               </a>
                             </td>
-                            <td>8,54,000</td>
+                            <td>54,780</td>
                           </tr>
                           <tr>
                             <td>6</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
+                              <a href="#">
+                                Hansraj College, New Delhi
                               </a>
                             </td>
-                            <td>8,71,000</td>
+                            <td>62,835</td>
                           </tr>
                           <tr>
                             <td>7</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bhubaneswar
+                              <a href="#">
+                                Madras Christian College, Chennai
                               </a>
                             </td>
-                            <td>8,83,036</td>
+                            <td>18,000</td>
                           </tr>
                           <tr>
                             <td>8</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
+                              <a href="#">
+                                Christ University, Bangalore
                               </a>
                             </td>
-                            <td>8,76,000</td>
+                            <td>7,35,000</td>
                           </tr>
                           <tr>
                             <td>9</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
+                              <a href="#">
+                                Narsee Monjee College of Commerce and Economics,
+                                Mumbai
                               </a>
                             </td>
-                            <td>6,47,000</td>
+                            <td>24,000</td>
                           </tr>
                           <tr>
                             <td>10</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Patna
+                              <a href="#">
+                                RA Poddar College of Commerce and Economics,
+                                Mumbai
                               </a>
                             </td>
-                            <td>6,98,000</td>
+                            <td>1,22,700</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
-                  </div>
-                  <div>
                     <h3>
-                      <strong>Top 10 Engineering Colleges in India</strong>
+                      <strong>
+                        Top Commerce Colleges in India Outlook Ranking
+                      </strong>
                     </h3>
                     <p>
-                      Tabulated below are the 10 tier 1 Engineering colleges in
+                      Tabulated below are the ranking of commerce colleges in
+                      India according to outlook
+                    </p>
+                    <div className="table-responsive">
+                      <table border={1}>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>S. No.</strong>
+                            </td>
+                            <td>
+                              <strong>Colleges Name</strong>
+                            </td>
+                            <td>
+                              <strong>B.Com Total Tuition Fees (INR)</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>
+                              <a href="#">
+                                Sri Ram College of Commerce, New Delhi
+                              </a>
+                            </td>
+                            <td>90,000</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>
+                              <a href="#">
+                                Lady Shri Ram College for Women, New Delhi
+                              </a>
+                            </td>
+                            <td>59,610</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>
+                              <a href="#">
+                                Loyola College, Chennai
+                              </a>
+                            </td>
+                            <td>37,950</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>
+                              <a href="#">
+                                Hindu College, New Delhi
+                              </a>
+                            </td>
+                            <td>54,780</td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>
+                              <a href="#">
+                                Hansraj College, New Delhi
+                              </a>
+                            </td>
+                            <td>62,385</td>
+                          </tr>
+                          <tr>
+                            <td>6</td>
+                            <td>
+                              <a href="#">
+                                Madras Christian College, Chennai
+                              </a>
+                            </td>
+                            <td>83,757</td>
+                          </tr>
+                          <tr>
+                            <td>7</td>
+                            <td>
+                              <a href="#">
+                                Christ University, Bangalore
+                              </a>
+                            </td>
+                            <td>2,45,000</td>
+                          </tr>
+                          <tr>
+                            <td>8</td>
+                            <td>
+                              <a href="#">
+                                Narsee Monjee College of Commerce and Economics,
+                                Mumbai
+                              </a>
+                            </td>
+                            <td>24,000</td>
+                          </tr>
+                          <tr>
+                            <td>9</td>
+                            <td>
+                              <a href="#">
+                                Symbiosis College of Arts and Commerce, Pune
+                              </a>
+                            </td>
+                            <td>57,300</td>
+                          </tr>
+                          <tr>
+                            <td>10</td>
+                            <td>
+                              <a href="#">
+                                Stella Maris College, Chennai
+                              </a>
+                            </td>
+                            <td>88,935</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <h3>
+                      <strong>Top 10 Commerce Colleges in India</strong>
+                    </h3>
+                    <p>
+                      Tabulated below are the top 10 colleges for commerce in
                       India
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border={1}>
                         <tbody>
+                          <tr>
+                            <td>
+                              <strong>S. No.</strong>
+                            </td>
+                            <td>
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>B.Com Total Tuition Fees (INR)</strong>
+                            </td>
+                          </tr>
                           <tr>
                             <td>1</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
+                              <a href="#">
+                                Sri Ram College of Commerce, New Delhi
                               </a>
                             </td>
-                            <td>3,00,464</td>
+                            <td>90,000</td>
                           </tr>
                           <tr>
                             <td>2</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
+                              <a href="#">
+                                Hindu College, New Delhi
                               </a>
                             </td>
-                            <td>8,81,200</td>
+                            <td>54,780</td>
                           </tr>
                           <tr>
                             <td>3</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
+                              <a href="#">
+                                Lady Shri Ram College for Women, New Delhi
                               </a>
                             </td>
-                            <td>9,12,000</td>
+                            <td>59,610</td>
                           </tr>
                           <tr>
                             <td>4</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
+                              <a href="#">
+                                Hansraj College, New Delhi
                               </a>
                             </td>
-                            <td>3,60,368</td>
+                            <td>62,835</td>
                           </tr>
                           <tr>
                             <td>5</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
+                              <a href="#">
+                                Loyola College, Chennai
                               </a>
                             </td>
-                            <td>9,71,600</td>
+                            <td>37,950</td>
                           </tr>
                           <tr>
                             <td>6</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
+                              <a href="#">
+                                Christ University, Bangalore
                               </a>
                             </td>
-                            <td>8,54,000</td>
+                            <td>2,45,000</td>
                           </tr>
                           <tr>
                             <td>7</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
+                              <a href="#">
+                                Ramjas College, New Delhi
                               </a>
                             </td>
-                            <td>20,51,100</td>
+                            <td>43,485</td>
                           </tr>
                           <tr>
                             <td>8</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
+                              <a href="#">
+                                Madras Christian College, Chennai
                               </a>
                             </td>
-                            <td>8,71,000</td>
+                            <td>83,757</td>
                           </tr>
                           <tr>
                             <td>9</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
+                              <a href="#">
+                                Narsee Monjee College of Commerce and Economics,
+                                Mumbai
                               </a>
                             </td>
-                            <td>9,46,000</td>
+                            <td>13,233</td>
                           </tr>
                           <tr>
                             <td>10</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
+                              <a href="#">
+                                Mithibai College of Arts, Mumbai
                               </a>
                             </td>
-                            <td>2,00,000</td>
+                            <td>14,235</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <span>
-                        <strong>Engineering College Fees in India</strong>&nbsp;
-                      </span>
-                    </h2>
-                    <p>
-                      <span>
-                        Best engineering colleges in India offer B.Tech, M.Tech
-                        and other courses with a varying fee structure from low
-                        to high depending on the type of college and the
-                        facilities provided. Given below are engineering college
-                        fees in India in various types of colleges.
-                      </span>
-                    </p>
-
                     <h3>
-                      <strong>
-                        Top Government Engineering Colleges in India with Fees
-                      </strong>
+                      <strong>Top 10 Commerce Universities in India</strong>
                     </h3>
                     <p>
-                      Tabulated below are the top government engineering
-                      colleges in India
+                      Tabulated below are the best commerce universities in
+                      India
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border={1}>
                         <tbody>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
+                              <strong>S. No.</strong>
                             </td>
-                            <td>3,00,464</td>
+                            <td>
+                              <strong>University Name</strong>
+                            </td>
                           </tr>
                           <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,81,200</td>
+                            <td>1</td>
+                            <td>IGNOU Delhi</td>
                           </tr>
                           <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
+                            <td>2</td>
+                            <td>Jamia Millia Islamia University, New Delhi</td>
                           </tr>
                           <tr>
+                            <td>3</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
-                              </a>
+                              SRM Institute of Science and Technology,
+                              Kattankulathur
                             </td>
-                            <td>3,60,368</td>
                           </tr>
                           <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
+                            <td>4</td>
+                            <td>MSU Baroda, Vadodara</td>
                           </tr>
                           <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
+                            <td>5</td>
+                            <td>VIT Vellore</td>
                           </tr>
                           <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
+                            <td>6</td>
+                            <td>Christ University, Bangalore</td>
                           </tr>
                           <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>9,46,000</td>
+                            <td>7</td>
+                            <td>Banaras Hindu University, Varanasi</td>
                           </tr>
                           <tr>
+                            <td>8</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
+                              Guru Gobind Singh Indraprastha University, Delhi
                             </td>
-                            <td>6,47,000</td>
+                          </tr>
+                          <tr>
+                            <td>9</td>
+                            <td>Jamia Hamdard University, New Delhi</td>
+                          </tr>
+                          <tr>
+                            <td>10</td>
+                            <td>Savitribai Phule Pune University, Pune</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
-                  </div>
-                  <div>
+                    <h2>
+                      <strong>
+                        Fee Structure of Top Commerce Colleges in India
+                      </strong>
+                    </h2>
+                    <p>
+                      Fees for the colleges for Commerce vary depending on the
+                      type - government or private. Top Government Commerce
+                      colleges charge low fees, while Private colleges for
+                      Commerce have high fees comparatively. Students can pursue
+                      a degree in Commerce in various specializations such as
+                      Finance, Banking, Accountancy, etc.
+                    </p>
                     <h3>
                       <strong>
-                        Top Private Engineering Colleges in India with Fees
+                        Government Commerce Colleges in India with Fees
                       </strong>
                     </h3>
                     <p>
-                      Tabulated below are the best private engineering colleges
+                      Tabulated below are the best government commerce colleges
                       in India
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border={1}>
                         <tbody>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
-                              </a>
+                              <strong>College Name</strong>
                             </td>
-                            <td>20,51,100</td>
+                            <td>
+                              <strong>B.Com Total Tuition Fees (INR)</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Shri Ram College of Commerce, New Delhi</td>
+                            <td>90,000</td>
+                          </tr>
+                          <tr>
+                            <td>Lady Shri Ram College for Women, New Delhi</td>
+                            <td>59,610</td>
+                          </tr>
+                          <tr>
+                            <td>Loyola College, Chennai</td>
+                            <td>37,950</td>
+                          </tr>
+                          <tr>
+                            <td>Hindu College, New Delhi</td>
+                            <td>54,780</td>
+                          </tr>
+                          <tr>
+                            <td>Hansraj College, New Delhi</td>
+                            <td>62,835</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                ICT Mumbai
-                              </a>
+                              Narsee Monjee College of Commerce and Economics,
+                              Mumbai
                             </td>
-                            <td>3,56,400</td>
+                            <td>13,233</td>
                           </tr>
                           <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                VIT Vellore
-                              </a>
-                            </td>
-                            <td>7,92,000</td>
+                            <td>Stella Maris College, Chennai</td>
+                            <td>88,935</td>
                           </tr>
                           <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
-                              </a>
-                            </td>
-                            <td>14,68,800</td>
+                            <td>Ethiraj College for Women, Chennai</td>
+                            <td>2,28,000</td>
                           </tr>
                           <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIST Trivandrum
-                              </a>
-                            </td>
-                            <td>5,79,600</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Institute of Technical Education and Research
-                              </a>
-                            </td>
-                            <td>9,40,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BIT Mesra
-                              </a>
-                            </td>
-                            <td>11,40,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                            <td>8,76,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Amity University Noida
-                              </a>
-                            </td>
-                            <td>12,44,000</td>
+                            <td>Sri Venketeswara College, Delhi</td>
+                            <td>37,220</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
-                  </div>
-                  <div>
                     <h3>
-                      <strong>Cheapest Engineering Colleges in India</strong>
+                      <strong>
+                        Best Private Colleges in India for Commerce
+                      </strong>
                     </h3>
                     <p>
-                      Tabulated below are the low fees engineering colleges in
-                      India
+                      Tabulated below are the best private colleges in India for
+                      commerce&nbsp;
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                Diploma in Engineering Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border={1}>
                         <tbody>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                APCC
-                              </a>
+                              <strong>Colleges Name</strong>
                             </td>
-                            <td>2,505</td>
+                            <td>
+                              <strong>B.Com Total Tuition Fees (INR)</strong>
+                            </td>
                           </tr>
                           <tr>
-                            <td>Asansol Polytechnic, Asansol</td>
-                            <td>1,020</td>
+                            <td>St. Xaviers College, Mumbai</td>
+                            <td>16,611</td>
                           </tr>
                           <tr>
-                            <td>Govt. Womens Polytechnic, Seraikela</td>
-                            <td>1,215</td>
+                            <td>Madras Christian College, Chennai</td>
+                            <td>18,000</td>
+                          </tr>
+                          <tr>
+                            <td>Christ University, Bangalore</td>
+                            <td>2,45,000</td>
                           </tr>
                           <tr>
                             <td>
-                              Medinipur Sadar Government Polytechnic, Medinipur
+                              RA Poddar College of Commerce and Economics,
+                              Mumbai
                             </td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>Central Footwear Training Centre, Parganas</td>
-                            <td>1,800</td>
+                            <td>1,22,700</td>
                           </tr>
                           <tr>
                             <td>
-                              Haji Md. Serafat Mondal Government Polytechnic,
-                              Birbhum
+                              Symbiosis College of Arts and Commerce, Pune
                             </td>
-                            <td>1,800</td>
+                            <td>57,300</td>
                           </tr>
                           <tr>
                             <td>
-                              Ratua S. N. Bose Government Polytechnic, Ratua
+                              HR College of Commerce and Economics, Mumbai
                             </td>
-                            <td>2,055</td>
+                            <td>54,486</td>
                           </tr>
                           <tr>
-                            <td>Government Womens Polytechnic, Patna</td>
-                            <td>3,195</td>
+                            <td>St. Josephs College of Commerce, Bangalore</td>
+                            <td>3,97,500</td>
                           </tr>
                           <tr>
-                            <td>Nalhati Government Polytechnic, Birbhum</td>
-                            <td>2,550</td>
+                            <td>
+                              KJ Somaiya College of Arts and Commerce, Mumbai
+                            </td>
+                            <td>29,985</td>
                           </tr>
                           <tr>
-                            <td>Raipur Government Polytechnic, Raipur</td>
-                            <td>2,655</td>
+                            <td>Mount Carmel College, Bangalore</td>
+                            <td>1,75,000</td>
+                          </tr>
+                          <tr>
+                            <td>KPB Hinduja College of Commerce, Mumbai</td>
+                            <td>28,500</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Top Engineering Colleges in India Admission
-                      </strong>
-                    </h2>
-                    <p>
-                      Engineering colleges offer admission to various courses at
-                      undergraduate, postgraduate, and PhD levels.
-                    </p>
                     <h3>
-                      <strong>Eligibility Criteria</strong>
+                      <strong>Commerce Colleges in India with Low Fees</strong>
                     </h3>
                     <p>
-                      Candidates must fulfil the eligibility criteria to get
-                      admission to top engineering colleges in India.
+                      Tabulated below are the colleges for commerce with low
+                      fees in India
+                    </p>
+                    <div className="table-responsive">
+                      <table border={1}>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>Colleges Name</strong>
+                            </td>
+                            <td>
+                              <strong>B.Com Total Tuition Fees (INR)</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Sullamussalam Science College, Malappuram</td>
+                            <td>822</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Ramakrishna Mission Vivekananda College, Chennai
+                            </td>
+                            <td>795</td>
+                          </tr>
+                          <tr>
+                            <td>Bhadrak Autonomous College, Bhadrak</td>
+                            <td>2,916</td>
+                          </tr>
+                          <tr>
+                            <td>Womens Christian College, Nagercoil</td>
+                            <td>1,362</td>
+                          </tr>
+                          <tr>
+                            <td>SFR College for Women, Sivakasi</td>
+                            <td>948</td>
+                          </tr>
+                          <tr>
+                            <td>South Travancore Hindu College, Nagercoil</td>
+                            <td>1,482</td>
+                          </tr>
+                          <tr>
+                            <td>Kamaraj College, Tuticorin</td>
+                            <td>777</td>
+                          </tr>
+                          <tr>
+                            <td>St. Johns College, Tirunelveli</td>
+                            <td>1,551</td>
+                          </tr>
+                          <tr>
+                            <td>Government Degree College, North Tripura</td>
+                            <td>1,086</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Government Arts College for Women, Sivaganga
+                            </td>
+                            <td>4,035</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <h2>
+                      <strong>Top Commerce Colleges in India Admission</strong>
+                    </h2>
+                    <p>
+                      <span data-preserver-spaces="true">
+                        The commerce stream requires students to study business
+                        activities like exchanging goods and services from
+                        producer to consumer. Many universities provide
+                        undergraduate and postgraduate degrees in Commerce, such
+                        as B.Com and M.Com. After completing B.Com, students can
+                        pursue M.Com, Chartered Accountancy (C.A.) degree, MBA,
+                        etc. Since B.Com deals with business-related subjects,
+                        students can be entrepreneurs after completing B.com.
+                        Universities provide specializations in undergraduate
+                        and postgraduate degrees in Commerce. Admission can be
+                        taken to the best commerce colleges in India after
+                        fulfilling the eligibility criteria and taking the
+                        entrance exam accepted by the colleges.
+                      </span>
                     </p>
                     <p>
-                      <strong>B.Tech/B.E.</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        <span>
-                          Candidates must have passed 10+2 with a minimum of 50%
-                          marks in the PCB/PCMB stream
+                      <strong>
+                        <span data-preserver-spaces="true">
+                          Eligibility Criteria
                         </span>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>M.Tech/M.E.</strong>
+                      </strong>
                     </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/B.E. degree with
-                        a valid GATE score.
-                      </li>
-                    </ul>
                     <p>
-                      <strong>PhD</strong>
+                      <span data-preserver-spaces="true">
+                        Candidates must fulfill the eligibility criteria to get
+                        admission to top commerce colleges in India.&nbsp;
+                      </span>
                     </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/M. Tech degree
-                        with a minimum of 55% marks and a valid GATE/NET score.
-                      </li>
-                    </ul>
+                    <p>
+                      <strong>
+                        <span data-preserver-spaces="true">
+                          B.Com/ B.Com(Hons.)
+                        </span>
+                      </strong>
+                    </p>
+                    <p>
+                      <span data-preserver-spaces="true">
+                        Candidates must have passed Commerce in high school with
+                        compulsory subjects.
+                      </span>
+                    </p>
+                    <p>
+                      <strong>
+                        <span data-preserver-spaces="true">BBA LLB</span>
+                      </strong>
+                    </p>
+                    <p>
+                      <span data-preserver-spaces="true">
+                        Must have passed 12th from a recognized board in
+                        Commerce or Humanities with 50% marks.
+                      </span>
+                    </p>
+                    <p>
+                      <strong>
+                        <span data-preserver-spaces="true">M.Com</span>
+                      </strong>
+                    </p>
+                    <p>
+                      <span data-preserver-spaces="true">
+                        Must have passed B.Com from a recognized college.
+                      </span>
+                    </p>
+                    <p>
+                      <span data-preserver-spaces="true">
+                        Tabulated below are the top colleges for Commerce &amp;
+                        the admission links
+                      </span>
+                    </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
+                      <table border={1}>
+                        <tbody>
                           <tr>
-                            <th>
+                            <td>
                               <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
+                            </td>
+                            <td>
+                              <strong>Colleges Name</strong>
+                            </td>
+                            <td>
                               <strong>Admission Link</strong>
-                            </th>
+                            </td>
                           </tr>
-                        </thead>
-                        <tbody>
                           <tr>
                             <td>1</td>
-                            <td>IIT Madras</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras Admission Link
+                              <a href="#">
+                                Sri Ram College of Commerce, New Delhi
                               </a>
                             </td>
+                            <td>Sri Ram College Admission Link</td>
                           </tr>
                           <tr>
                             <td>2</td>
-                            <td>IIT Delhi</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi Admission Link
+                              <a href="#">
+                                Hindu College, New Delhi
                               </a>
                             </td>
+                            <td>Hindu College Admission Link</td>
                           </tr>
                           <tr>
                             <td>3</td>
-                            <td>IIT Bombay</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay Admission Link
+                              <a href="#">
+                                Lady Shri Ram College for Women, New Delhi
                               </a>
+                            </td>
+                            <td>
+                              Lady Shri Ram College for Women Admission Link
                             </td>
                           </tr>
                           <tr>
                             <td>4</td>
-                            <td>IIT Kharagpur</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur Admission Link
+                              <a href="#">
+                                Hansraj College, New Delhi
                               </a>
                             </td>
+                            <td>Hansraj College Admission Link</td>
                           </tr>
                           <tr>
                             <td>5</td>
-                            <td>IIT Kanpur</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur Admission Link
+                              <a href="#">
+                                Loyola College, Chennai
                               </a>
                             </td>
+                            <td>Loyola College Admission Link</td>
                           </tr>
                           <tr>
                             <td>6</td>
-                            <td>IIT Roorkee</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee Admission Link
+                              <a href="#">
+                                Christ University, Bangalore
                               </a>
                             </td>
+                            <td>Christ University Admission Link</td>
                           </tr>
                           <tr>
                             <td>7</td>
-                            <td>BITS Pilani</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani Admission Link
+                              <a href="#">
+                                Ramjas College, New Delhi
                               </a>
                             </td>
+                            <td>Ramjas College Admission Link</td>
                           </tr>
                           <tr>
                             <td>8</td>
-                            <td>IIT Guwahati</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati Admission Link
+                              <a href="#">
+                                Madras Christian College, Chennai
                               </a>
                             </td>
+                            <td>Madras Christian College Admission Link</td>
                           </tr>
                           <tr>
                             <td>9</td>
-                            <td>IIT Hyderabad</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad Admission Link
+                              <a href="#">
+                                Narsee Monjee College of Commerce and Economics,
+                                Mumbai
                               </a>
                             </td>
+                            <td>Narsee Monjee College Admission Link</td>
                           </tr>
                           <tr>
                             <td>10</td>
                             <td>
-                              College of Engineering, Anna University (Chennai)
-                            </td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                College of Engineering, Anna University
-                                (Chennai) Admission Link
+                              <a href="#">
+                                Mithibai College of Arts, Mumbai
                               </a>
                             </td>
+                            <td>Mithibai College Admission Link</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
-                  </div>
-                  <div>
                     <h2>
                       <strong>
-                        Top Engineering Colleges in India for Lateral Entry
+                        Entrance Exams for Top Commerce Colleges in India
                       </strong>
                     </h2>
                     <p>
-                      Some engineering colleges offer lateral entry. Tabulated
-                      below are the best engineering colleges offering lateral
-                      entry
+                      Entrance exams are held to get students admitted to top
+                      commerce colleges. Students are shortlisted on the basis
+                      of marks scored in the entrance exam after the cutoffs are
+                      released by the colleges of commerce. Listed below are the
+                      most popular entrance exams for commerce
+                    </p>
+                    <ul>
+                      <li>
+                        <span>CUET&nbsp;</span>
+                      </li>
+                      <li>
+                        <span>NPAT</span>
+                      </li>
+                      <li>
+                        <span>IPU CET</span>
+                      </li>
+                      <li>
+                        <span>CFA</span>
+                      </li>
+                    </ul>
+                    <h3>
+                      <strong>Top Commerce Colleges Accepting CUET</strong>
+                    </h3>
+                    <p>
+                      CUCET is an all-India test conducted by NTA for
+                      undergraduate programs. Students can take admission to top
+                      colleges of commerce through this examination. Listed
+                      below are top commerce colleges accepting CUET
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border={1}>
                         <tbody>
+                          <tr>
+                            <td>
+                              <strong>S. No.</strong>
+                            </td>
+                            <td>
+                              <strong>College Name</strong>
+                            </td>
+                          </tr>
                           <tr>
                             <td>1</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Jadavpur University
-                              </a>
+                              <p>Banaras Hindu University, Varanasi</p>
                             </td>
                           </tr>
                           <tr>
                             <td>2</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Manipal Institute of Technology
-                              </a>
+                              <p>Jamia Hamdard University, New Delhi</p>
                             </td>
                           </tr>
                           <tr>
                             <td>3</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                PES University
-                              </a>
+                              <p>Delhi University, Delhi</p>
                             </td>
                           </tr>
                           <tr>
                             <td>4</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
-                              </a>
+                              <p>Galgotias University, Greater Noida</p>
                             </td>
                           </tr>
                           <tr>
                             <td>5</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                PSGCT
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                COEP
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                KIIT University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Pondicherry Engineering College
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                RVCE
-                              </a>
+                              <p>Central University of Jharkhand, Ranchi</p>
                             </td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
-                  </div>
-                  <div>
+                    <h3>
+                      <strong>Top Commerce Colleges Accepting IPU CET</strong>
+                    </h3>
+                    <p>
+                      IPU CET is an entrance exam conducted by Guru Gobind Singh
+                      Indraprastha University for UG and PG courses. Listed
+                      below are the best commerce colleges accepting IPU CET
+                      scores
+                    </p>
+                    <div className="table-responsive">
+                      <table border={1}>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>S. No.</strong>
+                            </td>
+                            <td>
+                              <strong>College Name</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>
+                              <p>
+                                Vivekananda Institute of Professional Studies,
+                                New Delhi
+                              </p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>
+                              <p>
+                                Farfield Institute of Management and Technology,
+                                New Delhi
+                              </p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>
+                              <p>Maharaja Surajmal Institute, New Delhi</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>
+                              <p>
+                                Kamal Institute of Higher Education &amp;
+                                Advance Technology, New Delhi
+                              </p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>
+                              <p>
+                                Guru Nanak Institute of Management, New Delhi
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                     <h2>
                       <strong>
-                        Specialisations Available in Top Engineering Colleges in
-                        India&nbsp;
+                        Specialisations Wise Top Commerce Colleges in India
                       </strong>
                     </h2>
                     <p>
-                      Engineering courses are offered in various
-                      specialisations. Few of the specialisations offer job
-                      opportunities in various fields with high salary packages.
-                      Below mentioned are the most popular engineering
-                      specialisations in best engineering colleges in India
-                    </p>
-                    <ul>
-                      <li>Chemical Engineering</li>
-                      <li>Mechanical Engineering</li>
-                      <li>Computer Science Engineering</li>
-                      <li>Aeronautical Engineering</li>
-                      <li>Civil Engineering</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Computer science and engineering are one of the most
-                      preferred courses among engineering students due to the
-                      booming technology and growth of tech startups. Listed
-                      below are some of the top engineering colleges for
-                      computer science
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kanpur
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Mechanical
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Listed below are the best engineering colleges for
-                      Mechanical Engineering
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kharagpur
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <p>
-                      <strong>Read More:</strong> Top Engineering Colleges in
-                      India for Mechanical Engineering
-                    </p>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Listed below are some of the best colleges for engineering
-                      offering Aeronautical Engineering specialization
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Sathyabama Institute
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Kumaraguru College of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Bannari Amman Institute of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          DSCE
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIST Trivandrum
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India for Civil Engineering
-                    </strong>
-                  </h3>
-                  <p>
-                    Listed below are top engineering colleges that offer
-                    specialization in Civil Engineering
-                  </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kanpur
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Civil Engineering
-                    </a>
-                  </p>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </strong>
-                  </h3>
-                  <p>
-                    Listed below are some of the best colleges for engineering
-                    offering Chemical Engineering specialization
-                  </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Guwahati
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </a>
-                  </p>
-                  <h2>
-                    <strong>
-                      Entrance Exams for Top Engineering Colleges in India
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Top engineering colleges in India offer admission based on
-                      the students' marks in various national or state-level
-                      entrance examinations. Below mentioned are some of the
-                      popular entrance exams to get admission to the best
-                      engineering colleges in India
-                    </span>
-                  </p>
-                  <ul>
-                    <li>
-                      <span>JEE Mains</span>
-                    </li>
-                    <li>JEE Advanced</li>
-                    <li>
-                      <span>BITSAT</span>
-                    </li>
-                    <li>
-                      <span>KCET</span>
-                    </li>
-                    <li>
-                      <span>GATE</span>
-                    </li>
-                  </ul>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Main Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      JEE Main is an all-India test conducted for admission to
-                      top engineering colleges in India. Tabulated below are the
-                      top colleges for engineering accepting JEE Main Score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              VIT Vellore
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              Thapar University
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Warangal
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIIT Hyderabad
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Durgapur
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Advanced
-                      Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      Candidates who clear JEE Main are allowed to take up JEE
-                      Advanced to get admitted to the top-most engineering
-                      colleges in the country. Tabulated below are the best
-                      engineering colleges accepting JEE Advanced score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting KCET Score
-                    </strong>
-                  </h3>
-                  <p>
-                    KCET is a state-level entrance examination conducted in
-                    Karnataka for various courses. Tabulated below are the best
-                    colleges for engineering accepting KCET score
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              RVCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              MSRIT
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BMSCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NHCE Bangalore
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              PES University
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting GATE Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      GATE is an all-India level entrance examination conducted
-                      for admission to the master's program and for admission to
-                      PhD. Tabulated below are top engineering colleges
-                      accepting GATE score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Guwahati
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>
-                      Best Placement Engineering Colleges in India
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Students of top engineering colleges in India are
-                      recruited by big companies during campus placements every
-                      year. Tabulated below are the best placement engineering
+                      Top commerce colleges in India offer various
+                      specialisations. Students can pursue a degree in commerce
+                      in the specialisation of their choice. Given below are the
+                      most popular specialisations offered by the best commerce
                       colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Top Recruiters</strong>
-                          </th>
-                          <th>
-                            <strong>Placement Link</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Kanpur
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Flipkart, Microsoft, Myntra, Jaguar</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Madras
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Google, Microsoft, TCS</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Bombay
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Microsoft, Amazon, Google</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Kharagpur
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>IBM, JP Morgan, Tata Steel, Microsoft</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>Indian Institute of Technology, Delhi</span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Capgemini, Wipro, IBM, Dell, Infosys</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>
-                      Average Salary Package in Top Engineering Colleges in
+                    </p>
+                    <ul>
+                      <li>Accounting</li>
+                      <li>Finance</li>
+                      <li>Banking</li>
+                      <li>Economics</li>
+                      <li>Business Management&nbsp; &nbsp;</li>
+                    </ul>
+                    <h3>
+                      <strong>
+                        Top Commerce Colleges in India for Accounting
+                      </strong>
+                    </h3>
+                    <p>
+                      Accounting is the study of recording transactions,
+                      performing internal audits, keeping financial records etc.
+                      Listed below are the top commerce colleges in India
+                      offering specialisation in Accounting
+                    </p>
+                    <ul>
+                      <li>Loyola College, Chennai</li>
+                      <li>St. Xaviers College, Mumbai</li>
+                      <li>Madras Christian College, Chennai</li>
+                      <li>Christ University, Bangalore</li>
+                      <li>
+                        Narsee Monjee College of Commerce and Economics, Mumbai
+                      </li>
+                    </ul>
+                    <p>
+                      <strong>Read More</strong>: Top Commerce Colleges in India
+                      for Accounting
+                    </p>
+                    <h3>
+                      <strong>
+                        Top Commerce Colleges in India for Finance
+                      </strong>
+                      &nbsp;
+                    </h3>
+                    <p>
+                      Specialisation in Finance gives students chance to study
+                      capital assets, the discipline of money and currency etc.
+                      Listed below are the top commerce colleges in India
+                      offering specialisation in Finance
+                    </p>
+                    <ul>
+                      <li>Christ University, Bangalore</li>
+                      <li>
+                        Narsee Monjee College of Commerce and Economics, Mumbai
+                      </li>
+                      <li>
+                        RA Poddar College of Commerce and Economics, Mumbai
+                      </li>
+                      <li>HR College of Commerce and Economics, Mumbai</li>
+                      <li>St. Josephs College of Commerce, Bangalore</li>
+                    </ul>
+                    <p>
+                      <strong>Read More</strong>: Top Commerce Colleges in India
+                      for Finance
+                    </p>
+                    <h3>
+                      <strong>
+                        Top Commerce Colleges in India for Banking
+                      </strong>
+                    </h3>
+                    <p>
+                      Below mentioned are top commerce colleges offering Banking
+                      as a specialisation
+                    </p>
+                    <ul>
+                      <li>
+                        Narsee Monjee College of Commerce and Economics, Mumbai
+                      </li>
+                      <li>
+                        RA Poddar College of Commerce and Economics, Mumbai
+                      </li>
+                      <li>Symbiosis College of Arts and Commerce, Pune</li>
+                      <li>Ethiraj College for Women, Chennai</li>
+                      <li>HR College of Commerce &amp; Economics, Mumbai</li>
+                    </ul>
+                    <p>
+                      <strong>Read More</strong>: Top Commerce Colleges in India
+                      for Banking
+                    </p>
+                    <h3>
+                      <strong>
+                        Top Commerce Colleges in India for Business Management
+                      </strong>
+                    </h3>
+                    <p>
+                      Listed below are top commerce colleges offering Business
+                      Management as a specialisation
+                    </p>
+                    <ul>
+                      <li>
+                        Narsee Monjee College of Commerce and Economics, Mumbai
+                      </li>
+                      <li>
+                        RA Poddar College of Commerce and Economics, Mumbai
+                      </li>
+                      <li>HR College of Commerce and Economics, Mumbai</li>
+                      <li>KPB Hinduja College of Commerce, Mumbai</li>
+                      <li>Mithibai College of Arts, Mumbai</li>
+                    </ul>
+                    <p>
+                      <strong>Read More</strong>: Top Commerce Colleges in India
+                      for Business Management
+                    </p>
+                    <h3>
+                      <strong>
+                        Top Commerce Colleges in India for Economics
+                      </strong>
+                    </h3>
+                    <p>
+                      There are many commerce colleges offering Economics as
+                      specilisation and it is in high demand. Listed below are
+                      best colleges for commerce offering Economics
+                    </p>
+                    <ul>
+                      <li>Symbiosis College of Arts and Commerce, Pune</li>
+                      <li>Ethiraj College for Women, Chennai</li>
+                      <li>HR College of Commerce and Economics, Mumbai</li>
+                      <li>KPB Hinduja College of Commerce, Mumbai</li>
+                      <li>Mulund College of Commerce, Mumbai</li>
+                    </ul>
+                    <p>
+                      <strong>Read More</strong>: Top Commerce Colleges in India
+                      for Economics
+                    </p>
+                    <h2>
+                      <strong>Best Placement Commerce Colleges in India</strong>
+                    </h2>
+                    <p>
+                      Students having studied at the best commerce colleges in
+                      India get recruited by renowned companies during campus
+                      placements every year. Listed below are the tbest
+                      placement commerce colleges in India and their top
+                      recruiters
+                    </p>
+                    <div className="table-responsive">
+                      <table border={1}>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>Colleges Name</strong>
+                            </td>
+                            <td>
+                              &nbsp;<strong>Top Recruiters</strong>
+                            </td>
+                            <td>
+                              <strong>Placement Links</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td data-sheets-value="{">
+                              Shri Ram College of Commerce, Delhi
+                            </td>
+                            <td>Kotak Securities, Citi Bank, Deutsche Bank</td>
+                            <td>SRCC Delhi Placements</td>
+                          </tr>
+                          <tr>
+                            <td data-sheets-value="{">
+                              Lady Shri Ram College for Women, Delhi
+                            </td>
+                            <td>Mckinsey, Citi Bank, Bloomberg</td>
+                            <td>Lady Shri Ram Delhi Placements</td>
+                          </tr>
+                          <tr>
+                            <td data-sheets-value="{">Hindu College, Delhi</td>
+                            <td>Google, Deloitte</td>
+                            <td>Hindu College Placements</td>
+                          </tr>
+                          <tr>
+                            <td data-sheets-value="{">
+                              Hansraj College, Delhi
+                            </td>
+                            <td>Deloitte, Wipro</td>
+                            <td>Hansraj College Placements</td>
+                          </tr>
+                          <tr>
+                            <td data-sheets-value="{">
+                              Sri Guru Gobind Singh College of Commerce, Delhi
+                            </td>
+                            <td>Yes Bank, Airtel, Zomato</td>
+                            <td>Guru Gobind Singh College Placements</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <h2>
+                      <strong>
+                        Average Salary Package in Commerce Colleges in India
+                      </strong>
+                    </h2>
+                    <p>
+                      Tabulated below are the annual average salary package
+                      offered by companies in various top commerce colleges in
                       India
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Tabulated below are the average salary package offered in
-                      the best colleges for engineering in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Average Package</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16.5 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16.1 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BITS Pilani
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>9.5 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              SRM IST Chennai
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>9 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>Top Engineering Colleges in India Cutoff</strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Tabulated below are the JEE Advanced cutoff ranks in
-                      Aerospace Engineering in top engineering colleges
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Opening Rank</strong>
-                          </th>
-                          <th>
-                            <strong>Closing Rank</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                          <td>123</td>
-                          <td>2118</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                          <td>741</td>
-                          <td>879</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                          <td>3321</td>
-                          <td>4493</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
-                            </a>
-                          </td>
-                          <td>2209</td>
-                          <td>3809</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                          <td>190</td>
-                          <td>3259</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                    </p>
+                    <div className="table-responsive">
+                      <table border={1}>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>Average Package</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Lady Shri Ram College for Women, Delhi</td>
+                            <td>9.26 LPA</td>
+                          </tr>
+                          <tr>
+                            <td>Shri Ram College of Commerce, Delhi</td>
+                            <td>8.40LPA</td>
+                          </tr>
+                          <tr>
+                            <td>Hindu College, Delhi</td>
+                            <td>6.55 LPA</td>
+                          </tr>
+                          <tr>
+                            <td>Hansraj College, Delhi</td>
+                            <td>5.50 LPA</td>
+                          </tr>
+                          <tr>
+                            <td>Deshbandhu College, Delhi</td>
+                            <td>5.90 LPA</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                 </>
               ) : (
                 <>

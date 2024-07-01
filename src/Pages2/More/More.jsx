@@ -10,7 +10,7 @@ import {
   MDBListGroupItem,
   MDBBtn,
 } from "mdb-react-ui-kit";
-// import "./Exams.css"; // Assuming Exams.css is in the same directory
+// import "./More.css";
 
 const More = () => {
   const [showContent, setShowContent] = useState(false);
@@ -56,13 +56,13 @@ const More = () => {
   return (
     <div className="section">
       <h2 className="section-title">
-        Top Engineering Colleges in India 2023-2024
+        Top More Colleges in India 2023-2024
       </h2>
       <MDBContainer fluid>
         <MDBRow>
           <MDBCol md="9" className="mx-auto">
             <div className="pageDescription text-center">
-              <h1>Engineering Colleges</h1>
+              <h1>More Colleges</h1>
 
               {showContent ? (
                 <>
@@ -79,38 +79,38 @@ const More = () => {
                   <p>
                     <div className="mb-2">
                       <span>
-                        Top Engineering Colleges in India include colleges like
+                        Top More Colleges in India include colleges like
                         IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
                       </span>
                     </div>
                     <div className="mb-2">
                       <span>
-                        Engineering is a discipline that involves various
+                        More is a discipline that involves various
                         scientific principles to design, innovate, and develop
                         machines, software, hardware, technical systems, and
-                        processes. Engineering offers a degree in multiple
+                        processes. More offers a degree in multiple
                         specialisations such as computer science and
-                        engineering, mechanical engineering, civil engineering,
-                        chemical engineering, etc.
+                        More, mechanical More, civil More,
+                        chemical More, etc.
                       </span>
                     </div>
                   </p>
                   <p>
                     <div className="mb-2">
                       <span>
-                        Courses offered in top engineering colleges in India
+                        Courses offered in top More colleges in India
                         are&nbsp;
                         <a href="#">BE</a>,&nbsp;<a href="#">BTech</a>,&nbsp;
                         <a href="#">MTech</a>,&nbsp;<a href="#">ME</a>, Diploma
-                        in Engineering, PhD.
+                        in More, PhD.
                       </span>
                     </div>
                     <div className="mb-2">
                       <span>
                         Entrance exams accepted by the best colleges for
-                        engineering are JEE MAINS, JEE Advanced, BITSAT, KCET
+                        More are JEE MAINS, JEE Advanced, BITSAT, KCET
                         etc. There are various job opportunities after an
-                        Engineering degree like software engineer, mechanical
+                        More degree like software engineer, mechanical
                         engineer, electrical engineer, web developer, biomedical
                         engineer etc.
                       </span>
@@ -118,15 +118,15 @@ const More = () => {
                   </p>
                   <h2>
                     <strong>
-                      Top Engineering Colleges in India: Highlights
+                      Top More Colleges in India: Highlights
                     </strong>
                   </h2>
                   <p>
                     <span>
                       Candidates must have passed 10+2 with a minimum of 50%
                       marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
+                      More colleges in India. Tabulated below are the key
+                      highlights regarding the More colleges in India
                     </span>
                   </p>
                   <div className="table-responsive">
@@ -178,9 +178,9 @@ const More = () => {
                           <td>
                             <p>
                               <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
+                                Computer Science More, Mechanical
+                                More, Civil More, Aeronautical
+                                More
                               </span>
                             </p>
                           </td>
@@ -194,7 +194,7 @@ const More = () => {
                           <td>
                             <p>
                               <span>
-                                The annual fee of engineering colleges in India
+                                The annual fee of More colleges in India
                                 ranges between 125000 to 350000.
                               </span>
                             </p>
@@ -207,25 +207,25 @@ const More = () => {
                     <h2>
                       <span>
                         <strong>Ranking</strong>&nbsp;
-                        <strong>of Engineering Colleges in India</strong>
+                        <strong>of More Colleges in India</strong>
                       </span>
                     </h2>
                     <p>
                       <span>
                         NIRF and many other ranking sources have ranked various
                         government and private colleges in India. Given below
-                        are the ranking of top engineering colleges in India by
-                        various sources to make it easier for engineering
-                        aspirants to choose the best engineering colleges.
+                        are the ranking of top More colleges in India by
+                        various sources to make it easier for More
+                        aspirants to choose the best More colleges.
                       </span>
                     </p>
                     <h3>
-                      <strong>NIRF Ranking of Engineering Colleges</strong>
+                      <strong>NIRF Ranking of More Colleges</strong>
                     </h3>
                     <p>
-                      Engineering college ranking by NIRF is done on the basis
+                      More college ranking by NIRF is done on the basis
                       of various parameters like teaching, learning, resources
-                      etc. Tabulated below are the best engineering colleges in
+                      etc. Tabulated below are the best More colleges in
                       India ranked by NIRF.
                     </p>
                     <div className="table-responsive">
@@ -341,11 +341,11 @@ const More = () => {
                   <div>
                     <h3>
                       <strong>
-                        Top Engineering Colleges in India by India Today Ranking
+                        Top More Colleges in India by India Today Ranking
                       </strong>
                     </h3>
                     <p>
-                      Tabulated below are the ranking of Engineering colleges in
+                      Tabulated below are the ranking of More colleges in
                       India by India Today
                     </p>
                     <div className="table-responsive">
@@ -462,10 +462,10 @@ const More = () => {
                   </div>
                   <div>
                     <h3>
-                      <strong>Top 10 Engineering Colleges in India</strong>
+                      <strong>Top 10 More Colleges in India</strong>
                     </h3>
                     <p>
-                      Tabulated below are the 10 tier 1 Engineering colleges in
+                      Tabulated below are the 10 tier 1 More colleges in
                       India
                     </p>
                     <div className="table-responsive">
@@ -583,26 +583,26 @@ const More = () => {
                   <div>
                     <h2>
                       <span>
-                        <strong>Engineering College Fees in India</strong>&nbsp;
+                        <strong>More College Fees in India</strong>&nbsp;
                       </span>
                     </h2>
                     <p>
                       <span>
-                        Best engineering colleges in India offer B.Tech, M.Tech
+                        Best More colleges in India offer B.Tech, M.Tech
                         and other courses with a varying fee structure from low
                         to high depending on the type of college and the
-                        facilities provided. Given below are engineering college
+                        facilities provided. Given below are More college
                         fees in India in various types of colleges.
                       </span>
                     </p>
 
                     <h3>
                       <strong>
-                        Top Government Engineering Colleges in India with Fees
+                        Top Government More Colleges in India with Fees
                       </strong>
                     </h3>
                     <p>
-                      Tabulated below are the top government engineering
+                      Tabulated below are the top government More
                       colleges in India
                     </p>
                     <div className="table-responsive">
@@ -699,11 +699,11 @@ const More = () => {
                   <div>
                     <h3>
                       <strong>
-                        Top Private Engineering Colleges in India with Fees
+                        Top Private More Colleges in India with Fees
                       </strong>
                     </h3>
                     <p>
-                      Tabulated below are the best private engineering colleges
+                      Tabulated below are the best private More colleges
                       in India
                     </p>
                     <div className="table-responsive">
@@ -799,10 +799,10 @@ const More = () => {
                   </div>
                   <div>
                     <h3>
-                      <strong>Cheapest Engineering Colleges in India</strong>
+                      <strong>Cheapest More Colleges in India</strong>
                     </h3>
                     <p>
-                      Tabulated below are the low fees engineering colleges in
+                      Tabulated below are the low fees More colleges in
                       India
                     </p>
                     <div className="table-responsive">
@@ -814,7 +814,7 @@ const More = () => {
                             </th>
                             <th>
                               <strong>
-                                Diploma in Engineering Total Tuition Fees (INR)
+                                Diploma in More Total Tuition Fees (INR)
                               </strong>
                             </th>
                           </tr>
@@ -878,11 +878,11 @@ const More = () => {
                   <div>
                     <h2>
                       <strong>
-                        Top Engineering Colleges in India Admission
+                        Top More Colleges in India Admission
                       </strong>
                     </h2>
                     <p>
-                      Engineering colleges offer admission to various courses at
+                      More colleges offer admission to various courses at
                       undergraduate, postgraduate, and PhD levels.
                     </p>
                     <h3>
@@ -890,7 +890,7 @@ const More = () => {
                     </h3>
                     <p>
                       Candidates must fulfil the eligibility criteria to get
-                      admission to top engineering colleges in India.
+                      admission to top More colleges in India.
                     </p>
                     <p>
                       <strong>B.Tech/B.E.</strong>
@@ -1021,11 +1021,11 @@ const More = () => {
                           <tr>
                             <td>10</td>
                             <td>
-                              College of Engineering, Anna University (Chennai)
+                              College of More, Anna University (Chennai)
                             </td>
                             <td>
                               <a className="in-cell-link" href="#">
-                                College of Engineering, Anna University
+                                College of More, Anna University
                                 (Chennai) Admission Link
                               </a>
                             </td>
@@ -1037,12 +1037,12 @@ const More = () => {
                   <div>
                     <h2>
                       <strong>
-                        Top Engineering Colleges in India for Lateral Entry
+                        Top More Colleges in India for Lateral Entry
                       </strong>
                     </h2>
                     <p>
-                      Some engineering colleges offer lateral entry. Tabulated
-                      below are the best engineering colleges offering lateral
+                      Some More colleges offer lateral entry. Tabulated
+                      below are the best More colleges offering lateral
                       entry
                     </p>
                     <div className="table-responsive">
@@ -1126,7 +1126,7 @@ const More = () => {
                             <td>9</td>
                             <td>
                               <a className="in-cell-link" href="#">
-                                Pondicherry Engineering College
+                                Pondicherry More College
                               </a>
                             </td>
                           </tr>
@@ -1145,37 +1145,37 @@ const More = () => {
                   <div>
                     <h2>
                       <strong>
-                        Specialisations Available in Top Engineering Colleges in
+                        Specialisations Available in Top More Colleges in
                         India&nbsp;
                       </strong>
                     </h2>
                     <p>
-                      Engineering courses are offered in various
+                      More courses are offered in various
                       specialisations. Few of the specialisations offer job
                       opportunities in various fields with high salary packages.
-                      Below mentioned are the most popular engineering
-                      specialisations in best engineering colleges in India
+                      Below mentioned are the most popular More
+                      specialisations in best More colleges in India
                     </p>
                     <ul>
-                      <li>Chemical Engineering</li>
-                      <li>Mechanical Engineering</li>
-                      <li>Computer Science Engineering</li>
-                      <li>Aeronautical Engineering</li>
-                      <li>Civil Engineering</li>
+                      <li>Chemical More</li>
+                      <li>Mechanical More</li>
+                      <li>Computer Science More</li>
+                      <li>Aeronautical More</li>
+                      <li>Civil More</li>
                     </ul>
                   </div>
                   <div>
                     <h3>
                       <strong>
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
+                        Top More Colleges in India for Computer Science
+                        More
                       </strong>
                     </h3>
                     <p>
-                      Computer science and engineering are one of the most
-                      preferred courses among engineering students due to the
+                      Computer science and More are one of the most
+                      preferred courses among More students due to the
                       booming technology and growth of tech startups. Listed
-                      below are some of the top engineering colleges for
+                      below are some of the top More colleges for
                       computer science
                     </p>
                     <ul>
@@ -1208,21 +1208,21 @@ const More = () => {
                     <p>
                       <strong>Read More:</strong>{" "}
                       <a href="#">
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
+                        Top More Colleges in India for Computer Science
+                        More
                       </a>
                     </p>
                   </div>
                   <div>
                     <h3>
                       <strong>
-                        Top Engineering Colleges in India for Mechanical
-                        Engineering
+                        Top More Colleges in India for Mechanical
+                        More
                       </strong>
                     </h3>
                     <p>
-                      Listed below are the best engineering colleges for
-                      Mechanical Engineering
+                      Listed below are the best More colleges for
+                      Mechanical More
                     </p>
                     <ul>
                       <li>
@@ -1254,18 +1254,18 @@ const More = () => {
                   </div>
                   <div>
                     <p>
-                      <strong>Read More:</strong> Top Engineering Colleges in
-                      India for Mechanical Engineering
+                      <strong>Read More:</strong> Top More Colleges in
+                      India for Mechanical More
                     </p>
                     <h3>
                       <strong>
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
+                        Top More Colleges in India for Aeronautical
+                        More
                       </strong>
                     </h3>
                     <p>
-                      Listed below are some of the best colleges for engineering
-                      offering Aeronautical Engineering specialization
+                      Listed below are some of the best colleges for More
+                      offering Aeronautical More specialization
                     </p>
                     <ul>
                       <li>
@@ -1297,19 +1297,19 @@ const More = () => {
                     <p>
                       <strong>Read More:</strong>{" "}
                       <a href="#">
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
+                        Top More Colleges in India for Aeronautical
+                        More
                       </a>
                     </p>
                   </div>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India for Civil Engineering
+                      Top More Colleges in India for Civil More
                     </strong>
                   </h3>
                   <p>
-                    Listed below are top engineering colleges that offer
-                    specialization in Civil Engineering
+                    Listed below are top More colleges that offer
+                    specialization in Civil More
                   </p>
                   <ul>
                     <li>
@@ -1341,17 +1341,17 @@ const More = () => {
                   <p>
                     <strong>Read More:</strong>{" "}
                     <a href="#">
-                      Top Engineering Colleges in India for Civil Engineering
+                      Top More Colleges in India for Civil More
                     </a>
                   </p>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India for Chemical Engineering
+                      Top More Colleges in India for Chemical More
                     </strong>
                   </h3>
                   <p>
-                    Listed below are some of the best colleges for engineering
-                    offering Chemical Engineering specialization
+                    Listed below are some of the best colleges for More
+                    offering Chemical More specialization
                   </p>
                   <ul>
                     <li>
@@ -1383,21 +1383,21 @@ const More = () => {
                   <p>
                     <strong>Read More:</strong>{" "}
                     <a href="#">
-                      Top Engineering Colleges in India for Chemical Engineering
+                      Top More Colleges in India for Chemical More
                     </a>
                   </p>
                   <h2>
                     <strong>
-                      Entrance Exams for Top Engineering Colleges in India
+                      Entrance Exams for Top More Colleges in India
                     </strong>
                   </h2>
                   <p>
                     <span>
-                      Top engineering colleges in India offer admission based on
+                      Top More colleges in India offer admission based on
                       the students' marks in various national or state-level
                       entrance examinations. Below mentioned are some of the
                       popular entrance exams to get admission to the best
-                      engineering colleges in India
+                      More colleges in India
                     </span>
                   </p>
                   <ul>
@@ -1417,14 +1417,14 @@ const More = () => {
                   </ul>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India Accepting JEE Main Score
+                      Top More Colleges in India Accepting JEE Main Score
                     </strong>
                   </h3>
                   <p>
                     <span>
                       JEE Main is an all-India test conducted for admission to
-                      top engineering colleges in India. Tabulated below are the
-                      top colleges for engineering accepting JEE Main Score
+                      top More colleges in India. Tabulated below are the
+                      top colleges for More accepting JEE Main Score
                     </span>
                   </p>
                   <div className="table-responsive">
@@ -1485,16 +1485,16 @@ const More = () => {
                   </div>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India Accepting JEE Advanced
+                      Top More Colleges in India Accepting JEE Advanced
                       Score
                     </strong>
                   </h3>
                   <p>
                     <span>
                       Candidates who clear JEE Main are allowed to take up JEE
-                      Advanced to get admitted to the top-most engineering
+                      Advanced to get admitted to the top-most More
                       colleges in the country. Tabulated below are the best
-                      engineering colleges accepting JEE Advanced score
+                      More colleges accepting JEE Advanced score
                     </span>
                   </p>
                   <div className="table-responsive">
@@ -1555,13 +1555,13 @@ const More = () => {
                   </div>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India Accepting KCET Score
+                      Top More Colleges in India Accepting KCET Score
                     </strong>
                   </h3>
                   <p>
                     KCET is a state-level entrance examination conducted in
                     Karnataka for various courses. Tabulated below are the best
-                    colleges for engineering accepting KCET score
+                    colleges for More accepting KCET score
                   </p>
                   <div className="table-responsive">
                     <table className="table table-bordered">
@@ -1621,14 +1621,14 @@ const More = () => {
                   </div>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India Accepting GATE Score
+                      Top More Colleges in India Accepting GATE Score
                     </strong>
                   </h3>
                   <p>
                     <span>
                       GATE is an all-India level entrance examination conducted
                       for admission to the master's program and for admission to
-                      PhD. Tabulated below are top engineering colleges
+                      PhD. Tabulated below are top More colleges
                       accepting GATE score
                     </span>
                   </p>
@@ -1690,14 +1690,14 @@ const More = () => {
                   </div>
                   <h2>
                     <strong>
-                      Best Placement Engineering Colleges in India
+                      Best Placement More Colleges in India
                     </strong>
                   </h2>
                   <p>
                     <span>
-                      Students of top engineering colleges in India are
+                      Students of top More colleges in India are
                       recruited by big companies during campus placements every
-                      year. Tabulated below are the best placement engineering
+                      year. Tabulated below are the best placement More
                       colleges in India
                     </span>
                   </p>
@@ -1815,14 +1815,14 @@ const More = () => {
                   </div>
                   <h2>
                     <strong>
-                      Average Salary Package in Top Engineering Colleges in
+                      Average Salary Package in Top More Colleges in
                       India
                     </strong>
                   </h2>
                   <p>
                     <span>
                       Tabulated below are the average salary package offered in
-                      the best colleges for engineering in India
+                      the best colleges for More in India
                     </span>
                   </p>
                   <div className="table-responsive">
@@ -1902,12 +1902,12 @@ const More = () => {
                     </table>
                   </div>
                   <h2>
-                    <strong>Top Engineering Colleges in India Cutoff</strong>
+                    <strong>Top More Colleges in India Cutoff</strong>
                   </h2>
                   <p>
                     <span>
                       Tabulated below are the JEE Advanced cutoff ranks in
-                      Aerospace Engineering in top engineering colleges
+                      Aerospace More in top More colleges
                     </span>
                   </p>
                   <div className="table-responsive">
@@ -1992,45 +1992,45 @@ const More = () => {
                 <>
                   <p>
                     <span style={{ fontWeight: 400 }}>
-                      Top Engineering Colleges in India include colleges like
+                      Top More Colleges in India include colleges like
                       IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
                     </span>
                   </p>
                   <p>
                     <span style={{ fontWeight: 400 }}>
-                      Engineering is a discipline that involves various
+                      More is a discipline that involves various
                       scientific principles to design, innovate, and develop
                       machines, software, hardware, technical systems, and
-                      processes. Engineering offers a degree in multiple
-                      specializations such as computer science and engineering,
-                      mechanical engineering, civil engineering, chemical
-                      engineering, etc.
+                      processes. More offers a degree in multiple
+                      specializations such as computer science and More,
+                      mechanical More, civil More, chemical
+                      More, etc.
                     </span>
                     <span>
-                      Courses offered in top engineering colleges in India
+                      Courses offered in top More colleges in India
                       are&nbsp;
                       <a href="#">BE</a>,&nbsp;
                       <a href="#">BTech</a>
                       ,&nbsp;
                       <a href="#">MTech</a>
-                      ,&nbsp;<a href="#">ME</a>, Diploma in Engineering, PhD.
+                      ,&nbsp;<a href="#">ME</a>, Diploma in More, PhD.
                     </span>
                     <span>
                       Entrance exams accepted by the best colleges for
-                      engineering are JEE MAINS, JEE Advanced, BITSAT, KCET etc.
-                      There are various job opportunities after an Engineering
+                      More are JEE MAINS, JEE Advanced, BITSAT, KCET etc.
+                      There are various job opportunities after an More
                       degree like software engineer, mechanical engineer,
                       electrical engineer, web developer, biomedical engineer
                       etc.
                     </span>
                   </p>
-                  <h2>Top Engineering Colleges in India: Highlights</h2>
+                  <h2>Top More Colleges in India: Highlights</h2>
                   <p>
                     <span style={{ fontWeight: 400 }}>
                       Candidates must have passed 10+2 with a minimum of 50%
                       marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
+                      More colleges in India. Tabulated below are the key
+                      highlights regarding the More colleges in India
                     </span>
                   </p>
                   <div className="table-responsive">
@@ -2082,9 +2082,9 @@ const More = () => {
                           <td>
                             <p>
                               <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
+                                Computer Science More, Mechanical
+                                More, Civil More, Aeronautical
+                                More
                               </span>
                             </p>
                           </td>
@@ -2098,7 +2098,7 @@ const More = () => {
                           <td>
                             <p>
                               <span>
-                                The annual fee of engineering colleges in India
+                                The annual fee of More colleges in India
                                 ranges between 125000 to 350000.
                               </span>
                             </p>
@@ -2108,15 +2108,15 @@ const More = () => {
                     </table>
                   </div>
                   <h2>
-                    <strong>Ranking of Engineering Colleges in India</strong>
+                    <strong>Ranking of More Colleges in India</strong>
                   </h2>
                   <p>
                     <span style={{ fontWeight: 400 }}>
                       NIRF and many other ranking sources have ranked various
                       government and private colleges in India. Given below are
-                      the ranking of&nbsp; top engineering colleges in India by
-                      various sources to make it easier for engineering
-                      aspirants to choose the best engineering colleges.
+                      the ranking of&nbsp; top More colleges in India by
+                      various sources to make it easier for More
+                      aspirants to choose the best More colleges.
                     </span>
                   </p>
                 </>

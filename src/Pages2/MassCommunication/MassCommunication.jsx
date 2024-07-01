@@ -10,7 +10,7 @@ import {
   MDBListGroupItem,
   MDBBtn,
 } from "mdb-react-ui-kit";
-// import "./Exams.css"; // Assuming Exams.css is in the same directory
+// import "./MassCommunication.css";
 
 const MassCommunication = () => {
   const [showContent, setShowContent] = useState(false);
@@ -56,13 +56,13 @@ const MassCommunication = () => {
   return (
     <div className="section">
       <h2 className="section-title">
-        Top Engineering Colleges in India 2023-2024
+        Top Mass Communication Colleges in India 2023-2024
       </h2>
       <MDBContainer fluid>
         <MDBRow>
           <MDBCol md="9" className="mx-auto">
             <div className="pageDescription text-center">
-              <h1>Engineering Colleges</h1>
+              <h1>Mass Communication Colleges</h1>
 
               {showContent ? (
                 <>
@@ -76,505 +76,510 @@ const MassCommunication = () => {
                       Show Less
                     </button>
                   </div>
-                  <p>
-                    <div className="mb-2">
-                      <span>
-                        Top Engineering Colleges in India include colleges like
-                        IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
-                      </span>
-                    </div>
-                    <div className="mb-2">
-                      <span>
-                        Engineering is a discipline that involves various
-                        scientific principles to design, innovate, and develop
-                        machines, software, hardware, technical systems, and
-                        processes. Engineering offers a degree in multiple
-                        specialisations such as computer science and
-                        engineering, mechanical engineering, civil engineering,
-                        chemical engineering, etc.
-                      </span>
-                    </div>
-                  </p>
-                  <p>
-                    <div className="mb-2">
-                      <span>
-                        Courses offered in top engineering colleges in India
-                        are&nbsp;
-                        <a href="#">BE</a>,&nbsp;<a href="#">BTech</a>,&nbsp;
-                        <a href="#">MTech</a>,&nbsp;<a href="#">ME</a>, Diploma
-                        in Engineering, PhD.
-                      </span>
-                    </div>
-                    <div className="mb-2">
-                      <span>
-                        Entrance exams accepted by the best colleges for
-                        engineering are JEE MAINS, JEE Advanced, BITSAT, KCET
-                        etc. There are various job opportunities after an
-                        Engineering degree like software engineer, mechanical
-                        engineer, electrical engineer, web developer, biomedical
-                        engineer etc.
-                      </span>
-                    </div>
-                  </p>
+                  <h1>Mass Communication Colleges </h1>
                   <h2>
-                    <strong>
-                      Top Engineering Colleges in India: Highlights
-                    </strong>
+                    Mass Communication College: Eligibility, Admission, Syllabus,
+                    Placements
                   </h2>
                   <p>
-                    <span>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
-                    </span>
+                    <div className="mb-2">
+                      <span>
+                      Top Mass Communication Colleges in India include
+                      colleges like IIMC Delhi, Manipal Academy of Higher
+                      Education (Manipal), Xavier Institute of Communications
+                      (Mumbai), Savitribai Phule Pune University (Pune) etc.
+                      The course level and duration of various courses of mass
+                      communication vary. The courses that can be opted for
+                      are Bachelor in Mass Communication (BMC), PG Diploma in
+                      Mass Communication, Advance Diploma in Mass
+                      Communication etc. Specialisations offered in top mass
+                      communication colleges in India are Journalism, Media
+                      Studies, Advertising, Multimedia Communication etc.
+                      After pursuing a degree in mass communication, there are
+                      multiple job opportunities as Radio Jockey, News
+                      Reporter, Journalist, Marketing Analyst, Editor etc.
+                      </span>
+                    </div>
+                    <h2>
+                      <strong>
+                        <span data-preserver-spaces="true">
+                          Top Mass Communication Colleges in India: Highlights
+                        </span>
+                      </strong>
+                    </h2>
+                    <div className="mb-2">
+                      <span>
+                      There are around 1330 mass communication colleges in
+                      India. Tabulated below are the key highlights regarding
+                      mass communication colleges in India.
+                      </span>
+                    </div>
                   </p>
                   <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>College Type</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Colleges Affiliated To</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Entrance Exams Accepted</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Specialisations</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Approximate Fees</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div>
+                      <table border="1">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <p>
+                                <strong>College Type</strong>
+                              </p>
+                            </td>
+                            <td>
+                              <p>
+                                Government Colleges - 368 and Private Colleges -
+                                929
+                              </p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>
+                                <strong>Colleges Affiliated To</strong>
+                              </p>
+                            </td>
+                            <td>
+                              <p>UGC, AIU</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>
+                                <strong>Entrance Exams Accepted</strong>
+                              </p>
+                            </td>
+                            <td>CUCET, XIC OET, FTII JET</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>
+                                <strong>Specialisations</strong>
+                              </p>
+                            </td>
+                            <td>
+                              Journalism, Media Studies, Multimedia
+                              Communication, Advertising
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>
+                                <strong>Approximate Fees</strong>
+                              </p>
+                            </td>
+                            <td>
+                              <p>Annual fee ranges from 50,000 to 1,00,000.</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div>
                     <h2>
-                      <span>
-                        <strong>Ranking</strong>&nbsp;
-                        <strong>of Engineering Colleges in India</strong>
-                      </span>
+                      <strong>
+                        Mass Communication Colleges Ranking in India
+                      </strong>
                     </h2>
                     <p>
                       <span>
-                        NIRF and many other ranking sources have ranked various
-                        government and private colleges in India. Given below
-                        are the ranking of top engineering colleges in India by
-                        various sources to make it easier for engineering
-                        aspirants to choose the best engineering colleges.
+                        Ranking the mass communication colleges in India is
+                        based on various relevant parameters. Various rankings
+                        have been listed below to make it easier for students to
+                        choose the best mass communication colleges in India.
                       </span>
                     </p>
                     <h3>
-                      <strong>NIRF Ranking of Engineering Colleges</strong>
-                    </h3>
-                    <p>
-                      Engineering college ranking by NIRF is done on the basis
-                      of various parameters like teaching, learning, resources
-                      etc. Tabulated below are the best engineering colleges in
-                      India ranked by NIRF.
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>NIRF Score</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>90.14</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>88.12</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>83.96</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>82.56</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>78.89</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>76.70</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>72.98</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>69.17</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>68.03</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Surathkal
-                              </a>
-                            </td>
-                            <td>66.04</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
                       <strong>
-                        Top Engineering Colleges in India by India Today Ranking
+                        Top Mass Communication Colleges in India by NIRF
                       </strong>
                     </h3>
                     <p>
-                      Tabulated below are the ranking of Engineering colleges in
-                      India by India Today
+                      Tabulated below are the best mass communication colleges
+                      in India by NIRF ranking
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border="1">
                         <tbody>
                           <tr>
-                            <td>1</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,80,000</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bhubaneswar
-                              </a>
-                            </td>
-                            <td>8,83,036</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                            <td>8,76,000</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>6,47,000</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Patna
-                              </a>
-                            </td>
-                            <td>6,98,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>Top 10 Engineering Colleges in India</strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the 10 tier 1 Engineering colleges in
-                      India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
                               <strong>S. No.</strong>
-                            </th>
-                            <th>
+                            </td>
+                            <td>
                               <strong>College Name</strong>
-                            </th>
-                            <th>
+                            </td>
+                            <td>
                               <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
+                                PG Diploma Total Tuition Fees (INR)
                               </strong>
-                            </th>
+                            </td>
                           </tr>
-                        </thead>
-                        <tbody>
                           <tr>
                             <td>1</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
+                              <a href="#">
+                                Manipal Academy of Higher Education
                               </a>
                             </td>
-                            <td>3,00,464</td>
+                            <td>1,67,000</td>
                           </tr>
                           <tr>
                             <td>2</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
+                              <a href="#">UniPune</a>
                             </td>
-                            <td>8,81,200</td>
+                            <td>34,500</td>
                           </tr>
                           <tr>
                             <td>3</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
+                              <a href="#">AMU</a>
                             </td>
-                            <td>9,12,000</td>
+                            <td>29,820</td>
                           </tr>
                           <tr>
                             <td>4</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
+                              <a href="#">MCM DAV College for Women</a>
                             </td>
-                            <td>3,60,368</td>
+                            <td>24,490</td>
                           </tr>
                           <tr>
                             <td>5</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
+                              <a href="#">St. Aloysius College Mangalore</a>
                             </td>
-                            <td>9,71,600</td>
+                            <td>62,000</td>
                           </tr>
                           <tr>
                             <td>6</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
+                              <a href="#">Amity University Gwalior</a>
                             </td>
-                            <td>8,54,000</td>
+                            <td>64,000</td>
                           </tr>
                           <tr>
                             <td>7</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
-                              </a>
+                              <a href="#">BHU Varanasi</a>
                             </td>
-                            <td>20,51,100</td>
+                            <td>40,000</td>
                           </tr>
                           <tr>
                             <td>8</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
+                              <a href="#">Panjab University</a>
                             </td>
-                            <td>8,71,000</td>
+                            <td>18,600</td>
                           </tr>
                           <tr>
                             <td>9</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
+                              <a href="#">Loyola College</a>
                             </td>
-                            <td>9,46,000</td>
+                            <td>35,000</td>
                           </tr>
                           <tr>
                             <td>10</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
+                              <a href="#">Fergusson College</a>
+                            </td>
+                            <td>18,000</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <strong>
+                        Top Mass Communication Colleges in India by India Today
+                      </strong>
+                    </h3>
+                    <p>
+                      <span>
+                        Tabulated below are the top mass communication colleges
+                        in India ranking by India Today
+                      </span>
+                    </p>
+                    <div className="table-responsive">
+                      <table border="1">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>S. No.</strong>
+                            </td>
+                            <td>
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>
+                                PG Diploma Total Tuition Fees (INR)
+                              </strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>
+                              <a href="#">IIMC</a>
+                            </td>
+                            <td>1,60,000</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>
+                              <a href="#">XIC Mumbai</a>
+                            </td>
+                            <td>3,77,150</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>
+                              <a href="#">
+                                A.J.K. Mass Communication Research Centre
                               </a>
                             </td>
-                            <td>2,00,000</td>
+                            <td>86,320</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>
+                              <a href="#">
+                                Manipal Academy of Higher Education
+                              </a>
+                            </td>
+                            <td>1,67,000</td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>
+                              <a href="#">UniPune</a>
+                            </td>
+                            <td>34,500</td>
+                          </tr>
+                          <tr>
+                            <td>6</td>
+                            <td>
+                              <a href="#">Amity School of Communication</a>
+                            </td>
+                            <td>2,69,000</td>
+                          </tr>
+                          <tr>
+                            <td>7</td>
+                            <td>
+                              <a href="#">Sophia College for Women</a>
+                            </td>
+                            <td>1,61,000</td>
+                          </tr>
+                          <tr>
+                            <td>8</td>
+                            <td>
+                              <a href="#">Kishinchand Chellaram College</a>
+                            </td>
+                            <td>37,610</td>
+                          </tr>
+                          <tr>
+                            <td>9</td>
+                            <td>
+                              <a href="#">Manorama School of Communication</a>
+                            </td>
+                            <td>1,50,000</td>
+                          </tr>
+                          <tr>
+                            <td>10</td>
+                            <td>
+                              <a href="#">AIMC</a>
+                            </td>
+                            <td>2,60,000</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <strong>
+                        Top Mass Communication Colleges in India by India Today
+                      </strong>
+                    </h3>
+                    <p>
+                      <span>
+                        Tabulated below are the top mass communication colleges
+                        in India ranking by India Today
+                      </span>
+                    </p>
+                    <div className="table-responsive">
+                      <table border="1">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>S. No.</strong>
+                            </td>
+                            <td>
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>
+                                PG Diploma Total Tuition Fees (INR)
+                              </strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>
+                              <a href="#">IIMC</a>
+                            </td>
+                            <td>1,60,000</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>
+                              <a href="#">XIC Mumbai</a>
+                            </td>
+                            <td>3,77,150</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>
+                              <a href="#">
+                                A.J.K. Mass Communication Research Centre
+                              </a>
+                            </td>
+                            <td>86,320</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>
+                              <a href="#">
+                                Manipal Academy of Higher Education
+                              </a>
+                            </td>
+                            <td>1,67,000</td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>
+                              <a href="#">UniPune</a>
+                            </td>
+                            <td>34,500</td>
+                          </tr>
+                          <tr>
+                            <td>6</td>
+                            <td>
+                              <a href="#">Amity School of Communication</a>
+                            </td>
+                            <td>2,69,000</td>
+                          </tr>
+                          <tr>
+                            <td>7</td>
+                            <td>
+                              <a href="#">Sophia College for Women</a>
+                            </td>
+                            <td>1,61,000</td>
+                          </tr>
+                          <tr>
+                            <td>8</td>
+                            <td>
+                              <a href="#">Kishinchand Chellaram College</a>
+                            </td>
+                            <td>37,610</td>
+                          </tr>
+                          <tr>
+                            <td>9</td>
+                            <td>
+                              <a href="#">Manorama School of Communication</a>
+                            </td>
+                            <td>1,50,000</td>
+                          </tr>
+                          <tr>
+                            <td>10</td>
+                            <td>
+                              <a href="#">AIMC</a>
+                            </td>
+                            <td>2,60,000</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <strong>
+                        Top 10 Mass Communication Universities in India
+                      </strong>
+                    </h3>
+                    <p>
+                      Tabulated below are the top 10 universities for mass
+                      communication in India
+                    </p>
+                    <div className="table-responsive">
+                      <table border="1">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>S. No.</strong>
+                            </td>
+                            <td>
+                              <strong>University Name</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>
+                              <a href="#">Jamia Millia Islamia University</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>
+                              <a href="#">BHU Varanasi</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>
+                              <a href="#">Delhi University</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>
+                              <a href="#">Christ University</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>
+                              <a href="#">UniPune</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>6</td>
+                            <td>
+                              <a href="#">University of Hyderabad</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>7</td>
+                            <td>
+                              <a href="#">AMU</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>8</td>
+                            <td>
+                              <a href="#">Jain University</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>9</td>
+                            <td>
+                              <a href="#">Jagran Lakecity University</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>10</td>
+                            <td>
+                              <a href="#">Chandigarh University</a>
+                            </td>
                           </tr>
                         </tbody>
                       </table>
@@ -582,115 +587,103 @@ const MassCommunication = () => {
                   </div>
                   <div>
                     <h2>
-                      <span>
-                        <strong>Engineering College Fees in India</strong>&nbsp;
-                      </span>
+                      <strong>
+                        Fee Structure of Top Mass Communication Colleges in
+                        India
+                      </strong>
                     </h2>
                     <p>
+                      Fees of mass communication colleges in India vary from
+                      college to college. Government mass communication colleges
+                      are cheaper than private mass communication colleges.
+                    </p>
+                    <h3>
+                      <strong>
+                        Government College for Mass Communication in India with
+                        Fees
+                      </strong>
+                    </h3>
+                    <p>
                       <span>
-                        Best engineering colleges in India offer B.Tech, M.Tech
-                        and other courses with a varying fee structure from low
-                        to high depending on the type of college and the
-                        facilities provided. Given below are engineering college
-                        fees in India in various types of colleges.
+                        Tabulated below is the list of top government mass
+                        communication colleges in India with fees
                       </span>
                     </p>
-
-                    <h3>
-                      <strong>
-                        Top Government Engineering Colleges in India with Fees
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the top government engineering
-                      colleges in India
-                    </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border="1">
                         <tbody>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
+                              <strong>College Name</strong>
                             </td>
-                            <td>3,00,464</td>
+                            <td>
+                              <strong>
+                                PG Diploma Total Tuition Fees (INR)
+                              </strong>
+                            </td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
+                              <a href="#">IIMC</a>
                             </td>
-                            <td>8,81,200</td>
+                            <td>1,60,000</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
+                              <a href="#">UniPune</a>
                             </td>
-                            <td>9,12,000</td>
+                            <td>34,500</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
-                              </a>
+                              <a href="#">Kishinchand Chellaram College</a>
                             </td>
-                            <td>3,60,368</td>
+                            <td>37,610</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
+                              <a href="#">AMU</a>
                             </td>
-                            <td>9,71,600</td>
+                            <td>29,820</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
+                              <a href="#">
+                                Kushabhau Thakre Patrakarita Avam Jansanchar
+                                Vishwavidyalaya
                               </a>
                             </td>
-                            <td>8,54,000</td>
+                            <td>19,085</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
+                              <a href="#">BHU Varanasi</a>
                             </td>
-                            <td>8,71,000</td>
+                            <td>40,000</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
+                              <a href="#">Panjab University</a>
                             </td>
-                            <td>9,46,000</td>
+                            <td>18,600</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
+                              <a href="#">Loyola College</a>
                             </td>
-                            <td>6,47,000</td>
+                            <td>35,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#">PSG College of Arts And Science</a>
+                            </td>
+                            <td>10,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#">Jamia Millia Islamia University</a>
+                            </td>
+                            <td>86,320</td>
                           </tr>
                         </tbody>
                       </table>
@@ -699,99 +692,92 @@ const MassCommunication = () => {
                   <div>
                     <h3>
                       <strong>
-                        Top Private Engineering Colleges in India with Fees
+                        Top Private Mass Communication Colleges in India with
+                        Fees
                       </strong>
                     </h3>
                     <p>
-                      Tabulated below are the best private engineering colleges
-                      in India
+                      <span>
+                        Tabulated below are the private top mass communication
+                        colleges in India with fees
+                      </span>
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border="1">
                         <tbody>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
-                              </a>
+                              <strong>College Name</strong>
                             </td>
-                            <td>20,51,100</td>
+                            <td>
+                              <strong>
+                                &nbsp;PG Diploma Total Tuition Fees (INR)
+                              </strong>
+                            </td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                ICT Mumbai
-                              </a>
+                              <a href="#">ACJ</a>
                             </td>
-                            <td>3,56,400</td>
+                            <td>7,08,000</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                VIT Vellore
-                              </a>
+                              <a href="#">XIC Mumbai</a>
                             </td>
-                            <td>7,92,000</td>
+                            <td>3,77,150</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
+                              <a href="#">
+                                A.J.K. Mass Communication Research Centre
                               </a>
                             </td>
-                            <td>14,68,800</td>
+                            <td>86,320</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIST Trivandrum
+                              <a href="#">
+                                Manipal Academy of Higher Education
                               </a>
                             </td>
-                            <td>5,79,600</td>
+                            <td>1,67,000</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Institute of Technical Education and Research
-                              </a>
+                              <a href="#">Amity School of Communication</a>
                             </td>
-                            <td>9,40,000</td>
+                            <td>2,69,000</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                BIT Mesra
-                              </a>
+                              <a href="#">Sophia College for Women</a>
                             </td>
-                            <td>11,40,000</td>
+                            <td>1,61,000</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
+                              <a href="#">Manorama School of Communication</a>
                             </td>
-                            <td>8,76,000</td>
+                            <td>1,50,000</td>
                           </tr>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Amity University Noida
-                              </a>
+                              <a href="#">AIMC</a>
                             </td>
-                            <td>12,44,000</td>
+                            <td>2,60,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#">IMS Noida</a>
+                            </td>
+                            <td>1,31,700</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="">NSHM Kolkata</a>
+                            </td>
+                            <td>3,25,000</td>
                           </tr>
                         </tbody>
                       </table>
@@ -799,77 +785,95 @@ const MassCommunication = () => {
                   </div>
                   <div>
                     <h3>
-                      <strong>Cheapest Engineering Colleges in India</strong>
+                      <strong>
+                        Top Mass Communication Colleges in India with Low Fees
+                      </strong>
                     </h3>
                     <p>
-                      Tabulated below are the low fees engineering colleges in
-                      India
+                      There are some mass communication colleges that charge
+                      very low fees. Tabulated below are top mass communication
+                      colleges in India with low fees
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                Diploma in Engineering Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border="1">
                         <tbody>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                APCC
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>
+                                &nbsp;PG Diploma Total Tuition Fees (INR)
+                              </strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#">
+                                Rajarshi Shahu College of Engineering
                               </a>
                             </td>
-                            <td>2,505</td>
-                          </tr>
-                          <tr>
-                            <td>Asansol Polytechnic, Asansol</td>
-                            <td>1,020</td>
-                          </tr>
-                          <tr>
-                            <td>Govt. Womens Polytechnic, Seraikela</td>
-                            <td>1,215</td>
+                            <td>820</td>
                           </tr>
                           <tr>
                             <td>
-                              Medinipur Sadar Government Polytechnic, Medinipur
+                              <a href="#">
+                                B.K. Shroff College of Arts and M.H. Shroff
+                                College of Commerce
+                              </a>
                             </td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>Central Footwear Training Centre, Parganas</td>
-                            <td>1,800</td>
+                            <td>1,300</td>
                           </tr>
                           <tr>
                             <td>
-                              Haji Md. Serafat Mondal Government Polytechnic,
-                              Birbhum
+                              <a href="#">Bikali College Goalpara</a>
                             </td>
-                            <td>1,800</td>
+                            <td>1,500</td>
                           </tr>
                           <tr>
                             <td>
-                              Ratua S. N. Bose Government Polytechnic, Ratua
+                              <a href="#">DDEBRABU</a>
                             </td>
-                            <td>2,055</td>
+                            <td>500</td>
                           </tr>
                           <tr>
-                            <td>Government Womens Polytechnic, Patna</td>
-                            <td>3,195</td>
+                            <td>
+                              <a href="#">
+                                Mula Education Societys Arts, Science and
+                                Commerce College
+                              </a>
+                            </td>
+                            <td>2,000</td>
                           </tr>
                           <tr>
-                            <td>Nalhati Government Polytechnic, Birbhum</td>
-                            <td>2,550</td>
+                            <td>
+                              <a href="#">Pratap College of Education</a>
+                            </td>
+                            <td>2,000</td>
                           </tr>
                           <tr>
-                            <td>Raipur Government Polytechnic, Raipur</td>
-                            <td>2,655</td>
+                            <td>
+                              <a href="#">Rashtriya Sanskrit Sansthana</a>
+                            </td>
+                            <td>2,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#">Maulana Azad University</a>
+                            </td>
+                            <td>2,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#">MCASC</a>
+                            </td>
+                            <td>2,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#">Jai Prakash University Chapra</a>
+                            </td>
+                            <td>1,150</td>
                           </tr>
                         </tbody>
                       </table>
@@ -878,155 +882,498 @@ const MassCommunication = () => {
                   <div>
                     <h2>
                       <strong>
-                        Top Engineering Colleges in India Admission
+                        Top Mass Communication Colleges in India Admission
                       </strong>
                     </h2>
                     <p>
-                      Engineering colleges offer admission to various courses at
-                      undergraduate, postgraduate, and PhD levels.
+                      <span>
+                        Admission to the best mass communication colleges can be
+                        taken through entrance exams. Entrance exams are
+                        conducted on both national and state levels. The most
+                        popular entrance exams to get admission to mass
+                        communication colleges in India are CUCET, XIC OET, etc.
+                      </span>
                     </p>
                     <h3>
                       <strong>Eligibility Criteria</strong>
                     </h3>
                     <p>
-                      Candidates must fulfil the eligibility criteria to get
-                      admission to top engineering colleges in India.
+                      <span>
+                        Candidates must fulfill the eligibility criteria to get
+                        admission to the best colleges for mass communication.
+                      </span>
                     </p>
                     <p>
-                      <strong>B.Tech/B.E.</strong>
+                      <strong>BMC</strong>
+                    </p>
+                    <ul>
+                      <li>
+                        Candidates must have passed the 12th board examination
+                        with a minimum of 45% marks from a recognized board.
+                      </li>
+                    </ul>
+                    <p>
+                      <strong>PG Diploma</strong>
                     </p>
                     <ul>
                       <li>
                         <span>
-                          Candidates must have passed 10+2 with a minimum of 50%
-                          marks in the PCB/PCMB stream
+                          Candidates must have passed a bachelors degree with
+                          45% marks from any stream
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p>
+                      <span>
+                        Tabulated below are the top mass communication colleges
+                        in India with admission links
+                      </span>
+                    </p>
+                    <div className="table-responsive">
+                      <table border="1">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>S. No.</strong>
+                            </td>
+                            <td>
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>Admission Links</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;1</td>
+                            <td>Asian College of Journalism, Chennai</td>
+                            <td>
+                              <a href="Asian College of Journalism, Chennai Admission Link">
+                                Asian College of Journalism, Chennai Admission
+                                Link
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;2</td>
+                            <td>
+                              Indian Institute of Mass Communication, New Delhi
+                            </td>
+                            <td>
+                              <a href="Indian Institute of Mass Communication, New Delhi Admission Link">
+                                Indian Institute of Mass Communication, New
+                                Delhi Admission Link
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;3</td>
+                            <td>Xavier Institute of Communications, Mumbai</td>
+                            <td>
+                              <a href="Xavier Institute of Communications, Mumbai Admission Link">
+                                Xavier Institute of Communications, Mumbai
+                                Admission Link
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;4</td>
+                            <td>
+                              AJK Mass Communication Research Centre, New Delhi
+                            </td>
+                            <td>
+                              <a href="AJK Mass Communication Research Centre, New Delhi Admission Link">
+                                AJK Mass Communication Research Centre, New
+                                Delhi Admission Link
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;5</td>
+                            <td>
+                              Manipal Academy of Higher Education, Manipal
+                            </td>
+                            <td>
+                              <a href="Manipal Academy of Higher Education, Manipal Admission Link">
+                                Manipal Academy of Higher Education, Manipal
+                                Admission Link
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;6</td>
+                            <td>Savitribai Phule Pune University, Pune</td>
+                            <td>
+                              <a href="Savitribai Phule Pune University, Pune Admission Link">
+                                Savitribai Phule Pune University, Pune Admission
+                                Link
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;7</td>
+                            <td>Amity School of Communication, Noida</td>
+                            <td>
+                              <a href="Amity School of Communication, Noida Admission Link">
+                                Amity School of Communication, Noida Admission
+                                Link
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;8</td>
+                            <td>Sophia College for Women, Mumbai</td>
+                            <td>
+                              <a href="Sophia College for Women, Mumbai Admission Link">
+                                Sophia College for Women, Mumbai Admission Link
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;9</td>
+                            <td>Kishinchand Chellaram College, Mumbai</td>
+                            <td>
+                              <a href="Kishinchand Chellaram College, Mumbai Admission Link">
+                                Kishinchand Chellaram College, Mumbai Admission
+                                Link
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;10</td>
+                            <td>Manorama School of Communication, Kottayam</td>
+                            <td>
+                              <a href="Manorama School of Communication, Kottayam Admission Link">
+                                Manorama School of Communication, Kottayam
+                                Admission Link
+                              </a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div>
+                    <h2>
+                      <strong>
+                        Specialisations Available in Top Mass Communication
+                        Colleges in India
+                      </strong>
+                    </h2>
+                    <p>
+                      <span>
+                        There are several specialisations offered by top
+                        colleges for mass communication. Listed below are the
+                        most popular specialisations offered by top mass
+                        communication colleges in India
+                      </span>
+                    </p>
+                    <ul>
+                      <li aria-level="1">
+                        <span>Journalism</span>
+                      </li>
+                      <li aria-level="1">
+                        <span>Media Studies</span>
+                      </li>
+                      <li aria-level="1">
+                        <span>Multimedia Communication</span>
+                      </li>
+                      <li aria-level="1">
+                        <span>Advertising</span>
+                      </li>
+                    </ul>
+                    <h3>
+                      <span>
+                        <strong>
+                          Top Mass Communication Colleges in India for
+                        </strong>
+                        <strong>Journalism</strong>
+                      </span>
+                    </h3>
+                    <p>
+                      Below mentioned are the top mass communication colleges in
+                      India offering Journalism
+                    </p>
+                    <ul>
+                      <li aria-level="1">
+                        <span>
+                          <a href="#">IIMC</a>
+                        </span>
+                      </li>
+                      <li aria-level="1">
+                        <span>
+                          <a href="#">XIC Mumbai</a>
+                        </span>
+                      </li>
+                      <li aria-level="1">
+                        <span>
+                          <a href="#">
+                            A.J.K. Mass Communication Research Centre
+                          </a>
+                        </span>
+                      </li>
+                      <li aria-level="1">
+                        <span>
+                          <a href="#">UniPune</a>
+                        </span>
+                      </li>
+                      <li aria-level="1">
+                        <span>
+                          <a href="#">Amity School of Communication</a>
                         </span>
                       </li>
                     </ul>
                     <p>
-                      <strong>M.Tech/M.E.</strong>
+                      <strong>Read More:&nbsp;</strong>Top Mass Communication
+                      Colleges in India for Journalism
                     </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/B.E. degree with
-                        a valid GATE score.
-                      </li>
-                    </ul>
+                    {/* Similar sections for other specializations */}
+
+                    <h2>
+                      <strong>
+                        Entrance Exams for Top Mass Communication Colleges in
+                        India
+                      </strong>
+                    </h2>
                     <p>
-                      <strong>PhD</strong>
+                      <span>
+                        It is important for students to appear for entrance
+                        exams to get admission to top mass communication
+                        colleges in India. Listed below is the most famous
+                        entrance exams for getting into top mass communication
+                        colleges in India
+                      </span>
                     </p>
                     <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/M. Tech degree
-                        with a minimum of 55% marks and a valid GATE/NET score.
-                      </li>
+                      <li aria-level="1">CUCET</li>
+                      <li aria-level="1">XIC OET</li>
+                      <li aria-level="1">FTII JET</li>
                     </ul>
+                  </div>
+                  <div>
+                    <h3>
+                      <strong>
+                        Top Mass Communication Colleges in India Accepting CUCET
+                        Score
+                      </strong>
+                    </h3>
+                    <p>
+                      <span>
+                        Given below is the list of top mass communication
+                        colleges in India accepting CUCET score
+                      </span>
+                    </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>Admission Link</strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border="1">
                         <tbody>
                           <tr>
-                            <td>1</td>
-                            <td>IIT Madras</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras Admission Link
-                              </a>
+                              <strong>S. No.</strong>
+                            </td>
+                            <td>
+                              <strong>College Name</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>
+                              <a href="#">Central University of Jammu</a>
                             </td>
                           </tr>
                           <tr>
                             <td>2</td>
-                            <td>IIT Delhi</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi Admission Link
-                              </a>
+                              <a href="#">Central University of Haryana</a>
                             </td>
                           </tr>
                           <tr>
                             <td>3</td>
-                            <td>IIT Bombay</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay Admission Link
-                              </a>
+                              <a href="#">Central University of Kashmir</a>
                             </td>
                           </tr>
                           <tr>
                             <td>4</td>
-                            <td>IIT Kharagpur</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur Admission Link
-                              </a>
+                              <a href="#">Central University of Jharkhand</a>
                             </td>
                           </tr>
                           <tr>
                             <td>5</td>
-                            <td>IIT Kanpur</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur Admission Link
-                              </a>
+                              <a href="#">Panjab University</a>
                             </td>
                           </tr>
                           <tr>
                             <td>6</td>
-                            <td>IIT Roorkee</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee Admission Link
-                              </a>
+                              <a href="#">CUSB</a>
                             </td>
                           </tr>
                           <tr>
                             <td>7</td>
-                            <td>BITS Pilani</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani Admission Link
-                              </a>
+                              <a href="#">Central University of Tamil Nadu</a>
                             </td>
                           </tr>
                           <tr>
                             <td>8</td>
-                            <td>IIT Guwahati</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati Admission Link
-                              </a>
+                              <a href="#">Central University of Rajasthan</a>
                             </td>
                           </tr>
                           <tr>
                             <td>9</td>
-                            <td>IIT Hyderabad</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad Admission Link
-                              </a>
+                              <a href="#">BHU Varanasi</a>
                             </td>
                           </tr>
                           <tr>
                             <td>10</td>
                             <td>
-                              College of Engineering, Anna University (Chennai)
+                              <a href="#">BBAU</a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div>
+                    <h2>
+                      <strong>
+                        Top Mass Communication Colleges in India Placements
+                      </strong>
+                    </h2>
+                    <p>
+                      <span>
+                        Several companies, news portals and news agencies come
+                        during campus placements in top mass communication
+                        colleges in India. Tabulated below are the top colleges
+                        for mass communication and the top recruiters
+                      </span>
+                    </p>
+                    <div className="table-responsive">
+                      <table border="1">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>College Name</strong>
                             </td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                College of Engineering, Anna University
-                                (Chennai) Admission Link
+                              <strong>Top Recruiters</strong>
+                            </td>
+                            <td>
+                              <strong>Placement Links</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>IIMC Delhi</td>
+                            <td>
+                              Press Information Bureau, MUFG Bank, Josh Talks
+                            </td>
+                            <td>
+                              <a href="IIMC Delhi Placements Link">
+                                IIMC Delhi Placements
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Jamia Millia Islamia University, New Delhi</td>
+                            <td>TOI, Economic Times</td>
+                            <td>
+                              <a href="Jamia Millia Islamia University, New Delhi Placements Link">
+                                Jamia Millia Islamia University, New Delhi
+                                Placements
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Department of Communication, University of
+                              Hyderabad
+                            </td>
+                            <td>All India Radio, TOI</td>
+                            <td>
+                              <a href="Department of Communication, University of Hyderabad Placements Link">
+                                Department of Communication, University of
+                                Hyderabad Placements
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Apeejay Institute of Mass Communication, New Delhi
+                            </td>
+                            <td>Doordarshan, Sony Entertainment</td>
+                            <td>
+                              <a href="Apeejay Institute of Mass Communication, New Delhi Placements Link">
+                                Apeejay Institute of Mass Communication, New
+                                Delhi Placements
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>Savitribai Phule Pune University, Pune</p>
+                            </td>
+                            <td>EY, SysCloud, Times Group</td>
+                            <td>
+                              <a href="Savitribai Phule Pune University, Pune Placements Link">
+                                Savitribai Phule Pune University, Pune
+                                Placements
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Xavier Institute of Communications, Mumbai</td>
+                            <td>Network 18, Star India</td>
+                            <td>
+                              <a href="Xavier Institute of Communications, Mumbai Placements Link">
+                                Xavier Institute of Communications, Mumbai
+                                Placements
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              AJK Mass Communication Research Centre, New Delhi
+                            </td>
+                            <td>Jagran Prakashan Group, India TV</td>
+                            <td>
+                              <a href="AJK Mass Communication Research Centre, New Delhi Placements Link">
+                                AJK Mass Communication Research Centre, New
+                                Delhi Placements
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Manipal Academy of Higher Education, Manipal
+                            </td>
+                            <td>India Today Group, Zee Network</td>
+                            <td>
+                              <a href="Manipal Academy of Higher Education, Manipal Placements Link">
+                                Manipal Academy of Higher Education, Manipal
+                                Placements
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Kishinchand Chellaram College, Mumbai</td>
+                            <td>All India Radio, Doordarshan</td>
+                            <td>
+                              <a href="Kishinchand Chellaram College, Mumbai Placements Link">
+                                Kishinchand Chellaram College, Mumbai Placements
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Amity School of Communication, Noida</td>
+                            <td>Balaji Telefilms Ltd, Sahara One Media</td>
+                            <td>
+                              <a href="Amity School of Communication, Noida Placements Link">
+                                Amity School of Communication, Noida Placements
                               </a>
                             </td>
                           </tr>
@@ -1037,943 +1384,68 @@ const MassCommunication = () => {
                   <div>
                     <h2>
                       <strong>
-                        Top Engineering Colleges in India for Lateral Entry
+                        Average Salary Package in Top Mass Communication
+                        Colleges in India
                       </strong>
                     </h2>
                     <p>
-                      Some engineering colleges offer lateral entry. Tabulated
-                      below are the best engineering colleges offering lateral
-                      entry
+                      <span>
+                        Average salary offered during the placements in best
+                        mass communication colleges in India ranges between 5 to
+                        8 LPA. Tabulated below are the top mass communication
+                        colleges and their average salary package
+                      </span>
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border="1">
                         <tbody>
                           <tr>
-                            <td>1</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Jadavpur University
-                              </a>
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>Average Salary Package</strong>
                             </td>
                           </tr>
                           <tr>
-                            <td>2</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Manipal Institute of Technology
-                              </a>
+                              <a href="IIMC Link">IIMC</a>
                             </td>
+                            <td>5-8 LPA</td>
                           </tr>
                           <tr>
-                            <td>3</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                PES University
+                              <a href="Jamia Millia Islamia University Link">
+                                Jamia Millia Islamia University
                               </a>
                             </td>
+                            <td>5.5 LPA</td>
                           </tr>
                           <tr>
-                            <td>4</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
+                              <a href="Department of Communication, University of Hyderabad Link">
+                                Department of Communication, University of
+                                Hyderabad
                               </a>
                             </td>
+                            <td>5-6 LPA</td>
                           </tr>
                           <tr>
-                            <td>5</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                PSGCT
-                              </a>
+                              <a href="AIMC Link">AIMC</a>
                             </td>
+                            <td>4-7 LPA</td>
                           </tr>
                           <tr>
-                            <td>6</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
+                              <a href="UniPune Link">UniPune</a>
                             </td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                COEP
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                KIIT University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Pondicherry Engineering College
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                RVCE
-                              </a>
-                            </td>
+                            <td>5.5 LPA</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Specialisations Available in Top Engineering Colleges in
-                        India&nbsp;
-                      </strong>
-                    </h2>
-                    <p>
-                      Engineering courses are offered in various
-                      specialisations. Few of the specialisations offer job
-                      opportunities in various fields with high salary packages.
-                      Below mentioned are the most popular engineering
-                      specialisations in best engineering colleges in India
-                    </p>
-                    <ul>
-                      <li>Chemical Engineering</li>
-                      <li>Mechanical Engineering</li>
-                      <li>Computer Science Engineering</li>
-                      <li>Aeronautical Engineering</li>
-                      <li>Civil Engineering</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Computer science and engineering are one of the most
-                      preferred courses among engineering students due to the
-                      booming technology and growth of tech startups. Listed
-                      below are some of the top engineering colleges for
-                      computer science
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kanpur
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Mechanical
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Listed below are the best engineering colleges for
-                      Mechanical Engineering
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kharagpur
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <p>
-                      <strong>Read More:</strong> Top Engineering Colleges in
-                      India for Mechanical Engineering
-                    </p>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Listed below are some of the best colleges for engineering
-                      offering Aeronautical Engineering specialization
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Sathyabama Institute
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Kumaraguru College of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Bannari Amman Institute of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          DSCE
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIST Trivandrum
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India for Civil Engineering
-                    </strong>
-                  </h3>
-                  <p>
-                    Listed below are top engineering colleges that offer
-                    specialization in Civil Engineering
-                  </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kanpur
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Civil Engineering
-                    </a>
-                  </p>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </strong>
-                  </h3>
-                  <p>
-                    Listed below are some of the best colleges for engineering
-                    offering Chemical Engineering specialization
-                  </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Guwahati
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </a>
-                  </p>
-                  <h2>
-                    <strong>
-                      Entrance Exams for Top Engineering Colleges in India
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Top engineering colleges in India offer admission based on
-                      the students' marks in various national or state-level
-                      entrance examinations. Below mentioned are some of the
-                      popular entrance exams to get admission to the best
-                      engineering colleges in India
-                    </span>
-                  </p>
-                  <ul>
-                    <li>
-                      <span>JEE Mains</span>
-                    </li>
-                    <li>JEE Advanced</li>
-                    <li>
-                      <span>BITSAT</span>
-                    </li>
-                    <li>
-                      <span>KCET</span>
-                    </li>
-                    <li>
-                      <span>GATE</span>
-                    </li>
-                  </ul>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Main Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      JEE Main is an all-India test conducted for admission to
-                      top engineering colleges in India. Tabulated below are the
-                      top colleges for engineering accepting JEE Main Score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              VIT Vellore
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              Thapar University
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Warangal
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIIT Hyderabad
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Durgapur
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Advanced
-                      Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      Candidates who clear JEE Main are allowed to take up JEE
-                      Advanced to get admitted to the top-most engineering
-                      colleges in the country. Tabulated below are the best
-                      engineering colleges accepting JEE Advanced score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting KCET Score
-                    </strong>
-                  </h3>
-                  <p>
-                    KCET is a state-level entrance examination conducted in
-                    Karnataka for various courses. Tabulated below are the best
-                    colleges for engineering accepting KCET score
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              RVCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              MSRIT
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BMSCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NHCE Bangalore
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              PES University
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting GATE Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      GATE is an all-India level entrance examination conducted
-                      for admission to the master's program and for admission to
-                      PhD. Tabulated below are top engineering colleges
-                      accepting GATE score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Guwahati
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>
-                      Best Placement Engineering Colleges in India
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Students of top engineering colleges in India are
-                      recruited by big companies during campus placements every
-                      year. Tabulated below are the best placement engineering
-                      colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Top Recruiters</strong>
-                          </th>
-                          <th>
-                            <strong>Placement Link</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Kanpur
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Flipkart, Microsoft, Myntra, Jaguar</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Madras
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Google, Microsoft, TCS</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Bombay
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Microsoft, Amazon, Google</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Kharagpur
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>IBM, JP Morgan, Tata Steel, Microsoft</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>Indian Institute of Technology, Delhi</span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Capgemini, Wipro, IBM, Dell, Infosys</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>
-                      Average Salary Package in Top Engineering Colleges in
-                      India
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Tabulated below are the average salary package offered in
-                      the best colleges for engineering in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Average Package</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16.5 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16.1 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BITS Pilani
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>9.5 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              SRM IST Chennai
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>9 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>Top Engineering Colleges in India Cutoff</strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Tabulated below are the JEE Advanced cutoff ranks in
-                      Aerospace Engineering in top engineering colleges
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Opening Rank</strong>
-                          </th>
-                          <th>
-                            <strong>Closing Rank</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                          <td>123</td>
-                          <td>2118</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                          <td>741</td>
-                          <td>879</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                          <td>3321</td>
-                          <td>4493</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
-                            </a>
-                          </td>
-                          <td>2209</td>
-                          <td>3809</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                          <td>190</td>
-                          <td>3259</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  </div>        
                 </>
               ) : (
                 <>
@@ -1988,139 +1460,6 @@ const MassCommunication = () => {
                 </>
               )}
               {/* Additional content */}
-              {showContent && (
-                <>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Top Engineering Colleges in India include colleges like
-                      IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
-                    </span>
-                  </p>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Engineering is a discipline that involves various
-                      scientific principles to design, innovate, and develop
-                      machines, software, hardware, technical systems, and
-                      processes. Engineering offers a degree in multiple
-                      specializations such as computer science and engineering,
-                      mechanical engineering, civil engineering, chemical
-                      engineering, etc.
-                    </span>
-                    <span>
-                      Courses offered in top engineering colleges in India
-                      are&nbsp;
-                      <a href="#">BE</a>,&nbsp;
-                      <a href="#">BTech</a>
-                      ,&nbsp;
-                      <a href="#">MTech</a>
-                      ,&nbsp;<a href="#">ME</a>, Diploma in Engineering, PhD.
-                    </span>
-                    <span>
-                      Entrance exams accepted by the best colleges for
-                      engineering are JEE MAINS, JEE Advanced, BITSAT, KCET etc.
-                      There are various job opportunities after an Engineering
-                      degree like software engineer, mechanical engineer,
-                      electrical engineer, web developer, biomedical engineer
-                      etc.
-                    </span>
-                  </p>
-                  <h2>Top Engineering Colleges in India: Highlights</h2>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>College Type</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Colleges Affiliated To</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Entrance Exams Accepted</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Specializations</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Approximate Fees</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>Ranking of Engineering Colleges in India</strong>
-                  </h2>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      NIRF and many other ranking sources have ranked various
-                      government and private colleges in India. Given below are
-                      the ranking of&nbsp; top engineering colleges in India by
-                      various sources to make it easier for engineering
-                      aspirants to choose the best engineering colleges.
-                    </span>
-                  </p>
-                </>
-              )}
             </div>
           </MDBCol>
         </MDBRow>

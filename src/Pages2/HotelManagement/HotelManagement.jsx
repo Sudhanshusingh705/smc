@@ -10,7 +10,7 @@ import {
   MDBListGroupItem,
   MDBBtn,
 } from "mdb-react-ui-kit";
-// import "./Exams.css"; // Assuming Exams.css is in the same directory
+// import "./HotelManagement.css";
 
 const HotelManagement = () => {
   const [showContent, setShowContent] = useState(false);
@@ -56,13 +56,13 @@ const HotelManagement = () => {
   return (
     <div className="section">
       <h2 className="section-title">
-        Top Engineering Colleges in India 2023-2024
+      Top Hotel Management Colleges in India 2023-2024
       </h2>
       <MDBContainer fluid>
         <MDBRow>
           <MDBCol md="9" className="mx-auto">
             <div className="pageDescription text-center">
-              <h1>Engineering Colleges</h1>
+              <h1>Hotel Management Colleges</h1>
 
               {showContent ? (
                 <>
@@ -76,1904 +76,1735 @@ const HotelManagement = () => {
                       Show Less
                     </button>
                   </div>
-                  <p>
-                    <div className="mb-2">
-                      <span>
-                        Top Engineering Colleges in India include colleges like
-                        IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
-                      </span>
-                    </div>
-                    <div className="mb-2">
-                      <span>
-                        Engineering is a discipline that involves various
-                        scientific principles to design, innovate, and develop
-                        machines, software, hardware, technical systems, and
-                        processes. Engineering offers a degree in multiple
-                        specialisations such as computer science and
-                        engineering, mechanical engineering, civil engineering,
-                        chemical engineering, etc.
-                      </span>
-                    </div>
-                  </p>
-                  <p>
-                    <div className="mb-2">
-                      <span>
-                        Courses offered in top engineering colleges in India
-                        are&nbsp;
-                        <a href="#">BE</a>,&nbsp;<a href="#">BTech</a>,&nbsp;
-                        <a href="#">MTech</a>,&nbsp;<a href="#">ME</a>, Diploma
-                        in Engineering, PhD.
-                      </span>
-                    </div>
-                    <div className="mb-2">
-                      <span>
-                        Entrance exams accepted by the best colleges for
-                        engineering are JEE MAINS, JEE Advanced, BITSAT, KCET
-                        etc. There are various job opportunities after an
-                        Engineering degree like software engineer, mechanical
-                        engineer, electrical engineer, web developer, biomedical
-                        engineer etc.
-                      </span>
-                    </div>
-                  </p>
+                  <h1>Hotel Management Colleges </h1>
                   <h2>
-                    <strong>
-                      Top Engineering Colleges in India: Highlights
-                    </strong>
+                    Hotel Management College: Eligibility, Admission, Syllabus,
+                    Placements
                   </h2>
                   <p>
-                    <span>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>College Type</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Colleges Affiliated To</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Entrance Exams Accepted</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Specialisations</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Approximate Fees</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div>
+                    <div className="mb-2">
+                      <span>
+                      Top Hotel Management colleges include colleges like
+                      Institute of Hotel Management, Catering and Nutrition (New
+                      Delhi), Institute of Hotel Management (Bangalore), Indian
+                      Institute of Hotel Management and Culinary Arts
+                      (Hyderabad), Institute of Hotel Management, Catering
+                      Technology, and Applied Nutrition (Mumbai). A course in
+                      Hotel management deals with the operations of a hotel,
+                      motel, resort etc. Hotel management colleges in India
+                      offer various specialisations like Hospitality Management,
+                      Catering Technology, Catering Management, Culinary Arts,
+                      and Event Management. Students can secure admission to the
+                      best colleges for hotel management through entrance exams.
+                      The most popular entrance exams accepted by top hotel
+                      management colleges in India are NCHMCT JEE, IIHM ECHAT,
+                      CUET, and IPU CET. Various courses that can be pursued in
+                      hotel management are BHM (Bachelor of Hotel Management),
+                      BA (Hons.) in Hotel Management, and BBA in Hospitality,
+                      Travel and Tourism. Job opportunities after pursuing a
+                      course in hotel management are as Chef, Front Office
+                      Manager, Event Manager etc.
+                      </span>
+                    </div>
                     <h2>
-                      <span>
-                        <strong>Ranking</strong>&nbsp;
-                        <strong>of Engineering Colleges in India</strong>
-                      </span>
-                    </h2>
-                    <p>
-                      <span>
-                        NIRF and many other ranking sources have ranked various
-                        government and private colleges in India. Given below
-                        are the ranking of top engineering colleges in India by
-                        various sources to make it easier for engineering
-                        aspirants to choose the best engineering colleges.
-                      </span>
-                    </p>
-                    <h3>
-                      <strong>NIRF Ranking of Engineering Colleges</strong>
-                    </h3>
-                    <p>
-                      Engineering college ranking by NIRF is done on the basis
-                      of various parameters like teaching, learning, resources
-                      etc. Tabulated below are the best engineering colleges in
-                      India ranked by NIRF.
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>NIRF Score</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>90.14</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>88.12</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>83.96</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>82.56</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>78.89</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>76.70</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>72.98</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>69.17</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>68.03</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Surathkal
-                              </a>
-                            </td>
-                            <td>66.04</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India by India Today Ranking
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the ranking of Engineering colleges in
-                      India by India Today
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,80,000</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bhubaneswar
-                              </a>
-                            </td>
-                            <td>8,83,036</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                            <td>8,76,000</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>6,47,000</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Patna
-                              </a>
-                            </td>
-                            <td>6,98,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>Top 10 Engineering Colleges in India</strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the 10 tier 1 Engineering colleges in
+                    <strong>
+                      Top Hotel Management Colleges in India: Highlights
+                    </strong>
+                  </h2>
+                  </p>
+                  <p>
+                  Given below are the key highlights regarding the colleges
+                  for hotel management
+                </p>
+                <div className="table-responsive">
+                  <table border="1">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <p>
+                            <strong>College Type</strong>
+                          </p>
+                        </td>
+                        <td>
+                          <p>
+                            <span>Government Colleges - 46 &amp; </span>
+                            <span>Private Colleges - 24</span>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>
+                            <strong>Colleges Affiliated To</strong>
+                          </p>
+                        </td>
+                        <td>
+                          <p>
+                            <span>NAAC, UGC, NCHMCT</span>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>
+                            <strong>Entrance Exams Accepted</strong>
+                          </p>
+                        </td>
+                        <td>
+                          <p>
+                            <span>NCHMCT JEE, IIHM ECHAT, CUET, IPU CET</span>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>
+                            <strong>Specialisations</strong>
+                          </p>
+                        </td>
+                        <td>
+                          Hospitality Management, Catering Technology,
+                          Catering Management, Culinary Arts, Event Management
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>
+                            <strong>Approximate Fees</strong>
+                          </p>
+                        </td>
+                        <td>
+                          <p>
+                            <span>
+                              The annual fee of the hotel management colleges
+                              in India ranges between (INR) 75,000 to
+                              1,50,000.
+                            </span>
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h2>
+                  <strong>
+                    Rank-wise Hotel Management Colleges in India&nbsp;
+                  </strong>
+                </h2>
+                <p>
+                  Ranking of the best colleges for hotel management by reputed
+                  institutions is given below to make it easier for students
+                  to select top hotel management colleges.
+                </p>
+                <h3>
+                  <strong>
+                    Top Hotel Management Colleges in NIRF Ranking
+                  </strong>
+                </h3>
+                <p>
+                  Tabulated below are the hotel management colleges based on
+                  NIRF Ranking
+                </p>
+                <div className="table-responsive">
+                  <table border="1">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <strong>S. No.</strong>
+                        </td>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>BHM Total Tuition Fees (INR)</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Indian Institute of Hotel Management &amp;
+                            Culinary Arts
+                          </a>
+                        </td>
+                        <td>3,75,000</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Mumbai
+                          </a>
+                        </td>
+                        <td>3,96,750</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Hyderabad
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Chennai
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Institute of Hotel Management, Kolkata
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Lucknow
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Banarsidas Chandiwala Institute of Hotel
+                            Management and Catering Technology
+                          </a>
+                        </td>
+                        <td>3,51,000</td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Dr Ambedkar IHM Chandigarh
+                          </a>
+                        </td>
+                        <td>3,67,380</td>
+                      </tr>
+                      <tr>
+                        <td>9</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Goa
+                          </a>
+                        </td>
+                        <td>3,08,934</td>
+                      </tr>
+                      <tr>
+                        <td>10</td>
+                        <td>
+                          Welcomgroup Graduate School of Hotel Administration
+                        </td>
+                        <td>11,04,000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h3>
+                  <strong>
+                    Top Hotel Management Colleges by India Today Ranking
+                  </strong>
+                </h3>
+                <p>
+                  Tabulated below are the best hotel management colleges based
+                  on India Today Ranking
+                </p>
+                <div className="table-responsive">
+                  <table border="1">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <strong>S. No.</strong>
+                        </td>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>BHM Total Tuition Fees (INR)</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Pusa, Delhi
+                          </a>
+                        </td>
+                        <td>3,13,000</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Institute of Hotel Management, Bangalore
+                          </a>
+                        </td>
+                        <td>2,89,839</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Mumbai
+                          </a>
+                        </td>
+                        <td>3,96,750</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Hyderabad
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Chennai
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Institute of Hotel Management, Kolkata
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Lucknow
+                          </a>
+                        </td>
+                        <td>3,63,930</td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Banarsidas Chandiwala Institute of Hotel
+                            Management and Catering Technology
+                          </a>
+                        </td>
+                        <td>3,51,000</td>
+                      </tr>
+                      <tr>
+                        <td>9</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Dr Ambedkar IHM Chandigarh
+                          </a>
+                        </td>
+                        <td>3,67,380</td>
+                      </tr>
+                      <tr>
+                        <td>10</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Welcomgroup Graduate School of Hotel
+                            Administration
+                          </a>
+                        </td>
+                        <td>11,04,000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h3>
+                  <strong>Top 10 Hotel Management Colleges in India</strong>
+                </h3>
+                <p>
+                  Tabulated below are the top 10 hotel management colleges in
+                  India
+                </p>
+                <div className="table-responsive">
+                  <table border="1">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>BHM Total Tuition Fees (INR)</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Pusa, Delhi
+                          </a>
+                        </td>
+                        <td>3,13,000</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Institute of Hotel Management, Bangalore
+                          </a>
+                        </td>
+                        <td>2,89,839</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Mumbai
+                          </a>
+                        </td>
+                        <td>3,96,750</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Hyderabad
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Chennai
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Institute of Hotel Management, Kolkata
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Lucknow
+                          </a>
+                        </td>
+                        <td>3,63,930</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Dr Ambedkar IHM Chandigarh
+                          </a>
+                        </td>
+                        <td>3,67,380</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Goa
+                          </a>
+                        </td>
+                        <td>3,08,934</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Welcomgroup Graduate School of Hotel Administration
+                        </td>
+                        <td>11,04,000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h3>
+                  <strong>
+                    Top 10 Hotel Management Universities in India
+                  </strong>
+                </h3>
+                <p>
+                  Below mentioned are the best universities for hotel
+                  management in India
+                </p>
+                <div className="table-responsive">
+                  <table border="1">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <strong>S. No.</strong>
+                        </td>
+                        <td>
+                          <strong>University Name</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Christ University
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Padmashree Dr. D.Y. Patil Vidyapeeth, Navi Mumbai
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            BHU, Varanasi
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Panjab University
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Jamia Millia Islamia University
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            UniPune
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            GGSIPU
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            MDU
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>9</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            MG University Kerala
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>10</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Mumbai University
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h2>
+                  <strong>Hotel Management Colleges Fees</strong>
+                </h2>
+                <p>
+                  <span>
+                    The fee structure of some of the best hotel management
+                    colleges is almost the same barring a few exceptions.
+                  </span>
+                </p>
+                <h3>
+                  <strong>
+                    Top Government Colleges of Hotel Management in India with
+                    Fees
+                  </strong>
+                </h3>
+                <p>
+                  <span>
+                    Tabulated below is the list of best government hotel
+                    management colleges fees
+                  </span>
+                </p>
+                <div className="table-responsive">
+                  <table border="1">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>BHM Total Tuition Fees (INR)</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Pusa, Delhi
+                          </a>
+                        </td>
+                        <td>3,13,000</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Institute of Hotel Management, Bangalore
+                          </a>
+                        </td>
+                        <td>2,89,839</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Mumbai
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Hyderabad
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Chennai
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Institute of Hotel Management, Kolkata
+                          </a>
+                        </td>
+                        <td>3,90,750</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Lucknow
+                          </a>
+                        </td>
+                        <td>3,63,930</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Dr Ambedkar IHM Chandigarh
+                          </a>
+                        </td>
+                        <td>3,67,380</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Goa
+                          </a>
+                        </td>
+                        <td>3,08,934</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Army Institute of Hotel Management and Catering
+                            Technology
+                          </a>
+                        </td>
+                        <td>2,89,839</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h3>
+                  <strong>
+                    Top Private Hotel Management Colleges in India with Fees
+                  </strong>
+                </h3>
+                <p>
+                  <span>
+                    Many private hotel management colleges are offering many
+                    specializations in hotel management. Tabulated below is
+                    the list of top private hotel management colleges
+                  </span>
+                </p>
+                <div className="table-responsive">
+                  <table border="1">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>BHM Total Tuition Fees (INR)</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Banarsidas Chandiwala Institute of Hotel
+                            Management and Catering Technology
+                          </a>
+                        </td>
+                        <td>3,51,000</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Department of Hotel Management, Christ University
+                          </a>
+                        </td>
+                        <td>3,75,000</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Dr. D.Y. Patil Institute of Hotel Management and
+                            Catering Technology
+                          </a>
+                        </td>
+                        <td>4,50,000</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Department of Hotel Management and Catering
+                            Technology, NSHM Kolkata
+                          </a>
+                        </td>
+                        <td>3,75,000</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Institute of Hotel Management and Catering
+                            Technology
+                          </a>
+                        </td>
+                        <td>4,20,000</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            SRM Institute of Hotel Management, Chennai
+                          </a>
+                        </td>
+                        <td>2,11,680</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            CIHMCT Chandigarh
+                          </a>
+                        </td>
+                        <td>3,00,000</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Chitkara College of Hospitality Management,
+                            Chandigarh
+                          </a>
+                        </td>
+                        <td>3,21,060</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            UITHM
+                          </a>
+                        </td>
+                        <td>5,76,000</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Welcomgroup Graduate School of Hotel Administration
+                        </td>
+                        <td>11,04,000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h3>
+                  <strong>
+                    Top Hotel Management Colleges in India with Low Fees
+                  </strong>
+                </h3>
+                <p>
+                  Students looking for cheap hotel management programs in
+                  India can refer to the following table:
+                </p>
+                <div className="table-responsive">
+                  <table border="1">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>
+                            Diploma in Hotel Management Total Tuition Fees
+                            (INR)
+                          </strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Department of Hotel Management, Pillai College of
+                            Arts, Commerce and Science Navi Mumbai
+                          </a>
+                        </td>
+                        <td>500</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Department of Hotel Management, Sibsagar Commerce
+                            College
+                          </a>
+                        </td>
+                        <td>1000</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Department of Hotel Management, University of
+                            Madras
+                          </a>
+                        </td>
+                        <td>1750</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Department of Hotel Management, Government D. B.
+                            P.G. Girls College
+                          </a>
+                        </td>
+                        <td>1630</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Imperial College of Hotel Management (Hyderabad)
+                        </td>
+                        <td>2000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h2>
+                  <strong>
+                    Top Hotel Management Colleges in India Admission
+                  </strong>
+                </h2>
+                <p>
+                  Admission to hotel management colleges in India is usually
+                  through entrance exams. Popular entrance exams include CUET,
+                  NCHMCT JEE, and IPU CET.
+                </p>
+                <h3>
+                  <strong>Eligibility Criteria</strong>
+                </h3>
+                <p>
+                  Candidates must meet the eligibility criteria to be admitted
+                  to top Hotel Management colleges in India.
+                </p>
+                <p>
+                  <strong>BHM (Bachelor of Hotel Management)</strong>
+                </p>
+                <ul>
+                  <li aria-level="1">
+                    <span>
+                      className 12th with any relevant stream from any
+                      recognized board in India
+                    </span>
+                  </li>
+                  <li aria-level="1">
+                    <span>A minimum of 50% aggregate in className 12th.</span>
+                  </li>
+                </ul>
+                <p>
+                  Here are the top 10 hotel management colleges with admission
+                  links:
+                </p>
+                <div className="table-responsive">
+                  <table border="1">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <strong>S. No.</strong>
+                        </td>
+                        <td>
+                          <strong>College Name</strong>
+                        </td>
+                        <td>
+                          <strong>Admission Link</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>
+                          Institute of Hotel Management, Catering and
+                          Nutrition- Pusa (New Delhi)
+                        </td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Pusa, Delhi Admission Link
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Institute of Hotel Management (Bangalore)</td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Institute of Hotel Management Bangalore Admission
+                            Link
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>
+                          Institute of Hotel Management, Catering Technology
+                          and Applied Nutrition (Mumbai)
+                        </td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Mumbai Admission Link
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>
+                          Institute of Hotel Management, Catering Technology
+                          and Applied Nutrition (Hyderabad)
+                        </td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Hyderabad Admission Link
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>
+                          Institute of Hotel Management, Catering Technology
+                          and Applied Nutrition (Chennai)
+                        </td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Chennai Admission Link
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>
+                          Institute of Hotel Management, Catering Technology
+                          and Applied Nutrition (Kolkata)
+                        </td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Kolkata Admission Link
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>
+                          Institute of Hotel Management, Catering and
+                          Nutrition (Lucknow)
+                        </td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Lucknow Admission Link
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>
+                          Dr Ambedkar Institute of Hotel Management, Catering
+                          and Nutrition (Chandigarh)
+                        </td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            Dr Ambedkar IHM Chandigarh Admission Link
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>9</td>
+                        <td>
+                          Institute of Hotel Management, Catering Technology
+                          and Applied Nutrition (North Goa)
+                        </td>
+                        <td>
+                          <a
+                            className="in-cell-link"
+                            href="#"
+                          >
+                            IHM Goa Admission Link
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>10</td>
+                        <td>
+                          WelcomGroup Graduate School of Hotel Administration
+                          (Manipal)
+                        </td>
+                        <td>
+                          Welcomgroup Graduate School of Hotel Administration
+                          Admission Link
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <h2>
+                  <strong>
+                    Specialisations Available in Top Hotel Management Colleges
+                    in India
+                  </strong>
+                </h2>
+                <p>
+                  Several specialisations are offered by the best colleges for
+                  hotel management. Listed below are the most popular
+                  specialisations in hotel management colleges in India
+                </p>
+                <ul>
+                  <li aria-level="1">
+                    <span>Hospitality Management</span>
+                  </li>
+                  <li aria-level="1">
+                    <span>Catering Technology</span>
+                  </li>
+                  <li aria-level="1">
+                    <span>Culinary Arts</span>
+                  </li>
+                  <li aria-level="1">
+                    <span>Catering Management</span>
+                  </li>
+                  <li aria-level="1">
+                    <span>Food and Beverage Management</span>
+                  </li>
+                </ul>
+                <h3>
+                  <strong>
+                    Top Hotel Management Colleges in India for Hospitality
+                    Management
+                  </strong>
+                </h3>
+                <p>
+                  Hospitality management has vast scope nowadays. Listed below
+                  are the best colleges for hotel management offering this
+                  specialisation
+                </p>
+                <ul>
+                  <li aria-level="1">
+                    <span>
+                      <a
+                        className="in-cell-link"
+                        href="#"
+                      >
+                        IHM Pusa, Delhi
+                      </a>
+                    </span>
+                  </li>
+                  <li aria-level="1">
+                    <span>
+                      <a
+                        className="in-cell-link"
+                        href="#"
+                      >
+                        Institute of Hotel Management, Bangalore
+                      </a>
+                    </span>
+                  </li>
+                  <li aria-level="1">
+                    <span>
+                      <a
+                        className="in-cell-link"
+                        href="#"
+                      >
+                        IHM Mumbai
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <a
+                        className="in-cell-link"
+                        href="#"
+                      >
+                        IHM Hyderabad
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      Welcomgroup Graduate School of Hotel Administration
+                    </span>
+                  </li>
+                </ul>
+                <p>
+                  <strong>Read More</strong>:
+                  <a href="#">
+                    Top Hotel Management Colleges in India for Hospitality
+                    Management
+                  </a>
+                </p>
+                <p>
+                  <span>
+                    <strong>Read More</strong>: Top Hotel Management Colleges
+                    in India for Catering Management
+                  </span>
+                </p>
+                <h2>
+                  <span>
+                    <strong>
+                      Entrance Exams for Top Hotel Management Colleges in
                       India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>3,00,464</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,81,200</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
-                              </a>
-                            </td>
-                            <td>20,51,100</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>9,46,000</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
-                              </a>
-                            </td>
-                            <td>2,00,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <span>
-                        <strong>Engineering College Fees in India</strong>&nbsp;
-                      </span>
-                    </h2>
-                    <p>
-                      <span>
-                        Best engineering colleges in India offer B.Tech, M.Tech
-                        and other courses with a varying fee structure from low
-                        to high depending on the type of college and the
-                        facilities provided. Given below are engineering college
-                        fees in India in various types of colleges.
-                      </span>
-                    </p>
-
-                    <h3>
-                      <strong>
-                        Top Government Engineering Colleges in India with Fees
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the top government engineering
-                      colleges in India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>3,00,464</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,81,200</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>9,46,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>6,47,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Private Engineering Colleges in India with Fees
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the best private engineering colleges
-                      in India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
-                              </a>
-                            </td>
-                            <td>20,51,100</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                ICT Mumbai
-                              </a>
-                            </td>
-                            <td>3,56,400</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                VIT Vellore
-                              </a>
-                            </td>
-                            <td>7,92,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
-                              </a>
-                            </td>
-                            <td>14,68,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIST Trivandrum
-                              </a>
-                            </td>
-                            <td>5,79,600</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Institute of Technical Education and Research
-                              </a>
-                            </td>
-                            <td>9,40,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BIT Mesra
-                              </a>
-                            </td>
-                            <td>11,40,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                            <td>8,76,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Amity University Noida
-                              </a>
-                            </td>
-                            <td>12,44,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>Cheapest Engineering Colleges in India</strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the low fees engineering colleges in
-                      India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                Diploma in Engineering Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                APCC
-                              </a>
-                            </td>
-                            <td>2,505</td>
-                          </tr>
-                          <tr>
-                            <td>Asansol Polytechnic, Asansol</td>
-                            <td>1,020</td>
-                          </tr>
-                          <tr>
-                            <td>Govt. Womens Polytechnic, Seraikela</td>
-                            <td>1,215</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Medinipur Sadar Government Polytechnic, Medinipur
-                            </td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>Central Footwear Training Centre, Parganas</td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Haji Md. Serafat Mondal Government Polytechnic,
-                              Birbhum
-                            </td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Ratua S. N. Bose Government Polytechnic, Ratua
-                            </td>
-                            <td>2,055</td>
-                          </tr>
-                          <tr>
-                            <td>Government Womens Polytechnic, Patna</td>
-                            <td>3,195</td>
-                          </tr>
-                          <tr>
-                            <td>Nalhati Government Polytechnic, Birbhum</td>
-                            <td>2,550</td>
-                          </tr>
-                          <tr>
-                            <td>Raipur Government Polytechnic, Raipur</td>
-                            <td>2,655</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Top Engineering Colleges in India Admission
-                      </strong>
-                    </h2>
-                    <p>
-                      Engineering colleges offer admission to various courses at
-                      undergraduate, postgraduate, and PhD levels.
-                    </p>
-                    <h3>
-                      <strong>Eligibility Criteria</strong>
-                    </h3>
-                    <p>
-                      Candidates must fulfil the eligibility criteria to get
-                      admission to top engineering colleges in India.
-                    </p>
-                    <p>
-                      <strong>B.Tech/B.E.</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        <span>
-                          Candidates must have passed 10+2 with a minimum of 50%
-                          marks in the PCB/PCMB stream
-                        </span>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>M.Tech/M.E.</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/B.E. degree with
-                        a valid GATE score.
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>PhD</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/M. Tech degree
-                        with a minimum of 55% marks and a valid GATE/NET score.
-                      </li>
-                    </ul>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>Admission Link</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>IIT Madras</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>IIT Delhi</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>IIT Bombay</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>IIT Kharagpur</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>IIT Kanpur</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>IIT Roorkee</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>BITS Pilani</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>IIT Guwahati</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>IIT Hyderabad</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              College of Engineering, Anna University (Chennai)
-                            </td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                College of Engineering, Anna University
-                                (Chennai) Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Top Engineering Colleges in India for Lateral Entry
-                      </strong>
-                    </h2>
-                    <p>
-                      Some engineering colleges offer lateral entry. Tabulated
-                      below are the best engineering colleges offering lateral
-                      entry
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Jadavpur University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Manipal Institute of Technology
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                PES University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                PSGCT
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                COEP
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                KIIT University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Pondicherry Engineering College
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                RVCE
-                              </a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Specialisations Available in Top Engineering Colleges in
-                        India&nbsp;
-                      </strong>
-                    </h2>
-                    <p>
-                      Engineering courses are offered in various
-                      specialisations. Few of the specialisations offer job
-                      opportunities in various fields with high salary packages.
-                      Below mentioned are the most popular engineering
-                      specialisations in best engineering colleges in India
-                    </p>
-                    <ul>
-                      <li>Chemical Engineering</li>
-                      <li>Mechanical Engineering</li>
-                      <li>Computer Science Engineering</li>
-                      <li>Aeronautical Engineering</li>
-                      <li>Civil Engineering</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Computer science and engineering are one of the most
-                      preferred courses among engineering students due to the
-                      booming technology and growth of tech startups. Listed
-                      below are some of the top engineering colleges for
-                      computer science
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kanpur
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Mechanical
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Listed below are the best engineering colleges for
-                      Mechanical Engineering
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kharagpur
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <p>
-                      <strong>Read More:</strong> Top Engineering Colleges in
-                      India for Mechanical Engineering
-                    </p>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Listed below are some of the best colleges for engineering
-                      offering Aeronautical Engineering specialization
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Sathyabama Institute
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Kumaraguru College of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Bannari Amman Institute of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          DSCE
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIST Trivandrum
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
+                    </strong>
+                    &nbsp;
+                  </span>
+                </h2>
+                <p>
+                  <span>
+                    Students need to clear the entrance exams to get admission
+                    to the best colleges for hotel management. Listed below
+                    are the most popular entrance exams for top hotel
+                    management colleges
+                  </span>
+                </p>
+                <ul>
+                  <li aria-level="1">
+                    <span>NCHMCT JEE</span>
+                  </li>
+                  <li aria-level="1">
+                    <span>IIHM ECHAT</span>
+                  </li>
+                  <li aria-level="1">
+                    <span>CUET</span>
+                  </li>
+                  <li aria-level="1">
+                    <span>IPU CET</span>
+                  </li>
+                </ul>
+                <div>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India for Civil Engineering
+                      Top Hotel Management Colleges in India Accepting NCHMCT
+                      JEE
                     </strong>
                   </h3>
                   <p>
-                    Listed below are top engineering colleges that offer
-                    specialization in Civil Engineering
+                    NCHMCT JEE is a national-level hospitality entrance exam
+                    for admission into hotel management colleges. Tabulated
+                    below are the colleges accepting NCHMCT JEE
                   </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kanpur
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Civil Engineering
-                    </a>
-                  </p>
+                  <div className="table-responsive">
+                    <table border="1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong>S. No.</strong>
+                          </td>
+                          <td>
+                            <strong>College Name</strong>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            <a href="#">
+                              IHM Pusa, Delhi
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>
+                            <a href="#">
+                              Institute of Hotel Management, Bangalore
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>
+                            <a href="#">
+                              IHM Chennai
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>
+                            <a href="#">
+                              IHM Hyderabad
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>
+                            <a href="#">
+                              IHM Lucknow
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div>
                   <h3>
                     <strong>
-                      Top Engineering Colleges in India for Chemical Engineering
+                      Top Hotel Management Colleges in India Accepting CUET
                     </strong>
                   </h3>
                   <p>
-                    Listed below are some of the best colleges for engineering
-                    offering Chemical Engineering specialization
+                    CUET for hotel management is conducted by NTA. Tabulated
+                    below are colleges accepting CUET scores
                   </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Guwahati
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </a>
-                  </p>
+                  <div className="table-responsive">
+                    <table border="1">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <strong>S. No.</strong>
+                          </td>
+                          <td>
+                            <strong>College Name</strong>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>
+                            <a href="#">
+                              School of Hotel Management and Catering
+                              Technology, KR Mangalam University
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>
+                            <a href="#">
+                              School of Tourism and Hospitality Management,
+                              Mewar University
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>
+                            <a href="#">
+                              Department of Tourism and Hotel Management,
+                              Central University of Haryana
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>
+                            <a href="#">
+                              Department of Tourism and Hotel Management,
+                              Jiwaji University
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>
+                            The Lalit Suri Hospitality School, Faridabad
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div>
                   <h2>
                     <strong>
-                      Entrance Exams for Top Engineering Colleges in India
+                      Top Hotel Management Colleges in India Placements
                     </strong>
                   </h2>
                   <p>
-                    <span>
-                      Top engineering colleges in India offer admission based on
-                      the students' marks in various national or state-level
-                      entrance examinations. Below mentioned are some of the
-                      popular entrance exams to get admission to the best
-                      engineering colleges in India
-                    </span>
-                  </p>
-                  <ul>
-                    <li>
-                      <span>JEE Mains</span>
-                    </li>
-                    <li>JEE Advanced</li>
-                    <li>
-                      <span>BITSAT</span>
-                    </li>
-                    <li>
-                      <span>KCET</span>
-                    </li>
-                    <li>
-                      <span>GATE</span>
-                    </li>
-                  </ul>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Main Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      JEE Main is an all-India test conducted for admission to
-                      top engineering colleges in India. Tabulated below are the
-                      top colleges for engineering accepting JEE Main Score
-                    </span>
+                    After studying at one of the best hotel management
+                    colleges, students can get hired by top hotels and
+                    management companies. Tabulated below are top hotel
+                    management colleges offering placements and their top
+                    recruiters
                   </p>
                   <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
+                    <table border="1">
                       <tbody>
                         <tr>
-                          <td>1</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              VIT Vellore
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              Thapar University
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Warangal
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIIT Hyderabad
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Durgapur
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Advanced
-                      Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      Candidates who clear JEE Main are allowed to take up JEE
-                      Advanced to get admitted to the top-most engineering
-                      colleges in the country. Tabulated below are the best
-                      engineering colleges accepting JEE Advanced score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
                             <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
                           </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting KCET Score
-                    </strong>
-                  </h3>
-                  <p>
-                    KCET is a state-level entrance examination conducted in
-                    Karnataka for various courses. Tabulated below are the best
-                    colleges for engineering accepting KCET score
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              RVCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              MSRIT
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BMSCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NHCE Bangalore
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              PES University
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting GATE Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      GATE is an all-India level entrance examination conducted
-                      for admission to the master's program and for admission to
-                      PhD. Tabulated below are top engineering colleges
-                      accepting GATE score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Guwahati
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>
-                      Best Placement Engineering Colleges in India
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Students of top engineering colleges in India are
-                      recruited by big companies during campus placements every
-                      year. Tabulated below are the best placement engineering
-                      colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
                             <strong>Top Recruiters</strong>
-                          </th>
-                          <th>
-                            <strong>Placement Link</strong>
-                          </th>
+                          </td>
+                          <td>
+                            <strong>Placements</strong>
+                          </td>
                         </tr>
-                      </thead>
-                      <tbody>
                         <tr>
                           <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Kanpur
-                              </span>
-                            </p>
+                            <a href="#">
+                              IHM Pusa, Delhi
+                            </a>
                           </td>
+                          <td>The Oberai, Reliance Industries</td>
                           <td>
-                            <p>
-                              <span>Flipkart, Microsoft, Myntra, Jaguar</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur Placement Link
+                            <a href="#">
+                              IHM Pusa, Delhi Placements
                             </a>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Madras
-                              </span>
-                            </p>
+                            <a href="#">
+                              Institute of Hotel Management, Bangalore
+                            </a>
                           </td>
+                          <td>ACS Solutions, PVH Arvind Mills</td>
                           <td>
-                            <p>
-                              <span>Google, Microsoft, TCS</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras Placement Link
+                            <a href="#">
+                              Institute of Hotel Management, Bangalore
+                              Placements
                             </a>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Bombay
-                              </span>
-                            </p>
+                            <a href="#">
+                              IHM Mumbai
+                            </a>
                           </td>
                           <td>
-                            <p>
-                              <span>Microsoft, Amazon, Google</span>
-                            </p>
+                            Third Wave Coffee Roasters, Growisto, The Oberai
                           </td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay Placement Link
+                            <a href="#">
+                              IHM Mumbai Placements
                             </a>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Kharagpur
-                              </span>
-                            </p>
+                            <a href="#">
+                              IHM Hyderabad
+                            </a>
                           </td>
+                          <td>Radisson Blu, ITC, Marriott International</td>
                           <td>
-                            <p>
-                              <span>IBM, JP Morgan, Tata Steel, Microsoft</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur Placement Link
+                            <a href="#">
+                              IHM Hyderabad Placements
                             </a>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <p>
-                              <span>Indian Institute of Technology, Delhi</span>
-                            </p>
+                            <a href="#">
+                              IHM Lucknow
+                            </a>
                           </td>
+                          <td>The Oberai, ITC</td>
                           <td>
-                            <p>
-                              <span>Capgemini, Wipro, IBM, Dell, Infosys</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi Placement Link
+                            <a href="#">
+                              IHM Lucknow Placements
                             </a>
                           </td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
+
                   <h2>
                     <strong>
-                      Average Salary Package in Top Engineering Colleges in
-                      India
+                      Average Salary Package in Top Hotel Management Colleges
+                      in India
                     </strong>
                   </h2>
                   <p>
-                    <span>
-                      Tabulated below are the average salary package offered in
-                      the best colleges for engineering in India
-                    </span>
+                    Tabulated below are the hotel management colleges and the
+                    average package offered
                   </p>
                   <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Average Package</strong>
-                          </th>
-                        </tr>
-                      </thead>
+                    <table border="1">
                       <tbody>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
+                            <strong>College Name</strong>
                           </td>
                           <td>
-                            <p>
-                              <span>16.5 LPA</span>
-                            </p>
+                            <strong>Average Package</strong>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
+                            <a href="#">
+                              IHM Pusa, Delhi
                             </a>
                           </td>
-                          <td>
-                            <p>
-                              <span>16.1 LPA</span>
-                            </p>
-                          </td>
+                          <td>5-9 LPA</td>
                         </tr>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
+                            <a href="#">
+                              Institute of Hotel Management, Bangalore
                             </a>
                           </td>
-                          <td>
-                            <p>
-                              <span>16 LPA</span>
-                            </p>
-                          </td>
+                          <td>3.5-8 LPA</td>
                         </tr>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              BITS Pilani
+                            <a href="#">
+                              IHM Mumbai
                             </a>
                           </td>
-                          <td>
-                            <p>
-                              <span>9.5 LPA</span>
-                            </p>
-                          </td>
+                          <td>4-8 LPA</td>
                         </tr>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              SRM IST Chennai
+                            <a href="#">
+                              IHM Hyderabad
                             </a>
                           </td>
+                          <td>3.5-6 LPA</td>
+                        </tr>
+                        <tr>
                           <td>
-                            <p>
-                              <span>9 LPA</span>
-                            </p>
+                            <a href="#">
+                              IHM Lucknow
+                            </a>
                           </td>
+                          <td>4-8 LPA</td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
+
                   <h2>
-                    <strong>Top Engineering Colleges in India Cutoff</strong>
+                    <strong>
+                      Top Hotel Management Colleges in India Cutoff
+                    </strong>
                   </h2>
                   <p>
-                    <span>
-                      Tabulated below are the JEE Advanced cutoff ranks in
-                      Aerospace Engineering in top engineering colleges
-                    </span>
+                    Cutoff list is released by the top hotel management
+                    colleges to shortlist the candidates. Below mentioned are
+                    some best colleges for hotel management and their opening
+                    &amp; closing ranks for NCHMCT JEE 2021
                   </p>
                   <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Opening Rank</strong>
-                          </th>
-                          <th>
-                            <strong>Closing Rank</strong>
-                          </th>
-                        </tr>
-                      </thead>
+                    <table border="1">
                       <tbody>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
+                            <strong>College Name</strong>
                           </td>
-                          <td>123</td>
-                          <td>2118</td>
+                          <td>
+                            <strong>Opening Rank</strong>
+                          </td>
+                          <td>
+                            <strong>Closing Rank</strong>
+                          </td>
                         </tr>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
+                            <a href="#">
+                              IHM Chennai
                             </a>
                           </td>
-                          <td>741</td>
-                          <td>879</td>
+                          <td>13</td>
+                          <td>2273</td>
                         </tr>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
+                            <a href="#">
+                              IHM Goa
                             </a>
                           </td>
-                          <td>3321</td>
-                          <td>4493</td>
+                          <td>68</td>
+                          <td>2378</td>
                         </tr>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
+                            <a href="#">
+                              IHM Gurdaspur
                             </a>
                           </td>
-                          <td>2209</td>
-                          <td>3809</td>
+                          <td>1089</td>
+                          <td>5956</td>
                         </tr>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
+                            <a href="#">
+                              IHM Bhopal
                             </a>
                           </td>
-                          <td>190</td>
-                          <td>3259</td>
+                          <td>77</td>
+                          <td>774</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Institute of Hotel Management, Catering Technology
+                            and Applied Nutrition (Gandhinagar)
+                          </td>
+                          <td>540</td>
+                          <td>3391</td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
+                </div>
                 </>
               ) : (
                 <>
@@ -1988,139 +1819,6 @@ const HotelManagement = () => {
                 </>
               )}
               {/* Additional content */}
-              {showContent && (
-                <>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Top Engineering Colleges in India include colleges like
-                      IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
-                    </span>
-                  </p>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Engineering is a discipline that involves various
-                      scientific principles to design, innovate, and develop
-                      machines, software, hardware, technical systems, and
-                      processes. Engineering offers a degree in multiple
-                      specializations such as computer science and engineering,
-                      mechanical engineering, civil engineering, chemical
-                      engineering, etc.
-                    </span>
-                    <span>
-                      Courses offered in top engineering colleges in India
-                      are&nbsp;
-                      <a href="#">BE</a>,&nbsp;
-                      <a href="#">BTech</a>
-                      ,&nbsp;
-                      <a href="#">MTech</a>
-                      ,&nbsp;<a href="#">ME</a>, Diploma in Engineering, PhD.
-                    </span>
-                    <span>
-                      Entrance exams accepted by the best colleges for
-                      engineering are JEE MAINS, JEE Advanced, BITSAT, KCET etc.
-                      There are various job opportunities after an Engineering
-                      degree like software engineer, mechanical engineer,
-                      electrical engineer, web developer, biomedical engineer
-                      etc.
-                    </span>
-                  </p>
-                  <h2>Top Engineering Colleges in India: Highlights</h2>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>College Type</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Colleges Affiliated To</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Entrance Exams Accepted</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Specializations</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Approximate Fees</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>Ranking of Engineering Colleges in India</strong>
-                  </h2>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      NIRF and many other ranking sources have ranked various
-                      government and private colleges in India. Given below are
-                      the ranking of&nbsp; top engineering colleges in India by
-                      various sources to make it easier for engineering
-                      aspirants to choose the best engineering colleges.
-                    </span>
-                  </p>
-                </>
-              )}
             </div>
           </MDBCol>
         </MDBRow>

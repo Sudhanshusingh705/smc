@@ -10,7 +10,7 @@ import {
   MDBListGroupItem,
   MDBBtn,
 } from "mdb-react-ui-kit";
-// import "./Exams.css"; // Assuming Exams.css is in the same directory
+// import "./Law.css";
 
 const Law = () => {
   const [showContent, setShowContent] = useState(false);
@@ -56,13 +56,13 @@ const Law = () => {
   return (
     <div className="section">
       <h2 className="section-title">
-        Top Engineering Colleges in India 2023-2024
+      Top Law Colleges in India 2023-2024
       </h2>
       <MDBContainer fluid>
         <MDBRow>
           <MDBCol md="9" className="mx-auto">
             <div className="pageDescription text-center">
-              <h1>Engineering Colleges</h1>
+              <h1>Law Colleges</h1>
 
               {showContent ? (
                 <>
@@ -76,505 +76,244 @@ const Law = () => {
                       Show Less
                     </button>
                   </div>
+                  <h1>Law Colleges </h1>
+              <h2>Law College: Eligibility, Admission, Syllabus, Placements</h2>
                   <p>
                     <div className="mb-2">
                       <span>
-                        Top Engineering Colleges in India include colleges like
-                        IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
+                      Top law colleges in India cover the National Law School
+                      of India University, Bengaluru, National Law University,
+                      Delhi, and NALSAR University of Law, Hyderabad. Law is a
+                      systematic set of rules and regulations enforced by
+                      government institutes to control the behaviour of the
+                      people living in society. Law universities and
+                      institutions in India provide all the facilities to
+                      improve the overall personality of the students by
+                      conducting several workshops. Top law colleges in India
+                      also try to induce all the necessary skills required
+                      while practicing.
                       </span>
-                    </div>
-                    <div className="mb-2">
-                      <span>
-                        Engineering is a discipline that involves various
-                        scientific principles to design, innovate, and develop
-                        machines, software, hardware, technical systems, and
-                        processes. Engineering offers a degree in multiple
-                        specialisations such as computer science and
-                        engineering, mechanical engineering, civil engineering,
-                        chemical engineering, etc.
-                      </span>
-                    </div>
-                  </p>
-                  <p>
-                    <div className="mb-2">
-                      <span>
-                        Courses offered in top engineering colleges in India
-                        are&nbsp;
-                        <a href="#">BE</a>,&nbsp;<a href="#">BTech</a>,&nbsp;
-                        <a href="#">MTech</a>,&nbsp;<a href="#">ME</a>, Diploma
-                        in Engineering, PhD.
-                      </span>
-                    </div>
-                    <div className="mb-2">
-                      <span>
-                        Entrance exams accepted by the best colleges for
-                        engineering are JEE MAINS, JEE Advanced, BITSAT, KCET
-                        etc. There are various job opportunities after an
-                        Engineering degree like software engineer, mechanical
-                        engineer, electrical engineer, web developer, biomedical
-                        engineer etc.
-                      </span>
+                      <strong>
+                      <span data-preserver-spaces="true">&nbsp;</span>
+                    </strong>
+                    <span data-preserver-spaces="true">Law</span>
+                    <strong>
+                      <span data-preserver-spaces="true">.</span>
+                    </strong>
+                    <span data-preserver-spaces="true">
+                      &nbsp;Eligibility criteria for admission in top law
+                      colleges in India are candidates should pass graduation
+                      10+2+3 in any discipline from a recognized college and
+                      university with 45% marks. Students can get many job
+                      opportunities in the law domain. After getting a Law
+                      degree, the most common and traditional Law Career
+                      Option available is to enter litigation. Students can
+                      start a Career in Law as an Advocate or lawyer wherein
+                      the candidates job is to represent clients in courts
+                      District courts, high courts, etc., anywhere in India.
+                    </span>
                     </div>
                   </p>
                   <h2>
-                    <strong>
-                      Top Engineering Colleges in India: Highlights
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
-                    </span>
+                      <strong>Top Law Colleges in India: Highlights</strong>
+                    </h2>
+                    <p>
+                    Law colleges in India include highly reputed law career
+                    options in India. Law stream provides various
+                    specializations Admiralty Law, Business Law,
+                    Constitutional Law, Criminal Law, Environmental Law, etc.
+                    Students get the opportunity to work as legal advisors,
+                    corporate lawyers, judge advocate general, etc.
                   </p>
                   <div className="table-responsive">
-                    <table className="table table-bordered">
+                    <table border="1">
                       <tbody>
                         <tr>
                           <td>
-                            <p>
-                              <strong>College Type</strong>
-                            </p>
+                            <span>College Type</span>
+                          </td>
+                          <td>860 Private, 365 Government college</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span>Colleges Affiliated To</span>
+                          </td>
+                          <td>BCI, UGC, AICTE etc.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span>Entrance Exams Accepted</span>
+                          </td>
+                          <td>AIBE, CLAT, CLAT PG etc.</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span>Specializations</span>
                           </td>
                           <td>
-                            <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
-                            </p>
+                            Admiralty Law, Business Law, Constitutional Law,
+                            Criminal Law etc
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <p>
-                              <strong>Colleges Affiliated To</strong>
-                            </p>
+                            <span>Approximate Fees</span>
                           </td>
-                          <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Entrance Exams Accepted</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Specialisations</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Approximate Fees</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
-                          </td>
+                          <td>60,000 to 12,00,000</td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
                   <div>
                     <h2>
-                      <span>
-                        <strong>Ranking</strong>&nbsp;
-                        <strong>of Engineering Colleges in India</strong>
-                      </span>
+                      <strong>Top Law Colleges in India by NIRF Ranking</strong>
                     </h2>
                     <p>
-                      <span>
-                        NIRF and many other ranking sources have ranked various
-                        government and private colleges in India. Given below
-                        are the ranking of top engineering colleges in India by
-                        various sources to make it easier for engineering
-                        aspirants to choose the best engineering colleges.
-                      </span>
-                    </p>
-                    <h3>
-                      <strong>NIRF Ranking of Engineering Colleges</strong>
-                    </h3>
-                    <p>
-                      Engineering college ranking by NIRF is done on the basis
-                      of various parameters like teaching, learning, resources
-                      etc. Tabulated below are the best engineering colleges in
-                      India ranked by NIRF.
+                      Law colleges in India are ranked by NIRF based on
+                      different factors like Placements, course infrastructure,
+                      etc. The ranking of law colleges in India also includes
+                      teaching, research &amp; professional practice. The below
+                      table carries the best law colleges in India by NIRF
+                      ranking.
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
+                      <table border="1">
+                        <tbody>
                           <tr>
-                            <th>
+                            <td>
                               <strong>Ranking</strong>
-                            </th>
-                            <th>
+                            </td>
+                            <td>
                               <strong>College Name</strong>
-                            </th>
-                            <th>
+                            </td>
+                            <td>
                               <strong>NIRF Score</strong>
-                            </th>
+                            </td>
                           </tr>
-                        </thead>
-                        <tbody>
                           <tr>
-                            <td>1</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
+                              <span>1</span>
+                            </td>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLU Kolkata
                               </a>
                             </td>
-                            <td>90.14</td>
+                            <td>
+                              <span>70.72</span>
+                            </td>
                           </tr>
                           <tr>
                             <td>2</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                IIT Kharagpur
                               </a>
                             </td>
-                            <td>88.12</td>
+                            <td>67.27</td>
                           </tr>
                           <tr>
                             <td>3</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLSIU
                               </a>
                             </td>
-                            <td>83.96</td>
+                            <td>78.00</td>
                           </tr>
+
                           <tr>
                             <td>4</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLU Delhi
                               </a>
                             </td>
-                            <td>82.56</td>
+                            <td>73.96</td>
                           </tr>
                           <tr>
                             <td>5</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                Symbiosis Law School Pune
                               </a>
                             </td>
-                            <td>78.89</td>
+                            <td>73.73</td>
                           </tr>
                           <tr>
                             <td>6</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NALSAR University of Law Hyderabad
                               </a>
                             </td>
-                            <td>76.70</td>
+                            <td>73.05</td>
                           </tr>
                           <tr>
                             <td>7</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                Siksha O Anusandhan University
                               </a>
                             </td>
-                            <td>72.98</td>
+                            <td>63.47</td>
                           </tr>
                           <tr>
                             <td>8</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                Jamia Millia Islamia University
                               </a>
                             </td>
-                            <td>69.17</td>
+                            <td>63.62</td>
                           </tr>
                           <tr>
                             <td>9</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                GNLU Gandhinagar
                               </a>
                             </td>
-                            <td>68.03</td>
+                            <td>63.52</td>
                           </tr>
                           <tr>
                             <td>10</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Surathkal
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLUJ
                               </a>
                             </td>
-                            <td>66.04</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India by India Today Ranking
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the ranking of Engineering colleges in
-                      India by India Today
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,80,000</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bhubaneswar
-                              </a>
-                            </td>
-                            <td>8,83,036</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                            <td>8,76,000</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>6,47,000</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Patna
-                              </a>
-                            </td>
-                            <td>6,98,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>Top 10 Engineering Colleges in India</strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the 10 tier 1 Engineering colleges in
-                      India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>3,00,464</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,81,200</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
-                              </a>
-                            </td>
-                            <td>20,51,100</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>9,46,000</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
-                              </a>
-                            </td>
-                            <td>2,00,000</td>
+                            <td>62.35</td>
                           </tr>
                         </tbody>
                       </table>
@@ -582,294 +321,149 @@ const Law = () => {
                   </div>
                   <div>
                     <h2>
-                      <span>
-                        <strong>Engineering College Fees in India</strong>&nbsp;
-                      </span>
+                      <strong>
+                        Top Law Colleges in India by Outlook Ranking
+                      </strong>
                     </h2>
                     <p>
-                      <span>
-                        Best engineering colleges in India offer B.Tech, M.Tech
-                        and other courses with a varying fee structure from low
-                        to high depending on the type of college and the
-                        facilities provided. Given below are engineering college
-                        fees in India in various types of colleges.
-                      </span>
-                    </p>
-
-                    <h3>
-                      <strong>
-                        Top Government Engineering Colleges in India with Fees
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the top government engineering
-                      colleges in India
+                      The following table provides the top 10 law colleges in
+                      India by Outlook.
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border="1">
                         <tbody>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
+                              <strong>Ranking</strong>
                             </td>
-                            <td>3,00,464</td>
-                          </tr>
-                          <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,81,200</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>9,46,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>6,47,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Private Engineering Colleges in India with Fees
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the best private engineering colleges
-                      in India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
                               <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
+                            </td>
+                            <td>
+                              <strong>NIRF Score</strong>
+                            </td>
                           </tr>
-                        </thead>
-                        <tbody>
                           <tr>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
+                              <span>1</span>
+                            </td>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                Jindal Global Law School
                               </a>
                             </td>
-                            <td>20,51,100</td>
+                            <td>753</td>
                           </tr>
                           <tr>
+                            <td>2</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                ICT Mumbai
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLU Delhi
                               </a>
                             </td>
-                            <td>3,56,400</td>
+                            <td>758.33</td>
                           </tr>
                           <tr>
+                            <td>3</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                VIT Vellore
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NALSAR University of Law Hyderabad
                               </a>
                             </td>
-                            <td>7,92,000</td>
+                            <td>757.1</td>
                           </tr>
                           <tr>
+                            <td>4</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                GNLU Gandhinagar
                               </a>
                             </td>
-                            <td>14,68,800</td>
+                            <td>721.66</td>
                           </tr>
                           <tr>
+                            <td>5</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIST Trivandrum
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                Lloyd Business School
                               </a>
                             </td>
-                            <td>5,79,600</td>
+                            <td>639.55</td>
                           </tr>
                           <tr>
+                            <td>6</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Institute of Technical Education and Research
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLSIU
                               </a>
                             </td>
-                            <td>9,40,000</td>
+                            <td>803.16</td>
                           </tr>
                           <tr>
+                            <td>7</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                BIT Mesra
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                Symbiosis Law School Pune
                               </a>
                             </td>
-                            <td>11,40,000</td>
+                            <td>678.09</td>
                           </tr>
                           <tr>
+                            <td>8</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                Bharati Vidyapeeths New Law College Pune
                               </a>
                             </td>
-                            <td>8,76,000</td>
+                            <td>601.43</td>
                           </tr>
                           <tr>
+                            <td>9</td>
                             <td>
-                              <a className="in-cell-link" href="#">
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLUJ
+                              </a>
+                            </td>
+                            <td>677.75</td>
+                          </tr>
+                          <tr>
+                            <td>10</td>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
                                 Amity University Noida
                               </a>
                             </td>
-                            <td>12,44,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>Cheapest Engineering Colleges in India</strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the low fees engineering colleges in
-                      India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                Diploma in Engineering Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                APCC
-                              </a>
-                            </td>
-                            <td>2,505</td>
-                          </tr>
-                          <tr>
-                            <td>Asansol Polytechnic, Asansol</td>
-                            <td>1,020</td>
-                          </tr>
-                          <tr>
-                            <td>Govt. Womens Polytechnic, Seraikela</td>
-                            <td>1,215</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Medinipur Sadar Government Polytechnic, Medinipur
-                            </td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>Central Footwear Training Centre, Parganas</td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Haji Md. Serafat Mondal Government Polytechnic,
-                              Birbhum
-                            </td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Ratua S. N. Bose Government Polytechnic, Ratua
-                            </td>
-                            <td>2,055</td>
-                          </tr>
-                          <tr>
-                            <td>Government Womens Polytechnic, Patna</td>
-                            <td>3,195</td>
-                          </tr>
-                          <tr>
-                            <td>Nalhati Government Polytechnic, Birbhum</td>
-                            <td>2,550</td>
-                          </tr>
-                          <tr>
-                            <td>Raipur Government Polytechnic, Raipur</td>
-                            <td>2,655</td>
+                            <td>642.17</td>
                           </tr>
                         </tbody>
                       </table>
@@ -877,264 +471,440 @@ const Law = () => {
                   </div>
                   <div>
                     <h2>
-                      <strong>
-                        Top Engineering Colleges in India Admission
-                      </strong>
+                      <strong>Top 10 Law Universities in India</strong>
                     </h2>
                     <p>
-                      Engineering colleges offer admission to various courses at
-                      undergraduate, postgraduate, and PhD levels.
+                      <strong>
+                        Below mentioned are the top Law Universities in India.
+                      </strong>
+                    </p>
+                    <ul>
+                      <li>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          NLSIU
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          NLU Delhi
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          NALSAR University of Law Hyderabad
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          NLU Kolkata
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          GNLU Gandhinagar
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          Symbiosis Law School Pune
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          NLUJ
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          AMU
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          NLIU Bhopal
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="in-cell-link"
+                          href="#"
+                        >
+                          RMLNLU
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h2>
+                      <strong>Fees Structure Top Law Colleges in India</strong>
+                    </h2>
+                    <p>
+                      While looking for the best law colleges in India, it is
+                      important to check various facilities available for
+                      students like faculty, infrastructure etc. The facilities
+                      provided by every college should go together with the fees
+                      so that the students get the maximum benefit from the
+                      college.
                     </p>
                     <h3>
-                      <strong>Eligibility Criteria</strong>
+                      <strong>
+                        Top Law Government Colleges in India with Fees
+                      </strong>
                     </h3>
                     <p>
-                      Candidates must fulfil the eligibility criteria to get
-                      admission to top engineering colleges in India.
+                      Tabulated below are the government law colleges in India
+                      with their total fees.
                     </p>
-                    <p>
-                      <strong>B.Tech/B.E.</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        <span>
-                          Candidates must have passed 10+2 with a minimum of 50%
-                          marks in the PCB/PCMB stream
-                        </span>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>M.Tech/M.E.</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/B.E. degree with
-                        a valid GATE score.
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>PhD</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/M. Tech degree
-                        with a minimum of 55% marks and a valid GATE/NET score.
-                      </li>
-                    </ul>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>Admission Link</strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border="1">
                         <tbody>
                           <tr>
-                            <td>1</td>
-                            <td>IIT Madras</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras Admission Link
-                              </a>
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>Total Tuition Fees (INR)</strong>
                             </td>
                           </tr>
                           <tr>
-                            <td>2</td>
-                            <td>IIT Delhi</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi Admission Link
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLSIU
                               </a>
                             </td>
+                            <td>3,79,000</td>
                           </tr>
                           <tr>
-                            <td>3</td>
-                            <td>IIT Bombay</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay Admission Link
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLU Delhi
                               </a>
                             </td>
+                            <td>1,95,000</td>
                           </tr>
                           <tr>
-                            <td>4</td>
-                            <td>IIT Kharagpur</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur Admission Link
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NALSAR University of Law Hyderabad
                               </a>
                             </td>
+                            <td>1,95,000</td>
                           </tr>
                           <tr>
-                            <td>5</td>
-                            <td>IIT Kanpur</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur Admission Link
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLU Kolkata
                               </a>
                             </td>
+                            <td>5,25,000</td>
                           </tr>
                           <tr>
-                            <td>6</td>
-                            <td>IIT Roorkee</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee Admission Link
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                IIT Kharagpur
                               </a>
                             </td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>BITS Pilani</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>IIT Guwahati</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>IIT Hyderabad</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              College of Engineering, Anna University (Chennai)
-                            </td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                College of Engineering, Anna University
-                                (Chennai) Admission Link
-                              </a>
-                            </td>
+                            <td>3,00,000</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
                   </div>
                   <div>
-                    <h2>
+                    <h3>
                       <strong>
-                        Top Engineering Colleges in India for Lateral Entry
+                        Top Law Private Colleges in India with Fees
                       </strong>
-                    </h2>
+                    </h3>
                     <p>
-                      Some engineering colleges offer lateral entry. Tabulated
-                      below are the best engineering colleges offering lateral
-                      entry
+                      Below mentioned are the best private law colleges in
+                      India.
                     </p>
                     <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                          </tr>
-                        </thead>
+                      <table border="1">
                         <tbody>
                           <tr>
-                            <td>1</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Jadavpur University
-                              </a>
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>Total Tuition Fees (INR)</strong>
                             </td>
                           </tr>
                           <tr>
-                            <td>2</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Manipal Institute of Technology
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                Symbiosis Law School Pune
                               </a>
                             </td>
+                            <td>3,96,000</td>
                           </tr>
                           <tr>
-                            <td>3</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                PES University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                PSGCT
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                COEP
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
                                 KIIT University
                               </a>
                             </td>
+                            <td>6,00,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                Saveetha Medical college
+                              </a>
+                            </td>
+                            <td>8,82,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                SASTRA University
+                              </a>
+                            </td>
+                            <td>7,20,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                Christ University
+                              </a>
+                            </td>
+                            <td>9,80,000</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div>
+                    <h2>
+                      <strong>Top Law Colleges in India Admission</strong>
+                    </h2>
+                    <p>
+                      Law colleges admission is based on the national and
+                      state-level entrance exam. Some law colleges in India
+                      provide admission on the basis of 12th marks. Candidates
+                      should appear in the entrance exam to get admission to
+                      national law colleges in India. Below mentioned are the
+                      top law colleges in India and their admission.
+                    </p>
+                    <h3>
+                      <strong>Top Law Colleges in India Eligibility</strong>
+                    </h3>
+                    <p>
+                      Eligibility criteria for law colleges admission are
+                      candidates must have completed a bachelor from a
+                      recognised university with a duration of 3 years.
+                      Universities and colleges also accept candidates with
+                      prior experience for LLM along with an LLB degree.
+                    </p>
+                    <p>
+                      <strong>LLB</strong>
+                    </p>
+                    <ul>
+                      <li>
+                        Candidates passed graduation (10+2+3) in any discipline
+                        from a recognised college or university.
+                      </li>
+                      <li>
+                        Candidates should secure a minimum of 45% in any general
+                        category and 40% marks in aggregate for SC/ST category.
+                      </li>
+                    </ul>
+                    <p>
+                      <strong>LLM</strong>
+                    </p>
+                    <ul>
+                      <li>
+                        Bachelors degree in the stream of law or social science
+                        with minimum aggregate as per the institutes
+                        requirement.
+                      </li>
+                      <li>
+                        LLM eligibility criteria for students to complete LLB
+                        with a minimum of 50-60% aggregate from a recognized
+                        university.
+                      </li>
+                    </ul>
+                    <p>
+                      The following table contains top 10 law colleges in India
+                      with admission.
+                    </p>
+                    <div className="table-responsive">
+                      <table border="1">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>S.No</strong>
+                            </td>
+                            <td>
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>Admission Link</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>
+                              National Law School of India University, Bengaluru
+                            </td>
+                            <td>
+                              <a className="in-cell-link" href="link_here">
+                                National Law School of India University,
+                                Bengaluru Admission
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>National Law University, Delhi</td>
+                            <td>
+                              <a className="in-cell-link" href="link_here">
+                                National Law University, Delhi Admission
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>NALSAR University of Law, Hyderabad</td>
+                            <td>
+                              <a className="in-cell-link" href="link_here">
+                                NALSAR University of Law, Hyderabad Admission
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>
+                              Rajiv Gandhi School of Intellectual Property Law,
+                              IIT-Kharagpur
+                            </td>
+                            <td>
+                              <a className="in-cell-link" href="link_here">
+                                Rajiv Gandhi School of Intellectual Property
+                                Law, IIT-Kharagpur Admission
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>National Law University, Jodhpur</td>
+                            <td>
+                              <a className="in-cell-link" href="link_here">
+                                National Law University, Jodhpur Admission
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>6</td>
+                            <td>
+                              The West Bengal National University of Juridical
+                              Sciences, West Bengal
+                            </td>
+                            <td>
+                              <a className="in-cell-link" href="link_here">
+                                The West Bengal National University of Juridical
+                                Sciences, West Bengal Admission
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>7</td>
+                            <td>
+                              Gujarat National Law University, Gandhinagar
+                            </td>
+                            <td>
+                              <a className="in-cell-link" href="link_here">
+                                Gujarat National Law University, Gandhinagar
+                                Admission
+                              </a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>8</td>
+                            <td>Symbiosis Law School, Pune</td>
+                            <td>
+                              <a className="in-cell-link" href="link_here">
+                                Symbiosis Law School, Pune Admission
+                              </a>
+                            </td>
                           </tr>
                           <tr>
                             <td>9</td>
+                            <td>Jamia Millia Islamia, New Delhi</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                Pondicherry Engineering College
+                              <a className="in-cell-link" href="link_here">
+                                Jamia Millia Islamia, New Delhi Admission
                               </a>
                             </td>
                           </tr>
                           <tr>
                             <td>10</td>
                             <td>
-                              <a className="in-cell-link" href="#">
-                                RVCE
+                              The Rajiv Gandhi National University of Law,
+                              Patiala
+                            </td>
+                            <td>
+                              <a className="in-cell-link" href="link_here">
+                                The Rajiv Gandhi National University of Law,
+                                Patiala Admission
                               </a>
                             </td>
                           </tr>
@@ -1145,835 +915,383 @@ const Law = () => {
                   <div>
                     <h2>
                       <strong>
-                        Specialisations Available in Top Engineering Colleges in
-                        India&nbsp;
+                        Entrance Exams for Top Law Colleges in India
                       </strong>
                     </h2>
                     <p>
-                      Engineering courses are offered in various
-                      specialisations. Few of the specialisations offer job
-                      opportunities in various fields with high salary packages.
-                      Below mentioned are the most popular engineering
-                      specialisations in best engineering colleges in India
+                      A good score in the entrance exam leads to admission to
+                      national law colleges. Entrance exam eligibility criteria
+                      for different institutes and universities may differ.
+                      However, the following are the Law Entrance exams in top
+                      institutes:
                     </p>
                     <ul>
-                      <li>Chemical Engineering</li>
-                      <li>Mechanical Engineering</li>
-                      <li>Computer Science Engineering</li>
-                      <li>Aeronautical Engineering</li>
-                      <li>Civil Engineering</li>
+                      <li>CLAT</li>
+                      <li>AILET</li>
+                      <li>MHT CET</li>
                     </ul>
-                  </div>
-                  <div>
+
                     <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </strong>
+                      <strong>Top Law Colleges Accepting CLAT</strong>
                     </h3>
                     <p>
-                      Computer science and engineering are one of the most
-                      preferred courses among engineering students due to the
-                      booming technology and growth of tech startups. Listed
-                      below are some of the top engineering colleges for
-                      computer science
+                      Common Law Admission Test (CLAT) is an all-India
+                      centralized examination that allows students to get
+                      admission to the 21 National Law Universities in India to
+                      pursue law courses, such as LLB and LLM. CLAT is an exam
+                      attempted by more than 50,000 students annually, as it is
+                      a sought-after exam for Law school aspirants. Below listed
+                      are the best colleges for law accepting CLAT.
                     </p>
                     <ul>
                       <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
+                        <a className="in-cell-link" href="link_here">
+                          Asian School of Cyber Laws
                         </a>
                       </li>
                       <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
+                        <a className="in-cell-link" href="link_here">
+                          Nirma University
                         </a>
                       </li>
                       <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
+                        <a className="in-cell-link" href="link_here">
+                          UPES
                         </a>
                       </li>
                       <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
+                        <a className="in-cell-link" href="link_here">
+                          IFIM Law School
                         </a>
                       </li>
                       <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kanpur
+                        <a className="in-cell-link" href="link_here">
+                          SRM IST Chennai
                         </a>
                       </li>
                     </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
-                  <div>
+
                     <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Mechanical
-                        Engineering
-                      </strong>
+                      <strong>Top Law Colleges Accepting AILET</strong>
                     </h3>
                     <p>
-                      Listed below are the best engineering colleges for
-                      Mechanical Engineering
+                      AILET is the entrance exam for those candidates who want
+                      to pursue their education in the top Law colleges in
+                      India. AILET is conducted by the National Law University,
+                      Delhi. (AILET) is a national-level law entrance exam
+                      conducted by NLU, Delhi for admission to its
+                      undergraduate, postgraduate and PhD programmes.
                     </p>
                     <ul>
                       <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
+                        <a className="in-cell-link" href="link_here">
+                          NLU Delhi
                         </a>
                       </li>
                       <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
+                        <a className="in-cell-link" href="link_here">
+                          Vishwakarma University
                         </a>
                       </li>
                       <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
+                        <a className="in-cell-link" href="link_here">
+                          The NorthCap University
                         </a>
                       </li>
                       <li>
-                        <a className="in-cell-link" href="#">
+                        <a className="in-cell-link" href="link_here">
+                          SAGE University
+                        </a>
+                      </li>
+                      <li>
+                        <a className="in-cell-link" href="link_here">
+                          XIM University
+                        </a>
+                      </li>
+                    </ul>
+
+                    {/* ... (similarly for "Top Law Colleges Accepting MHT CET") ... */}
+
+                    <h2>
+                      <strong>
+                        Specialisations Wise Top Law Colleges in India
+                      </strong>
+                    </h2>
+                    <p>
+                      National law colleges include specialisation in Civil Law,
+                      Criminal Law, Human Rights Law, etc., which in turn
+                      results in better job opportunities in the public and
+                      private sector with good in-hand salaries. Law
+                      specialisations are as follows:
+                    </p>
+                    <ul>
+                      <li>Civil Law</li>
+                      <li>Criminal Law</li>
+                      <li>Human Rights Law</li>
+                      <li>Contract Laws</li>
+                    </ul>
+
+                    <h3>
+                      <strong>Top Civil Law Colleges in India</strong>
+                    </h3>
+                    <p>
+                      Civil Law is the branch of Law that has concern with
+                      private relations between members of society. Civil law
+                      contracts with the cases of divorce, child custody,
+                      personal and property damage, etc.
+                    </p>
+                    <ul>
+                      <li>
+                        <a className="in-cell-link" href="link_here">
+                          NLSIU
+                        </a>
+                      </li>
+                      <li>
+                        <a className="in-cell-link" href="link_here">
+                          NALSAR University of Law Hyderabad
+                        </a>
+                      </li>
+                      <li>
+                        <a className="in-cell-link" href="link_here">
                           IIT Kharagpur
                         </a>
                       </li>
                       <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
+                        <a className="in-cell-link" href="link_here">
+                          Symbiosis Law School Pune
+                        </a>
+                      </li>
+                      <li>
+                        <a className="in-cell-link" href="link_here">
+                          RGNUL
                         </a>
                       </li>
                     </ul>
+
+                    {/* ... (similarly for "Top Criminal Colleges in India" and "Top Human Rights Law Colleges in India") ... */}
                   </div>
                   <div>
                     <p>
-                      <strong>Read More:</strong> Top Engineering Colleges in
-                      India for Mechanical Engineering
+                      <strong>Read More:</strong> Top Human Rights Law Colleges
+                      in India
                     </p>
-                    <h3>
+                    <h2>
+                      <strong>Placements Wise Top Law Colleges in India</strong>
+                    </h2>
+                    <p>
+                      <span>
+                        Best colleges for law provide a placement opportunity to
+                        candidates who fulfill the required criteria during the
+                        placement drive. Enclosed below is the list of top law
+                        colleges in India along with the names of top
+                        recruiters.
+                      </span>
+                    </p>
+                    <div className="table-responsive">
+                      <table border="1">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>Top Recruiters</strong>
+                            </td>
+                            <td>
+                              <strong>Placements</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              National Law School of India University, Bengaluru
+                            </td>
+                            <td>
+                              Dua Associates, Bhasin &amp; Co., HAL Bangalore
+                              etc.
+                            </td>
+                            <td>
+                              National Law School of India University, Bengaluru
+                              placement
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>National Law University, Delhi</td>
+                            <td>L&amp;L Partners, Khaitan &amp; Co, etc.</td>
+                            <td>National Law University, Delhi placement</td>
+                          </tr>
+                          {/* ... (other rows) ... */}
+                        </tbody>
+                      </table>
+                    </div>
+                    <h2>
                       <strong>
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
+                        Average Salary Package in Top Law Colleges in India
                       </strong>
-                    </h3>
+                    </h2>
                     <p>
-                      Listed below are some of the best colleges for engineering
-                      offering Aeronautical Engineering specialization
+                      Mentioned below table contains law colleges in India with
+                      their salary package.
                     </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Sathyabama Institute
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Kumaraguru College of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Bannari Amman Institute of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          DSCE
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIST Trivandrum
-                        </a>
-                      </li>
-                    </ul>
+                    <div className="table-responsive">
+                      <table border="1">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>Average Package</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLSIU
+                              </a>
+                            </td>
+                            <td>15,00,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                IIT Kharagpur
+                              </a>
+                            </td>
+                            <td>8,00,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                Symbiosis Law School Pune
+                              </a>
+                            </td>
+                            <td>8,00,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NALSAR University of Law Hyderabad
+                              </a>
+                            </td>
+                            <td>9,00,000</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLUJ
+                              </a>
+                            </td>
+                            <td>5,00,000</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div>
+                    <h2>
+                      <strong>Top Law Colleges in India Cut Off 2022</strong>
+                    </h2>
                     <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </a>
+                      There are some law colleges in India that offer direct
+                      admission on merit basis and most of the best law colleges
+                      provide admission basis of the entrance exam cutoff. Below
+                      are the cut off scores for some of the best law colleges
+                      in India.
                     </p>
+                    <div className="table-responsive">
+                      <table border="1">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <strong>College Name</strong>
+                            </td>
+                            <td>
+                              <strong>Opening CutOff</strong>
+                            </td>
+                            <td>
+                              <strong>Closing CutOff</strong>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NALSAR University of Law Hyderabad
+                              </a>
+                            </td>
+                            <td>50</td>
+                            <td>119</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLU Kolkata
+                              </a>
+                            </td>
+                            <td>82</td>
+                            <td>201</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLIU Bhopal
+                              </a>
+                            </td>
+                            <td>256</td>
+                            <td>316</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                GNLU Gandhinagar
+                              </a>
+                            </td>
+                            <td>147</td>
+                            <td>417</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a
+                                className="in-cell-link"
+                                href="#"
+                              >
+                                NLUJ
+                              </a>
+                            </td>
+                            <td>181</td>
+                            <td>292</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India for Civil Engineering
-                    </strong>
-                  </h3>
-                  <p>
-                    Listed below are top engineering colleges that offer
-                    specialization in Civil Engineering
-                  </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kanpur
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Civil Engineering
-                    </a>
-                  </p>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </strong>
-                  </h3>
-                  <p>
-                    Listed below are some of the best colleges for engineering
-                    offering Chemical Engineering specialization
-                  </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Guwahati
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </a>
-                  </p>
-                  <h2>
-                    <strong>
-                      Entrance Exams for Top Engineering Colleges in India
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Top engineering colleges in India offer admission based on
-                      the students' marks in various national or state-level
-                      entrance examinations. Below mentioned are some of the
-                      popular entrance exams to get admission to the best
-                      engineering colleges in India
-                    </span>
-                  </p>
-                  <ul>
-                    <li>
-                      <span>JEE Mains</span>
-                    </li>
-                    <li>JEE Advanced</li>
-                    <li>
-                      <span>BITSAT</span>
-                    </li>
-                    <li>
-                      <span>KCET</span>
-                    </li>
-                    <li>
-                      <span>GATE</span>
-                    </li>
-                  </ul>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Main Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      JEE Main is an all-India test conducted for admission to
-                      top engineering colleges in India. Tabulated below are the
-                      top colleges for engineering accepting JEE Main Score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              VIT Vellore
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              Thapar University
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Warangal
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIIT Hyderabad
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Durgapur
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Advanced
-                      Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      Candidates who clear JEE Main are allowed to take up JEE
-                      Advanced to get admitted to the top-most engineering
-                      colleges in the country. Tabulated below are the best
-                      engineering colleges accepting JEE Advanced score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting KCET Score
-                    </strong>
-                  </h3>
-                  <p>
-                    KCET is a state-level entrance examination conducted in
-                    Karnataka for various courses. Tabulated below are the best
-                    colleges for engineering accepting KCET score
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              RVCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              MSRIT
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BMSCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NHCE Bangalore
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              PES University
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting GATE Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      GATE is an all-India level entrance examination conducted
-                      for admission to the master's program and for admission to
-                      PhD. Tabulated below are top engineering colleges
-                      accepting GATE score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Guwahati
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>
-                      Best Placement Engineering Colleges in India
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Students of top engineering colleges in India are
-                      recruited by big companies during campus placements every
-                      year. Tabulated below are the best placement engineering
-                      colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Top Recruiters</strong>
-                          </th>
-                          <th>
-                            <strong>Placement Link</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Kanpur
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Flipkart, Microsoft, Myntra, Jaguar</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Madras
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Google, Microsoft, TCS</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Bombay
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Microsoft, Amazon, Google</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>
-                                Indian Institute of Technology, Kharagpur
-                              </span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>IBM, JP Morgan, Tata Steel, Microsoft</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <span>Indian Institute of Technology, Delhi</span>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Capgemini, Wipro, IBM, Dell, Infosys</span>
-                            </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi Placement Link
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>
-                      Average Salary Package in Top Engineering Colleges in
-                      India
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Tabulated below are the average salary package offered in
-                      the best colleges for engineering in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Average Package</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16.5 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16.1 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BITS Pilani
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>9.5 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              SRM IST Chennai
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>9 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>Top Engineering Colleges in India Cutoff</strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Tabulated below are the JEE Advanced cutoff ranks in
-                      Aerospace Engineering in top engineering colleges
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Opening Rank</strong>
-                          </th>
-                          <th>
-                            <strong>Closing Rank</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                          <td>123</td>
-                          <td>2118</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                          <td>741</td>
-                          <td>879</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                          <td>3321</td>
-                          <td>4493</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
-                            </a>
-                          </td>
-                          <td>2209</td>
-                          <td>3809</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                          <td>190</td>
-                          <td>3259</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  
                 </>
               ) : (
                 <>
@@ -1988,139 +1306,6 @@ const Law = () => {
                 </>
               )}
               {/* Additional content */}
-              {showContent && (
-                <>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Top Engineering Colleges in India include colleges like
-                      IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
-                    </span>
-                  </p>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Engineering is a discipline that involves various
-                      scientific principles to design, innovate, and develop
-                      machines, software, hardware, technical systems, and
-                      processes. Engineering offers a degree in multiple
-                      specializations such as computer science and engineering,
-                      mechanical engineering, civil engineering, chemical
-                      engineering, etc.
-                    </span>
-                    <span>
-                      Courses offered in top engineering colleges in India
-                      are&nbsp;
-                      <a href="#">BE</a>,&nbsp;
-                      <a href="#">BTech</a>
-                      ,&nbsp;
-                      <a href="#">MTech</a>
-                      ,&nbsp;<a href="#">ME</a>, Diploma in Engineering, PhD.
-                    </span>
-                    <span>
-                      Entrance exams accepted by the best colleges for
-                      engineering are JEE MAINS, JEE Advanced, BITSAT, KCET etc.
-                      There are various job opportunities after an Engineering
-                      degree like software engineer, mechanical engineer,
-                      electrical engineer, web developer, biomedical engineer
-                      etc.
-                    </span>
-                  </p>
-                  <h2>Top Engineering Colleges in India: Highlights</h2>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>College Type</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Colleges Affiliated To</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Entrance Exams Accepted</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Specializations</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Approximate Fees</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>Ranking of Engineering Colleges in India</strong>
-                  </h2>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      NIRF and many other ranking sources have ranked various
-                      government and private colleges in India. Given below are
-                      the ranking of&nbsp; top engineering colleges in India by
-                      various sources to make it easier for engineering
-                      aspirants to choose the best engineering colleges.
-                    </span>
-                  </p>
-                </>
-              )}
             </div>
           </MDBCol>
         </MDBRow>

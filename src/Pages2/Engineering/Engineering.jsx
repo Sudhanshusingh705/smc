@@ -10,7 +10,7 @@ import {
   MDBListGroupItem,
   MDBBtn,
 } from "mdb-react-ui-kit";
-// import "./Exams.css"; // Assuming Exams.css is in the same directory
+// import "./Engineering.css";
 
 const Engineering = () => {
   const [showContent, setShowContent] = useState(false);

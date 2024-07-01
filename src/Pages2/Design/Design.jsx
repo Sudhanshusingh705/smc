@@ -10,7 +10,7 @@ import {
   MDBListGroupItem,
   MDBBtn,
 } from "mdb-react-ui-kit";
-// import "./Exams.css"; // Assuming Exams.css is in the same directory
+// import "./Design.css";
 
 const Design = () => {
   const [showContent, setShowContent] = useState(false);
@@ -56,13 +56,13 @@ const Design = () => {
   return (
     <div className="section">
       <h2 className="section-title">
-        Top Engineering Colleges in India 2023-2024
+      Top Design Colleges in India 2023-2024
       </h2>
       <MDBContainer fluid>
         <MDBRow>
           <MDBCol md="9" className="mx-auto">
             <div className="pageDescription text-center">
-              <h1>Engineering Colleges</h1>
+              <h1>Design Colleges</h1>
 
               {showContent ? (
                 <>
@@ -76,1685 +76,507 @@ const Design = () => {
                       Show Less
                     </button>
                   </div>
-                  <p>
-                    <div className="mb-2">
-                      <span>
-                        Top Engineering Colleges in India include colleges like
-                        IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
-                      </span>
-                    </div>
-                    <div className="mb-2">
-                      <span>
-                        Engineering is a discipline that involves various
-                        scientific principles to design, innovate, and develop
-                        machines, software, hardware, technical systems, and
-                        processes. Engineering offers a degree in multiple
-                        specialisations such as computer science and
-                        engineering, mechanical engineering, civil engineering,
-                        chemical engineering, etc.
-                      </span>
-                    </div>
-                  </p>
-                  <p>
-                    <div className="mb-2">
-                      <span>
-                        Courses offered in top engineering colleges in India
-                        are&nbsp;
-                        <a href="#">BE</a>,&nbsp;<a href="#">BTech</a>,&nbsp;
-                        <a href="#">MTech</a>,&nbsp;<a href="#">ME</a>, Diploma
-                        in Engineering, PhD.
-                      </span>
-                    </div>
-                    <div className="mb-2">
-                      <span>
-                        Entrance exams accepted by the best colleges for
-                        engineering are JEE MAINS, JEE Advanced, BITSAT, KCET
-                        etc. There are various job opportunities after an
-                        Engineering degree like software engineer, mechanical
-                        engineer, electrical engineer, web developer, biomedical
-                        engineer etc.
-                      </span>
-                    </div>
-                  </p>
+                  <h1>Design Colleges </h1>
                   <h2>
-                    <strong>
-                      Top Engineering Colleges in India: Highlights
-                    </strong>
+                    Design College: Eligibility, Admission, Syllabus, Placements
                   </h2>
                   <p>
-                    <span>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
-                    </span>
+                    <div className="mb-2">
+                      <span>
+                        Design is one of the popular and creative courses in India
+                      that is pursued by candidates at UG, PG, and PhD levels to
+                      become skillful designers. There are various
+                      specialisations offered by design colleges, such as
+                      interior design, fashion design, graphic design, web
+                      design, etc., in B.Des, M.Des, or advanced diploma
+                      courses. Designers are in huge demand due to the growth of
+                      the IT sector and design industry in the past few years.
+                      Top design colleges in India provide relevant knowledge
+                      and exposure to the students to design and develop
+                      aesthetic solutions and products to cater to the needs of
+                      the modern world.&nbsp;
+                      </span>
+                    </div>
                   </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>College Type</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Colleges Affiliated To</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Entrance Exams Accepted</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Specialisations</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Approximate Fees</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div>
-                    <h2>
-                      <span>
-                        <strong>Ranking</strong>&nbsp;
-                        <strong>of Engineering Colleges in India</strong>
-                      </span>
-                    </h2>
-                    <p>
-                      <span>
-                        NIRF and many other ranking sources have ranked various
-                        government and private colleges in India. Given below
-                        are the ranking of top engineering colleges in India by
-                        various sources to make it easier for engineering
-                        aspirants to choose the best engineering colleges.
-                      </span>
-                    </p>
-                    <h3>
-                      <strong>NIRF Ranking of Engineering Colleges</strong>
-                    </h3>
-                    <p>
-                      Engineering college ranking by NIRF is done on the basis
-                      of various parameters like teaching, learning, resources
-                      etc. Tabulated below are the best engineering colleges in
-                      India ranked by NIRF.
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>NIRF Score</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>90.14</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>88.12</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>83.96</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>82.56</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>78.89</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>76.70</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>72.98</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>69.17</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>68.03</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Surathkal
-                              </a>
-                            </td>
-                            <td>66.04</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India by India Today Ranking
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the ranking of Engineering colleges in
-                      India by India Today
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Ranking</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,80,000</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bhubaneswar
-                              </a>
-                            </td>
-                            <td>8,83,036</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                            <td>8,76,000</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>6,47,000</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Patna
-                              </a>
-                            </td>
-                            <td>6,98,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>Top 10 Engineering Colleges in India</strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the 10 tier 1 Engineering colleges in
-                      India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>3,00,464</td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,81,200</td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
-                              </a>
-                            </td>
-                            <td>20,51,100</td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>9,46,000</td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
-                              </a>
-                            </td>
-                            <td>2,00,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <span>
-                        <strong>Engineering College Fees in India</strong>&nbsp;
-                      </span>
-                    </h2>
-                    <p>
-                      <span>
-                        Best engineering colleges in India offer B.Tech, M.Tech
-                        and other courses with a varying fee structure from low
-                        to high depending on the type of college and the
-                        facilities provided. Given below are engineering college
-                        fees in India in various types of colleges.
-                      </span>
-                    </p>
-
-                    <h3>
-                      <strong>
-                        Top Government Engineering Colleges in India with Fees
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the top government engineering
-                      colleges in India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras
-                              </a>
-                            </td>
-                            <td>3,00,464</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi
-                              </a>
-                            </td>
-                            <td>8,81,200</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay
-                              </a>
-                            </td>
-                            <td>9,12,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                CEG Guindy
-                              </a>
-                            </td>
-                            <td>3,60,368</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur
-                              </a>
-                            </td>
-                            <td>9,71,600</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee
-                              </a>
-                            </td>
-                            <td>8,54,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati
-                              </a>
-                            </td>
-                            <td>8,71,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad
-                              </a>
-                            </td>
-                            <td>9,46,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                NIT Trichy
-                              </a>
-                            </td>
-                            <td>6,47,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Private Engineering Colleges in India with Fees
-                      </strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the best private engineering colleges
-                      in India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                B.E./B.Tech Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani
-                              </a>
-                            </td>
-                            <td>20,51,100</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                ICT Mumbai
-                              </a>
-                            </td>
-                            <td>3,56,400</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                VIT Vellore
-                              </a>
-                            </td>
-                            <td>7,92,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
-                              </a>
-                            </td>
-                            <td>14,68,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIST Trivandrum
-                              </a>
-                            </td>
-                            <td>5,79,600</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Institute of Technical Education and Research
-                              </a>
-                            </td>
-                            <td>9,40,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BIT Mesra
-                              </a>
-                            </td>
-                            <td>11,40,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                            <td>8,76,000</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Amity University Noida
-                              </a>
-                            </td>
-                            <td>12,44,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>Cheapest Engineering Colleges in India</strong>
-                    </h3>
-                    <p>
-                      Tabulated below are the low fees engineering colleges in
-                      India
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>
-                                Diploma in Engineering Total Tuition Fees (INR)
-                              </strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                APCC
-                              </a>
-                            </td>
-                            <td>2,505</td>
-                          </tr>
-                          <tr>
-                            <td>Asansol Polytechnic, Asansol</td>
-                            <td>1,020</td>
-                          </tr>
-                          <tr>
-                            <td>Govt. Womens Polytechnic, Seraikela</td>
-                            <td>1,215</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Medinipur Sadar Government Polytechnic, Medinipur
-                            </td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>Central Footwear Training Centre, Parganas</td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Haji Md. Serafat Mondal Government Polytechnic,
-                              Birbhum
-                            </td>
-                            <td>1,800</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Ratua S. N. Bose Government Polytechnic, Ratua
-                            </td>
-                            <td>2,055</td>
-                          </tr>
-                          <tr>
-                            <td>Government Womens Polytechnic, Patna</td>
-                            <td>3,195</td>
-                          </tr>
-                          <tr>
-                            <td>Nalhati Government Polytechnic, Birbhum</td>
-                            <td>2,550</td>
-                          </tr>
-                          <tr>
-                            <td>Raipur Government Polytechnic, Raipur</td>
-                            <td>2,655</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Top Engineering Colleges in India Admission
-                      </strong>
-                    </h2>
-                    <p>
-                      Engineering colleges offer admission to various courses at
-                      undergraduate, postgraduate, and PhD levels.
-                    </p>
-                    <h3>
-                      <strong>Eligibility Criteria</strong>
-                    </h3>
-                    <p>
-                      Candidates must fulfil the eligibility criteria to get
-                      admission to top engineering colleges in India.
-                    </p>
-                    <p>
-                      <strong>B.Tech/B.E.</strong>
-                    </p>
-                    <ul>
-                      <li>
+                  <p>
+                    <strong>Table of Contents</strong>
+                  </p>
+                  <ul>
+                    <li aria-level={1}>
+                      <a href="#top-10-design-colleges-in-india">
+                        <span>Top 10 Design Colleges in India&nbsp;</span>
+                      </a>
+                    </li>
+                    <li aria-level={1}>
+                      <a href="#specialisation-wise-design-colleges-in-india">
                         <span>
-                          Candidates must have passed 10+2 with a minimum of 50%
-                          marks in the PCB/PCMB stream
+                          Specialisation-wise Design Colleges in India
                         </span>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>M.Tech/M.E.</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/B.E. degree with
-                        a valid GATE score.
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>PhD</strong>
-                    </p>
-                    <ul>
-                      <li>
-                        Candidates must have completed a B.Tech/M. Tech degree
-                        with a minimum of 55% marks and a valid GATE/NET score.
-                      </li>
-                    </ul>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                            <th>
-                              <strong>Admission Link</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>IIT Madras</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Madras Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>IIT Delhi</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Delhi Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>IIT Bombay</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Bombay Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>IIT Kharagpur</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kharagpur Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>IIT Kanpur</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Kanpur Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>IIT Roorkee</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Roorkee Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>BITS Pilani</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                BITS Pilani Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>IIT Guwahati</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Guwahati Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>IIT Hyderabad</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                IIT Hyderabad Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              College of Engineering, Anna University (Chennai)
-                            </td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                College of Engineering, Anna University
-                                (Chennai) Admission Link
-                              </a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Top Engineering Colleges in India for Lateral Entry
-                      </strong>
-                    </h2>
-                    <p>
-                      Some engineering colleges offer lateral entry. Tabulated
-                      below are the best engineering colleges offering lateral
-                      entry
-                    </p>
-                    <div className="table-responsive">
-                      <table className="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th>
-                              <strong>S. No.</strong>
-                            </th>
-                            <th>
-                              <strong>College Name</strong>
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>1</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Jadavpur University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>2</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Manipal Institute of Technology
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>3</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                PES University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>4</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Thapar University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>5</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                PSGCT
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>6</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                DTU Delhi
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>7</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                COEP
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>8</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                KIIT University
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>9</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                Pondicherry Engineering College
-                              </a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>10</td>
-                            <td>
-                              <a className="in-cell-link" href="#">
-                                RVCE
-                              </a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <div>
-                    <h2>
-                      <strong>
-                        Specialisations Available in Top Engineering Colleges in
-                        India&nbsp;
-                      </strong>
-                    </h2>
-                    <p>
-                      Engineering courses are offered in various
-                      specialisations. Few of the specialisations offer job
-                      opportunities in various fields with high salary packages.
-                      Below mentioned are the most popular engineering
-                      specialisations in best engineering colleges in India
-                    </p>
-                    <ul>
-                      <li>Chemical Engineering</li>
-                      <li>Mechanical Engineering</li>
-                      <li>Computer Science Engineering</li>
-                      <li>Aeronautical Engineering</li>
-                      <li>Civil Engineering</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Computer science and engineering are one of the most
-                      preferred courses among engineering students due to the
-                      booming technology and growth of tech startups. Listed
-                      below are some of the top engineering colleges for
-                      computer science
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kanpur
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Computer Science
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
-                  <div>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Mechanical
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Listed below are the best engineering colleges for
-                      Mechanical Engineering
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Madras
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Delhi
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Bombay
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIT Kharagpur
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          BITS Pilani
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <p>
-                      <strong>Read More:</strong> Top Engineering Colleges in
-                      India for Mechanical Engineering
-                    </p>
-                    <h3>
-                      <strong>
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </strong>
-                    </h3>
-                    <p>
-                      Listed below are some of the best colleges for engineering
-                      offering Aeronautical Engineering specialization
-                    </p>
-                    <ul>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Sathyabama Institute
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Kumaraguru College of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          Bannari Amman Institute of Technology
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          DSCE
-                        </a>
-                      </li>
-                      <li>
-                        <a className="in-cell-link" href="#">
-                          IIST Trivandrum
-                        </a>
-                      </li>
-                    </ul>
-                    <p>
-                      <strong>Read More:</strong>{" "}
-                      <a href="#">
-                        Top Engineering Colleges in India for Aeronautical
-                        Engineering
-                      </a>
-                    </p>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India for Civil Engineering
-                    </strong>
-                  </h3>
-                  <p>
-                    Listed below are top engineering colleges that offer
-                    specialization in Civil Engineering
-                  </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
                       </a>
                     </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
+                    <li aria-level={1}>
+                      <a href="#fee-structure-for-top-design-colleges-in-india">
+                        <span>
+                          Fee Structure for Top Design Colleges in India
+                        </span>
                       </a>
                     </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
+                    <li aria-level={1}>
+                      <a href="#entrance-exams-accepted-for-design-colleges">
+                        <span>
+                          Entrance Exams accepted for Design Colleges&nbsp;
+                        </span>
                       </a>
                     </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
+                    <li aria-level={1}>
+                      <a href="#admission-and-eligibility-criteria-for-design-colleges">
+                        <span>
+                          Admission and Eligibility Criteria for Design Colleges
+                        </span>
                       </a>
                     </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kanpur
+                    <li aria-level={1}>
+                      <a href="#cut-off-for-top-design-colleges-in-india">
+                        <span>Cut Off for Top Design Colleges in India</span>
+                      </a>
+                    </li>
+                    <li aria-level={1}>
+                      <a href="#scope-of-design">
+                        <span>Scope of Design</span>
+                      </a>
+                    </li>
+                    <li aria-level={1}>
+                      <a href="#design-colleges-placements">
+                        <span>Design Colleges’ Placements</span>
+                      </a>
+                    </li>
+                    <li aria-level={1}>
+                      <a href="#faqs">
+                        <span>FAQs</span>
                       </a>
                     </li>
                   </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Civil Engineering
-                    </a>
-                  </p>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </strong>
-                  </h3>
-                  <p>
-                    Listed below are some of the best colleges for engineering
-                    offering Chemical Engineering specialization
-                  </p>
-                  <ul>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Madras
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Bombay
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Kharagpur
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Delhi
-                      </a>
-                    </li>
-                    <li>
-                      <a className="in-cell-link" href="#">
-                        IIT Guwahati
-                      </a>
-                    </li>
-                  </ul>
-                  <p>
-                    <strong>Read More:</strong>{" "}
-                    <a href="#">
-                      Top Engineering Colleges in India for Chemical Engineering
-                    </a>
-                  </p>
-                  <h2>
-                    <strong>
-                      Entrance Exams for Top Engineering Colleges in India
-                    </strong>
+                  <h2 id="top-10-design-colleges-in-india">
+                    <strong>Top 10 Design Colleges in India&nbsp;</strong>
                   </h2>
                   <p>
                     <span>
-                      Top engineering colleges in India offer admission based on
-                      the students' marks in various national or state-level
-                      entrance examinations. Below mentioned are some of the
-                      popular entrance exams to get admission to the best
-                      engineering colleges in India
-                    </span>
-                  </p>
-                  <ul>
-                    <li>
-                      <span>JEE Mains</span>
-                    </li>
-                    <li>JEE Advanced</li>
-                    <li>
-                      <span>BITSAT</span>
-                    </li>
-                    <li>
-                      <span>KCET</span>
-                    </li>
-                    <li>
-                      <span>GATE</span>
-                    </li>
-                  </ul>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Main Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      JEE Main is an all-India test conducted for admission to
-                      top engineering colleges in India. Tabulated below are the
-                      top colleges for engineering accepting JEE Main Score
+                      Following is the list of the top 10 design colleges in
+                      India:
                     </span>
                   </p>
                   <div className="table-responsive">
-                    <table className="table table-bordered">
+                    <table>
                       <thead>
                         <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              VIT Vellore
-                            </a>
+                            <p>
+                              <strong>Ranking&nbsp;</strong>
+                            </p>
                           </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              Thapar University
-                            </a>
+                            <p>
+                              <strong>&nbsp; &nbsp; Name of the College</strong>
+                            </p>
                           </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Warangal
-                            </a>
+                            <p>
+                              <strong>B.Des Total Fees (INR)</strong>
+                            </p>
                           </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIIT Hyderabad
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NIT Durgapur
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting JEE Advanced
-                      Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      Candidates who clear JEE Main are allowed to take up JEE
-                      Advanced to get admitted to the top-most engineering
-                      colleges in the country. Tabulated below are the best
-                      engineering colleges accepting JEE Advanced score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting KCET Score
-                    </strong>
-                  </h3>
-                  <p>
-                    KCET is a state-level entrance examination conducted in
-                    Karnataka for various courses. Tabulated below are the best
-                    colleges for engineering accepting KCET score
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              RVCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              MSRIT
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BMSCE
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              NHCE Bangalore
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              PES University
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h3>
-                    <strong>
-                      Top Engineering Colleges in India Accepting GATE Score
-                    </strong>
-                  </h3>
-                  <p>
-                    <span>
-                      GATE is an all-India level entrance examination conducted
-                      for admission to the master's program and for admission to
-                      PhD. Tabulated below are top engineering colleges
-                      accepting GATE score
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th scope="col">
-                            <strong>S. No.</strong>
-                          </th>
-                          <th scope="col">
-                            <strong>College Name</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>4</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Guwahati
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>
-                      Best Placement Engineering Colleges in India
-                    </strong>
-                  </h2>
-                  <p>
-                    <span>
-                      Students of top engineering colleges in India are
-                      recruited by big companies during campus placements every
-                      year. Tabulated below are the best placement engineering
-                      colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Top Recruiters</strong>
-                          </th>
-                          <th>
-                            <strong>Placement Link</strong>
-                          </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td>
                             <p>
+                              <span>1</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
                               <span>
-                                Indian Institute of Technology, Kanpur
+                                National Institute of Fashion Technology (NIFT),
+                                Delhi
                               </span>
                             </p>
                           </td>
                           <td>
                             <p>
-                              <span>Flipkart, Microsoft, Myntra, Jaguar</span>
+                              <span>11,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>2</span>
                             </p>
                           </td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur Placement Link
-                            </a>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology (NIFT),
+                                Bengaluru
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>6,50,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>3</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology (NIFT),
+                                Chennai
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>9,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>4</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>
+                                Indian Institute of Art and Design (IIAD), Delhi
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>4,50,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>5</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology (NIFT),
+                                Patna
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>3,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>6</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology (NIFT),
+                                Gandhinagar
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>8,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>7</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology (NIFT),
+                                Hyderabad
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>8,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>8</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>Pearl Academy, New Delhi</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>9,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>9</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology (NIFT),
+                                Kolkata
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>7,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>10</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>
+                                Unitedworld Institute of Design (UID), Ahmedabad
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>18,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <h2 id="specialisation-wise-design-colleges-in-india">
+                    <strong>
+                      Specialisation-wise Design Colleges in India&nbsp;
+                    </strong>
+                  </h2>
+                  <p>
+                    <span>
+                      Top design colleges in India offer design courses in
+                      various specialisations such as textile design, fashion
+                      design, interior design, product design, graphic design,
+                      etc. Students can choose from the multiple specialisations
+                      based on career opportunities and placement packages.
+                      Below mentioned are some of the top specialisations from
+                      design colleges in India:
+                    </span>
+                  </p>
+                  <h3>
+                    <strong>Top Fashion Design Colleges in India&nbsp;</strong>
+                  </h3>
+                  <p>
+                    <span>
+                      Fashion Design is one of the most popular and lucrative
+                      specialisations among students due to the increasing
+                      technology and growth of the fashion industry. Students
+                      can work in top MNCs, retail industry, or independent
+                      design houses as fashion designers. Listed below are some
+                      of the top colleges for fashion designing in India:
+                    </span>
+                  </p>
+                  <ul>
+                    <li aria-level={1}>
+                      <span>
+                        National Institute of Fashion Technology, Delhi
+                      </span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>
+                        National Institute of Fashion Technology, Bengaluru
+                      </span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>Pearl Academy, Delhi</span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>National Institute of Design (NID), Ahmedabad</span>
+                    </li>
+                  </ul>
+                  <h3>
+                    <strong>Top Graphic Design Colleges in India&nbsp;</strong>
+                  </h3>
+                  <p>
+                    <span>
+                      Graphic design is a visual form of communication that uses
+                      words, images, videos, animation to create brochures and
+                      displays. Graphic designers are high in demand to work in
+                      advertising agencies, design studios, and design firms.
+                      Below mentioned are some of the top graphic designing
+                      colleges in India:
+                    </span>
+                  </p>
+                  <ul>
+                    <li aria-level={1}>
+                      <span>Industrial Design Centre (IDC), IIT Bombay</span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>National Institute of Design (NID), Ahmedabad</span>
+                    </li>
+                  </ul>
+                  <h2 id="fee-structure-for-top-design-colleges-in-india">
+                    <strong>
+                      Fee Structure for Top Design Colleges in India&nbsp;
+                    </strong>
+                  </h2>
+                  <p>
+                    <span>
+                      Design colleges in India offer undergraduate,
+                      post-graduate, diploma courses such as B.Des, M.Des, etc.
+                      The fee structure for these courses ranges from low to
+                      high, depending on the type of college and the amenities.
+                      Below listed is the fees in top private and public design
+                      colleges in India:
+                    </span>
+                  </p>
+                  <p>
+                    <strong>B.Des Fees in Private Colleges</strong>
+                  </p>
+                  <p>
+                    <span>
+                      Below mentioned is the B.Des fees in top private design
+                      colleges in India:
+                    </span>
+                  </p>
+                  <div className="table-responsive">
+                    <table>
+                      <thead>
+                        <tr>
+                          <td>
+                            <p>
+                              <strong>Name of Private Colleges</strong>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <strong>
+                                B.Des Fees Structure (Total Fees INR)
+                              </strong>
+                            </p>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>Amity University, Noida</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>7,56,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>Avantika University, Ujjain</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>8,90,000</span>
+                            </p>
                           </td>
                         </tr>
                         <tr>
                           <td>
                             <p>
                               <span>
-                                Indian Institute of Technology, Madras
+                                International Institute of Fashion Design, Pune
                               </span>
                             </p>
                           </td>
                           <td>
                             <p>
-                              <span>Google, Microsoft, TCS</span>
+                              <span>2,50,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>School of Design, MIT WPU</span>
                             </p>
                           </td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras Placement Link
-                            </a>
+                            <p>
+                              <span>11,00,000</span>
+                            </p>
                           </td>
                         </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <p>
+                    <strong>B.Des Fees in Public Colleges</strong>
+                  </p>
+                  <p>
+                    <span>
+                      Listed below is the B.Des fees in the top public design
+                      colleges in India:
+                    </span>
+                  </p>
+                  <div className="table-responsive">
+                    <table>
+                      <thead>
+                        <tr>
+                          <td>
+                            <p>
+                              <strong>Name of Public Colleges</strong>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <strong>
+                                B.Des Fees Structure (Total Fees INR)
+                              </strong>
+                            </p>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
                         <tr>
                           <td>
                             <p>
@@ -1765,215 +587,730 @@ const Design = () => {
                           </td>
                           <td>
                             <p>
-                              <span>Microsoft, Amazon, Google</span>
+                              <span>9,23,000</span>
                             </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay Placement Link
-                            </a>
                           </td>
                         </tr>
                         <tr>
                           <td>
                             <p>
                               <span>
-                                Indian Institute of Technology, Kharagpur
+                                Indian Institute of Technology, Hyderabad
                               </span>
                             </p>
                           </td>
                           <td>
                             <p>
-                              <span>IBM, JP Morgan, Tata Steel, Microsoft</span>
+                              <span>8,00,000</span>
                             </p>
-                          </td>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur Placement Link
-                            </a>
                           </td>
                         </tr>
                         <tr>
                           <td>
                             <p>
-                              <span>Indian Institute of Technology, Delhi</span>
+                              <span>
+                                National Institute of Fashion Technology (NIFT),
+                                Kolkata
+                              </span>
                             </p>
                           </td>
                           <td>
                             <p>
-                              <span>Capgemini, Wipro, IBM, Dell, Infosys</span>
+                              <span>7,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology (NIFT),
+                                Chennai
+                              </span>
                             </p>
                           </td>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi Placement Link
-                            </a>
+                            <p>
+                              <span>9,00,000</span>
+                            </p>
                           </td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
-                  <h2>
+                  <p>
+                    <strong>M.Des Fees in Private Colleges</strong>
+                  </p>
+                  <p>
+                    <span>
+                      Check out the fees structure for M.Des courses in top
+                      private design colleges in India:
+                    </span>
+                  </p>
+                  <div className="table-responsive">
+                    <table>
+                      <thead>
+                        <tr>
+                          <td>
+                            <p>
+                              <strong>Name of Private Colleges</strong>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <strong>
+                                M.Des Fees Structure (Total Fees INR)
+                              </strong>
+                            </p>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>Amity University, Noida</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>3,15,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>Avantika University, Ujjain</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>2,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                International Institute of Fashion Design, Pune
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>3,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>School of Design, MIT WPU</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>4,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <p>
+                    <strong>M.Des Fees in Public Colleges</strong>
+                  </p>
+                  <p>
+                    <span>
+                      Here is the fees structure for M.Des courses in the top
+                      public design colleges in India:
+                    </span>
+                  </p>
+                  <div className="table-responsive">
+                    <table>
+                      <thead>
+                        <tr>
+                          <td>
+                            <p>
+                              <strong>Name of Public Colleges</strong>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <strong>
+                                M.Des Fees Structure (Total Fees INR)
+                              </strong>
+                            </p>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                Indian Institute of Technology, Bombay
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>82,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                Indian Institute of Technology, Hyderabad
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>1,00,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology (NIFT),
+                                Kolkata
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>4,10,800</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology (NIFT),
+                                Chennai
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>2,30,000</span>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <h2 id="entrance-exams-accepted-for-design-colleges">
                     <strong>
-                      Average Salary Package in Top Engineering Colleges in
-                      India
+                      Entrance Exams Accepted by Design Colleges&nbsp;
                     </strong>
                   </h2>
                   <p>
                     <span>
-                      Tabulated below are the average salary package offered in
-                      the best colleges for engineering in India
+                      Top design colleges in India offer admission to the
+                      students based on the marks obtained in various national
+                      or state-level entrance examinations. Below mentioned are
+                      some of the popular entrance exams for design courses:
                     </span>
                   </p>
-                  <div className="table-responsive">
-                    <table className="table table-bordered">
-                      <thead>
-                        <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Average Package</strong>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16.5 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16.1 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>16 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              BITS Pilani
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>9.5 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a className="in-cell-link" href="#">
-                              SRM IST Chennai
-                            </a>
-                          </td>
-                          <td>
-                            <p>
-                              <span>9 LPA</span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>Top Engineering Colleges in India Cutoff</strong>
+                  <ul>
+                    <li aria-level={1}>
+                      <span>UCEED</span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>NIFT</span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>NID</span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>MAT</span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>NATA</span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>SEED</span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>MITID DAT</span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>Amity JEE</span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>GATE</span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>LPU NEST</span>
+                    </li>
+                  </ul>
+                  <h2 id="admission-and-eligibility-criteria-for-design-colleges">
+                    <strong>
+                      Admission and Eligibility Criteria for Design Colleges
+                    </strong>
                   </h2>
                   <p>
                     <span>
-                      Tabulated below are the JEE Advanced cutoff ranks in
-                      Aerospace Engineering in top engineering colleges
+                      Admission to the top design colleges is granted based on
+                      the rank secured in the national or state level entrance
+                      exams, which is merit-based admission. Check out the
+                      eligibility criteria for admission to design colleges in
+                      India:
+                    </span>
+                  </p>
+                  <h3>
+                    <strong>
+                      Eligibility Criteria for Design Colleges&nbsp;
+                    </strong>
+                  </h3>
+                  <p>
+                    <span>
+                      All the design colleges set standard guidelines for the
+                      students to participate in the admission process.
+                      Candidates must qualify the minimum eligibility criteria
+                      set by the administration for admission to design courses.
+                      Listed below are the general eligibility criteria for
+                      design colleges in India:
+                    </span>
+                  </p>
+                  <ul>
+                    <li aria-level={1}>
+                      <span>
+                        To pursue an undergraduate course, candidates must have
+                        passed 10+2 from a recognised state or central board of
+                        secondary education with a minimum of 50% marks in any
+                        stream and have a good score in any national or
+                        state-level design entrance exams.
+                      </span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>
+                        Aspirants must have completed a bachelor’s degree with a
+                        minimum of 50% marks for admission to PG courses.
+                      </span>
+                    </li>
+                  </ul>
+                  <h3>
+                    <strong>Admission in Design Colleges&nbsp;</strong>
+                  </h3>
+                  <p>
+                    <span>
+                      There are 1670 design colleges in India that offer UG, PG,
+                      and diploma courses. Top design colleges grant admission
+                      to the candidates based on the entrance exam scores and
+                      academic merit. Following are the general admission
+                      criteria for admission to design colleges in India:
+                    </span>
+                  </p>
+                  <ul>
+                    <li aria-level={1}>
+                      <span>
+                        NIFT is one of the most popular entrance exams to take
+                        admission in the design colleges in India. It is an
+                        entrance test for admission to UG and PG courses
+                        conducted for 18 NIFTs across the nation, followed by
+                        Group Discussion (GD) and Personal Interview (PI)
+                        rounds.
+                      </span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>
+                        Candidates can visit the official website of the college
+                        of their choice for registration and fill the
+                        application form along with the entrance exam details.
+                      </span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>
+                        After submitting the application form, candidates will
+                        update the required information and documents
+                      </span>
+                      <span>by paying the application fees.</span>
+                    </li>
+                  </ul>
+                  <h2 id="cut-off-for-top-design-colleges-in-india">
+                    <strong>
+                      Cut Off for Top Design Colleges in India&nbsp;
+                    </strong>
+                  </h2>
+                  <p>
+                    <span>
+                      Top design colleges in India release multiple cut-off
+                      lists for various rounds based on the merit scores in the
+                      entrance exams. The cut-off may vary every year based on
+                      certain factors such as the difficulty level of the paper
+                      and the number of candidates appearing in the
+                      examinations. UCEED, NID, NIFT entrance exams are some of
+                      the popular exams for admission to design courses. Below
+                      mentioned is the cut-off for some of the design entrance
+                      exams:
+                    </span>
+                  </p>
+                  <h3>
+                    <strong>UCEED Cut Off&nbsp;</strong>
+                  </h3>
+                  <p>
+                    <span>
+                      Undergraduate Common Entrance Examination for Design
+                      (UCEED) is a national-level entrance exam conducted by the
+                      Indian Institute of Technology (IIT) Bombay to offer B.Des
+                      courses at IITs and IIITDM. Below listed is the UCEED
+                      cut-off for some of the top colleges:
                     </span>
                   </p>
                   <div className="table-responsive">
-                    <table className="table table-bordered">
+                    <table>
                       <thead>
                         <tr>
-                          <th>
-                            <strong>College Name</strong>
-                          </th>
-                          <th>
-                            <strong>Opening Rank</strong>
-                          </th>
-                          <th>
-                            <strong>Closing Rank</strong>
-                          </th>
+                          <td>
+                            <p>
+                              <strong>Name of the Colleges</strong>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <strong>UCEED Cut-Off (Rank-wise)</strong>
+                            </p>
+                          </td>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Bombay
-                            </a>
+                            <p>
+                              <span>
+                                Indian Institute of Technology, Bombay
+                              </span>
+                            </p>
                           </td>
-                          <td>123</td>
-                          <td>2118</td>
+                          <td>
+                            <p>
+                              <span>1-15</span>
+                            </p>
+                          </td>
                         </tr>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Delhi
-                            </a>
+                            <p>
+                              <span>
+                                Indian Institute of Technology, Guwahati
+                              </span>
+                            </p>
                           </td>
-                          <td>741</td>
-                          <td>879</td>
+                          <td>
+                            <p>
+                              <span>17-60</span>
+                            </p>
+                          </td>
                         </tr>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kharagpur
-                            </a>
+                            <p>
+                              <span>
+                                Indian Institute of Technology, Hyderabad
+                              </span>
+                            </p>
                           </td>
-                          <td>3321</td>
-                          <td>4493</td>
+                          <td>
+                            <p>
+                              <span>21-53</span>
+                            </p>
+                          </td>
                         </tr>
                         <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Kanpur
-                            </a>
+                            <p>
+                              <span>
+                                Indian Institute of Information Technology,
+                                Design and Manufacturing, Jabalpur
+                              </span>
+                            </p>
                           </td>
-                          <td>2209</td>
-                          <td>3809</td>
-                        </tr>
-                        <tr>
                           <td>
-                            <a className="in-cell-link" href="#">
-                              IIT Madras
-                            </a>
+                            <p>
+                              <span>55-92</span>
+                            </p>
                           </td>
-                          <td>190</td>
-                          <td>3259</td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
+                  <h3>
+                    <strong>NIFT Cut Off&nbsp;</strong>
+                  </h3>
+                  <p>
+                    <span>
+                      National Institute of Fashion Technology (NIFT) is a
+                      national-level exam for admission to UG and PG courses
+                      such as B.Des, M.Des, MFM, etc. The cut-off for fashion
+                      design at top NIFT colleges is mentioned below:
+                    </span>
+                  </p>
+                  <div className="table-responsive">
+                    <table>
+                      <thead>
+                        <tr>
+                          <td>
+                            <p>
+                              <strong>Name of the Colleges</strong>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <strong>NIFT Cut-Off (Rank-wise)</strong>
+                            </p>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology,
+                                Hyderabad
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>422</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology,
+                                Bengaluru
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>264</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology,
+                                Gandhinagar
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>362</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                National Institute of Fashion Technology,
+                                Chennai
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>784</span>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <h2 id="scope-of-design">
+                    <strong>Scope of Design&nbsp;</strong>
+                  </h2>
+                  <p>
+                    <span>
+                      The demand for proficient designers is increasing at a
+                      rapid pace with the growth of the design industry.
+                      Students get many high-paying job opportunities and career
+                      prospects after completing design courses from the top
+                      design colleges across the country. Below mentioned is the
+                      scope of design courses:
+                    </span>
+                  </p>
+                  <ul>
+                    <li aria-level={1}>
+                      <span>
+                        After completing design courses, candidates can work in
+                        various sectors such as export houses, leather
+                        companies, fashion show organisers, textile mills,
+                        jewellery design houses, etc.
+                      </span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>
+                        Students can pursue Bachelor of Science (B.Sc) or
+                        Bachelor of Design (B.Des) in fashion design, product
+                        design, interior design, etc., to get jobs in various
+                        job profiles such as Fashion Designer, Product Marketer,
+                        UI Designer, etc.
+                      </span>
+                    </li>
+                    <li aria-level={1}>
+                      <span>
+                        Many students also prefer to pursue a diploma or higher
+                        studies such as M.Des in leather design, ceramic design,
+                        interior design, etc., that provide better career
+                        prospects and exposure.
+                      </span>
+                    </li>
+                  </ul>
+                  <h2 id="design-colleges-placements">
+                    <strong>Design Colleges’ Placements&nbsp;</strong>
+                  </h2>
+                  <p>
+                    <span>
+                      Students can get good career and placement opportunities
+                      in top companies or industries from top design colleges in
+                      India. As per PayScale, the average entry-level package
+                      for a designer in India is 3-4 LPA. Below mentioned are
+                      the recruiters for top design colleges:
+                    </span>
+                  </p>
+                  <h3>
+                    <strong>Top Design Recruiters</strong>
+                  </h3>
+                  <p>
+                    <span>
+                      Listed below are some of the recruiters from the top
+                      design colleges in India:
+                    </span>
+                  </p>
+                  <div className="table-responsive">
+                    <table>
+                      <thead>
+                        <tr>
+                          <td>
+                            <p>
+                              <strong>Name of the Colleges</strong>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <strong>Top Recruiters</strong>
+                            </p>
+                          </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                Indian Institute of Technology, Hyderabad
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>TCS, Snapdeal, Microsoft</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                &nbsp; Indian Institute of Technology, Guwahati
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>Microsoft, Myntra, Flipkart, Nutanix</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                &nbsp; School of Design, MIT WPU, Pune
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>IBM, Ford Motors, Fujitsu, Amazon</span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>Symbiosis Institute of Design, Pune</span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>
+                                Deloitte, Cognizant, Huawei, Microsoft,
+                                Mindtree, Whirlpool, BookMyShow
+                              </span>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                              <span>
+                                Arch College of Design and Business, Jaipur
+                              </span>
+                            </p>
+                          </td>
+                          <td>
+                            <p>
+                              <span>Zara, Myntra, H&amp;M, Lifestyle</span>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <h2 id="faqs">
+                    <strong>FAQs&nbsp;</strong>
+                  </h2>
+                  <p>
+                    <span>
+                      <strong>Q.</strong> What is the duration of a B.Des
+                      course?
+                    </span>
+                  </p>
+                  <p>
+                    <strong>A</strong>
+                    <span>
+                      .Bachelor of Design (B.Des) is a 4-years duration course.
+                    </span>
+                  </p>
+                  <p>
+                    <strong>Q.</strong> What are the popular specialisations for
+                    design courses in India?
+                  </p>
+                  <p>
+                    <strong>A.</strong> Some of the popular specialisations for
+                    design courses are interior design, fashion design, textile
+                    design, etc.
+                  </p>    
                 </>
               ) : (
                 <>
@@ -1985,140 +1322,6 @@ const Design = () => {
                   >
                     Show More
                   </button>
-                </>
-              )}
-              {/* Additional content */}
-              {showContent && (
-                <>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Top Engineering Colleges in India include colleges like
-                      IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
-                    </span>
-                  </p>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Engineering is a discipline that involves various
-                      scientific principles to design, innovate, and develop
-                      machines, software, hardware, technical systems, and
-                      processes. Engineering offers a degree in multiple
-                      specializations such as computer science and engineering,
-                      mechanical engineering, civil engineering, chemical
-                      engineering, etc.
-                    </span>
-                    <span>
-                      Courses offered in top engineering colleges in India
-                      are&nbsp;
-                      <a href="#">BE</a>,&nbsp;
-                      <a href="#">BTech</a>
-                      ,&nbsp;
-                      <a href="#">MTech</a>
-                      ,&nbsp;<a href="#">ME</a>, Diploma in Engineering, PhD.
-                    </span>
-                    <span>
-                      Entrance exams accepted by the best colleges for
-                      engineering are JEE MAINS, JEE Advanced, BITSAT, KCET etc.
-                      There are various job opportunities after an Engineering
-                      degree like software engineer, mechanical engineer,
-                      electrical engineer, web developer, biomedical engineer
-                      etc.
-                    </span>
-                  </p>
-                  <h2>Top Engineering Colleges in India: Highlights</h2>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>College Type</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Colleges Affiliated To</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Entrance Exams Accepted</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Specializations</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Approximate Fees</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>Ranking of Engineering Colleges in India</strong>
-                  </h2>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      NIRF and many other ranking sources have ranked various
-                      government and private colleges in India. Given below are
-                      the ranking of&nbsp; top engineering colleges in India by
-                      various sources to make it easier for engineering
-                      aspirants to choose the best engineering colleges.
-                    </span>
-                  </p>
                 </>
               )}
             </div>
