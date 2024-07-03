@@ -22,17 +22,17 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5 gap-4">
             <li className="nav-item">
-              <a className="nav-link text-black text-uppercase font-weight-bold" href="#">
+              <a className="nav-link text-black text-uppercase font-weight-bold" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black text-uppercase font-weight-bold" href="#">
+              <a className="nav-link text-black text-uppercase font-weight-bold" href="/topcolleges">
                 TopColleges
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black text-uppercase font-weight-bold" href="#">
+              <a className="nav-link text-black text-uppercase font-weight-bold" href="/topcourses">
                 TopCourses
               </a>
             </li>
@@ -47,7 +47,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black text-uppercase font-weight-bold" href="#">
+              <a className="nav-link text-black text-uppercase font-weight-bold" href="/more">
                 More
               </a>
             </li>

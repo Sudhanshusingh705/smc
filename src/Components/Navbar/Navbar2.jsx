@@ -10,7 +10,7 @@ function Navbar2() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0 gap-4" style={{ marginTop: '10px' }}>
             <li className="nav-item">
-              <a className="nav-link text-black font-weight-bold" aria-current="page" href="#">Home</a>
+              <a className="nav-link text-black font-weight-bold" aria-current="page" href="/">Home</a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-black font-weight-bold" href="/engineering">Engineering</a>

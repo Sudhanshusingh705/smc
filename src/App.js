@@ -13,6 +13,11 @@ import TermsAndConditions from './Components/TermAndCondition/Terms&Condition';
 import Footer from './Components/Footer/Footer';
 import './App.css';
 import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css';
+//  NAVBAR 1 ALL PAGES ADDED
+import TopColleges from "./Pages/TopColleges/TopColleges";
+import TopCourses from './Pages/TopCourses/TopCourses';
+
+
 
 // ALL COURSES LIST ROUTES
 import Agriculture from './Pages2/Agriculture/Agriculture';
@@ -55,6 +60,8 @@ function App() {
         <Route excat path="/aboutus" element={<AboutUs />}> </Route>
         <Route excat path="/ourteam" element={<OurTeam />}> </Route>
         <Route excat path="/admission" element={<Admission />}> </Route>
+        <Route excat path="/topcolleges" element={<TopColleges />}> </Route>
+        <Route excat path="/topcourses" element={<TopCourses />}> </Route>
         {/*PAGE 2 ALL COURSES ROUTES*/}
         <Route excat path="/engineering" element={<Engineering />}> </Route>
         <Route excat path="/management" element={<Management />}> </Route>
