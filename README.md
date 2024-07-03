@@ -1,70 +1,36 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+topcollege/
+├── assets/  # Stores website assets like images, icons, fonts, etc.
+├── css/  # Stylesheets for website design
+├── includes/  # Reusable code snippets like headers, footers, navigation menus, etc.
+├── js/  # Javascript files for website functionality
+├── templates/  # HTML templates for different website pages
+│   ├── base.html  # Base template with overall layout
+│   ├── contact.html  # Contact form page
+│   ├── courses/  # Templates for course-related pages
+│   │   ├── course-detail.html  # Template for a specific course page
+│   │   └── course-list.html  # Template for listing multiple courses
+│   ├── education-types/  # Templates for specific education types
+│   │   ├── engineering.html  # Engineering programs page
+│   │   ├── medical.html  # Medical programs page
+│   │   └── (add more folders for management, commerce, etc.)
+│   ├── exams.html  # Information about various exams
+│   ├── home.html  # Homepage template
+│   ├── ielts.html  # IELTS information page
+│   ├── login.html  # Login page
+│   ├── news.html  # News articles page
+│   ├── study-abroad.html  # Study abroad programs page
+│   └── (add more templates as needed)
+├── views/  # Server-side scripts for generating dynamic content
+│   ├── courses.py  # Code for handling course-related requests
+│   ├── education_types.py  # Code for handling education type pages
+│   ├── exams.py  # Code for handling exams information
+│   ├── home.py  # Code for generating the homepage
+│   ├── ielts.py  # Code for handling IELTS information
+│   ├── login.py  # Code for handling login functionality
+│   ├── news.py  # Code for generating news articles page
+│   └── (add more views as needed)
+├── app.py  # Main application script (assuming Python framework)
+├── config.py  # Configuration file for database, security, etc.
+├── database/  # Database files (if applicable)
+├── requirements.txt  # List of project dependencies
+└── static/  # Static files like PDFs, downloadable resources, etc.
