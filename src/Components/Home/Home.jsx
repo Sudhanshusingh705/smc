@@ -468,6 +468,9 @@ const cardsData = [
                         <li>
                           <a href="/science">M.Sc</a>
                         </li>
+                        <li>
+                          <a href="/science">B.F.Sc</a>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -522,6 +525,9 @@ const cardsData = [
                       <h5 className="card-title">ParaMedical</h5>
                       <ul className="list-unstyled">
                         <li>
+                          <a href="/paramedical">GNM</a>
+                        </li>
+                        <li>
                           <a href="/paramedical">B.Sc (Nursing)</a>
                         </li>
                         <li>
@@ -554,6 +560,9 @@ const cardsData = [
                         </li>
                         <li>
                           <a href="/computerapplication">MCA</a>
+                        </li>
+                        <li>
+                          <a href="/computerapplication">Diploma in Computer</a>
                         </li>
                       </ul>
                     </div>
@@ -614,6 +623,9 @@ const cardsData = [
                         <li>
                           <a href="/agriculture">M.Sc (Agriculture)</a>
                         </li>
+                        <li>
+                          <a href="/agriculture">M.Sc (Agronomy)</a>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -672,6 +684,9 @@ const cardsData = [
                         </li>
                         <li>
                           <a href="/architecture">M.Arch</a>
+                        </li>
+                        <li>
+                          <a href="/architecture">M.Planning</a>
                         </li>
                       </ul>
                     </div>
