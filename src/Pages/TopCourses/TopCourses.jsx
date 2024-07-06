@@ -225,14 +225,14 @@ const TopCourses = () => {
                       36 Medical
                     </MDBBtn>
                   </MDBCol>
-                  <MDBCol md="auto" className="mb-3">
+                  {/*<MDBCol md="auto" className="mb-3">
                     <MDBBtn
                       style={{ minWidth: "130px", height: "40px" }}
                       href="#"
                     >
                       30 Design
                     </MDBBtn>
-                  </MDBCol>
+                  </MDBCol>*/}
                 </MDBRow>
               </MDBCardBody>
             </MDBCard>
@@ -320,14 +320,14 @@ const TopCourses = () => {
                       10 HotelManagement
                     </MDBBtn>
                   </MDBCol>
-                  <MDBCol md="auto" className="mb-3">
+                  {/*<MDBCol md="auto" className="mb-3">
                     <MDBBtn
                       style={{ minWidth: "130px", height: "40px" }}
                       href="#"
                     >
                       9 Education
                     </MDBBtn>
-                  </MDBCol>
+                  </MDBCol>*/}
                 </MDBRow>
               </MDBCardBody>
             </MDBCard>
@@ -404,7 +404,7 @@ const TopCourses = () => {
                     4 Computerapplication
                   </MDBBtn>
                 </MDBCol>
-                <MDBCol md="auto" className="mb-3">
+                {/*<MDBCol md="auto" className="mb-3">
                   <MDBBtn
                     style={{ minWidth: "110px", height: "40px" }}
                     href="#"
@@ -424,7 +424,7 @@ const TopCourses = () => {
                   <MDBBtn style={{ minWidth: "90px", height: "40px" }} href="#">
                     2 Agriculture
                   </MDBBtn>
-                </MDBCol>
+                </MDBCol>*/}
               </MDBRow>
             </MDBCardBody>
           </MDBCard>
@@ -514,11 +514,11 @@ const TopCourses = () => {
                     20 Dental
                   </MDBBtn>
                 </MDBCol>
-                <MDBCol md="auto" className="mb-3">
+                {/*<MDBCol md="auto" className="mb-3">
                   <MDBBtn style={{ minWidth: "90px", height: "40px" }} href="#">
                     15 Pharmacy
                   </MDBBtn>
-                </MDBCol>
+                </MDBCol>*/}
               </MDBRow>
             </MDBCardBody>
           </MDBCard>
@@ -654,14 +654,15 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Engineering
                   </MDBCardTitle>
                   <MDBRow>
@@ -705,14 +706,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Medical
                   </MDBCardTitle>
                   <MDBRow>
@@ -759,14 +760,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Science
                   </MDBCardTitle>
                   <MDBRow>
@@ -815,14 +816,14 @@ const TopCourses = () => {
                   fluid
                   alt="Circular"
                   style={{
-                    width: "100px",
-                    height: "100px",
+                    width: "80px",
+                    height: "75px",
                     borderRadius: "50%",
                   }}
                 />
               </MDBCol>
               <MDBCol xs="12" md="8" className="p-4">
-                <MDBCardTitle tag="h2" className="text-center mb-3">
+                <MDBCardTitle tag="h4" className="text-center mb-3">
                   Commerce
                 </MDBCardTitle>
                 <MDBRow>
@@ -859,14 +860,14 @@ const TopCourses = () => {
                   fluid
                   alt="Circular"
                   style={{
-                    width: "100px",
-                    height: "100px",
+                    width: "80px",
+                    height: "75px",
                     borderRadius: "50%",
                   }}
                 />
               </MDBCol>
               <MDBCol xs="12" md="8" className="p-4">
-                <MDBCardTitle tag="h2" className="text-center mb-3">
+                <MDBCardTitle tag="h4" className="text-center mb-3">
                   Management
                 </MDBCardTitle>
                 <MDBRow>
@@ -911,14 +912,14 @@ const TopCourses = () => {
                   fluid
                   alt="Circular"
                   style={{
-                    width: "100px",
-                    height: "100px",
+                    width: "80px",
+                    height: "75px",
                     borderRadius: "50%",
                   }}
                 />
               </MDBCol>
               <MDBCol xs="12" md="8" className="p-4">
-                <MDBCardTitle tag="h2" className="text-center mb-3">
+                <MDBCardTitle tag="h4" className="text-center mb-3">
                   Arts
                 </MDBCardTitle>
                 <MDBRow>
@@ -966,14 +967,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Computer Application
                   </MDBCardTitle>
                   <MDBRow>
@@ -1016,14 +1017,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Education
                   </MDBCardTitle>
                   <MDBRow>
@@ -1070,14 +1071,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Law
                   </MDBCardTitle>
                   <MDBRow>
@@ -1125,14 +1126,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Pharmacy
                   </MDBCardTitle>
                   <MDBRow>
@@ -1178,14 +1179,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Agriculture
                   </MDBCardTitle>
                   <MDBRow>
@@ -1228,14 +1229,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Dental
                   </MDBCardTitle>
                   <MDBRow>
@@ -1281,14 +1282,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Para Medical
                   </MDBCardTitle>
                   <MDBRow>
@@ -1336,14 +1337,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Architecture
                   </MDBCardTitle>
                   <MDBRow>
@@ -1393,14 +1394,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Veterinary Science
                   </MDBCardTitle>
                   <MDBRow>
@@ -1449,14 +1450,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h3" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Hotel Management
                   </MDBCardTitle>
                   <MDBRow>
@@ -1499,14 +1500,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Aviation
                   </MDBCardTitle>
                   <MDBRow>
@@ -1555,14 +1556,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h3" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Mass Communication
                   </MDBCardTitle>
                   <MDBRow>
@@ -1611,14 +1612,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h3" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Design
                   </MDBCardTitle>
                   <MDBRow>
@@ -1670,14 +1671,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h3" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Vocational Courses
                   </MDBCardTitle>
                   <MDBRow>
@@ -1730,14 +1731,14 @@ const TopCourses = () => {
                     fluid
                     alt="Circular"
                     style={{
-                      width: "100px",
-                      height: "100px",
+                      width: "80px",
+                      height: "75px",
                       borderRadius: "50%",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h2" className="text-center mb-3">
+                  <MDBCardTitle tag="h4" className="text-center mb-3">
                     Animation
                   </MDBCardTitle>
                   <MDBRow>
@@ -1777,38 +1778,40 @@ const TopCourses = () => {
         <MDBContainer className="my-5">
         <MDBRow className="justify-content-center">
           <MDBCol xs="12" className="text-center mb-4">
-            <h2>#TRENDING COURSE SEARCH</h2>
+            <h2 style={{color: "gray"}}>#TRENDING COURSE SEARCH</h2>
           </MDBCol>
         </MDBRow>
+        <br />
+        <br />
         <MDBRow className="justify-content-center">
           <MDBCol xs="6" sm="4" md="2" className="mb-3 d-flex justify-content-center">
-            <MDBBtn style={{ backgroundColor: "transparent", width: "100%", color: "black" }}>
-              Course 1
+            <MDBBtn href="/engineering" style={{ backgroundColor: "transparent", width: "100%", color: "black", borderRadius: "25px" }}>
+              BE/B.Tech courses
             </MDBBtn>
           </MDBCol>
           <MDBCol xs="6" sm="4" md="2" className="mb-3 d-flex justify-content-center">
-            <MDBBtn style={{ backgroundColor: "transparent", width: "100%" }}>
-              Course 2
+            <MDBBtn href="/medical" style={{ backgroundColor: "transparent", width: "100%", color: "black", borderRadius: "25px" }}>
+              MBBS courses
             </MDBBtn>
           </MDBCol>
           <MDBCol xs="6" sm="4" md="2" className="mb-3 d-flex justify-content-center">
-            <MDBBtn style={{ backgroundColor: "transparent", width: "100%" }}>
-              Course 3
+            <MDBBtn href="/science" style={{ backgroundColor: "transparent", width: "100%", color: "black", borderRadius: "25px" }}>
+              B.Sc courses
             </MDBBtn>
           </MDBCol>
           <MDBCol xs="6" sm="4" md="2" className="mb-3 d-flex justify-content-center">
-            <MDBBtn style={{ backgroundColor: "transparent", width: "100%" }}>
-              Course 4
+            <MDBBtn href="/commerce" style={{ backgroundColor: "transparent", width: "100%", color: "black", borderRadius: "25px" }}>
+              B.Com courses
             </MDBBtn>
           </MDBCol>
           <MDBCol xs="6" sm="4" md="2" className="mb-3 d-flex justify-content-center">
-            <MDBBtn style={{ backgroundColor: "transparent", width: "100%" }}>
-              Course 5
+            <MDBBtn href="/arts" style={{ backgroundColor: "transparent", width: "100%", color: "black", borderRadius: "25px" }}>
+              BA courses
             </MDBBtn>
           </MDBCol>
           <MDBCol xs="6" sm="4" md="2" className="mb-3 d-flex justify-content-center">
-            <MDBBtn style={{ backgroundColor: "transparent", width: "100%" }}>
-              Course 6
+            <MDBBtn href="/management" style={{ backgroundColor: "transparent", width: "100%", color: "black", borderRadius: "25px" }}>
+              MBA/PGDM courses 
             </MDBBtn>
           </MDBCol>
         </MDBRow>
