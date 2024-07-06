@@ -668,15 +668,15 @@ const TopCourses = () => {
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
                       <a href="#" className="d-block mb-2 text-center">
-                        BE/B.Tech
+                        B.Tech
                       </a>  
                       <a href="#" className="d-block mb-2 text-center">
-                        Polytechnic
+                        Diploma
                       </a>
                     </MDBCol>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
                     <a href="#" className="d-block mb-2 text-center">
-                    ME/M.Tech
+                    M.Tech
                   </a>
                   {/*<a href="#" className="d-block mb-2 text-center">Link 5</a>
                   <a href="#" className="d-block mb-2 text-center">Link 6</a>*/}
@@ -685,7 +685,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -709,6 +709,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -739,7 +740,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -763,6 +764,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -793,7 +795,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -819,6 +821,7 @@ const TopCourses = () => {
                     width: "80px",
                     height: "75px",
                     borderRadius: "50%",
+                    marginTop: "-90px",
                   }}
                 />
               </MDBCol>
@@ -839,7 +842,7 @@ const TopCourses = () => {
                 <MDBRow className="justify-content-center">
                   <MDBCol xs="12" className="text-center">
                     <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                      Explore More Courses
+                      Explore Courses
                     </MDBBtn>
                   </MDBCol>
                 </MDBRow>
@@ -863,6 +866,7 @@ const TopCourses = () => {
                     width: "80px",
                     height: "75px",
                     borderRadius: "50%",
+                    marginTop: "-90px",
                   }}
                 />
               </MDBCol>
@@ -876,7 +880,7 @@ const TopCourses = () => {
                       BBA/BMS
                     </a>
                     <a href="#" className="d-block mb-2 text-center">
-                      MBA/PGDM
+                      PGDM
                     </a>
                   </MDBCol>
                   <MDBCol md="6" sm="6" xs="12" className="mb-3">
@@ -891,7 +895,7 @@ const TopCourses = () => {
                 <MDBRow className="justify-content-center">
                   <MDBCol xs="12" className="text-center">
                     <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                      Explore More Courses
+                      Explore Courses
                     </MDBBtn>
                   </MDBCol>
                 </MDBRow>
@@ -915,6 +919,7 @@ const TopCourses = () => {
                     width: "80px",
                     height: "75px",
                     borderRadius: "50%",
+                    marginTop: "-90px",
                   }}
                 />
               </MDBCol>
@@ -943,7 +948,7 @@ const TopCourses = () => {
                 <MDBRow className="justify-content-center">
                   <MDBCol xs="12" className="text-center">
                     <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                      Explore More Courses
+                      Explore Courses
                     </MDBBtn>
                   </MDBCol>
                 </MDBRow>
@@ -970,6 +975,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -996,7 +1002,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1020,6 +1026,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -1050,7 +1057,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1074,6 +1081,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -1102,7 +1110,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1129,6 +1137,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -1138,18 +1147,18 @@ const TopCourses = () => {
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center">
-                        B.Pharma
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
+                      B.Pharma
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
-                        M.Pharma
-                      </a>
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>Pharma.D</a>
                     </MDBCol>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                    <a href="#" className="d-block mb-2 text-center">
+                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         D.Pharma
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">Pharma.D</a>
+                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
+                        M.Pharma
+                      </a>
           {/*
           <a href="#" className="d-block mb-2 text-center">Link 5</a>
           <a href="#" className="d-block mb-2 text-center">Link 6</a>*/}
@@ -1158,7 +1167,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1182,6 +1191,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -1191,13 +1201,13 @@ const TopCourses = () => {
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                         B.Sc (agriculture)
                       </a>
                       {/*<a href="#" className="d-block mb-2 text-center">BHM/(Hospital)</a>*/}
                     </MDBCol>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                    <a href="#" className="d-block mb-2 text-center">
+                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                         M.Sc (agriculture)
                       </a>
                       {/* 
@@ -1208,7 +1218,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1232,6 +1242,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -1241,10 +1252,10 @@ const TopCourses = () => {
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                         BDS
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                         MDS
                       </a>
                       {/*<a href="#" className="d-block mb-2 text-center">BSW</a>*/}
@@ -1258,7 +1269,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1285,6 +1296,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -1294,18 +1306,18 @@ const TopCourses = () => {
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                    <a href="#" className="d-block mb-2 text-center">
+                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         B.Sc (Nursing)
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                       GNM
                     </a>
                     </MDBCol>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                       M.Sc (nursing)
                     </a>
-                    <a href="#" className="d-block mb-2 text-center">
+                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         ANM
                       </a>
         {/*<a href="#" className="d-block mb-2 text-center">Link 4</a>
@@ -1316,7 +1328,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1340,6 +1352,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -1349,21 +1362,21 @@ const TopCourses = () => {
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         B.Arch
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         B.Planning
                       </a>           
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         Design
                       </a>           
                     </MDBCol>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                    <a href="#" className="d-block mb-2 text-center">
+                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         M.Arch
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         M.Planning
                       </a>
                       {/* <a href="#" className="d-block mb-2 text-center">Link 5</a>
@@ -1373,7 +1386,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1397,6 +1410,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -1406,15 +1420,15 @@ const TopCourses = () => {
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         BVSc
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         Ph.D
                       </a>
                     </MDBCol>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                    <a href="#" className="d-block mb-2 text-center">
+                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         MVSc
                       </a>
                       {/*
@@ -1426,7 +1440,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1453,6 +1467,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -1462,10 +1477,10 @@ const TopCourses = () => {
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         BHM
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         MHM
                       </a>
                       {/*<a href="#" className="d-block mb-2 text-center">Link 3</a>*/}
@@ -1479,7 +1494,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1503,6 +1518,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -1512,18 +1528,18 @@ const TopCourses = () => {
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                    <a href="#" className="d-block mb-2 text-center">
+                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         Bachelor of Aviation
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                       AME
                     </a>
                     </MDBCol>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                    <a href="#" className="d-block mb-2 text-center">
+                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         M.Sc (Aviation)
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                       CPL
                     </a>
                       {/* 
@@ -1535,7 +1551,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1559,19 +1575,20 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h4" className="text-center mb-3">
+                  <MDBCardTitle tag="h5" className="text-center mb-3">
                     Mass Communication
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         BMM
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         MMC
                       </a>
                       {/*
@@ -1588,7 +1605,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1615,6 +1632,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -1624,22 +1642,22 @@ const TopCourses = () => {
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                         B.Des
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                         B.F.A
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                         B.A
                       </a>
                       {/*<a href="#" className="d-block mb-2 text-center">Link 3</a>*/}
                     </MDBCol>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                    <a href="#" className="d-block mb-2 text-center">
+                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                         M.Des
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                         M.A
                       </a>
     {/*<a href="#" className="d-block mb-2 text-center">Link 4</a>
@@ -1650,7 +1668,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1674,19 +1692,20 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
                 <MDBCol xs="12" md="8" className="p-4">
-                  <MDBCardTitle tag="h4" className="text-center mb-3">
+                  <MDBCardTitle tag="h5" className="text-center mb-3">
                     Vocational Courses
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         Bachelor's
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                         Marketing
                       </a>
                       {/*
@@ -1695,10 +1714,10 @@ const TopCourses = () => {
       */}
                     </MDBCol>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                    <a href="#" className="d-block mb-2 text-center">
+                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                     Accounting
                   </a>
-                  <a href="#" className="d-block mb-2 text-center">
+                  <a href="#" className="d-block mb-2 text-center" style={{fontSize: "14px"}}>
                     Banking
                   </a>
                       {/* 
@@ -1710,7 +1729,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
@@ -1734,6 +1753,7 @@ const TopCourses = () => {
                       width: "80px",
                       height: "75px",
                       borderRadius: "50%",
+                      marginTop: "-90px",
                     }}
                   />
                 </MDBCol>
@@ -1743,18 +1763,18 @@ const TopCourses = () => {
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                         BSc in Animation
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                       Visual Arts
                       </a>
                     </MDBCol>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                         Digital Animation
                       </a>
-                      <a href="#" className="d-block mb-2 text-center">
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
                          VFX
                       </a>
                       {/*<a href="#" className="d-block mb-2 text-center">Link 5</a>
@@ -1764,7 +1784,7 @@ const TopCourses = () => {
                   <MDBRow className="justify-content-center">
                     <MDBCol xs="12" className="text-center">
                       <MDBBtn href="#" style={{ backgroundColor: "crimson" }}>
-                        Explore More Courses
+                        Explore Courses
                       </MDBBtn>
                     </MDBCol>
                   </MDBRow>
