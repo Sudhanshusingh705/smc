@@ -44,7 +44,7 @@ const TopCourses = () => {
       <MDBTypography
         tag="h1"
         className="text-center my-5"
-        style={{ color: "mediumblue" }}
+        style={{ color: "DarkSlateBlue" }}
       >
         DON'T KNOW WHAT TO CHOOSE ?
         <br />
@@ -53,7 +53,7 @@ const TopCourses = () => {
       <MDBTypography
         tag="h4"
         className="text-center mb-3"
-        style={{ color: "gray" }}
+        style={{ color: "gray", marginTop: "-40px" }}
       >
         Searchmycollege.com is an extensive search engine for
         <br />
@@ -624,14 +624,14 @@ const TopCourses = () => {
         <MDBTypography
           tag="h1"
           className="text-center my-5"
-          style={{ color: "mediumblue" }}
+          style={{ color: "DarkSlateBlue" }}
         >
           CHOOSE BY INTEREST
         </MDBTypography>
         <MDBTypography
           tag="h4"
           className="text-center mb-3"
-          style={{ color: "gray" }}
+          style={{ color: "gray", marginTop: "-40px"}}
         >
           Searchmycollege.com is an extensive search engine for
           <br />
@@ -1798,12 +1798,12 @@ const TopCourses = () => {
         <MDBContainer className="my-5">
         <MDBRow className="justify-content-center">
           <MDBCol xs="12" className="text-center mb-4">
-            <h2 style={{color: "gray"}}>#TRENDING COURSE SEARCH</h2>
+            <h2 style={{color: "DarkSlateBlue", marginTop: "-85px"}}>#TRENDING COURSE SEARCH</h2>
           </MDBCol>
         </MDBRow>
         <br />
         <br />
-        <MDBRow className="justify-content-center">
+        <MDBRow className="justify-content-center" style={{ marginTop: "-30px"}}>
           <MDBCol xs="6" sm="4" md="2" className="mb-3 d-flex justify-content-center">
             <MDBBtn href="/engineering" style={{ backgroundColor: "transparent", width: "100%", color: "black", borderRadius: "25px" }}>
               BE/B.Tech courses

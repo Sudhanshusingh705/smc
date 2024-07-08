@@ -70,7 +70,7 @@ function Footer() {
             <a href='https://www.facebook.com/profile.php?id=61558773852316' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faFacebookF} size='lg' style={{ color: 'black' }} /></a>
             <a href='https://www.instagram.com/searchmycollege/?hl=en' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faInstagram} size='lg' style={{ color: 'black' }} /></a>
             <a href='https://www.linkedin.com/in/search-my-college-500a88281/' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faLinkedinIn} size='lg' style={{ color: 'black' }} /></a>
-            <a href='https://www.youtube.com/@SearchMycollege' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faYoutube} size='lg' style={{ color: 'black' }} /></a>
+            <a href='https://youtube.com/@searchmycollege411?si=LEux-PU3eUZBy7vS' style={{ marginRight: '20px' }}><FontAwesomeIcon icon={faYoutube} size='lg' style={{ color: 'black' }} /></a>
             <a href='https://twitter.com/smc__global'><FontAwesomeIcon icon={faTwitter} size='lg' style={{ color: 'black' }} /></a>
           </div>
         </div>
