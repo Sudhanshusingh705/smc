@@ -804,7 +804,7 @@ const TopCourses = () => {
             </MDBContainer>
           </MDBCol>
         </MDBRow>
-        <MDBRow>
+        <MDBRow style={{marginTop: "-87px"}}>
         <MDBCol md="4" sm="6" xs="12" className="mb-4">
           <MDBContainer className="my-5">
             <MDBCard className="mt-1 d-flex flex-column flex-md-row align-items-center shadow-lg">
@@ -958,7 +958,7 @@ const TopCourses = () => {
         </MDBCol>
         </MDBRow>
         <br />
-        <MDBRow>
+        <MDBRow style={{marginTop: "-95px"}}>
           <MDBCol md="4" sm="6" xs="12" className="mb-4">
             <MDBContainer className="my-5">
               <MDBCard className="d-flex flex-column flex-md-row align-items-center shadow-lg">
@@ -1120,7 +1120,7 @@ const TopCourses = () => {
           </MDBCol>
         </MDBRow>
         <br />
-        <MDBRow>
+        <MDBRow style={{marginTop: "-95px"}}>
           <MDBCol md="4" sm="6" xs="12" className="mb-4">
             <MDBContainer className="my-5">
               <MDBCard className="d-flex flex-column flex-md-row align-items-center shadow-lg">
@@ -1279,7 +1279,7 @@ const TopCourses = () => {
           </MDBCol>
         </MDBRow>
         <br />
-        <MDBRow>
+        <MDBRow style={{marginTop: "-95px"}}>
           <MDBCol md="4" sm="6" xs="12" className="mb-4">
             <MDBContainer className="my-5">
               <MDBCard className="d-flex flex-column flex-md-row align-items-center shadow-lg">
@@ -1450,7 +1450,7 @@ const TopCourses = () => {
           </MDBCol>
         </MDBRow>
         <br />
-        <MDBRow>
+        <MDBRow style={{marginTop: "-95px"}}>
           <MDBCol md="4" sm="6" xs="12" className="mb-4">
             <MDBContainer className="my-5">
               <MDBCard className="d-flex flex-column flex-md-row align-items-center shadow-lg">
@@ -1615,7 +1615,7 @@ const TopCourses = () => {
           </MDBCol>
         </MDBRow>
         <br />
-        <MDBRow>
+        <MDBRow style={{marginTop: "-95px"}}>
           <MDBCol md="4" sm="6" xs="12" className="mb-4">
             <MDBContainer className="my-5">
               <MDBCard className="d-flex flex-column flex-md-row align-items-center shadow-lg">
@@ -1642,22 +1642,22 @@ const TopCourses = () => {
                   </MDBCardTitle>
                   <MDBRow>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "12px"}}>
                         B.Des
                       </a>
-                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "12px"}}>
                         B.F.A
                       </a>
-                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "12px"}}>
                         B.A
                       </a>
                       {/*<a href="#" className="d-block mb-2 text-center">Link 3</a>*/}
                     </MDBCol>
                     <MDBCol md="6" sm="6" xs="12" className="mb-3">
-                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
+                    <a href="#" className="d-block mb-2 text-center" style={{fontSize: "12px"}}>
                         M.Des
                       </a>
-                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "13px"}}>
+                      <a href="#" className="d-block mb-2 text-center" style={{fontSize: "12px"}}>
                         M.A
                       </a>
     {/*<a href="#" className="d-block mb-2 text-center">Link 4</a>
