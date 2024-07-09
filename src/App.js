@@ -25,6 +25,7 @@ import Animation from './Pages2/Animation/Animation';
 import Architecture from './Pages2/Architecture/Architecture';
 import Arts from './Pages2/Arts/Arts';
 import Aviation from './Pages2/Aviation/Aviation';
+import Boards from './Pages2/Boards/Boards';
 import Commerce from './Pages2/Commerce/Commerce';
 import Computerapplication from './Pages2/Computer Application/Computerapplication';
 import Dental from './Pages2/Dental/Dental';
@@ -76,6 +77,7 @@ function App() {
         <Route excat path="/architecture" element={<Architecture />}> </Route>
         <Route excat path="/arts" element={<Arts />}> </Route>
         <Route excat path="/aviation" element={<Aviation />}> </Route>
+        <Route excat path="/boards" element={<Boards />}> </Route>
         <Route excat path="/computerapplication" element={<Computerapplication />}> </Route>
         <Route excat path="/dental" element={<Dental />}> </Route>
         <Route excat path="/design" element={<Design />}> </Route>

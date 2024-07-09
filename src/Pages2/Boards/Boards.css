@@ -1,0 +1,135 @@
+  
+  .text-center {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 1.5rem; /* Adjust font size for different devices */
+  }
+  
+  @media (max-width: 768px) {
+    .text-center {
+      font-size: 1.25rem; /* Smaller font size for mobile devices */
+    }
+  }
+  
+
+
+
+  .full-width-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .text-center {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 1.5rem; /* Adjust font size for different devices */
+  }
+  
+  @media (max-width: 768px) {
+    .text-center {
+      font-size: 1.25rem; /* Smaller font size for mobile devices */
+    }
+  }
+  
+
+
+
+
+  .image-container {
+    flex-shrink: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .image-container img {
+      width: 60px;
+      height: 60px;
+    }
+    
+    h5 {
+      font-size: 1rem;
+      align-items: center;
+    }
+  }
+  
+
+  .image-container {
+    flex-shrink: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .image-container img {
+      width: 60px;
+      height: 60px;
+    }
+    
+    h5 {
+      font-size: 1rem;
+      /* align-items: center; */
+    }
+  }
+  
+  
+
+
+
+  .text-center {
+    text-align: center;
+  }
+  
+  .list-group-item-action {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    color: #495057;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    transition: all 0.2s;
+  }
+  
+  .list-group-item-action:hover {
+    background-color: #f8f9fa;
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .list-group-item-action:focus {
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #d2d6dc;
+  }
+  
+
+
+
+  .d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.ms-3 {
+  margin-left: 1rem !important;
+}
+
+@media (max-width: 576px) {
+  /* For extra small devices (mobile) */
+  .ms-3 {
+    margin-left: 0.5rem !important;
+  }
+}

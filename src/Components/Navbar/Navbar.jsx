@@ -42,6 +42,11 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link text-black text-uppercase font-weight-bold" href="/boards">
+                Boards
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link text-black text-uppercase font-weight-bold" href="/admission">
                 Admission
               </a>
@@ -52,15 +57,15 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-black text-uppercase font-weight-bold" href="https://ieltsmaterial.com">
+              <a className="nav-link text-black text-uppercase font-weight-bold" href="https://searchmycolleges.com">
                 IELTS
               </a>
             </li>
-            <li className="nav-item">
+            {/*<li className="nav-item">
               <a className="nav-link text-black text-uppercase font-weight-bold" href="/login">
                 Login
               </a>
-            </li>
+            </li>*/}
           </ul>
         </div>
         <div className="mobile-menu d-lg-none">
