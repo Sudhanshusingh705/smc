@@ -10,7 +10,11 @@ import {
   MDBCardText,
   MDBListGroup,
   MDBListGroupItem,
+  MDBBtn
 } from "mdb-react-ui-kit";
+import { MDBCarousel, MDBCarouselItem} from 'mdb-react-ui-kit';
+
+
 import andhra from "../../assets/boards/andhra.png";
 import Assam from "../../assets/boards/Assam.webp";
 import Bihar from "../../assets/boards/Bihar.jpg";
@@ -46,9 +50,51 @@ import Uttarpradesh from "../../assets/boards/Uttarpradesh.png";
 import westbengal from "../../assets/boards/Westbengal.png"; 
 
 
-
-
 const Boards = () => {
+
+  const cards = [
+    { title: 'What To Do After NEET Exam 2024? Essential Steps To Secure Your Medical Career', 
+      href: "https://blogs.searchmycolleges.com/what-to-do-after-neet-exam-2024-essential-steps-to-secure-your-medical-career/", 
+      imgSrc: 'https://blogs.searchmycolleges.com/wp-content/uploads/2024/07/medics-looking-cardiogram-hall-scaled.jpg' },
+    { title: 'Top Medical Courses After 12th Without NEET: Courses, Duration, Colleges, Fees', 
+      href: "https://blogs.searchmycolleges.com/top-medical-courses-after-12th-without-neet-courses-duration-colleges-fees/", 
+      imgSrc: 'https://blogs.searchmycolleges.com/wp-content/uploads/2024/06/medical-staff-in-clinic-waiting-area-2023-11-27-04-50-44-utc-scaled.jpg' },
+    { title: 'Why Indian Students Should Choose Russia for MBBS 2024-25? Fees, Eligibility', 
+      href: "https://blogs.searchmycolleges.com/why-indian-students-should-choose-russia-for-mbbs-2024-25-fees-eligibility-universities-and-more/", 
+      imgSrc: 'https://blogs.searchmycolleges.com/wp-content/uploads/2024/06/group-of-doctors-with-face-masks-looking-at-camera-2023-11-27-05-12-39-utc-scaled.jpg' },
+    { title: 'Why Studying MBBS in Nepal is a Smart Choice for Indian Students? Admission, Fee Structure, Universities and more', 
+      href: "https://blogs.searchmycolleges.com/why-studying-mbbs-in-nepal-is-a-smart-choice-for-indian-students-admission-fee-structure-universities-and-more/", 
+      imgSrc: 'https://blogs.searchmycolleges.com/wp-content/uploads/2024/06/doctor-team-and-hospital-at-work-smile-together-f-2023-11-27-05-30-28-utc-scaled.jpg' },
+    { title: 'How To Get Admission In MBBS In India? Benefits, Career Opportunities, Top Colleges and More', 
+      href: "https://blogs.searchmycolleges.com/how-to-get-admission-in-mbbs-in-india-benefits-career-opportunities-top-colleges-and-more/", 
+      imgSrc: 'https://blogs.searchmycolleges.com/wp-content/uploads/2024/06/para-2.png' },
+    { title: 'Why Study MBBS in Georgia 2024-25? Affordable, High-Quality Education in a Vibrant, Welcoming Environment', 
+      href: "https://blogs.searchmycolleges.com/why-study-mbbs-in-georgia-2024-25-affordable-high-quality-education-in-a-vibrant-welcoming-environment/", 
+      imgSrc: 'https://blogs.searchmycolleges.com/wp-content/uploads/2024/06/paramedical-featured.jpg' },
+  ];
+
+  const cards1 = [
+    { title: 'NEET UG 2024 counselling postponed amid paper leak controversy, new dates yet to be announced', 
+      href: "https://blogs.searchmycolleges.com/neet-ug-2024-counselling-postponed-amid-paper-leak-controversy-new-dates-yet-to-be-announced/", 
+      imgSrc: 'https://blogs.searchmycolleges.com/wp-content/uploads/2024/07/pexels-karolina-grabowska-4021775-1-1-scaled.jpg' },
+    { title: 'NEET PG 2024: Revised Exam Date Announced; Exam to Be Held on August 11', 
+      href: "https://blogs.searchmycolleges.com/neet-pg-2024-revised-exam-date-announced-exam-to-be-held-on-august-11/", 
+      imgSrc: 'https://blogs.searchmycolleges.com/wp-content/uploads/2024/07/pexels-pixabay-40568-scaled.jpg' },
+    { title: 'MCC Releases Tentative Schedule for NEET MDS Online Counseling 2024, Registration Begins from July 1st', 
+      href: "https://blogs.searchmycolleges.com/mcc-releases-tentative-schedule-for-neet-mds-online-counseling-2024-registration-begins-from-july-1st/", 
+      imgSrc: 'https://blogs.searchmycolleges.com/wp-content/uploads/2024/06/woman-patient-dentist_1303-9355.jpg' },
+    { title: 'NEET PG 2024: क्यों स्थगित हुई NEET PG परीक्षा? जानें अब कब होगा एग्जाम', 
+      href: "https://blogs.searchmycolleges.com/neet-pg-2024-%e0%a4%95%e0%a5%8d%e0%a4%af%e0%a5%8b%e0%a4%82-%e0%a4%b8%e0%a5%8d%e0%a4%a5%e0%a4%97%e0%a4%bf%e0%a4%a4-%e0%a4%b9%e0%a5%81%e0%a4%88-neet-pg-%e0%a4%aa%e0%a4%b0%e0%a5%80%e0%a4%95%e0%a5%8d/", 
+      imgSrc: 'https://blogs.searchmycolleges.com/wp-content/uploads/2024/06/tqms9tno_neet-exam-scam-_625x300_23_June_24.webp' },
+    {/*{ title: 'How To Get Admission In MBBS In India? Benefits, Career Opportunities, Top Colleges and More', 
+      href: "https://blogs.searchmycolleges.com/how-to-get-admission-in-mbbs-in-india-benefits-career-opportunities-top-colleges-and-more/", 
+      imgSrc: 'https://blogs.searchmycolleges.com/wp-content/uploads/2024/06/para-2.png' },
+    { title: 'Why Study MBBS in Georgia 2024-25? Affordable, High-Quality Education in a Vibrant, Welcoming Environment', 
+      href: "https://blogs.searchmycolleges.com/why-study-mbbs-in-georgia-2024-25-affordable-high-quality-education-in-a-vibrant-welcoming-environment/", 
+      imgSrc: 'https://blogs.searchmycolleges.com/wp-content/uploads/2024/06/paramedical-featured.jpg' },
+*/}
+    ];
+
   return (
     <>
       <MDBContainer
@@ -57,7 +103,7 @@ const Boards = () => {
         style={{ background: "#E0E0E0" }}
       >
         <br />
-        <h2 className="text-center">National Boards</h2>
+        <h2 className="text-center" style={{ color: "DarkSlateBlue" }}>National Boards</h2>
         <br />
         <br />
         <MDBRow>
@@ -196,8 +242,8 @@ const Boards = () => {
       </MDBContainer>
       <br />
       <br />
-      <MDBContainer fluid className="full-width-section">
-        <h2 className="text-center">State Boards</h2>
+      <MDBContainer fluid className="full-width-section" style={{ background: "#E0E0E0" }}>
+        <h3 className="text-center"  style={{ color: "DarkSlateBlue" }}>State Boards</h3>
         <br />
         <br />
         <MDBRow>
@@ -1068,6 +1114,59 @@ const Boards = () => {
             </MDBCard>
           </MDBCol>
         </MDBRow>
+      </MDBContainer>
+      <br />
+      <br />
+      <br />
+      {/*EXPLORE ARTICLES ON BOARDS EXAMS */}
+      <MDBContainer>
+      <h3 className="text-center my-4"  style={{ color: "DarkSlateBlue" }}>Explore articles on Board Exams</h3>
+      <MDBRow className='row-cols-1 row-cols-md-2 row-cols-lg-3 g-4'>
+      {cards.map((card, index) => (
+        <MDBCol key={index}>
+          <MDBCard>
+            <MDBCardImage src={card.imgSrc} alt={card.title} position='top' />
+            <MDBCardBody>
+              <h5 className='card-title'>{card.title}</h5>
+              <MDBCardText>
+                {card.content}
+              </MDBCardText>
+              {card.href && (
+                <MDBBtn href={card.href} target="_blank" color="primary">
+                  Read More
+                </MDBBtn>
+              )}
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+      ))}
+    </MDBRow>
+      </MDBContainer>
+      <br />
+      <br />
+      {/* LATEST NEWS ON BOARDS EXAMS */}
+      <MDBContainer>
+      <h3 className="text-center my-4"  style={{ color: "DarkSlateBlue" }}>Latest NEWS on Board Exams</h3>
+      <MDBRow className='row-cols-1 row-cols-md-2 row-cols-lg-3 g-4'>
+      {cards1.map((card, index) => (
+        <MDBCol key={index}>
+          <MDBCard>
+            <MDBCardImage src={card.imgSrc} alt={card.title} position='top' />
+            <MDBCardBody>
+              <h5 className='card-title'>{card.title}</h5>
+              <MDBCardText>
+                {card.content}
+              </MDBCardText>
+              {card.href && (
+                <MDBBtn href={card.href} target="_blank" color="primary">
+                  Read More
+                </MDBBtn>
+              )}
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+      ))}
+    </MDBRow>
       </MDBContainer>
     </>
   );

@@ -1,5 +1,20 @@
-import React from 'react';
-// LATEST NOTIFICATION
+import React, { useState } from 'react';
+import {
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBCard,
+  MDBCardBody,
+  MDBCardTitle,
+  MDBCardText,
+  MDBCardImage,
+  MDBBtn,
+  MDBPagination,
+  MDBPaginationItem,
+  MDBPaginationLink
+} from 'mdb-react-ui-kit';
+
+// Importing images
 import ACPM from "../../assets/admission/ACPM.webp";
 import CDAC from "../../assets/admission/CDAC NOIDA.webp";
 import Central from "../../assets/admission/CENTRAL UNIVERSITY.webp";
@@ -20,371 +35,97 @@ import JssMedical from "../../assets/admission/JSS MEDICAL.webp";
 import PSITKanpur from "../../assets/admission/PSIT KANPUR.webp";
 import THENeotia from "../../assets/admission/THE NEOTIA.webp";
 import RMLAU from "../../assets/admission/RMLAU.webp";
-import { Container, Row, Col, Card } from "react-bootstrap";
-import {
-    MDBCard,
-    MDBCardBody,
-    MDBCardTitle,
-    MDBCardText,
-    MDBCardImage, 
-    MDBBtn
-  } from 'mdb-react-ui-kit';
 
 const Admission = () => {
+  const cards = [
+    { id: 1, title: 'ACPM', content: 'ACPM College Admission', image: ACPM, link: '#' },
+    { id: 2, title: 'CDAC NOIDA', content: 'CDAC NOIDA Admission', image: CDAC, link: '#' },
+    { id: 3, title: 'Central University', content: 'Central University Admission', image: Central, link: '#' },
+    { id: 4, title: 'GMC Jammu', content: 'GMC Jammu Admission', image: GMC, link: '#' },
+    { id: 5, title: 'HPU', content: 'HPU Admission', image: HPU, link: '#' },
+    { id: 6, title: 'IIM Jammu', content: 'IIM Jammu Admission', image: IIMJammu, link: '#' },
+    { id: 7, title: 'IIM Kashipur', content: 'IIM Kashipur Admission', image: IIMKashipur, link: '#' },
+    { id: 8, title: 'IIM Nagpur', content: 'IIM Nagpur Admission', image: IIMNagpur, link: '#' },
+    { id: 9, title: 'IIM Raipur', content: 'IIM Raipur Admission', image: IIMRaipur, link: '#' },
+    { id: 10, title: 'IIM Ranchi', content: 'IIM Ranchi Admission', image: IIMRanchi, link: '#' },
+    { id: 11, title: 'IIM Trichy', content: 'IIM Trichy Admission', image: IIMTrichi, link: '#' },
+    { id: 12, title: 'IIM Udaipur', content: 'IIM Udaipur Admission', image: IIMUdaypur, link: '#' },
+    { id: 13, title: 'IIM Sambalpur', content: 'IIM Sambalpur Admission', image: IIMSambalpur, link: '#' },
+    { id: 14, title: 'IMT Ghaziabad', content: 'IMT Ghaziabad Admission', image: IMTGaziyabad, link: '#' },
+    { id: 15, title: 'IMT Business', content: 'IMT Business Admission', image: IMTBusiness, link: '#' },
+    { id: 16, title: 'Jigyasa', content: 'Jigyasa Admission', image: Jigyasa, link: '#' },
+    { id: 17, title: 'JSS Medical', content: 'JSS Medical Admission', image: JssMedical, link: '#' },
+    { id: 18, title: 'PSIT Kanpur', content: 'PSIT Kanpur Admission', image: PSITKanpur, link: '#' },
+    { id: 19, title: 'The Neotia', content: 'The Neotia Admission', image: THENeotia, link: '#' },
+    { id: 20, title: 'RMLAU', content: 'RMLAU Admission', image: RMLAU, link: '#' },
+  ];
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const cardsPerPage = 12;
+  const totalPages = Math.ceil(cards.length / cardsPerPage);
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+  const renderCards = () => {
+    const startIndex = (currentPage - 1) * cardsPerPage;
+    const endIndex = startIndex + cardsPerPage;
+    return cards.slice(startIndex, endIndex).map(card => (
+      <MDBCol key={card.id} md="6" lg="3" className="mb-4">
+        <MDBCard>
+          <MDBCardImage src={card.image} position='top' alt={card.title} />
+          <MDBCardBody>
+            <MDBCardTitle>{card.title}</MDBCardTitle>
+            <MDBCardText>{card.content}</MDBCardText>
+            <MDBBtn href={card.link}>Apply Now</MDBBtn>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+    ));
+  };
+
+  const renderPagination = () => {
+    return (
+      <MDBPagination className="mb-0">
+        <MDBPaginationItem disabled={currentPage === 1}>
+          <MDBPaginationLink first onClick={() => handlePageChange(1)} />
+        </MDBPaginationItem>
+        <MDBPaginationItem disabled={currentPage === 1}>
+          <MDBPaginationLink onClick={() => handlePageChange(currentPage - 1)}>&laquo;</MDBPaginationLink>
+        </MDBPaginationItem>
+        {[...Array(totalPages)].map((_, i) => (
+          <MDBPaginationItem key={i} active={i + 1 === currentPage}>
+            <MDBPaginationLink onClick={() => handlePageChange(i + 1)}>
+              {i + 1}
+            </MDBPaginationLink>
+          </MDBPaginationItem>
+        ))}
+        <MDBPaginationItem disabled={currentPage === totalPages}>
+          <MDBPaginationLink onClick={() => handlePageChange(currentPage + 1)}>&raquo;</MDBPaginationLink>
+        </MDBPaginationItem>
+        <MDBPaginationItem disabled={currentPage === totalPages}>
+          <MDBPaginationLink last onClick={() => handlePageChange(totalPages)} />
+        </MDBPaginationItem>
+      </MDBPagination>
+    );
+  };
+
   return (
-    <div>
-    <div className="container text-center">
-    {/*<img
-    src={Admissionbanner} // Replace 'banner-image-url.jpg' with your banner image URL
-    alt="Banner"
-    className="img-fluid"
-    style={{ maxWidth: '100%', height: '200px', width: "100%" }}
-    />*/}
+    <MDBContainer>
     <br />
     <br />
+      <MDBRow>
+        {renderCards()}
+      </MDBRow>
+      <MDBRow>
+        <MDBCol>
+          {renderPagination()}
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
+  );
+};
 
-    <h2 className="text" style={{ fontWeight: "bold", fontSize: "70px" }}>
-    GET ADMISSION IN BEST COLLEGES{" "}
-    </h2>
-    <br />
-    <br />
-    <section className="featured-post">
-      <Row xs={1} md={3} lg={4} className="g-4">
-        <Col>
-        <MDBCard>
-        <MDBCardImage src={ACPM} position='top' alt='...' />
-        <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-          <div>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </MDBCardText>
-          </div>
-          <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-        </MDBCardBody>
-        </MDBCard>
-        </Col>
+export default Admission;
 
-        <MDBCard>
-        <MDBCardImage src={CDAC} position='top' alt='...' />
-        <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-          <div>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </MDBCardText>
-          </div>
-          <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-        </MDBCardBody>
-        </MDBCard>
-
-        <MDBCard>
-        <MDBCardImage src={Central} position='top' alt='...' />
-        <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-          <div>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </MDBCardText>
-          </div>
-          <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-        </MDBCardBody>
-        </MDBCard>
-
-        <MDBCard>
-        <MDBCardImage src={GMC} position='top' alt='...' />
-        <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-          <div>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </MDBCardText>
-          </div>
-          <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-        </MDBCardBody>
-        </MDBCard>
-
-        <MDBCard>
-        <MDBCardImage src={HPU} position='top' alt='...' />
-        <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-          <div>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </MDBCardText>
-          </div>
-          <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-        </MDBCardBody>
-        </MDBCard>
-
-        <MDBCard>
-        <MDBCardImage src={IIMJammu} position='top' alt='...' />
-        <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-          <div>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </MDBCardText>
-          </div>
-          <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-        </MDBCardBody>
-        </MDBCard>
-
-        <MDBCard>
-        <MDBCardImage src={IIMKashipur} position='top' alt='...' />
-        <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-          <div>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </MDBCardText>
-          </div>
-          <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-        </MDBCardBody>
-        </MDBCard>
-
-        <MDBCard>
-        <MDBCardImage src={IIMNagpur} position='top' alt='...' />
-        <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-          <div>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </MDBCardText>
-          </div>
-          <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-        </MDBCardBody>
-        </MDBCard>
-      </Row>
-    </section>
-    <br />
-    <section className="featured-post">
-    <Row xs={1} md={3} lg={4} className="g-4">
-      <Col>
-      <MDBCard>
-      <MDBCardImage src={IIMRaipur} position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>
-      </Col>
-
-      <MDBCard>
-      <MDBCardImage src={IIMRanchi} position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>
-
-      <MDBCard>
-      <MDBCardImage src={IIMTrichi} position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>
-
-      <MDBCard>
-      <MDBCardImage src={IIMUdaypur} position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>
-
-      <MDBCard>
-      <MDBCardImage src={IIMSambalpur} position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>
-
-      <MDBCard>
-      <MDBCardImage src={IMTGaziyabad} position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>
-
-      <MDBCard>
-      <MDBCardImage src={IMTBusiness} position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>
-
-      <MDBCard>
-      <MDBCardImage src={Jigyasa} position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>
-    </Row>
-    </section>
-    <br />
-    <section className="featured-post">
-    <Row xs={1} md={3} lg={4} className="g-4">
-      <Col>
-      <MDBCard>
-      <MDBCardImage src={JssMedical} position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>
-      </Col>
-
-      <MDBCard>
-      <MDBCardImage src={PSITKanpur} position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>
-
-      <MDBCard>
-      <MDBCardImage src={THENeotia} position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>
-
-      <MDBCard>
-      <MDBCardImage src={RMLAU} position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <h5 className="mb-2">First Subtitle</h5>
-          <div className="d-flex justify-content-between align-items-center">
-            <MDBCardTitle>Main Title</MDBCardTitle>
-            <MDBBtn href='#' style={{}}>Apply Now</MDBBtn>
-          </div>
-        </div>
-        <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </MDBCardText>
-      </MDBCardBody>
-    </MDBCard>
-    
-
-      {/*<MDBCard>
-      <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>*/}
-
-      {/*<MDBCard>
-      <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>*/}
-
-      {/*      <MDBCard>
-      <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>*/}
-
-      {/*<MDBCard>
-      <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
-      <MDBCardBody className="d-flex justify-content-between align-items-start flex-column">
-        <div>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-        </div>
-        <MDBBtn href='#' className="mt-3 mt-md-0">Button</MDBBtn>
-      </MDBCardBody>
-      </MDBCard>*/}
-    </Row>
-    </section>
-  </div>
-  <br />
-    </div>
-  )
-}
-
-export default Admission

@@ -1,0 +1,21 @@
+/* Mega Menu Styles */
+.mega-menu {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  
+  .mega-menu .row {
+    margin: 0;
+  }
+  
+  .mega-menu .col-lg-4, .mega-menu .col-md-6 {
+    padding: 20px;
+  }
+  
+  @media (max-width: 992px) {
+    .mega-menu {
+      position: static;
+    }
+  }
+  

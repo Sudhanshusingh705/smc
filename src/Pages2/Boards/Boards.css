@@ -133,3 +133,54 @@
     margin-left: 0.5rem !important;
   }
 }
+
+
+
+.carousel {
+  width: 100%;
+  height: auto;
+}
+
+.card-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1em;
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
