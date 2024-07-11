@@ -56,7 +56,7 @@ const Commerce = () => {
   return (
     <div className="section">
       <h2 className="section-title">
-      Top Commerce Colleges in India 2023-2024
+        Top Commerce Colleges in India 2023-2024
       </h2>
       <MDBContainer fluid>
         <MDBRow>
@@ -76,124 +76,128 @@ const Commerce = () => {
                       Show Less
                     </button>
                   </div>
-                  <h1>Commerce Colleges </h1>
-              <h2>
-                Commerce College: Eligibility, Admission, Syllabus, Placements
-              </h2>
-                  <p>
-                    <div className="mb-2">
-                      <span>
-                      Top Commerce colleges in India include Shri Ram College
-                      of Commerce (New Delhi), Lady Shri Ram College for Women
-                      (New Delhi), Loyola College (Chennai), St. Xaviers
-                      College (Mumbai), etc. Pursuing a degree in Commerce
-                      allows students to study Accountancy, Business Studies,
-                      and Economics as core subjects and Mathematics as
-                      optional. Bachelor of Commerce (B.Com)- a three-year
-                      course, is the most popular specialization after 12th in
-                      Commerce stream. Top colleges for Commerce offer various
-                      specializations like B.Com, BBA, B.Com (Hons.), and B.A.
-                      Hons. in Economics etc. Students can secure admission to
-                      top Commerce colleges in India through entrance exams
-                      like CUET, IPU CET, and NMIMS-NPAT. After pursuing a
-                      degree in Commerce, there are a lot of job opportunities
-                      as a Chartered Accountant (CA), Investment Banker,
-                      Marketing Manager, Human Resource Manager, Cost
-                      Accountant, etc.&nbsp;
-                      </span>
-                    </div>
-                    <h2>
-                      <strong>
-                        <span data-preserver-spaces="true">
-                          Top Commerce Colleges in India: Highlights
+                  <h2>
+                    Commerce College: Eligibility, Admission, Syllabus,
+                    Placements
+                  </h2>
+                  <div className="section">
+                    <p>
+                      <div className="mb-2">
+                        <span>
+                          Top Commerce colleges in India include Shri Ram
+                          College of Commerce (New Delhi), Lady Shri Ram College
+                          for Women (New Delhi), Loyola College (Chennai), St.
+                          Xaviers College (Mumbai), etc. Pursuing a degree in
+                          Commerce allows students to study Accountancy,
+                          Business Studies, and Economics as core subjects and
+                          Mathematics as optional. Bachelor of Commerce (B.Com)-
+                          a three-year course, is the most popular
+                          specialization after 12th in Commerce stream. Top
+                          colleges for Commerce offer various specializations
+                          like B.Com, BBA, B.Com (Hons.), and B.A. Hons. in
+                          Economics etc. Students can secure admission to top
+                          Commerce colleges in India through entrance exams like
+                          CUET, IPU CET, and NMIMS-NPAT. After pursuing a degree
+                          in Commerce, there are a lot of job opportunities as a
+                          Chartered Accountant (CA), Investment Banker,
+                          Marketing Manager, Human Resource Manager, Cost
+                          Accountant, etc.&nbsp;
                         </span>
-                      </strong>
-                    </h2>
-                    <div className="mb-2">
-                      <span>
-                      To get admission to top commerce colleges, candidates
-                      must fulfill the eligibility criteria of 50% or above
-                      marks in any stream in Class 12th. The popular courses
-                      under Commerce are B.Com, B.Com (Hons.), BBA LLB,
-                      BBA/BMS, etc. Tabulated below are the key highlights of
-                      top commerce colleges in India.
-                      </span>
+                      </div>
+                      <h2>
+                        <strong>
+                          <span data-preserver-spaces="true">
+                            Top Commerce Colleges in India: Highlights
+                          </span>
+                        </strong>
+                      </h2>
+                      <div className="mb-2">
+                        <span>
+                          To get admission to top commerce colleges, candidates
+                          must fulfill the eligibility criteria of 50% or above
+                          marks in any stream in Class 12th. The popular courses
+                          under Commerce are B.Com, B.Com (Hons.), BBA LLB,
+                          BBA/BMS, etc. Tabulated below are the key highlights
+                          of top commerce colleges in India.
+                        </span>
+                      </div>
+                    </p>
+                    <div className="table-responsive">
+                      <table className="table">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <p>
+                                <strong>College Type</strong>
+                              </p>
+                            </td>
+                            <td>
+                              <p>
+                                <span>Government Colleges - 5304 </span>
+                                <span>&amp; Private Colleges - 1114</span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>
+                                <strong>Colleges Affiliated To</strong>
+                              </p>
+                            </td>
+                            <td>
+                              <p>
+                                <span>NAAC, UGC, AICTE</span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>
+                                <strong>Entrance Exams Accepted</strong>
+                              </p>
+                            </td>
+                            <td>
+                              <p>
+                                <span>CUCET, NPAT, IPU CET</span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>
+                                <strong>Specializations</strong>
+                              </p>
+                            </td>
+                            <td>
+                              <p>
+                                <span>
+                                  Finance, Banking, Business Management,
+                                  Accountancy, Economics
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>
+                                <strong>Approximate Fees</strong>
+                              </p>
+                            </td>
+                            <td>
+                              <p>
+                                <span>
+                                  The annual fee ranges from (INR) 15,000 to
+                                  75,000.
+                                </span>
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
-                  </p>
-                  <div className="table-responsive">
-                  <table border={1}>
-                    <tbody>
-                      <tr>
-                        <td>
-                          <p>
-                            <strong>College Type</strong>
-                          </p>
-                        </td>
-                        <td>
-                          <p>
-                            <span>Government Colleges - 5304 </span>
-                            <span>&amp; Private Colleges - 1114</span>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>
-                            <strong>Colleges Affiliated To</strong>
-                          </p>
-                        </td>
-                        <td>
-                          <p>
-                            <span>NAAC, UGC, AICTE</span>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>
-                            <strong>Entrance Exams Accepted</strong>
-                          </p>
-                        </td>
-                        <td>
-                          <p>
-                            <span>CUCET, NPAT, IPU CET</span>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>
-                            <strong>Specializations</strong>
-                          </p>
-                        </td>
-                        <td>
-                          <p>
-                            <span>
-                              Finance, Banking, Business Management,
-                              Accountancy, Economics
-                            </span>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>
-                            <strong>Approximate Fees</strong>
-                          </p>
-                        </td>
-                        <td>
-                          <p>
-                            <span>
-                              The annual fee ranges from (INR) 15,000 to
-                              75,000.
-                            </span>
-                          </p>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <h2>
+                  </div>
+                  <div className="section">
+                    <h2>
                       <strong>Top Commerce Colleges in India Ranking</strong>
                     </h2>
                     <p>
@@ -202,6 +206,7 @@ const Commerce = () => {
                       list the top-ranked colleges for Commerce that are
                       relevant to the students.
                     </p>
+
                     <h3>
                       <strong>
                         Top Commerce Colleges in India by NIRF Ranking
@@ -212,7 +217,7 @@ const Commerce = () => {
                       India by NIRF Ranking
                     </p>
                     <div className="table-responsive">
-                      <table border={1}>
+                      <table className="table">
                         <tbody>
                           <tr>
                             <td>
@@ -228,7 +233,7 @@ const Commerce = () => {
                           <tr>
                             <td>1</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Sri Ram College of Commerce, New Delhi
                               </a>
                             </td>
@@ -237,7 +242,7 @@ const Commerce = () => {
                           <tr>
                             <td>2</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Lady Shri Ram College for Women, New Delhi
                               </a>
                             </td>
@@ -246,49 +251,49 @@ const Commerce = () => {
                           <tr>
                             <td>3</td>
                             <td>
-                              <a href="">Loyola College, Chennai</a>
+                              <a href="#">Loyola College, Chennai</a>
                             </td>
                             <td>12,650</td>
                           </tr>
                           <tr>
                             <td>4</td>
                             <td>
-                              <a href="">St. Xaviers College, Mumbai</a>
+                              <a href="#">St. Xaviers College, Mumbai</a>
                             </td>
                             <td>16,611</td>
                           </tr>
                           <tr>
                             <td>5</td>
                             <td>
-                              <a href="">Hindu College, New Delhi</a>
+                              <a href="#">Hindu College, New Delhi</a>
                             </td>
                             <td>54,780</td>
                           </tr>
                           <tr>
                             <td>6</td>
                             <td>
-                              <a href="">Hansraj College, New Delhi</a>
+                              <a href="#">Hansraj College, New Delhi</a>
                             </td>
                             <td>62,835</td>
                           </tr>
                           <tr>
                             <td>7</td>
                             <td>
-                              <a href="">Madras Christian College, Chennai</a>
+                              <a href="#">Madras Christian College, Chennai</a>
                             </td>
                             <td>18,000</td>
                           </tr>
                           <tr>
                             <td>8</td>
                             <td>
-                              <a href="">Christ University, Bangalore</a>
+                              <a href="#">Christ University, Bangalore</a>
                             </td>
                             <td>7,35,000</td>
                           </tr>
                           <tr>
                             <td>9</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Narsee Monjee College of Commerce and Economics,
                                 Mumbai
                               </a>
@@ -298,7 +303,7 @@ const Commerce = () => {
                           <tr>
                             <td>10</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 RA Poddar College of Commerce and Economics,
                                 Mumbai
                               </a>
@@ -308,6 +313,7 @@ const Commerce = () => {
                         </tbody>
                       </table>
                     </div>
+
                     <h3>
                       <strong>
                         Top Commerce Colleges in India Outlook Ranking
@@ -318,7 +324,7 @@ const Commerce = () => {
                       India according to outlook
                     </p>
                     <div className="table-responsive">
-                      <table border={1}>
+                      <table className="table">
                         <tbody>
                           <tr>
                             <td>
@@ -334,7 +340,7 @@ const Commerce = () => {
                           <tr>
                             <td>1</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Sri Ram College of Commerce, New Delhi
                               </a>
                             </td>
@@ -343,7 +349,7 @@ const Commerce = () => {
                           <tr>
                             <td>2</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Lady Shri Ram College for Women, New Delhi
                               </a>
                             </td>
@@ -352,42 +358,42 @@ const Commerce = () => {
                           <tr>
                             <td>3</td>
                             <td>
-                              <a href="">Loyola College, Chennai</a>
+                              <a href="#">Loyola College, Chennai</a>
                             </td>
                             <td>37,950</td>
                           </tr>
                           <tr>
                             <td>4</td>
                             <td>
-                              <a href="">Hindu College, New Delhi</a>
+                              <a href="#">Hindu College, New Delhi</a>
                             </td>
                             <td>54,780</td>
                           </tr>
                           <tr>
                             <td>5</td>
                             <td>
-                              <a href="">Hansraj College, New Delhi</a>
+                              <a href="#">Hansraj College, New Delhi</a>
                             </td>
                             <td>62,385</td>
                           </tr>
                           <tr>
                             <td>6</td>
                             <td>
-                              <a href="">Madras Christian College, Chennai</a>
+                              <a href="#">Madras Christian College, Chennai</a>
                             </td>
                             <td>83,757</td>
                           </tr>
                           <tr>
                             <td>7</td>
                             <td>
-                              <a href="">Christ University, Bangalore</a>
+                              <a href="#">Christ University, Bangalore</a>
                             </td>
                             <td>2,45,000</td>
                           </tr>
                           <tr>
                             <td>8</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Narsee Monjee College of Commerce and Economics,
                                 Mumbai
                               </a>
@@ -397,7 +403,7 @@ const Commerce = () => {
                           <tr>
                             <td>9</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Symbiosis College of Arts and Commerce, Pune
                               </a>
                             </td>
@@ -406,13 +412,15 @@ const Commerce = () => {
                           <tr>
                             <td>10</td>
                             <td>
-                              <a href="">Stella Maris College, Chennai</a>
+                              <a href="#">Stella Maris College, Chennai</a>
                             </td>
                             <td>88,935</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
+                  </div>
+                  <div className="section">
                     <h3>
                       <strong>Top 10 Commerce Colleges in India</strong>
                     </h3>
@@ -420,8 +428,9 @@ const Commerce = () => {
                       Tabulated below are the top 10 colleges for commerce in
                       India
                     </p>
+
                     <div className="table-responsive">
-                      <table border={1}>
+                      <table className="table">
                         <tbody>
                           <tr>
                             <td>
@@ -437,7 +446,7 @@ const Commerce = () => {
                           <tr>
                             <td>1</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Sri Ram College of Commerce, New Delhi
                               </a>
                             </td>
@@ -446,14 +455,14 @@ const Commerce = () => {
                           <tr>
                             <td>2</td>
                             <td>
-                              <a href="">Hindu College, New Delhi</a>
+                              <a href="#">Hindu College, New Delhi</a>
                             </td>
                             <td>54,780</td>
                           </tr>
                           <tr>
                             <td>3</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Lady Shri Ram College for Women, New Delhi
                               </a>
                             </td>
@@ -462,42 +471,42 @@ const Commerce = () => {
                           <tr>
                             <td>4</td>
                             <td>
-                              <a href="">Hansraj College, New Delhi</a>
+                              <a href="#">Hansraj College, New Delhi</a>
                             </td>
                             <td>62,835</td>
                           </tr>
                           <tr>
                             <td>5</td>
                             <td>
-                              <a href="">Loyola College, Chennai</a>
+                              <a href="#">Loyola College, Chennai</a>
                             </td>
                             <td>37,950</td>
                           </tr>
                           <tr>
                             <td>6</td>
                             <td>
-                              <a href="">Christ University, Bangalore</a>
+                              <a href="#">Christ University, Bangalore</a>
                             </td>
                             <td>2,45,000</td>
                           </tr>
                           <tr>
                             <td>7</td>
                             <td>
-                              <a href="">Ramjas College, New Delhi</a>
+                              <a href="#">Ramjas College, New Delhi</a>
                             </td>
                             <td>43,485</td>
                           </tr>
                           <tr>
                             <td>8</td>
                             <td>
-                              <a href="">Madras Christian College, Chennai</a>
+                              <a href="#">Madras Christian College, Chennai</a>
                             </td>
                             <td>83,757</td>
                           </tr>
                           <tr>
                             <td>9</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Narsee Monjee College of Commerce and Economics,
                                 Mumbai
                               </a>
@@ -507,13 +516,15 @@ const Commerce = () => {
                           <tr>
                             <td>10</td>
                             <td>
-                              <a href="">Mithibai College of Arts, Mumbai</a>
+                              <a href="#">Mithibai College of Arts, Mumbai</a>
                             </td>
                             <td>14,235</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
+                  </div>
+                  <div className="section">
                     <h3>
                       <strong>Top 10 Commerce Universities in India</strong>
                     </h3>
@@ -521,8 +532,9 @@ const Commerce = () => {
                       Tabulated below are the best commerce universities in
                       India
                     </p>
+
                     <div className="table-responsive">
-                      <table border={1}>
+                      <table className="table">
                         <tbody>
                           <tr>
                             <td>
@@ -580,6 +592,7 @@ const Commerce = () => {
                         </tbody>
                       </table>
                     </div>
+
                     <h2>
                       <strong>
                         Fee Structure of Top Commerce Colleges in India
@@ -593,6 +606,7 @@ const Commerce = () => {
                       a degree in Commerce in various specializations such as
                       Finance, Banking, Accountancy, etc.
                     </p>
+
                     <h3>
                       <strong>
                         Government Commerce Colleges in India with Fees
@@ -602,8 +616,9 @@ const Commerce = () => {
                       Tabulated below are the best government commerce colleges
                       in India
                     </p>
+
                     <div className="table-responsive">
-                      <table border={1}>
+                      <table className="table">
                         <tbody>
                           <tr>
                             <td>
@@ -655,6 +670,8 @@ const Commerce = () => {
                         </tbody>
                       </table>
                     </div>
+                  </div>
+                  <div className="section">
                     <h3>
                       <strong>
                         Best Private Colleges in India for Commerce
@@ -664,8 +681,9 @@ const Commerce = () => {
                       Tabulated below are the best private colleges in India for
                       commerce&nbsp;
                     </p>
+
                     <div className="table-responsive">
-                      <table border={1}>
+                      <table className="table">
                         <tbody>
                           <tr>
                             <td>
@@ -727,6 +745,7 @@ const Commerce = () => {
                         </tbody>
                       </table>
                     </div>
+
                     <h3>
                       <strong>Commerce Colleges in India with Low Fees</strong>
                     </h3>
@@ -734,8 +753,9 @@ const Commerce = () => {
                       Tabulated below are the colleges for commerce with low
                       fees in India
                     </p>
+
                     <div className="table-responsive">
-                      <table border={1}>
+                      <table className="table">
                         <tbody>
                           <tr>
                             <td>
@@ -792,6 +812,8 @@ const Commerce = () => {
                         </tbody>
                       </table>
                     </div>
+                  </div>
+                  <div className="section">
                     <h2>
                       <strong>Top Commerce Colleges in India Admission</strong>
                     </h2>
@@ -866,7 +888,7 @@ const Commerce = () => {
                       </span>
                     </p>
                     <div className="table-responsive">
-                      <table border={1}>
+                      <table className="table">
                         <tbody>
                           <tr>
                             <td>
@@ -882,7 +904,7 @@ const Commerce = () => {
                           <tr>
                             <td>1</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Sri Ram College of Commerce, New Delhi
                               </a>
                             </td>
@@ -891,14 +913,14 @@ const Commerce = () => {
                           <tr>
                             <td>2</td>
                             <td>
-                              <a href="">Hindu College, New Delhi</a>
+                              <a href="#">Hindu College, New Delhi</a>
                             </td>
                             <td>Hindu College Admission Link</td>
                           </tr>
                           <tr>
                             <td>3</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Lady Shri Ram College for Women, New Delhi
                               </a>
                             </td>
@@ -909,42 +931,42 @@ const Commerce = () => {
                           <tr>
                             <td>4</td>
                             <td>
-                              <a href="">Hansraj College, New Delhi</a>
+                              <a href="#">Hansraj College, New Delhi</a>
                             </td>
                             <td>Hansraj College Admission Link</td>
                           </tr>
                           <tr>
                             <td>5</td>
                             <td>
-                              <a href="">Loyola College, Chennai</a>
+                              <a href="#">Loyola College, Chennai</a>
                             </td>
                             <td>Loyola College Admission Link</td>
                           </tr>
                           <tr>
                             <td>6</td>
                             <td>
-                              <a href="">Christ University, Bangalore</a>
+                              <a href="#">Christ University, Bangalore</a>
                             </td>
                             <td>Christ University Admission Link</td>
                           </tr>
                           <tr>
                             <td>7</td>
                             <td>
-                              <a href="">Ramjas College, New Delhi</a>
+                              <a href="#">Ramjas College, New Delhi</a>
                             </td>
                             <td>Ramjas College Admission Link</td>
                           </tr>
                           <tr>
                             <td>8</td>
                             <td>
-                              <a href="">Madras Christian College, Chennai</a>
+                              <a href="#">Madras Christian College, Chennai</a>
                             </td>
                             <td>Madras Christian College Admission Link</td>
                           </tr>
                           <tr>
                             <td>9</td>
                             <td>
-                              <a href="">
+                              <a href="#">
                                 Narsee Monjee College of Commerce and Economics,
                                 Mumbai
                               </a>
@@ -954,13 +976,15 @@ const Commerce = () => {
                           <tr>
                             <td>10</td>
                             <td>
-                              <a href="">Mithibai College of Arts, Mumbai</a>
+                              <a href="#">Mithibai College of Arts, Mumbai</a>
                             </td>
                             <td>Mithibai College Admission Link</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
+                  </div>
+                  <div className="section">
                     <h2>
                       <strong>
                         Entrance Exams for Top Commerce Colleges in India
@@ -991,13 +1015,13 @@ const Commerce = () => {
                       <strong>Top Commerce Colleges Accepting CUET</strong>
                     </h3>
                     <p>
-                      CUCET is an all-India test conducted by NTA for
+                      CUET is an all-India test conducted by NTA for
                       undergraduate programs. Students can take admission to top
                       colleges of commerce through this examination. Listed
                       below are top commerce colleges accepting CUET
                     </p>
                     <div className="table-responsive">
-                      <table border={1}>
+                      <table className="table">
                         <tbody>
                           <tr>
                             <td>
@@ -1009,37 +1033,29 @@ const Commerce = () => {
                           </tr>
                           <tr>
                             <td>1</td>
-                            <td>
-                              <p>Banaras Hindu University, Varanasi</p>
-                            </td>
+                            <td>Banaras Hindu University, Varanasi</td>
                           </tr>
                           <tr>
                             <td>2</td>
-                            <td>
-                              <p>Jamia Hamdard University, New Delhi</p>
-                            </td>
+                            <td>Jamia Hamdard University, New Delhi</td>
                           </tr>
                           <tr>
                             <td>3</td>
-                            <td>
-                              <p>Delhi University, Delhi</p>
-                            </td>
+                            <td>Delhi University, Delhi</td>
                           </tr>
                           <tr>
                             <td>4</td>
-                            <td>
-                              <p>Galgotias University, Greater Noida</p>
-                            </td>
+                            <td>Galgotias University, Greater Noida</td>
                           </tr>
                           <tr>
                             <td>5</td>
-                            <td>
-                              <p>Central University of Jharkhand, Ranchi</p>
-                            </td>
+                            <td>Central University of Jharkhand, Ranchi</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
+                  </div>
+                  <div className="section">
                     <h3>
                       <strong>Top Commerce Colleges Accepting IPU CET</strong>
                     </h3>
@@ -1050,7 +1066,7 @@ const Commerce = () => {
                       scores
                     </p>
                     <div className="table-responsive">
-                      <table border={1}>
+                      <table className="table">
                         <tbody>
                           <tr>
                             <td>
@@ -1063,42 +1079,32 @@ const Commerce = () => {
                           <tr>
                             <td>1</td>
                             <td>
-                              <p>
-                                Vivekananda Institute of Professional Studies,
-                                New Delhi
-                              </p>
+                              Vivekananda Institute of Professional Studies, New
+                              Delhi
                             </td>
                           </tr>
                           <tr>
                             <td>2</td>
                             <td>
-                              <p>
-                                Farfield Institute of Management and Technology,
-                                New Delhi
-                              </p>
+                              Farfield Institute of Management and Technology,
+                              New Delhi
                             </td>
                           </tr>
                           <tr>
                             <td>3</td>
-                            <td>
-                              <p>Maharaja Surajmal Institute, New Delhi</p>
-                            </td>
+                            <td>Maharaja Surajmal Institute, New Delhi</td>
                           </tr>
                           <tr>
                             <td>4</td>
                             <td>
-                              <p>
-                                Kamal Institute of Higher Education &amp;
-                                Advance Technology, New Delhi
-                              </p>
+                              Kamal Institute of Higher Education &amp; Advance
+                              Technology, New Delhi
                             </td>
                           </tr>
                           <tr>
-                            <td>4</td>
+                            <td>5</td>
                             <td>
-                              <p>
-                                Guru Nanak Institute of Management, New Delhi
-                              </p>
+                              Guru Nanak Institute of Management, New Delhi
                             </td>
                           </tr>
                         </tbody>
@@ -1143,18 +1149,43 @@ const Commerce = () => {
                         Narsee Monjee College of Commerce and Economics, Mumbai
                       </li>
                     </ul>
+                  </div>
+                  <div className="section">
                     <p>
                       <strong>Read More</strong>: Top Commerce Colleges in India
                       for Accounting
                     </p>
                     <h3>
                       <strong>
-                        Top Commerce Colleges in India for Finance
+                        Top Commerce Colleges in India for Accounting
                       </strong>
-                      &nbsp;
                     </h3>
                     <p>
-                      Specialisation in Finance gives students chance to study
+                      Accounting is the study of recording transactions,
+                      performing internal audits, keeping financial records etc.
+                      Listed below are the top commerce colleges in India
+                      offering specialisation in Accounting
+                    </p>
+                    <ul>
+                      <li>Loyola College, Chennai</li>
+                      <li>St. Xaviers College, Mumbai</li>
+                      <li>Madras Christian College, Chennai</li>
+                      <li>Christ University, Bangalore</li>
+                      <li>
+                        Narsee Monjee College of Commerce and Economics, Mumbai
+                      </li>
+                    </ul>
+                    <p>
+                      <strong>Read More</strong>: Top Commerce Colleges in India
+                      for Finance
+                    </p>
+                    <h3>
+                      <strong>
+                        Top Commerce Colleges in India for Finance
+                      </strong>
+                    </h3>
+                    <p>
+                      Specialisation in Finance gives students a chance to study
                       capital assets, the discipline of money and currency etc.
                       Listed below are the top commerce colleges in India
                       offering specialisation in Finance
@@ -1172,7 +1203,7 @@ const Commerce = () => {
                     </ul>
                     <p>
                       <strong>Read More</strong>: Top Commerce Colleges in India
-                      for Finance
+                      for Banking
                     </p>
                     <h3>
                       <strong>
@@ -1194,10 +1225,8 @@ const Commerce = () => {
                       <li>Ethiraj College for Women, Chennai</li>
                       <li>HR College of Commerce &amp; Economics, Mumbai</li>
                     </ul>
-                    <p>
-                      <strong>Read More</strong>: Top Commerce Colleges in India
-                      for Banking
-                    </p>
+                  </div>
+                  <div className="section">
                     <h3>
                       <strong>
                         Top Commerce Colleges in India for Business Management
@@ -1205,7 +1234,7 @@ const Commerce = () => {
                     </h3>
                     <p>
                       Listed below are top commerce colleges offering Business
-                      Management as a specialisation
+                      Management as a specialization
                     </p>
                     <ul>
                       <li>
@@ -1228,9 +1257,9 @@ const Commerce = () => {
                       </strong>
                     </h3>
                     <p>
-                      There are many commerce colleges offering Economics as
-                      specilisation and it is in high demand. Listed below are
-                      best colleges for commerce offering Economics
+                      There are many commerce colleges offering Economics as a
+                      specialization and it is in high demand. Listed below are
+                      the best colleges for commerce offering Economics
                     </p>
                     <ul>
                       <li>Symbiosis College of Arts and Commerce, Pune</li>
@@ -1249,9 +1278,8 @@ const Commerce = () => {
                     <p>
                       Students having studied at the best commerce colleges in
                       India get recruited by renowned companies during campus
-                      placements every year. Listed below are the tbest
-                      placement commerce colleges in India and their top
-                      recruiters
+                      placements every year. Listed below are the best placement
+                      commerce colleges in India and their top recruiters
                     </p>
                     <div className="table-responsive">
                       <table border={1}>
@@ -1268,33 +1296,27 @@ const Commerce = () => {
                             </td>
                           </tr>
                           <tr>
-                            <td data-sheets-value="{">
-                              Shri Ram College of Commerce, Delhi
-                            </td>
+                            <td>Shri Ram College of Commerce, Delhi</td>
                             <td>Kotak Securities, Citi Bank, Deutsche Bank</td>
                             <td>SRCC Delhi Placements</td>
                           </tr>
                           <tr>
-                            <td data-sheets-value="{">
-                              Lady Shri Ram College for Women, Delhi
-                            </td>
+                            <td>Lady Shri Ram College for Women, Delhi</td>
                             <td>Mckinsey, Citi Bank, Bloomberg</td>
                             <td>Lady Shri Ram Delhi Placements</td>
                           </tr>
                           <tr>
-                            <td data-sheets-value="{">Hindu College, Delhi</td>
+                            <td>Hindu College, Delhi</td>
                             <td>Google, Deloitte</td>
                             <td>Hindu College Placements</td>
                           </tr>
                           <tr>
-                            <td data-sheets-value="{">
-                              Hansraj College, Delhi
-                            </td>
+                            <td>Hansraj College, Delhi</td>
                             <td>Deloitte, Wipro</td>
                             <td>Hansraj College Placements</td>
                           </tr>
                           <tr>
-                            <td data-sheets-value="{">
+                            <td>
                               Sri Guru Gobind Singh College of Commerce, Delhi
                             </td>
                             <td>Yes Bank, Airtel, Zomato</td>
@@ -1303,50 +1325,51 @@ const Commerce = () => {
                         </tbody>
                       </table>
                     </div>
-                    <h2>
-                      <strong>
-                        Average Salary Package in Commerce Colleges in India
-                      </strong>
-                    </h2>
-                    <p>
-                      Tabulated below are the annual average salary package
-                      offered by companies in various top commerce colleges in
-                      India
-                    </p>
-                    <div className="table-responsive">
-                      <table border={1}>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <strong>College Name</strong>
-                            </td>
-                            <td>
-                              <strong>Average Package</strong>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Lady Shri Ram College for Women, Delhi</td>
-                            <td>9.26 LPA</td>
-                          </tr>
-                          <tr>
-                            <td>Shri Ram College of Commerce, Delhi</td>
-                            <td>8.40LPA</td>
-                          </tr>
-                          <tr>
-                            <td>Hindu College, Delhi</td>
-                            <td>6.55 LPA</td>
-                          </tr>
-                          <tr>
-                            <td>Hansraj College, Delhi</td>
-                            <td>5.50 LPA</td>
-                          </tr>
-                          <tr>
-                            <td>Deshbandhu College, Delhi</td>
-                            <td>5.90 LPA</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
+                    <div className="section">
+                        <h2>
+                          <strong>
+                            Average Salary Package in Commerce Colleges in India
+                          </strong>
+                        </h2>
+                        <p>
+                          Tabulated below are the annual average salary package
+                          offered by companies in various top commerce colleges
+                          in India
+                        </p>
+                        <div className="table-responsive">
+                          <table className="table table-bordered">
+                            <thead className="thead-dark">
+                              <tr>
+                                <th scope="col">College Name</th>
+                                <th scope="col">Average Package</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Lady Shri Ram College for Women, Delhi</td>
+                                <td>9.26 LPA</td>
+                              </tr>
+                              <tr>
+                                <td>Shri Ram College of Commerce, Delhi</td>
+                                <td>8.40 LPA</td>
+                              </tr>
+                              <tr>
+                                <td>Hindu College, Delhi</td>
+                                <td>6.55 LPA</td>
+                              </tr>
+                              <tr>
+                                <td>Hansraj College, Delhi</td>
+                                <td>5.50 LPA</td>
+                              </tr>
+                              <tr>
+                                <td>Deshbandhu College, Delhi</td>
+                                <td>5.90 LPA</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                  </div>
                 </>
               ) : (
                 <>
@@ -1358,140 +1381,6 @@ const Commerce = () => {
                   >
                     Show More
                   </button>
-                </>
-              )}
-              {/* Additional content */}
-              {showContent && (
-                <>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Top Engineering Colleges in India include colleges like
-                      IIT Madras, IIT Delhi, IIT Bombay, and BITS Pilani.
-                    </span>
-                  </p>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Engineering is a discipline that involves various
-                      scientific principles to design, innovate, and develop
-                      machines, software, hardware, technical systems, and
-                      processes. Engineering offers a degree in multiple
-                      specializations such as computer science and engineering,
-                      mechanical engineering, civil engineering, chemical
-                      engineering, etc.
-                    </span>
-                    <span>
-                      Courses offered in top engineering colleges in India
-                      are&nbsp;
-                      <a href="#">BE</a>,&nbsp;
-                      <a href="#">BTech</a>
-                      ,&nbsp;
-                      <a href="#">MTech</a>
-                      ,&nbsp;<a href="#">ME</a>, Diploma in Engineering, PhD.
-                    </span>
-                    <span>
-                      Entrance exams accepted by the best colleges for
-                      engineering are JEE MAINS, JEE Advanced, BITSAT, KCET etc.
-                      There are various job opportunities after an Engineering
-                      degree like software engineer, mechanical engineer,
-                      electrical engineer, web developer, biomedical engineer
-                      etc.
-                    </span>
-                  </p>
-                  <h2>Top Engineering Colleges in India: Highlights</h2>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      Candidates must have passed 10+2 with a minimum of 50%
-                      marks in the PCB/PCMB stream to get admission to top
-                      Engineering colleges in India. Tabulated below are the key
-                      highlights regarding the engineering colleges in India
-                    </span>
-                  </p>
-                  <div className="table-responsive">
-                    <table className="table">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>College Type</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>Government Colleges - 822 &amp; </span>
-                              <span>Private Colleges - 3982</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Colleges Affiliated To</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>NAAC, UGC, AICTE</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Entrance Exams Accepted</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>JEE MAINS, JEE Advanced, BITSAT, KCET</span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Specializations</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                Computer Science Engineering, Mechanical
-                                Engineering, Civil Engineering, Aeronautical
-                                Engineering
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p>
-                              <strong>Approximate Fees</strong>
-                            </p>
-                          </td>
-                          <td>
-                            <p>
-                              <span>
-                                The annual fee of engineering colleges in India
-                                ranges between 125000 to 350000.
-                              </span>
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <h2>
-                    <strong>Ranking of Engineering Colleges in India</strong>
-                  </h2>
-                  <p>
-                    <span style={{ fontWeight: 400 }}>
-                      NIRF and many other ranking sources have ranked various
-                      government and private colleges in India. Given below are
-                      the ranking of&nbsp; top engineering colleges in India by
-                      various sources to make it easier for engineering
-                      aspirants to choose the best engineering colleges.
-                    </span>
-                  </p>
                 </>
               )}
             </div>

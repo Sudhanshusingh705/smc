@@ -25,3 +25,439 @@
     }
   }
   
+
+
+  /* Basic styles for responsiveness */
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.in-cell-link {
+  color: #007bff; /* Bootstrap default link color */
+  text-decoration: none;
+}
+
+.in-cell-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .table {
+    font-size: 12px;
+  }
+}
+
+
+/* Basic styles for responsiveness */
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.in-cell-link {
+  color: #007bff; /* Bootstrap default link color */
+  text-decoration: none;
+}
+
+.in-cell-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .table {
+    font-size: 12px;
+  }
+}
+/* Basic styles for responsiveness */
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.in-cell-link {
+  color: #007bff; /* Bootstrap default link color */
+  text-decoration: none;
+}
+
+.in-cell-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .table {
+    font-size: 12px;
+  }
+}
+/* Basic styles for responsiveness */
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.in-cell-link {
+  color: #007bff; /* Bootstrap default link color */
+  text-decoration: none;
+}
+
+.in-cell-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .table {
+    font-size: 12px;
+  }
+}
+/* Basic styles for responsiveness */
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.in-cell-link {
+  color: #007bff; /* Bootstrap default link color */
+  text-decoration: none;
+}
+
+.in-cell-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .table {
+    font-size: 12px;
+  }
+}
+/* Basic styles for responsiveness */
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.in-cell-link {
+  color: #007bff; /* Bootstrap default link color */
+  text-decoration: none;
+}
+
+.in-cell-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .table {
+    font-size: 12px;
+  }
+}
+/* Basic styles for responsiveness */
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.in-cell-link {
+  color: #007bff; /* Bootstrap default link color */
+  text-decoration: none;
+}
+
+.in-cell-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .table {
+    font-size: 12px;
+  }
+}
+/* Basic styles for responsiveness */
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.in-cell-link {
+  color: #007bff; /* Bootstrap default link color */
+  text-decoration: none;
+}
+
+.in-cell-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .table {
+    font-size: 12px;
+  }
+}
+/* Basic styles for responsiveness */
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section p {
+  margin-bottom: 10px;
+}
+
+.section h3 {
+  margin-top: 20px;
+}
+
+.section ul {
+  margin-top: 10px;
+}
+
+.section li {
+  margin-bottom: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .section {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 10px;
+  }
+}
+/* Basic styles for responsiveness */
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section p {
+  margin-bottom: 10px;
+}
+
+.section h2,
+.section h3 {
+  margin-top: 20px;
+}
+
+.section ul {
+  margin-top: 10px;
+}
+
+.section li {
+  margin-bottom: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .section {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 10px;
+  }
+}
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Add more responsive styles here as needed */
+.table-responsive {
+  overflow-x: auto;
+}
+

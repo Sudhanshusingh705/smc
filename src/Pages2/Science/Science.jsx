@@ -76,7 +76,6 @@ const Science = () => {
                       Show Less
                     </button>
                   </div>
-                  <h1>Science Colleges </h1>
                   <h2>
                     Science College: Eligibility, Admission, Syllabus, Placements
                   </h2>

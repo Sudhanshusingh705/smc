@@ -1,6 +1,5 @@
 import React from "react";
 import fullsmclogo from "../../assets/logo/fullsmclogo.png";
-import "./Navbar.css";
 
 function Navbar() {
   return (
@@ -29,12 +28,12 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link text-black text-uppercase font-weight-bold" href="/topcolleges">
-                Top Colleges
+                TopColleges
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-black text-uppercase font-weight-bold" href="/topcourses">
-                Top Courses
+                TopCourses
               </a>
             </li>
             <li className="nav-item">
@@ -63,34 +62,12 @@ function Navbar() {
               >
                 More
               </a>
-              <div className="dropdown-menu mega-menu p-4" aria-labelledby="navbarDropdown">
-                <div className="row">
-                  <div className="col-lg-4 col-md-6">
-                    <h6 className="text-uppercase">Category 1</h6>
-                    <ul className="list-unstyled">
-                      <li><a className="dropdown-item" href="/about">About Us</a></li>
-                      <li><a className="dropdown-item" href="/contact">Contact</a></li>
-                      <li><a className="dropdown-item" href="/faq">FAQ</a></li>
-                    </ul>
-                  </div>
-                  <div className="col-lg-4 col-md-6">
-                    <h6 className="text-uppercase">Category 2</h6>
-                    <ul className="list-unstyled">
-                      <li><a className="dropdown-item" href="/terms">Terms & Conditions</a></li>
-                      <li><a className="dropdown-item" href="/privacy">Privacy Policy</a></li>
-                      <li><a className="dropdown-item" href="/careers">Careers</a></li>
-                    </ul>
-                  </div>
-                  <div className="col-lg-4 col-md-6">
-                    <h6 className="text-uppercase">Category 3</h6>
-                    <ul className="list-unstyled">
-                      <li><a className="dropdown-item" href="/blogs">Blogs</a></li>
-                      <li><a className="dropdown-item" href="/events">Events</a></li>
-                      <li><a className="dropdown-item" href="/news">News</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a className="dropdown-item" href="/about">About Us</a></li>
+                <li><a className="dropdown-item" href="/contact">Contact</a></li>
+                <li><a className="dropdown-item" href="/faq">FAQ</a></li>
+                <li><a className="dropdown-item" href="/terms">Terms & Conditions</a></li>
+              </ul>
             </li>
             <li className="nav-item">
               <a className="nav-link text-black text-uppercase font-weight-bold" href="https://searchmycolleges.com">
@@ -98,6 +75,19 @@ function Navbar() {
               </a>
             </li>
           </ul>
+        </div>
+        <div className="mobile-menu d-lg-none">
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
         </div>
       </div>
     </nav>

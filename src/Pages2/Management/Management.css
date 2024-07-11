@@ -25,3 +25,24 @@
     }
   }
   
+
+  .table-responsive {
+    margin-top: 20px;
+  }
+  
+  .table thead th {
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .table tbody td {
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+    .table thead, .table tbody {
+      font-size: 0.875rem; /* Adjust font size for smaller screens */
+    }
+  }
+
+  
